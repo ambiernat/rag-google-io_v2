@@ -1,0 +1,162 @@
+[
+  {
+    "query": "How can developers leverage the Gemini API to build applications, particularly regarding agentic capabilities and integration with various data formats like text, images, and video?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "eIeJmYdYMQo__chunk_014",
+      "4TE-KFXvhAk__chunk_008",
+      "gHHjDRDNUNU__chunk_000",
+      "4TE-KFXvhAk__chunk_010",
+      "gHHjDRDNUNU__chunk_016"
+    ],
+    "recall_at_k": 1,
+    "mrr": 0.3333333333333333,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What are the key features and model families in Google DeepMind's Gemini lineup, and how do they differ in handling multi-modal data?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_000",
+      "gHHjDRDNUNU__chunk_001",
+      "gHHjDRDNUNU__chunk_017",
+      "gHHjDRDNUNU__chunk_011",
+      "4TE-KFXvhAk__chunk_006"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do Gemini Nano and Gemini Embedding differ from the main Gemini line, and in what scenarios would each be most appropriate for on-device or embedding tasks?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_001",
+      "gHHjDRDNUNU__chunk_011",
+      "Uh-7YX8tkxI__chunk_001",
+      "Uh-7YX8tkxI__chunk_000",
+      "4TE-KFXvhAk__chunk_002"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What are the different Gemini model families currently available and their typical use cases, including pricing and performance highlights?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_001",
+      "o7Bv4r08FBM__chunk_015",
+      "gHHjDRDNUNU__chunk_000",
+      "gHHjDRDNUNU__chunk_005",
+      "gHHjDRDNUNU__chunk_013"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How is Gemini performing on benchmarks like LMArena, and which models currently top the rankings?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_002",
+      "o7Bv4r08FBM__chunk_007",
+      "4TE-KFXvhAk__chunk_002",
+      "gHHjDRDNUNU__chunk_001",
+      "gHHjDRDNUNU__chunk_003"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What are the latest Gemini model recommendations for on-device processing and pricing, and which versions are suggested for developers to start using now?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_002",
+      "4TE-KFXvhAk__chunk_002",
+      "4TE-KFXvhAk__chunk_001",
+      "4TE-KFXvhAk__chunk_010",
+      "o7Bv4r08FBM__chunk_018"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What are the performance benchmarks and pricing highlights for Gemini 2.5 Pro in app creation, coding, and multimodal tasks?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_003",
+      "4TE-KFXvhAk__chunk_002",
+      "gHHjDRDNUNU__chunk_001",
+      "gHHjDRDNUNU__chunk_009",
+      "4TE-KFXvhAk__chunk_010"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Where can I find detailed academic evaluations and discussions about Gemini\u2019s GenMedia lineup, Gemini Robotics, and related model performances?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_004",
+      "gHHjDRDNUNU__chunk_003",
+      "eIeJmYdYMQo__chunk_015",
+      "gHHjDRDNUNU__chunk_005",
+      "eIeJmYdYMQo__chunk_016"
+    ],
+    "recall_at_k": 1,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does the Gemini TTS model handle emotions, multiple voices, languages (including Brazilian Portuguese), and multi-speaker interactions in live chat scenarios?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_004",
+      "gHHjDRDNUNU__chunk_005",
+      "gHHjDRDNUNU__chunk_018",
+      "gHHjDRDNUNU__chunk_013",
+      "gHHjDRDNUNU__chunk_014"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What are the latest developments and capabilities announced for Google's Gemini system, specifically regarding high-quality audio generation and the Gemini TTS features?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_005",
+      "4TE-KFXvhAk__chunk_002",
+      "4TE-KFXvhAk__chunk_009",
+      "gHHjDRDNUNU__chunk_013",
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "recall_at_k": 1,
+    "mrr": 0.2,
+    "precision_at_k": 0.2
+  }
+]

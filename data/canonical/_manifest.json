@@ -1,0 +1,132 @@
+[
+  {
+    "video_id": "gHHjDRDNUNU",
+    "status": "error",
+    "error": "Unknown format code 'd' for object of type 'str'",
+    "timestamp": "2026-01-22T17:08:40.446688+00:00"
+  },
+  {
+    "video_id": "4TE-KFXvhAk",
+    "status": "error",
+    "error": "Unknown format code 'd' for object of type 'str'",
+    "timestamp": "2026-01-22T17:08:40.450153+00:00"
+  },
+  {
+    "video_id": "Uh-7YX8tkxI",
+    "status": "error",
+    "error": "Unknown format code 'd' for object of type 'str'",
+    "timestamp": "2026-01-22T17:08:40.453633+00:00"
+  },
+  {
+    "video_id": "eIeJmYdYMQo",
+    "status": "error",
+    "error": "Unknown format code 'd' for object of type 'str'",
+    "timestamp": "2026-01-22T17:08:40.472332+00:00"
+  },
+  {
+    "video_id": "o7Bv4r08FBM",
+    "status": "error",
+    "error": "Unknown format code 'd' for object of type 'str'",
+    "timestamp": "2026-01-22T17:08:40.473710+00:00"
+  },
+  {
+    "video_id": "gHHjDRDNUNU",
+    "status": "error",
+    "error": "invalid literal for int() with base 10: 'gHHjDRDNUNU__chunk_000'",
+    "timestamp": "2026-01-22T17:17:41.688128+00:00"
+  },
+  {
+    "video_id": "4TE-KFXvhAk",
+    "status": "error",
+    "error": "invalid literal for int() with base 10: '4TE-KFXvhAk__chunk_000'",
+    "timestamp": "2026-01-22T17:17:41.688916+00:00"
+  },
+  {
+    "video_id": "Uh-7YX8tkxI",
+    "status": "error",
+    "error": "invalid literal for int() with base 10: 'Uh-7YX8tkxI__chunk_000'",
+    "timestamp": "2026-01-22T17:17:41.689542+00:00"
+  },
+  {
+    "video_id": "eIeJmYdYMQo",
+    "status": "error",
+    "error": "invalid literal for int() with base 10: 'eIeJmYdYMQo__chunk_000'",
+    "timestamp": "2026-01-22T17:17:41.690095+00:00"
+  },
+  {
+    "video_id": "o7Bv4r08FBM",
+    "status": "error",
+    "error": "invalid literal for int() with base 10: 'o7Bv4r08FBM__chunk_000'",
+    "timestamp": "2026-01-22T17:17:41.690704+00:00"
+  },
+  {
+    "video_id": "gHHjDRDNUNU",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T17:37:37.752971+00:00"
+  },
+  {
+    "video_id": "4TE-KFXvhAk",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T17:37:37.762362+00:00"
+  },
+  {
+    "video_id": "Uh-7YX8tkxI",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T17:37:37.765038+00:00"
+  },
+  {
+    "video_id": "eIeJmYdYMQo",
+    "status": "ok",
+    "num_documents": 19,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T17:37:37.771248+00:00"
+  },
+  {
+    "video_id": "o7Bv4r08FBM",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T17:37:37.773275+00:00"
+  },
+  {
+    "video_id": "gHHjDRDNUNU",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T18:03:56.300098+00:00"
+  },
+  {
+    "video_id": "4TE-KFXvhAk",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T18:03:56.321529+00:00"
+  },
+  {
+    "video_id": "Uh-7YX8tkxI",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T18:03:56.329803+00:00"
+  },
+  {
+    "video_id": "eIeJmYdYMQo",
+    "status": "ok",
+    "num_documents": 19,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T18:03:56.362462+00:00"
+  },
+  {
+    "video_id": "o7Bv4r08FBM",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-01-22T18:03:56.377219+00:00"
+  }
+]

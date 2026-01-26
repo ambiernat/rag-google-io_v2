@@ -1,0 +1,12 @@
+youtube-transcript-api
+jupyter
+qdrant-client>=1.16.2
+sentence-transformers
+pandas
+openai
+matplotlib
+seaborn
+rank_bm25
+mlflow
+optuna
+wordcloud

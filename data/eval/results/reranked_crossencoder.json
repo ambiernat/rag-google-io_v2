@@ -1,0 +1,977 @@
+[
+  {
+    "query": "differences between Gemini developer API features and other AI platforms",
+    "reranked_docs": [
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.838045358657837
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 890.57,
+        "timestamp_end": 1021.23,
+        "text": "We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there. If you are a Google\nColab user, you have ways to interact with\nthe Gemini models as well. So the key idea is to\nmake it easier for you. No matter where you are having\nyour development experience, We are trying to bring\nGemini API closer to you. SHRESTHA BASU MALLICK:\nThat's correct. And I think this is\nalso a good place to make a plug for Google\nAI Studio, which of course, everyone knows about and loves. It is the place where\na lot of our developers first test out the\ncapabilities of the API before committing to\nbuilding applications at scale with the API. And Google AI Studio now\nhas code generation also. LUCIANO MARTINS: Absolutely. SHRESTHA BASU MALLICK: So this\nis a quick, high level overview of all the components that are\navailable through the Gemini API. It's pretty standard. You send in your prompt, you get\na response back from the model. If there's a tool\ncall needed, we do support a set of\nfirst party Google tools, as well as function calling. So in terms of the first party\nGoogle tools that we support, we, of course, support\nGoogle Search as a tool. The best search engine\nout there is now available as a tool for the\nmodel to call when it needs to. Now in addition to the\ninformation that you get out of Search, if you want to\nretrieve more in-depth content from web pages for\napplications such as you're building your own version\nof a research agent, so you pull some\ninformation from Search. You pull a set of\nURLs, but if you want to extract a little\nmore in depth content, we just released a new tool\nat I/O called URL Context. And then, of course, you can\ntake all that information. And if you want to create\nbeautiful charts out of it or run some analysis,\nwe make code execution available as a tool to\nyou via the API as well. Then, of course, you\nhave function calling.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 1.8411084413528442
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 751.58,
+        "timestamp_end": 904.85,
+        "text": "mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers, but will be rolled\nout more widely soon. And then we also have\nGemini Diffusion, which is the first time\nwe are testing a diffusion architecture as opposed to an\nautoregressive architecture. And these models are faster\nthan the fastest model out today and for almost\nsimilar, the performance. So try out both when you have\naccess to both Gemini Deep Diffusion and Deep Think. LUCIANO MARTINS: Perfect. SHRESTHA BASU MALLICK: All\nright, so the Gemini API. LUCIANO MARTINS: So yeah, if\nyou start thinking, especially after the keynote\nspeakers today, there are many surfaces where\nyou can interact with the Gemini models. So you have the Gemini app. You have Gemini available\non Google Cloud as the Code Assist, the assistant-- the\nCloud Assist inside the Console. You have Gemini on Workspace. So when you are talking\nabout developer experiences, we have the one\nspecific Gemini API with similar experiences as you\nhave on the no-code UI that we call AI Studio, where you\ncan start experimenting and developing your solutions\nusing the Gemini models, right? SHRESTHA BASU\nMALLICK: That's right. LUCIANO MARTINS: So\nbasically, the Gemini API is a very low barrier\nentry for having Gemini programmatic experiences. You have access to\nall public models there from the Gen Media ones,\nGemma, all the Gemini models, variants. You have a very generous\nfree of charge tier, where you can start\nexperimenting just after the session\nwithout concerns about credit cards, costs,\nbilling, anything of that. We keep developing\nmore SDKs for this API. So for now, you have available\none SDK for Python, JavaScript, Go, and Java. We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 1.0124130249023438
+      },
+      {
+        "id": "o7Bv4r08FBM__chunk_011",
+        "schema_version": "canonical_v1",
+        "video_id": "o7Bv4r08FBM",
+        "title": "Google I/O 2025 \u2013 o7Bv4r08FBM",
+        "timestamp_start": 1398.0,
+        "timestamp_end": 1517.53,
+        "text": "don't need to change the code. There are just two\nthings-- two lines of code, if you saw the details,\nthat you need to change. You need to change the URL, and\nyou need to change the token. So you just change\ntwo lines of code, but the rest is exactly\nthe same code as before. But that's not the\nonly way to use Gemma. Gemma is designed to\nbe easily integrated into your favorite\nopensource tools. So of course, there\nis Google AI Studio, but we also support Gemma\nin Keras, or in vLLM, or in JAX, or Ollama, or Hugging\nFace Transformers, PyTorch, MediaPipe. So there are many\ndifferent opensource tools that you have probably used. And the idea is to make Gemma\nas easy as possible to user, to enable developers to\nrun the models locally. Because that's the cool\nthing of open models. You don't need an\nAPI necessarily. You can run these models in your\nown laptops, in your own phones. And we'll talk a\nbit more about that. But this is a good\nopportunity for me to talk a bit about Kaggle. Kaggle is the platform, where AI\nbuilders, learners, developers, researchers participate\nin AI challenges. There are over 24 million\npeople participating here. And here, you can\ndiscover models. You can share knowledge. And within those, of course,\nyou can find the Gemma models. You can find the\nGemma models, read the model card, which is like\na documentation of a model. You can download\nthe checkpoints. OK. Let's say that now you want\nto go and download and run Gemma in your computer. Who here knows Ollama? OK, many of you. That's great. So Ollama is a tool that is\ndesigned to very easily, very seamlessly run Gemma models-- well, open models locally\nin your own computer. So with a simple command,\nollama run gemma3, it will download and\ncreate a local API, or a local chat interface\nthat you can use to experiment with the Gemma models. The nice thing of Ollama is\nthat it's very well integrated into many opensource tools. So if you use LLaMA\nindex, for example, you can consume ollama-- you can use ollama to consume\ndifferent open models.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -5.738616466522217
+      },
+      {
+        "id": "eIeJmYdYMQo__chunk_014",
+        "schema_version": "canonical_v1",
+        "video_id": "eIeJmYdYMQo",
+        "title": "Google I/O 2025 \u2013 eIeJmYdYMQo",
+        "timestamp_start": 1836.42,
+        "timestamp_end": 1968.64,
+        "text": "Now, this new integration\nwith Chrome DevTools will further empower\nyou to create applications and experiences\nthat your users will love. All right, if you like what\nwe've been talking about so far, let's hear some noise. [CHEERING] That's pretty good. That's pretty good. I love it, love it, love it. Let's talk about more. Let's talk about platforms. So as we continue our\nintegration story, there's another update\nwith the Google team that you may be familiar\nwith, and that's Firebase. Firebase has been really\non fire because they've had some amazing\nfeature releases and announcements like Genkit,\nFirebase App Hosting, and so much more. And our teams have\nbeen working together to improve the\ndeveloper experience. We all know about the data\nstory, but how can Firebase help you get your apps in\nfront of more users? Since Angular apps can\nnow be either client side only or full stack with SSR,\nyou need a deployment solution that works in both scenarios. Now, previously, you could\ndo something like this. You could use Cloud\nFunctions for Firebase to host your server-side\ncode, and then deploy your client-side\ncode using Firebase hosting. It worked, but it\nwasn't ideal, and we knew we could do a\nbetter experience. So we spent time working with\nthe engineers on Firebase to ensure that when you're using\nFirebase App Hosting to deploy your app, you have a\ntop-notch experience. Check this out. You can literally deploy\nyour Angular SSR app from the Firebase console\nwith a linked repository. And then those new rollouts\ncome as you add commits. And guess what? You get to leverage\nthe incredible power of the Firebase platform\nthat's powered by Google Cloud. But you could also create back\nends and configure deployments using the Firebase CLI. Now, no matter which\nroute you choose, the outcome is still the same. You can deploy\nupdates to production by leveraging\nautomatic rollouts, commit a change to\nthe configured branch, and then an automatic\nrollout will happen for you. So with Angular and\nFirebase App Hosting,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -8.94844913482666
+      }
+    ]
+  },
+  {
+    "query": "how to integrate Gemini API for building AI apps with text, images, and video",
+    "reranked_docs": [
+      {
+        "id": "4TE-KFXvhAk__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 880.26,
+        "timestamp_end": 979.77,
+        "text": "So it's just really\nquick and easy to do. OK, we can go back\nto the slides. So very, very\nquickly, as a recap, Gemini Developer API is the\neasiest way to get started. It's super lightweight,\nit's fast to install, and you can get up and running\nhonestly in about a minute. OK? I will use the clicker. This is the flow to get\nstarted with Google AI Studio. Go to Google AI Studio. Get your key. Try one of the code\nexamples on ai.google.dev or in the cookbook. I see people taking pictures. That makes me happy. Please try this. We spent so much time\non making this easy, and I hope it works for you. If not, please file an\nissue and we'll get on it. This is the Gen AI SDK\nfor the Gemini API, and this is something\nwe've been rolling out. It's our latest SDK. We've been rolling\nit out gradually over the course of\nthe last six months. It's super user friendly. It's really easy to use. Really, the only point\nI want to make here, because I don't want\nto read the code examples or the\ndocumentation to you, you can call the API\nin a few lines of code. Basically add your key, select\na model, write a prompt, you can go ahead and call it. You can also get access\nto advanced functionality in one line of code. So if you'd like to get the\nthinking summaries that Joana showed you, you can just\nadd a ThinkingConfig, say include the thoughts. Now, you've got the\nthinking summaries. And a good use\ncase for this could be any time you need to\nexplain the model's reasoning. Particularly, you can\nimagine, if you're building an education\napp or a tutoring app, you can get the\nthinking summaries. In addition to\nreally cool things that you can do with\na single line of code, there's some more advanced stuff\nthat you can do with the SDK as well. So I know there's a lot\nof code on this slide, but we've talked a lot\nabout building agents and agentic experiences. In this example,\nyou could imagine that you have a Python\nfunction on your laptop called weather_function. And maybe that calls\nyour own weather server to get the weather.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.803842544555664
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 363.97,
+        "timestamp_end": 521.659,
+        "text": "On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API and also on [INAUDIBLE] API\nfor real generating audio. And some of the use\ncases here that we had in mind when\nwe built this were more dynamic audiobooks,\nsome more engaging podcasts, or, even for those of\nyou in customer support, producing more natural\nvoices into your workflows. We also have enhanced\ntooling, which is really cool, because now you\ncan use Grounding with Google Search, also with Code Execution\ntogether in just one API call, and URL context, which you\nheard during the keynote, which provides the model with\ndepth content from web pages. And since you can chain\nit to other tools, it's actually really powerful\nto build search agents. So really cool stuff. Lastly, just to call out that\nwe now offer Gemini SDK support for MCP, which reduces a\nlot of developer friction and simplifies building\nagentic capabilities. So you don't want to\nmiss tomorrow's talk to learn more about this. And Google AI Studio. Who here uses Google AI Studio? Can I see some hands? OK, awesome. Awesome. We have a lot to chat\nafter this session then. Google AI Studio is the\nperfect place for anyone to start developing with AI. It's the simplest way to test\nthe latest DeepMind models. We typically bring them\nto Google AI Studio so you can start prototyping\nand playing with the models. And you don't need Google\nCloud knowledge in order to set up your environment. It is free of charge, and you\ncan create, and test, and save your prompts. And there's also starter\napps that will inspire you. And that's exactly what I'm\ngoing to demo here today for you. I am going to show\nyou some of the work that the team has been doing. So if we go to Google AI Studio\nhere, if we go into Build, and Mumble Jumble is\nsomething that we've literally just created, and\nit's one of my favorite apps. So Mumble Jumble is one\nof those applications that",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.3824880123138428
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 890.57,
+        "timestamp_end": 1021.23,
+        "text": "We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there. If you are a Google\nColab user, you have ways to interact with\nthe Gemini models as well. So the key idea is to\nmake it easier for you. No matter where you are having\nyour development experience, We are trying to bring\nGemini API closer to you. SHRESTHA BASU MALLICK:\nThat's correct. And I think this is\nalso a good place to make a plug for Google\nAI Studio, which of course, everyone knows about and loves. It is the place where\na lot of our developers first test out the\ncapabilities of the API before committing to\nbuilding applications at scale with the API. And Google AI Studio now\nhas code generation also. LUCIANO MARTINS: Absolutely. SHRESTHA BASU MALLICK: So this\nis a quick, high level overview of all the components that are\navailable through the Gemini API. It's pretty standard. You send in your prompt, you get\na response back from the model. If there's a tool\ncall needed, we do support a set of\nfirst party Google tools, as well as function calling. So in terms of the first party\nGoogle tools that we support, we, of course, support\nGoogle Search as a tool. The best search engine\nout there is now available as a tool for the\nmodel to call when it needs to. Now in addition to the\ninformation that you get out of Search, if you want to\nretrieve more in-depth content from web pages for\napplications such as you're building your own version\nof a research agent, so you pull some\ninformation from Search. You pull a set of\nURLs, but if you want to extract a little\nmore in depth content, we just released a new tool\nat I/O called URL Context. And then, of course, you can\ntake all that information. And if you want to create\nbeautiful charts out of it or run some analysis,\nwe make code execution available as a tool to\nyou via the API as well. Then, of course, you\nhave function calling.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.8330163955688477
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_005",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 641.14,
+        "timestamp_end": 791.74,
+        "text": "JOANA CARRASQUEIRA: Thank you. So, as you could see, there's\nsome really cool experiences that we're bringing\ninto AI Studio. Audio is getting better; more\nnatural experiences with voice. And in case you\ndidn't notice, I even changed the language in how\nI interacted with the model. I spoke in Portuguese,\nmy mother tongue, and it actually replied\nwith very good information. So what I did\nhere, Josh is going to show you exactly\nwhat is happening on the API side of things\nin just one second. I have one prompt that I just\nwant to very quickly show you. Sorry. Roll a dice twice, and\nwhat's the probability of the result being seven? OK, let's just run\nthis very quickly, because I just want to show\nyou one thing before I hand it over to Josh. So as you can see,\nthought summaries. The model is actually\nshowcasing how it thinks, and you can see\nthe summaries here. We have the result. And\nthen, basically, what is available in the UI\nin AI Studio is also available in the API. And Josh is going to\nshow you that right now. JOSH GORDON: Thanks. OK, great. So very briefly,\nwe have something called the Gemini Developer\nAPI, which is really great. It's the easiest possible way to\ndevelop with Google's foundation models. The best place to get\nstarted is ai.google.dev. There is a whole lot of\ncapabilities in the API. It's got code execution. It's got function calling. I remember sitting down\nwith the team to build this from a blank piece of paper. Starting about two years\nago, we had basically you could prompt it with\ntext, and now we have image understanding,\nvideo understanding, but now we can also\ngenerate images and videos that Joana will show you later. Very, very briefly,\nai.google.dev has all of our\ndeveloper documentation. There's lots of\nreally great guides, there's information about\nthe models, everything you need to get started. We also have the\nGemini API Cookbook. We have a link to\nthis at the end. It's basically goo.gle/cookbook. G-O-O.G-L-E/cookbook. And this will take you to\na whole slew of notebooks",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.074911117553711
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_009",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 1066.46,
+        "timestamp_end": 1237.45,
+        "text": "And I would also like to\ndemo one of these new apps that we have in AI Studio. So I'm going back to\nthe laptop, and I'm going to show you something\nthat the team also just created. So AI Studio also got a facelift\nand has some new features. And the chat interface\nis still the same, but you've seen the talk to\nGemini live during the keynote. We have the new\nGenerative Media Console, which allows you to\ncreate and interact with our most creative models. And then we have\nthe Build, which is where all these new\napps are coming to. So I just wanted to show\nyou very quickly this one. There we go. And then we basically\ncan choose here what are the sounds\nthat we want. And this is all powered by\nLyria, our music generation model. [GENERATED MUSIC PLAYING] And just for the\ninterest of time, I'm not going to\nkeep playing it. But you can see some of the\ncapabilities of these models that we're bringing\nto AI Studio. We'll continue to the slides. In the Console,\nas you could see, you have access to\nour image generation, our video generation, and music\ngeneration models with applets to get you started. And so that's a really\ncool thing for you to play with after this session. Some of our videos,\nvery realistic images with a really good understanding\nof real-world physics and dynamics, improved quality,\nand more and more capabilities coming to these models. And this is the example\nthat I just showed. We've made Lyria RealTime our\ninteractive music generation model, which powers MusicFX DJ. It's available in the\nAPI and AI Studio, and you can check\nour API documentation for more information. This also allows\neveryone to interact, to create, and to perform\ngenerative music in real time. It's really cool. You might remember that in the\nshow before the first keynote, you might have\nseen this console. That's exactly why I wanted to\nshow you this particular app in this session. But there's a lot more that\nyou can try afterwards. And shifting the\ngears towards Gemma, earlier this year we\nreleased Gemma 3, which",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 1.5759377479553223
+      }
+    ]
+  },
+  {
+    "query": "what is Gemini model family and how do I use it for multi-modal data",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_000",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 0.0,
+        "timestamp_end": 146.11,
+        "text": "[MUSIC PLAYING] [CHEERING] [AUDIENCE SCREAMING] LUCIANO MARTINS: Hey, folks. Good morning. It's a pleasure to\nbe here with you all. I'm Luciano Martins. I'm Brazilian. [CHEERING] I'm an AI Developer\nAdvocate at Google DeepMind. And I'm here with\nmy friend Shrestha. SHRESTHA BASU\nMALLICK: Thank you. Luciano Hi, everyone. I am Shreshta Basu Mallick. I'm the Product Lead for\nthe Gemini Developer API. And it looks like I should have\nbrought an Indian contingent here. [LAUGHING] Thank you. LUCIANO MARTINS: Yay! OK, so the idea of\nthis conversation is we want to share with you\nsome of the new things you have available to develop your\nsolutions using Gemini models and the Gemini API. How many developers\nyou have here? Amazing. OK, so we can start talking\nabout the Gemini models universe. We started Gemini\nby the end of 2023. And since then, we\nhave done a lot of work together between many different\nGoogle DeepMind teams. And by now, we are very\nproud of the point we got in and all the stuff we\nlaunched at during I/O. Just doing a quick recap,\none of the key differentials of the Gemini is that it is\nmulti-modal from scratch. Since when we started\ndeveloping the model, it always handled and\nunderstood multi-modal data. It means that you\ncan work with Gemini with any format\nof information you want, from text, image, video,\naudio, code, anything, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. And just a quick\noverview of what are all the types\nof models, and what are all the families of\nmodels we have available. So what we're going\nto do today is Luciano and I split this\ntalk into two parts. So the first part\nof the talk will be talking about the models. And then the second\npart of the talk will be talking about the API. What are the capabilities\nand functionalities available through the API? And as part of that,\nwe have a section where we do a deep dive on\nagentic capabilities in the API. LUCIANO MARTINS:\nThanks for the add. SHRESTHA BASU MALLICK: Yeah. So starting with what are\nthe families of models we have available?",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.1845457553863525
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 501.0,
+        "timestamp_end": 641.8,
+        "text": "you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models related to people\napplying robotics, developing robotic\nsolution with applied AI. And also, just\nafter the session, we have one another one\nwith Omar and Gus Martins to talk about Gemma 3,\nwhich is the open models family for from\nGoogle DeepMind, also developed with all\nthe technologies we use to develop Gemini. SHRESTHA BASU MALLICK:\nAnd some really good benchmark performance-- LUCIANO MARTINS: Absolutely. SHRESTHA BASU\nMALLICK: --in Gemma 3 as well, as Omar and\nGus will tell you. LUCIANO MARTINS:\nSo still talking about the different\nexperiences you may have, we heard a lot of feedbacks\nfrom you folks around the world. And one of the most asked\nfeatures we always heard were related to letting Gemini\nto create high quality audio. So yesterday we launched what\nwe are calling the Gemini TTS model, where you can from text\ngenerate high quality audio. But the coolest\nthing about the TTS is that you are not\njust creating audio. You have abilities to customize\nemotions on the audio. You may have multiple voices. You can create the audios\nwith different languages, like Brazilian Portuguese. And you can even create\nmulti-speaker interactions. So if, for example, you want\nto deliver an experience where your users will be thoughts\nabout something on a podcast, like formats, like the one\nyou have on the NotebookLM that people love. Who here is using\nNotebookLM for anything? Amazing. So you can have something\nlike the AI Overviews that are developed and delivered\nby the Gemini TTS model using the TTS, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.2747578620910645
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_009",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 1130.2,
+        "timestamp_end": 1280.26,
+        "text": "But Luciano and I thought we\nwould hit some of the highlights that we really want people\nto know more about and use. So one of the areas of feedback\nthat we used to get a lot is you can, of course, upload\nfiles to the Gemini API. You can also, if you're\nless than 20 megabytes, you can also pass some of\nthese media information inline. But now, you can also-- and we've had this feature\nout for a few weeks. You can also pass\na YouTube link. And the Gemini API can\nanalyze that information. When you pass media files\nlike videos, depending on how much you want to fit\ninto the context window, you have now, a choice between\nthree resolution settings. At the lowest setting,\nyou can process up to six hours of video. But then you also have more\nhigh resolution settings that you can use. We support dynamic frame rate\nper second in the Gemini API. You can read that more about\nthat in our documentation, or come talk to me and Luciano. We support video clipping. That's a new feature. And we support\nimage segmentation. One other point I want to make\non multimodal understanding is even in the days\nof 1.5 and 2.0, Gemini models were\nsome of the best models out there for multimodal\nunderstanding. The example I like to give\nhere is I was in Costa Rica, and my guide showed\nme-- this is night. And my guide showed me\noh, there's a glass frog somewhere there on a branch. I took a photo, but I did not\nsee the glass frog in real life or in the photo. But I passed it to Gemini. And Gemini not\nonly saw the frog, it identified the\nspecies correctly. So that's how good multimodal\nunderstanding is on the Gemini. Please try it out. We also support long context. And then we, along with long-- long context is we have some\nof the largest context windows out there. So like the equivalent\nof depending on whether you're using a model\nwith 1 million context or 2 million context, you can read\nthe equivalent of eight novels, have the model read it\nand/or entire code bases. But what can sometimes\nhappen with long context",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 0.5219813585281372
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_008",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 967.05,
+        "timestamp_end": 1087.58,
+        "text": "but we've talked a lot\nabout building agents and agentic experiences. In this example,\nyou could imagine that you have a Python\nfunction on your laptop called weather_function. And maybe that calls\nyour own weather server to get the weather. What you can do is you can pass\nthe definition of that function to the Gemini API\nin JSON, including the function name and the\nparameters that it takes. Then what you can do is\nyou can write a prompt. So here, the prompt happens\nto be \"What's the temperature in London?\" When you send the\nprompt and the function to the model, what\nthe model will do is assess whether it makes sense\nto call that function based on your prompt. If so, it won't\nactually call it. But you can see in the\nfunction_call.name that it returns and the\nfunction_call.args, it returns the name of the\nfunction and the arguments to pass to it. So if you want, you're\nready to call this function on your laptop. And we have code that you can\ncopy and paste to do that. What's really cool too is this\nworks with multiple functions at the same time. So you can imagine you have a\nfunction like schedule a meeting or something like that, and\nyou can very easily-- well, with some work, you could build\nan agent to actually do that. So function calling\nis super important, and it works extremely well. So now, Joana's going\nto talk about GenMedia. JOANA CARRASQUEIRA: Awesome. So as you can see, what\nyou can build in the UI within AI Studio, also\navailable in the API. And also, just building on the\ncapabilities of our foundation models, our core\nintelligence also encompasses a powerful suite\nof generative media models. And they are designed to\ntransform creative experiences across content generation\nacross different modalities like images, video, and audio. And I would also like to\ndemo one of these new apps that we have in AI Studio. So I'm going back to\nthe laptop, and I'm going to show you something\nthat the team also just created. So AI Studio also got a facelift\nand has some new features.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -2.753066062927246
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2746.57,
+        "timestamp_end": 2767.29,
+        "text": "more of the other features and\npossibilities with the models. And the last one is the Gemini\nCookbook, a GitHub repository that our team curates and keep\nupdating with a lot of sample experience for you. Thank you so much, Shrestha. Thank you so much you all. SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us. [CHEERING] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -6.050359725952148
+      }
+    ]
+  },
+  {
+    "query": "how do Gemini embeddings work for semantic search and ranking",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 132.94,
+        "timestamp_end": 265.63,
+        "text": "And as part of that,\nwe have a section where we do a deep dive on\nagentic capabilities in the API. LUCIANO MARTINS:\nThanks for the add. SHRESTHA BASU MALLICK: Yeah. So starting with what are\nthe families of models we have available? So the most performant and\npowerful model that we have is the Gemini 2.5 Pro. It's in preview right now. A few weeks ago, we released\na updated version of 2.5 Pro. And it's suitable for highly\ncomplex tasks that require a lot of deep reasoning. And coding has been, of course,\na standout use case of that. We also have 2.5 Flash,\nwhich this Google I/O we released a new preview\nversion just yesterday for 2.5 Flash. And 2.5 Flash is\nour model size that has probably one of the\nbest price performance ratios in the market today. LUCIANO MARTINS: That's right. SHRESTHA BASU MALLICK: We\nalso have 2.0 Flash-Lite. So this is a small,\nfast, cheap model that you can use for high\nvolume tasks like summarization. And then Luciano,\ndo you want to talk about the Nano and\nthe Embedding models? LUCIANO MARTINS:\nYeah, absolutely. We heard a lot of\nfeedback from you folks. And many of you are\ndeveloping mobile applications or applications that\nmust run on devices. So then you have\nalso available what we call the Gemini\nNano, which is a smaller version of the Gemini, which is\nable to run locally on devices like on Android devices if you\nare developing with the Android Studio using the AI Corps. And also, many of you are\ntrying to create applications that do some kind\nof semantic ranking or to organize information\nin large scale. So you have also one model that\nwe call the Gemini Embedding, which the key objective of this\nmodel is to let you ingest text. And then the model delivers you\nhigh quality multidimensional embeddings. But how those\nmodels are behaving when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.11381196975708
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_019",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2361.37,
+        "timestamp_end": 2499.7400000000002,
+        "text": "the Code Execution results,\nincluding the Python code used by the Code Execution, and also\nthe output of this execution. The Google Search grounding\nresults, including the Google Search, real search\nthat was performed, and the results of this,\nand your final answer from the model. Right? SHRESTHA BASU\nMALLICK: URL context. As we said, this is a new\ntool that we are rolling out. It's one of the tools\nthat powers Deep Research if you've used Google's research\nagent through the Gemini app. And the idea is\ngiven a set of URLs, we allow you to extract\nmore in-depth content. Of course, in a way\nthat's approved by and respectful to our\npublisher ecosystem. But you can get\nmore content out. And this is really helpful\nfor research and analysis type of use cases. You can use this tool by itself,\nor you can use this in tandem with the Search tool. LUCIANO MARTINS: Yeah. And again, a quick code snippet. You add the two\ncode URL contexts and you can send\ndirectly on the prompts, without further efforts, all\nthe links, up to 20 links, you want to consider\non the model, processing on the\nmodel execution. And you have all the reasoning,\nall the semantic extraction performed by the\nmodel really fast. SHRESTHA BASU MALLICK:\nLooked like some people were still taking pictures. But if you all missed\ntaking an image of a slide, all of this information is\navailable in our documentation. LUCIANO MARTINS: Absolutely. SHRESTHA BASU MALLICK: And\nLuciano and I are also here to answer questions. Function calling. I think we've had-- of\ncourse, function calling is bread and butter for all\nkinds of agentic applications. The Gemini API has supported\nsingle function calling, parallel function calling, and\ncompositional function calling for a while. Compositional meaning where you\ncan put a whole logic around if A happens, then call\nfunction 1, if B happens, then call function 2. As part of I/O, we are also\nreleasing asynchronous function calling through the Live API. So imagine some tasks like you\nstart having a conversation",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.7608098983764648
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 363.97,
+        "timestamp_end": 521.659,
+        "text": "On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API and also on [INAUDIBLE] API\nfor real generating audio. And some of the use\ncases here that we had in mind when\nwe built this were more dynamic audiobooks,\nsome more engaging podcasts, or, even for those of\nyou in customer support, producing more natural\nvoices into your workflows. We also have enhanced\ntooling, which is really cool, because now you\ncan use Grounding with Google Search, also with Code Execution\ntogether in just one API call, and URL context, which you\nheard during the keynote, which provides the model with\ndepth content from web pages. And since you can chain\nit to other tools, it's actually really powerful\nto build search agents. So really cool stuff. Lastly, just to call out that\nwe now offer Gemini SDK support for MCP, which reduces a\nlot of developer friction and simplifies building\nagentic capabilities. So you don't want to\nmiss tomorrow's talk to learn more about this. And Google AI Studio. Who here uses Google AI Studio? Can I see some hands? OK, awesome. Awesome. We have a lot to chat\nafter this session then. Google AI Studio is the\nperfect place for anyone to start developing with AI. It's the simplest way to test\nthe latest DeepMind models. We typically bring them\nto Google AI Studio so you can start prototyping\nand playing with the models. And you don't need Google\nCloud knowledge in order to set up your environment. It is free of charge, and you\ncan create, and test, and save your prompts. And there's also starter\napps that will inspire you. And that's exactly what I'm\ngoing to demo here today for you. I am going to show\nyou some of the work that the team has been doing. So if we go to Google AI Studio\nhere, if we go into Build, and Mumble Jumble is\nsomething that we've literally just created, and\nit's one of my favorite apps. So Mumble Jumble is one\nof those applications that",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -3.7100746631622314
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2130.98,
+        "timestamp_end": 2271.49,
+        "text": "If you're building\na research agent, maybe you want to\nuse the Chat API. If you're building\na gaming agent, maybe you want to use the real\ntime API or a customer support agent. Of course, you can build\nresearch agents also on the real time API. But in general, you now\nhave these two APIs. And then we've talked\nabout tools a lot. So all I'll say is\ngive us feedback in terms of what are some\nof the other tools that you would see Google make available\nthrough the Gemini API. LUCIANO MARTINS: Yeah. So as you just said,\nthe Gemini 2.5 Pro-- 2.5 models are thinking\ncapable, so they can do more advanced and\nmore complex reasoning. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS:\nAnd maybe we could highlight that now,\nspecifically for the 2.5 Flash, we have the ability of\nusing what we just mentioned, the thinking budgets, where\nyou can calibrate how deep and how much the model\nwill do reasoning cycles. And also for both models,\nwe can have access to what we are calling\nthought summaries. SHRESTHA BASU MALLICK: Yes. LUCIANO MARTINS: So\nbasically you are not only counting on the model\nability to reason, but also you can see on your\nresponse which key steps or which key reasoning\nthoughts the model had to get to our conclusion. So basically, that's a\npretty basic Gemini API code using the Python SDK. For those of you who\nnever used the SDK before, it's pretty straightforward. So three key blocks. You need to import the SDK,\nyou instantiate the client, and then you interact\nwith the model you want. Here we are interacting\nwith the Gemini 2.5 Flash. You send your prompts. And then you have\none specific bit called ThinkingConfig,\nwhere, in this code, you are asking the API\nto include the thought summaries on your\nresponse, and that's to include thoughts\nequals true, and also the amount of tokens you want\nto use during the reasoning process. On your response,\nyou're going to have part of the response will\nbe the thought summaries. So it's separated from the\nfinal answer by intention. If you want to keep\nthose on your backend,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -6.201044082641602
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2746.57,
+        "timestamp_end": 2767.29,
+        "text": "more of the other features and\npossibilities with the models. And the last one is the Gemini\nCookbook, a GitHub repository that our team curates and keep\nupdating with a lot of sample experience for you. Thank you so much, Shrestha. Thank you so much you all. SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us. [CHEERING] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -10.762039184570312
+      }
+    ]
+  },
+  {
+    "query": "how to run Gemini Nano on Android devices for on-device intelligence",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 132.94,
+        "timestamp_end": 265.63,
+        "text": "And as part of that,\nwe have a section where we do a deep dive on\nagentic capabilities in the API. LUCIANO MARTINS:\nThanks for the add. SHRESTHA BASU MALLICK: Yeah. So starting with what are\nthe families of models we have available? So the most performant and\npowerful model that we have is the Gemini 2.5 Pro. It's in preview right now. A few weeks ago, we released\na updated version of 2.5 Pro. And it's suitable for highly\ncomplex tasks that require a lot of deep reasoning. And coding has been, of course,\na standout use case of that. We also have 2.5 Flash,\nwhich this Google I/O we released a new preview\nversion just yesterday for 2.5 Flash. And 2.5 Flash is\nour model size that has probably one of the\nbest price performance ratios in the market today. LUCIANO MARTINS: That's right. SHRESTHA BASU MALLICK: We\nalso have 2.0 Flash-Lite. So this is a small,\nfast, cheap model that you can use for high\nvolume tasks like summarization. And then Luciano,\ndo you want to talk about the Nano and\nthe Embedding models? LUCIANO MARTINS:\nYeah, absolutely. We heard a lot of\nfeedback from you folks. And many of you are\ndeveloping mobile applications or applications that\nmust run on devices. So then you have\nalso available what we call the Gemini\nNano, which is a smaller version of the Gemini, which is\nable to run locally on devices like on Android devices if you\nare developing with the Android Studio using the AI Corps. And also, many of you are\ntrying to create applications that do some kind\nof semantic ranking or to organize information\nin large scale. So you have also one model that\nwe call the Gemini Embedding, which the key objective of this\nmodel is to let you ingest text. And then the model delivers you\nhigh quality multidimensional embeddings. But how those\nmodels are behaving when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.134291648864746
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -0.49791890382766724
+      },
+      {
+        "id": "o7Bv4r08FBM__chunk_008",
+        "schema_version": "canonical_v1",
+        "video_id": "o7Bv4r08FBM",
+        "title": "Google I/O 2025 \u2013 o7Bv4r08FBM",
+        "timestamp_start": 1021.19,
+        "timestamp_end": 1181.07,
+        "text": "I'm not saying phones. And here, we see\nour capabilities in terms of specific languages. So if you look for\nGemma over there, it's right there at the bottom. You can see we were top\nin French, top in Spanish, second in Japanese,\nthird in German. It's great all around\nthe multiple languages. Again, open model, right? This is very, very strong. And as of yesterday,\nwe released Gemma 3n, our newest model that can run on\nas little as 2 gigabytes of RAM. Gemma 3n has a lot\nof development. I'm very impressed by\nthe research behind it. And it's optimized\nfor on-device. So the architecture is\nfocused on making own device, or on small devices,\nit to run faster. It's the same model. It's the base model\nthat will be also used for Gemini Nano,\nwhich comes embedded in many, many Android\ndevices already. So it's the same architecture. So we're sharing that\nas open models now. We expanded the capabilities. Gemma 3 has vision,\ntext, and video, right? Gemma 3n, we added\naudio understanding. So now you can talk\ndirectly to the model. And this is very,\nvery interesting. This is very new. Oh, let me run because\nI have my friend. And we are releasing two sizes-- 4B and 2B. Today, you can test these models\nalready on Google AI Studio. Let me show you this video. [VIDEO PLAYBACK] - Can you tell me\nabout this replica? - Certainly. This is a replica of a\nVirgin Galactic SpaceShipOne, a suborbital spacecraft. It's a model of the vehicle used\nfor testing and demonstration flights. - Can you please save\nthis to my notes? - Absolutely. Creating a note. GUS MARTINS: This is\nrunning completely local. There's zero internet, and it\nwas just saved to Google Keep. - What can I add to the\nsystem to make it faster? - Interesting question. Adding caching layers can\nsignificantly improve speed. Consider implementing\na CDN or caching proxy to store\nfrequently-accessed content. - Write a super short poem\nthat highlights her skills. - Amazing Zoey, so bright. Counting to 100, what a sight. - What is the total square\nfootage of the largest room?",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -2.5876011848449707
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 880.26,
+        "timestamp_end": 979.77,
+        "text": "So it's just really\nquick and easy to do. OK, we can go back\nto the slides. So very, very\nquickly, as a recap, Gemini Developer API is the\neasiest way to get started. It's super lightweight,\nit's fast to install, and you can get up and running\nhonestly in about a minute. OK? I will use the clicker. This is the flow to get\nstarted with Google AI Studio. Go to Google AI Studio. Get your key. Try one of the code\nexamples on ai.google.dev or in the cookbook. I see people taking pictures. That makes me happy. Please try this. We spent so much time\non making this easy, and I hope it works for you. If not, please file an\nissue and we'll get on it. This is the Gen AI SDK\nfor the Gemini API, and this is something\nwe've been rolling out. It's our latest SDK. We've been rolling\nit out gradually over the course of\nthe last six months. It's super user friendly. It's really easy to use. Really, the only point\nI want to make here, because I don't want\nto read the code examples or the\ndocumentation to you, you can call the API\nin a few lines of code. Basically add your key, select\na model, write a prompt, you can go ahead and call it. You can also get access\nto advanced functionality in one line of code. So if you'd like to get the\nthinking summaries that Joana showed you, you can just\nadd a ThinkingConfig, say include the thoughts. Now, you've got the\nthinking summaries. And a good use\ncase for this could be any time you need to\nexplain the model's reasoning. Particularly, you can\nimagine, if you're building an education\napp or a tutoring app, you can get the\nthinking summaries. In addition to\nreally cool things that you can do with\na single line of code, there's some more advanced stuff\nthat you can do with the SDK as well. So I know there's a lot\nof code on this slide, but we've talked a lot\nabout building agents and agentic experiences. In this example,\nyou could imagine that you have a Python\nfunction on your laptop called weather_function. And maybe that calls\nyour own weather server to get the weather.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -3.5495920181274414
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 890.57,
+        "timestamp_end": 1021.23,
+        "text": "We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there. If you are a Google\nColab user, you have ways to interact with\nthe Gemini models as well. So the key idea is to\nmake it easier for you. No matter where you are having\nyour development experience, We are trying to bring\nGemini API closer to you. SHRESTHA BASU MALLICK:\nThat's correct. And I think this is\nalso a good place to make a plug for Google\nAI Studio, which of course, everyone knows about and loves. It is the place where\na lot of our developers first test out the\ncapabilities of the API before committing to\nbuilding applications at scale with the API. And Google AI Studio now\nhas code generation also. LUCIANO MARTINS: Absolutely. SHRESTHA BASU MALLICK: So this\nis a quick, high level overview of all the components that are\navailable through the Gemini API. It's pretty standard. You send in your prompt, you get\na response back from the model. If there's a tool\ncall needed, we do support a set of\nfirst party Google tools, as well as function calling. So in terms of the first party\nGoogle tools that we support, we, of course, support\nGoogle Search as a tool. The best search engine\nout there is now available as a tool for the\nmodel to call when it needs to. Now in addition to the\ninformation that you get out of Search, if you want to\nretrieve more in-depth content from web pages for\napplications such as you're building your own version\nof a research agent, so you pull some\ninformation from Search. You pull a set of\nURLs, but if you want to extract a little\nmore in depth content, we just released a new tool\nat I/O called URL Context. And then, of course, you can\ntake all that information. And if you want to create\nbeautiful charts out of it or run some analysis,\nwe make code execution available as a tool to\nyou via the API as well. Then, of course, you\nhave function calling.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -4.132187843322754
+      }
+    ]
+  },
+  {
+    "query": "what are the different Gemini AI models and what are they best for",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 751.58,
+        "timestamp_end": 904.85,
+        "text": "mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers, but will be rolled\nout more widely soon. And then we also have\nGemini Diffusion, which is the first time\nwe are testing a diffusion architecture as opposed to an\nautoregressive architecture. And these models are faster\nthan the fastest model out today and for almost\nsimilar, the performance. So try out both when you have\naccess to both Gemini Deep Diffusion and Deep Think. LUCIANO MARTINS: Perfect. SHRESTHA BASU MALLICK: All\nright, so the Gemini API. LUCIANO MARTINS: So yeah, if\nyou start thinking, especially after the keynote\nspeakers today, there are many surfaces where\nyou can interact with the Gemini models. So you have the Gemini app. You have Gemini available\non Google Cloud as the Code Assist, the assistant-- the\nCloud Assist inside the Console. You have Gemini on Workspace. So when you are talking\nabout developer experiences, we have the one\nspecific Gemini API with similar experiences as you\nhave on the no-code UI that we call AI Studio, where you\ncan start experimenting and developing your solutions\nusing the Gemini models, right? SHRESTHA BASU\nMALLICK: That's right. LUCIANO MARTINS: So\nbasically, the Gemini API is a very low barrier\nentry for having Gemini programmatic experiences. You have access to\nall public models there from the Gen Media ones,\nGemma, all the Gemini models, variants. You have a very generous\nfree of charge tier, where you can start\nexperimenting just after the session\nwithout concerns about credit cards, costs,\nbilling, anything of that. We keep developing\nmore SDKs for this API. So for now, you have available\none SDK for Python, JavaScript, Go, and Java. We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.0227229595184326
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_018",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 2055.719,
+        "timestamp_end": 2210.57,
+        "text": "development. And with AI\nco-scientist, a scientist can give a research goal to\nthe agent in natural language, and then the AI\nco-scientist is designed to give you an overview, and a\nhypothesis, and a methodology. So in order to do so, it uses\na coalition of different agents that work together. And we have the generation,\nagent review, ranking, evolution, proximity,\nand meta review that are all created\nwithin the inspiration and driven from the\nscientific method in itself. So it's another huge\nbreakthrough and another domain that we'll continue\nto see evolving here at Google DeepMind. And lastly, an area where we're\nseeing tremendous progress and we expect to continue\nhaving more future breakthroughs is in domain-specific models. And Gemini robotics\nmodels, which are currently in private early access, are\nadvanced vision, language, action models with the\naddition of physical actions as a new output\nmodality specifically for controlling robots. These models are robot agnostic,\nand it uses multi-embodiment which is a technique that can be\nused on anything from humanoids to large-scale\nindustrial machinery. So this is really,\nreally exciting. And Gemini robotics has been\nfine tuned to be dexterous. And that's why you can see so\nmany different cool use cases and applications here on stage,\nfrom folding an origami, which is something a bit more complex,\nand just holding a sandwich bag. So many new innovations\nare coming to you, are coming to life,\nand we'll continue pushing the boundaries of\nwhat's possible across all these different domains. And now, if you\nwant to learn more, there's many ways that you\ncan keep engaging with us, that you can keep\ngiving us feedback. We're also active\non social media, and we have a developer forum\nwhere you can interact directly with Googlers. So in order to learn\nmore, Josh, what do our developers have to do? JOSH GORDON: We have\njust a few links for you. So no problem. But we talked about a lot of\ndifferent tools in the stack. JOANA CARRASQUEIRA: We did.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 1.5672824382781982
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_019",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 2201.15,
+        "timestamp_end": 2283.1,
+        "text": "So in order to learn\nmore, Josh, what do our developers have to do? JOSH GORDON: We have\njust a few links for you. So no problem. But we talked about a lot of\ndifferent tools in the stack. JOANA CARRASQUEIRA: We did. JOSH GORDON: So I don't\nwant to read the slide, but let me just point you\nto a couple highlights. ai.google.dev is the\nbest place to go to get started with Gemini and Gemma. We have a cookbook for Gemini. We have a cookbook for Gemma. Google AI Studio is\naistudio.google.com. If you're interested in JAX\nand Keras, there are the links. If you happen to be\ninterested in XLA, please check it\nout-- openxla.org. Google AI Edge is\nat the very bottom if you're a mobile\ndeveloper and you're interested in mobile deployment. And just to be clear, there's\nso many amazing things in the Google AI stack we didn't\nhave time to talk about today. Vertex has really amazing tools\nfor enterprise developers. But please, start\nhere, have fun, and, yeah, we're\naround after the talk. JOANA CARRASQUEIRA:\nYes, absolutely. And the Developer Relations\nteam is just outside. We have some really\ncool demo stations that you can experience. Engage with the team. Check out the sessions\ntomorrow, especially on the Gemini API,\nGemmaverse, and robotics. We have a lot of\ncool stuff that we want to put in the\nhands of developers. Many early access\nprograms as well. Stay in touch, stay\nengaged, and let's co-create the future of AI together. Thank you so much. JOSH GORDON: Thanks a lot. Thanks [APPLAUSE] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 0.62845778465271
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_006",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 777.32,
+        "timestamp_end": 892.14,
+        "text": "there's information about\nthe models, everything you need to get started. We also have the\nGemini API Cookbook. We have a link to\nthis at the end. It's basically goo.gle/cookbook. G-O-O.G-L-E/cookbook. And this will take you to\na whole slew of notebooks that the team has put together. And basically, all\nof these notebooks are end-to-end examples\nthat show you one thing that you might be interested\nin, like what's the best way to do code execution? What's the best way to\ndo function calling? You'll find that\nin the cookbook. I also very, very quickly\nwant to show you how easy it is to get started with the API. So basically, in\nGoogle AI Studio, you don't need a credit\ncard or anything like that, in about a minute you can\njust click Get API key. Create your key. Now, if you're doing\nthis for the first time, behind the scenes,\nthis will automatically create a Cloud project\nfor you, but that detail is not important. Basically, now I have an API key\nand I'm ready to install the SDK and call the model. If you open up any of the\nnotebooks in the cookbook, well, let's just say-- it's in a different\ndirectory here, but let's just say\nwe've opened up-- eh, we'll just say we\nopened up this one, which is in the quickstarts directory. And this shows you\nexactly what Joana showed, how to get the\nthinking summaries. You can add your API\nkey in Google Colab. If you zoom in, you\ncan hit Add new secret. And in this particular notebook,\nit's called Google API key. But you could call\nit whatever you like. So you would add\nGoogle API key there, you would paste your\nkey there, and now you're ready to run this. So if you do Runtime and Run\nall, you're calling the API and you're running\nall the examples. You can also, directly\nin Google Colab, we have this thing where you\ncan grab an API key straight inside Google Colab. So it's just really\nquick and easy to do. OK, we can go back\nto the slides. So very, very\nquickly, as a recap, Gemini Developer API is the\neasiest way to get started. It's super lightweight,\nit's fast to install,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -0.46268242597579956
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2746.57,
+        "timestamp_end": 2767.29,
+        "text": "more of the other features and\npossibilities with the models. And the last one is the Gemini\nCookbook, a GitHub repository that our team curates and keep\nupdating with a lot of sample experience for you. Thank you so much, Shrestha. Thank you so much you all. SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us. [CHEERING] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.156635046005249
+      }
+    ]
+  },
+  {
+    "query": "how does the Gemini 2.5 series compare to older versions",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 254.53,
+        "timestamp_end": 382.64,
+        "text": "when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's a super complex task, or whether\nit's on-device processing, you now have a Gemini model\nthat you can use for it. And it's pretty powerful. And it's pretty price effective. LUCIANO MARTINS: Yeah,\nmaybe it is also worth mentioning, Shrestha,\nthat some folks here may be developing with\nGemini since it was released. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS: So using the\nAI Studio, using the Gemini API, the older versions\nof Gemini like 2.0, 1.5 are still available. But we really\nencourage everybody to start experimenting\nwith the newer ones with better capabilities\nand better performance. SHRESTHA BASU MALLICK:\nThat's correct. So 2.0 Flash continues to be one\nof our most widely-used models, just again, because of how good\nit is for the price it's at. And we have a lot of people\nwho are still using it. And then we also have some\npeople on the 1.5 models. But we're encouraging\npeople now, we're two generations\nahead, to start using the 2.5 series of\nmodels and give us feedback. LUCIANO MARTINS: Nice. So please tell us a little bit\nabout the benchmarks, Shrestha. SHRESTHA BASU MALLICK:\nYeah, next slide. Yeah, so we're not going\nto spend a lot of time on the benchmarks. But the two key points\nthat I'd like to hit here is number one, is one\nway in which we measure how good these models are is\nby putting them on LMArena, which is where developers\nand builders like yourself test out\nall these models and give it an ELO rating. And we're, of course, very\nproud that right now you have three Gemini models in\nthe top 10 in the LMArena. LUCIANO MARTINS:\nIncluding the top one. SHRESTHA BASU\nMALLICK: Including, how did I forget that? We are number one guys,\nand we're very proud of it. [CHEERING] Thank you. One of the things,\none of the use cases that has been really emerging\nin the last couple of months",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.2988767623901367
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 132.94,
+        "timestamp_end": 265.63,
+        "text": "And as part of that,\nwe have a section where we do a deep dive on\nagentic capabilities in the API. LUCIANO MARTINS:\nThanks for the add. SHRESTHA BASU MALLICK: Yeah. So starting with what are\nthe families of models we have available? So the most performant and\npowerful model that we have is the Gemini 2.5 Pro. It's in preview right now. A few weeks ago, we released\na updated version of 2.5 Pro. And it's suitable for highly\ncomplex tasks that require a lot of deep reasoning. And coding has been, of course,\na standout use case of that. We also have 2.5 Flash,\nwhich this Google I/O we released a new preview\nversion just yesterday for 2.5 Flash. And 2.5 Flash is\nour model size that has probably one of the\nbest price performance ratios in the market today. LUCIANO MARTINS: That's right. SHRESTHA BASU MALLICK: We\nalso have 2.0 Flash-Lite. So this is a small,\nfast, cheap model that you can use for high\nvolume tasks like summarization. And then Luciano,\ndo you want to talk about the Nano and\nthe Embedding models? LUCIANO MARTINS:\nYeah, absolutely. We heard a lot of\nfeedback from you folks. And many of you are\ndeveloping mobile applications or applications that\nmust run on devices. So then you have\nalso available what we call the Gemini\nNano, which is a smaller version of the Gemini, which is\nable to run locally on devices like on Android devices if you\nare developing with the Android Studio using the AI Corps. And also, many of you are\ntrying to create applications that do some kind\nof semantic ranking or to organize information\nin large scale. So you have also one model that\nwe call the Gemini Embedding, which the key objective of this\nmodel is to let you ingest text. And then the model delivers you\nhigh quality multidimensional embeddings. But how those\nmodels are behaving when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.2394464015960693
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2130.98,
+        "timestamp_end": 2271.49,
+        "text": "If you're building\na research agent, maybe you want to\nuse the Chat API. If you're building\na gaming agent, maybe you want to use the real\ntime API or a customer support agent. Of course, you can build\nresearch agents also on the real time API. But in general, you now\nhave these two APIs. And then we've talked\nabout tools a lot. So all I'll say is\ngive us feedback in terms of what are some\nof the other tools that you would see Google make available\nthrough the Gemini API. LUCIANO MARTINS: Yeah. So as you just said,\nthe Gemini 2.5 Pro-- 2.5 models are thinking\ncapable, so they can do more advanced and\nmore complex reasoning. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS:\nAnd maybe we could highlight that now,\nspecifically for the 2.5 Flash, we have the ability of\nusing what we just mentioned, the thinking budgets, where\nyou can calibrate how deep and how much the model\nwill do reasoning cycles. And also for both models,\nwe can have access to what we are calling\nthought summaries. SHRESTHA BASU MALLICK: Yes. LUCIANO MARTINS: So\nbasically you are not only counting on the model\nability to reason, but also you can see on your\nresponse which key steps or which key reasoning\nthoughts the model had to get to our conclusion. So basically, that's a\npretty basic Gemini API code using the Python SDK. For those of you who\nnever used the SDK before, it's pretty straightforward. So three key blocks. You need to import the SDK,\nyou instantiate the client, and then you interact\nwith the model you want. Here we are interacting\nwith the Gemini 2.5 Flash. You send your prompts. And then you have\none specific bit called ThinkingConfig,\nwhere, in this code, you are asking the API\nto include the thought summaries on your\nresponse, and that's to include thoughts\nequals true, and also the amount of tokens you want\nto use during the reasoning process. On your response,\nyou're going to have part of the response will\nbe the thought summaries. So it's separated from the\nfinal answer by intention. If you want to keep\nthose on your backend,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.1429872512817383
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2746.57,
+        "timestamp_end": 2767.29,
+        "text": "more of the other features and\npossibilities with the models. And the last one is the Gemini\nCookbook, a GitHub repository that our team curates and keep\nupdating with a lot of sample experience for you. Thank you so much, Shrestha. Thank you so much you all. SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us. [CHEERING] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -7.341142654418945
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_016",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2003.26,
+        "timestamp_end": 2144.72,
+        "text": "on reasoning capabilities,\nto reason and plan all their actions to\nbe given to this user from helping with shopping\nto generate new codes for a new application. This model must be able to\nbe continuously learning. So if you want to append\nmore pieces of information, fresher information, use\ntools like the Google Search grounding, right, Shrestha, to\nbring up-to-date information from Google Search. This model must be\nable to support that. And at last but\nnot least, we count on multi-agent collaboration. So we must be able to not\ncreate huge monolithic agents, but also to keep connecting\nto other specialized agents to bring a better experience. Right? SHRESTHA BASU\nMALLICK: That's right. You've probably heard us talk\nabout all of these components 50 times already in\nthis talk, so I'm going to go through this\nslide really quickly. But one thing we\nwanted to emphasize is when we started\nthinking about how to enable agentic\ncapabilities through our API, we made a conscious\ndecision on first focusing on providing\nhigh quality primitives. And once we had\nmade some progress along that, that's\nwhen we have now started to do things like\nrelease MCP through our SDK, and you'll see some more\nhigher abstractions rolling out in the next couple of months. But in terms of\nagentic primitives, again, we have the 2.5\nseries models, which are thinking first models. You now have Deep Think,\nwhich is an advanced thinking mode on top of 2.5 Pro. And with Flash today\nand Pro soon, you have the ability to set budgets. So you can tell the model when\nto think and how much to think, and that lets you both control\ncost, latency, and whatever is the amount of thinking that's\nsuitable for your application. In terms of API, depending on\nwhat agent you are building, you may want to use different\nversions of the API. If you're building\na research agent, maybe you want to\nuse the Chat API. If you're building\na gaming agent, maybe you want to use the real\ntime API or a customer support agent. Of course, you can build\nresearch agents also",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -8.166213989257812
+      }
+    ]
+  },
+  {
+    "query": "what are the best Gemini models right now for on-device tasks",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 132.94,
+        "timestamp_end": 265.63,
+        "text": "And as part of that,\nwe have a section where we do a deep dive on\nagentic capabilities in the API. LUCIANO MARTINS:\nThanks for the add. SHRESTHA BASU MALLICK: Yeah. So starting with what are\nthe families of models we have available? So the most performant and\npowerful model that we have is the Gemini 2.5 Pro. It's in preview right now. A few weeks ago, we released\na updated version of 2.5 Pro. And it's suitable for highly\ncomplex tasks that require a lot of deep reasoning. And coding has been, of course,\na standout use case of that. We also have 2.5 Flash,\nwhich this Google I/O we released a new preview\nversion just yesterday for 2.5 Flash. And 2.5 Flash is\nour model size that has probably one of the\nbest price performance ratios in the market today. LUCIANO MARTINS: That's right. SHRESTHA BASU MALLICK: We\nalso have 2.0 Flash-Lite. So this is a small,\nfast, cheap model that you can use for high\nvolume tasks like summarization. And then Luciano,\ndo you want to talk about the Nano and\nthe Embedding models? LUCIANO MARTINS:\nYeah, absolutely. We heard a lot of\nfeedback from you folks. And many of you are\ndeveloping mobile applications or applications that\nmust run on devices. So then you have\nalso available what we call the Gemini\nNano, which is a smaller version of the Gemini, which is\nable to run locally on devices like on Android devices if you\nare developing with the Android Studio using the AI Corps. And also, many of you are\ntrying to create applications that do some kind\nof semantic ranking or to organize information\nin large scale. So you have also one model that\nwe call the Gemini Embedding, which the key objective of this\nmodel is to let you ingest text. And then the model delivers you\nhigh quality multidimensional embeddings. But how those\nmodels are behaving when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.853977680206299
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.296703338623047
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 254.53,
+        "timestamp_end": 382.64,
+        "text": "when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's a super complex task, or whether\nit's on-device processing, you now have a Gemini model\nthat you can use for it. And it's pretty powerful. And it's pretty price effective. LUCIANO MARTINS: Yeah,\nmaybe it is also worth mentioning, Shrestha,\nthat some folks here may be developing with\nGemini since it was released. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS: So using the\nAI Studio, using the Gemini API, the older versions\nof Gemini like 2.0, 1.5 are still available. But we really\nencourage everybody to start experimenting\nwith the newer ones with better capabilities\nand better performance. SHRESTHA BASU MALLICK:\nThat's correct. So 2.0 Flash continues to be one\nof our most widely-used models, just again, because of how good\nit is for the price it's at. And we have a lot of people\nwho are still using it. And then we also have some\npeople on the 1.5 models. But we're encouraging\npeople now, we're two generations\nahead, to start using the 2.5 series of\nmodels and give us feedback. LUCIANO MARTINS: Nice. So please tell us a little bit\nabout the benchmarks, Shrestha. SHRESTHA BASU MALLICK:\nYeah, next slide. Yeah, so we're not going\nto spend a lot of time on the benchmarks. But the two key points\nthat I'd like to hit here is number one, is one\nway in which we measure how good these models are is\nby putting them on LMArena, which is where developers\nand builders like yourself test out\nall these models and give it an ELO rating. And we're, of course, very\nproud that right now you have three Gemini models in\nthe top 10 in the LMArena. LUCIANO MARTINS:\nIncluding the top one. SHRESTHA BASU\nMALLICK: Including, how did I forget that? We are number one guys,\nand we're very proud of it. [CHEERING] Thank you. One of the things,\none of the use cases that has been really emerging\nin the last couple of months",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.016523838043213
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 751.58,
+        "timestamp_end": 904.85,
+        "text": "mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers, but will be rolled\nout more widely soon. And then we also have\nGemini Diffusion, which is the first time\nwe are testing a diffusion architecture as opposed to an\nautoregressive architecture. And these models are faster\nthan the fastest model out today and for almost\nsimilar, the performance. So try out both when you have\naccess to both Gemini Deep Diffusion and Deep Think. LUCIANO MARTINS: Perfect. SHRESTHA BASU MALLICK: All\nright, so the Gemini API. LUCIANO MARTINS: So yeah, if\nyou start thinking, especially after the keynote\nspeakers today, there are many surfaces where\nyou can interact with the Gemini models. So you have the Gemini app. You have Gemini available\non Google Cloud as the Code Assist, the assistant-- the\nCloud Assist inside the Console. You have Gemini on Workspace. So when you are talking\nabout developer experiences, we have the one\nspecific Gemini API with similar experiences as you\nhave on the no-code UI that we call AI Studio, where you\ncan start experimenting and developing your solutions\nusing the Gemini models, right? SHRESTHA BASU\nMALLICK: That's right. LUCIANO MARTINS: So\nbasically, the Gemini API is a very low barrier\nentry for having Gemini programmatic experiences. You have access to\nall public models there from the Gen Media ones,\nGemma, all the Gemini models, variants. You have a very generous\nfree of charge tier, where you can start\nexperimenting just after the session\nwithout concerns about credit cards, costs,\nbilling, anything of that. We keep developing\nmore SDKs for this API. So for now, you have available\none SDK for Python, JavaScript, Go, and Java. We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 1.1958656311035156
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_020",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2484.66,
+        "timestamp_end": 2631.966,
+        "text": "if A happens, then call\nfunction 1, if B happens, then call function 2. As part of I/O, we are also\nreleasing asynchronous function calling through the Live API. So imagine some tasks like you\nstart having a conversation with the AI agent,\nbut in the background, you ask it to crank\nout on some other task. And that task may not\nbe a real time task, but it may be something that's\nrelevant to the conversation, like maybe analyzing\na lot of context about the user to\nprovide some answer. You can now turn on an\nasynchronous function. The function will do its\nthing in the background. And then when ready, it will\nnotify you with the results. LUCIANO MARTINS: Amazing. And maybe one of\nthe greatest news for the Gemini\nAPI SDK during I/O is that we brought--\nwe heard you. Many of you gave\nthis feedback for us, and we added to the Gemini\nAPI SDK support for MCP. So now you don't need to have\nseparated and siloed codes with MCP clients,\nMCP servers, and then your Gemini API interactions. You can have it all\ntogether, using the same code base of the Gemini API SDK. SHRESTHA BASU MALLICK:\nVery exciting. [APPLAUSE] LUCIANO MARTINS: Yeah. Thank you. And still talking about\nthose interactions, we know that we have many\nchoices of agent frameworks. You may have heard\nabout the Google ADK, the Agent Development Kits\nlaunched during the Google Cloud Next a few weeks ago. We may have heard about the\nagent-to-agent protocol as well. You have other choices like link\nchain, link graph, everything, and we keep open\ncollaborating with all those internal and external\nopen source efforts to bring the best\nexperience for you all. SHRESTHA BASU MALLICK:\nThat's correct. And especially thanks to folks\nlike Philip Schmidt and Patrick here on our developer\nrelations team. We have been working on building\ncloser relationships, closer interactions, better code\nsamples with some of the leading agent frameworks,\nlike LangChain crew. And so that is also\nsome of the areas where you'll see the\nGemini API show up. LUCIANO MARTINS: Amazing.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.0112859010696411
+      }
+    ]
+  },
+  {
+    "query": "where can I test AI models with LMArena and see their Elo ratings",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 254.53,
+        "timestamp_end": 382.64,
+        "text": "when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's a super complex task, or whether\nit's on-device processing, you now have a Gemini model\nthat you can use for it. And it's pretty powerful. And it's pretty price effective. LUCIANO MARTINS: Yeah,\nmaybe it is also worth mentioning, Shrestha,\nthat some folks here may be developing with\nGemini since it was released. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS: So using the\nAI Studio, using the Gemini API, the older versions\nof Gemini like 2.0, 1.5 are still available. But we really\nencourage everybody to start experimenting\nwith the newer ones with better capabilities\nand better performance. SHRESTHA BASU MALLICK:\nThat's correct. So 2.0 Flash continues to be one\nof our most widely-used models, just again, because of how good\nit is for the price it's at. And we have a lot of people\nwho are still using it. And then we also have some\npeople on the 1.5 models. But we're encouraging\npeople now, we're two generations\nahead, to start using the 2.5 series of\nmodels and give us feedback. LUCIANO MARTINS: Nice. So please tell us a little bit\nabout the benchmarks, Shrestha. SHRESTHA BASU MALLICK:\nYeah, next slide. Yeah, so we're not going\nto spend a lot of time on the benchmarks. But the two key points\nthat I'd like to hit here is number one, is one\nway in which we measure how good these models are is\nby putting them on LMArena, which is where developers\nand builders like yourself test out\nall these models and give it an ELO rating. And we're, of course, very\nproud that right now you have three Gemini models in\nthe top 10 in the LMArena. LUCIANO MARTINS:\nIncluding the top one. SHRESTHA BASU\nMALLICK: Including, how did I forget that? We are number one guys,\nand we're very proud of it. [CHEERING] Thank you. One of the things,\none of the use cases that has been really emerging\nin the last couple of months",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.394479751586914
+      },
+      {
+        "id": "o7Bv4r08FBM__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "o7Bv4r08FBM",
+        "title": "Google I/O 2025 \u2013 o7Bv4r08FBM",
+        "timestamp_start": 888.38,
+        "timestamp_end": 1038.17,
+        "text": "the most basic system prompt,\nit will talk like a pirate during the conversation. So we don't have\na role for system prompts, but you can add to the\nfirst message, and it will work. You can add at any moment\nduring a conversation, and it will, from there,\ncontinue with your instructions. And people love also the\npersonality of Gemma. Personality is how\nthe model replies. When you ask a question,\nthe way it answers. People like its warm-- it has a strong personality. It's approachable. And that's why we have\na LMArena score so high. And as you can see here-- I guess those\nnumbers are updated. Those are the LM scores for our\nthree larger models, the 27 12, and 4B. And what's so great about this? First of all, this\nis from LMArena. This is a benchmark that people\ngo and blind vote on prompts. So you have a prompt. It gives you two answers, and\nyou say which one you prefer. So this is from the voice of\nthe people, let's say like that. There are, of course, criticism. But this is one of the\nbest benchmarks we have. It's people's choice. On this benchmark, you can see\nthe 27B is one of the top ones. And it's an open--\nremember, open model. Anyone can download\nand use right now. We are one of the best\nopen models, period. And the other thing is our\n27B needs 1 GPU to run, while the other open models that\nare large-- that are better, let's say like that, they\nneed, like, 30 GPUs, 10 GPUs. Do you have 10 GPUs to run now? Do you have access? So that's one of the\nimportant things. You can see the small\ndots over there. And you can see the\n12B, the middle kid. The 12B is really close. It's super strong. And you can see\nthe 4B over there. I'm not going to\nsay who is after. That doesn't matter. But the idea is that our 4B is\nreally, really strong for 4B, 4 billion. Can run basically\nmost of your devices. I'm not saying phones. And here, we see\nour capabilities in terms of specific languages. So if you look for\nGemma over there, it's right there at the bottom. You can see we were top\nin French, top in Spanish,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.7761505842208862
+      },
+      {
+        "id": "Uh-7YX8tkxI__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "Uh-7YX8tkxI",
+        "title": "Google I/O 2025 \u2013 Uh-7YX8tkxI",
+        "timestamp_start": 220.78,
+        "timestamp_end": 330.92,
+        "text": "I think the whole world's going\nto want to use these things. And so we're going to need a\nlot of data centers for serving. And also for\ninference time compute You saw you saw\nDeepthink today-- 2.5 Pro Deepthink. The more time you give\nit, the better it will be. And certain tasks, very high\nvalue, very difficult tasks, it will be worth letting it\nthink for a very long time. And we're thinking about how\nto push that even further. And again, that's going\nto require a lot of chips at runtime. ALEX KANTROWITZ: OK. So you brought up\ntest time compute. We've been about a year into\nthis reasoning paradigm, and you and I have\nspoken about it twice in the past as\nsomething that you might be able to add on to\ntraditional LLMs to get gains. So I think this is a pretty\ngood time for me to be like, \"What's happening?\" Can you help us contextualize\nthe magnitude of improvement we're seeing from reasoning? DEMIS HASSABIS:\nWell, we've always been big believers\nin what we're now calling this thinking paradigm. If you go back to our very early\nwork on things like AlphaGo and AlphaZero, our agent\nwork on playing games, they will all have this type\nof attribute of a thinking system on top of a model. And actually, you can\nquantify how much difference that makes if you look at\na game like chess or Go. We had versions of\nAlphaGo and AlphaZero with the thinking turned\noff that was just the model telling you its first idea. And it's not bad. It's maybe master level--\nsomething like that. But then, if you\nturn the thinking on, it'll be way beyond\nworld champion level. It's like a 600\nELO-plus difference between the two versions. So you can see that\nin games, let alone for the real world, which\nis way more complicated. And I think the gains\nwill be potentially even bigger by adding this thinking\ntype of paradigm on top. Of course, the challenge\nis that your models-- and I talked about this\nearlier in the talk-- need to be a kind\nof world model. And that's much harder\nthan building a model of a simple game of course.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -7.047037601470947
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 127.49,
+        "timestamp_end": 248.54,
+        "text": "JOANA CARRASQUEIRA: We'll\nalso touch upon some developer tools for all\ntypes of experience from beginners to advanced. JOSH GORDON: Then we'll talk a\nlittle bit about infrastructure. And this talk is about\nsoftware not hardware. Our hardware infrastructure\nis TPUs, which you've probably heard a lot of. But in this talk,\nI'll briefly talk about XLA, which is a\nmachine learning compiler. And I'll talk about\nsome of the work we're doing for\ninference-- so making it possible to serve\nmodels at scale super efficiently with really\ncool new things with XLA for JAX and PyTorch. JOANA CARRASQUEIRA: OK. JOSH GORDON: Oh, and then\none more thing to mention. I went too fast. So sorry about that. So a lot of this talk is about\nthese huge foundation models. Towards the end of the talk,\nI'll talk about Google AI Edge. And we'll talk about\ndeploying small models on device, which is also super\nimportant for many reasons. JOANA CARRASQUEIRA: Awesome. OK. Let's start by exploring\nour core intelligence within our stack. We'll start with\nour Gemini models, which are our most capable\nand versatile model family. And our core philosophy here at\nGoogle is to provide developers with state-of-the-art models and\ntools that you can use to build powerful applications\nall throughout. And our Gemini models, they\nare known for being multimodal, have a long context window, and\nhaving very powerful reasoning, but we've built a variety of\nmodels for different use cases. So depending on what\nyou're trying to build, Google will have a model that\nis tailored for your use case. And I would like to just\ngive you a quick walkthrough of these models. I know you've heard\nit during the keynote, but, just very quickly,\nGemini 2.5 Pro, which is our most advanced\nmodel yet, especially for high complex tasks that\nbenefit from deep reasoning, it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -10.108715057373047
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_019",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 2201.15,
+        "timestamp_end": 2283.1,
+        "text": "So in order to learn\nmore, Josh, what do our developers have to do? JOSH GORDON: We have\njust a few links for you. So no problem. But we talked about a lot of\ndifferent tools in the stack. JOANA CARRASQUEIRA: We did. JOSH GORDON: So I don't\nwant to read the slide, but let me just point you\nto a couple highlights. ai.google.dev is the\nbest place to go to get started with Gemini and Gemma. We have a cookbook for Gemini. We have a cookbook for Gemma. Google AI Studio is\naistudio.google.com. If you're interested in JAX\nand Keras, there are the links. If you happen to be\ninterested in XLA, please check it\nout-- openxla.org. Google AI Edge is\nat the very bottom if you're a mobile\ndeveloper and you're interested in mobile deployment. And just to be clear, there's\nso many amazing things in the Google AI stack we didn't\nhave time to talk about today. Vertex has really amazing tools\nfor enterprise developers. But please, start\nhere, have fun, and, yeah, we're\naround after the talk. JOANA CARRASQUEIRA:\nYes, absolutely. And the Developer Relations\nteam is just outside. We have some really\ncool demo stations that you can experience. Engage with the team. Check out the sessions\ntomorrow, especially on the Gemini API,\nGemmaverse, and robotics. We have a lot of\ncool stuff that we want to put in the\nhands of developers. Many early access\nprograms as well. Stay in touch, stay\nengaged, and let's co-create the future of AI together. Thank you so much. JOSH GORDON: Thanks a lot. Thanks [APPLAUSE] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -10.234939575195312
+      }
+    ]
+  },
+  {
+    "query": "how do Gemini models perform on coding and multimodal tasks",
+    "reranked_docs": [
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.799860954284668
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 127.49,
+        "timestamp_end": 248.54,
+        "text": "JOANA CARRASQUEIRA: We'll\nalso touch upon some developer tools for all\ntypes of experience from beginners to advanced. JOSH GORDON: Then we'll talk a\nlittle bit about infrastructure. And this talk is about\nsoftware not hardware. Our hardware infrastructure\nis TPUs, which you've probably heard a lot of. But in this talk,\nI'll briefly talk about XLA, which is a\nmachine learning compiler. And I'll talk about\nsome of the work we're doing for\ninference-- so making it possible to serve\nmodels at scale super efficiently with really\ncool new things with XLA for JAX and PyTorch. JOANA CARRASQUEIRA: OK. JOSH GORDON: Oh, and then\none more thing to mention. I went too fast. So sorry about that. So a lot of this talk is about\nthese huge foundation models. Towards the end of the talk,\nI'll talk about Google AI Edge. And we'll talk about\ndeploying small models on device, which is also super\nimportant for many reasons. JOANA CARRASQUEIRA: Awesome. OK. Let's start by exploring\nour core intelligence within our stack. We'll start with\nour Gemini models, which are our most capable\nand versatile model family. And our core philosophy here at\nGoogle is to provide developers with state-of-the-art models and\ntools that you can use to build powerful applications\nall throughout. And our Gemini models, they\nare known for being multimodal, have a long context window, and\nhaving very powerful reasoning, but we've built a variety of\nmodels for different use cases. So depending on what\nyou're trying to build, Google will have a model that\nis tailored for your use case. And I would like to just\ngive you a quick walkthrough of these models. I know you've heard\nit during the keynote, but, just very quickly,\nGemini 2.5 Pro, which is our most advanced\nmodel yet, especially for high complex tasks that\nbenefit from deep reasoning, it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.8215813636779785
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_009",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 1130.2,
+        "timestamp_end": 1280.26,
+        "text": "But Luciano and I thought we\nwould hit some of the highlights that we really want people\nto know more about and use. So one of the areas of feedback\nthat we used to get a lot is you can, of course, upload\nfiles to the Gemini API. You can also, if you're\nless than 20 megabytes, you can also pass some of\nthese media information inline. But now, you can also-- and we've had this feature\nout for a few weeks. You can also pass\na YouTube link. And the Gemini API can\nanalyze that information. When you pass media files\nlike videos, depending on how much you want to fit\ninto the context window, you have now, a choice between\nthree resolution settings. At the lowest setting,\nyou can process up to six hours of video. But then you also have more\nhigh resolution settings that you can use. We support dynamic frame rate\nper second in the Gemini API. You can read that more about\nthat in our documentation, or come talk to me and Luciano. We support video clipping. That's a new feature. And we support\nimage segmentation. One other point I want to make\non multimodal understanding is even in the days\nof 1.5 and 2.0, Gemini models were\nsome of the best models out there for multimodal\nunderstanding. The example I like to give\nhere is I was in Costa Rica, and my guide showed\nme-- this is night. And my guide showed me\noh, there's a glass frog somewhere there on a branch. I took a photo, but I did not\nsee the glass frog in real life or in the photo. But I passed it to Gemini. And Gemini not\nonly saw the frog, it identified the\nspecies correctly. So that's how good multimodal\nunderstanding is on the Gemini. Please try it out. We also support long context. And then we, along with long-- long context is we have some\nof the largest context windows out there. So like the equivalent\nof depending on whether you're using a model\nwith 1 million context or 2 million context, you can read\nthe equivalent of eight novels, have the model read it\nand/or entire code bases. But what can sometimes\nhappen with long context",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 1.7633070945739746
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 751.58,
+        "timestamp_end": 904.85,
+        "text": "mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers, but will be rolled\nout more widely soon. And then we also have\nGemini Diffusion, which is the first time\nwe are testing a diffusion architecture as opposed to an\nautoregressive architecture. And these models are faster\nthan the fastest model out today and for almost\nsimilar, the performance. So try out both when you have\naccess to both Gemini Deep Diffusion and Deep Think. LUCIANO MARTINS: Perfect. SHRESTHA BASU MALLICK: All\nright, so the Gemini API. LUCIANO MARTINS: So yeah, if\nyou start thinking, especially after the keynote\nspeakers today, there are many surfaces where\nyou can interact with the Gemini models. So you have the Gemini app. You have Gemini available\non Google Cloud as the Code Assist, the assistant-- the\nCloud Assist inside the Console. You have Gemini on Workspace. So when you are talking\nabout developer experiences, we have the one\nspecific Gemini API with similar experiences as you\nhave on the no-code UI that we call AI Studio, where you\ncan start experimenting and developing your solutions\nusing the Gemini models, right? SHRESTHA BASU\nMALLICK: That's right. LUCIANO MARTINS: So\nbasically, the Gemini API is a very low barrier\nentry for having Gemini programmatic experiences. You have access to\nall public models there from the Gen Media ones,\nGemma, all the Gemini models, variants. You have a very generous\nfree of charge tier, where you can start\nexperimenting just after the session\nwithout concerns about credit cards, costs,\nbilling, anything of that. We keep developing\nmore SDKs for this API. So for now, you have available\none SDK for Python, JavaScript, Go, and Java. We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 0.2949094772338867
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 501.0,
+        "timestamp_end": 641.8,
+        "text": "you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models related to people\napplying robotics, developing robotic\nsolution with applied AI. And also, just\nafter the session, we have one another one\nwith Omar and Gus Martins to talk about Gemma 3,\nwhich is the open models family for from\nGoogle DeepMind, also developed with all\nthe technologies we use to develop Gemini. SHRESTHA BASU MALLICK:\nAnd some really good benchmark performance-- LUCIANO MARTINS: Absolutely. SHRESTHA BASU\nMALLICK: --in Gemma 3 as well, as Omar and\nGus will tell you. LUCIANO MARTINS:\nSo still talking about the different\nexperiences you may have, we heard a lot of feedbacks\nfrom you folks around the world. And one of the most asked\nfeatures we always heard were related to letting Gemini\nto create high quality audio. So yesterday we launched what\nwe are calling the Gemini TTS model, where you can from text\ngenerate high quality audio. But the coolest\nthing about the TTS is that you are not\njust creating audio. You have abilities to customize\nemotions on the audio. You may have multiple voices. You can create the audios\nwith different languages, like Brazilian Portuguese. And you can even create\nmulti-speaker interactions. So if, for example, you want\nto deliver an experience where your users will be thoughts\nabout something on a podcast, like formats, like the one\nyou have on the NotebookLM that people love. Who here is using\nNotebookLM for anything? Amazing. So you can have something\nlike the AI Overviews that are developed and delivered\nby the Gemini TTS model using the TTS, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.0250988006591797
+      }
+    ]
+  },
+  {
+    "query": "what is Gemini 2.5 Pro and what can it do for app building",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2130.98,
+        "timestamp_end": 2271.49,
+        "text": "If you're building\na research agent, maybe you want to\nuse the Chat API. If you're building\na gaming agent, maybe you want to use the real\ntime API or a customer support agent. Of course, you can build\nresearch agents also on the real time API. But in general, you now\nhave these two APIs. And then we've talked\nabout tools a lot. So all I'll say is\ngive us feedback in terms of what are some\nof the other tools that you would see Google make available\nthrough the Gemini API. LUCIANO MARTINS: Yeah. So as you just said,\nthe Gemini 2.5 Pro-- 2.5 models are thinking\ncapable, so they can do more advanced and\nmore complex reasoning. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS:\nAnd maybe we could highlight that now,\nspecifically for the 2.5 Flash, we have the ability of\nusing what we just mentioned, the thinking budgets, where\nyou can calibrate how deep and how much the model\nwill do reasoning cycles. And also for both models,\nwe can have access to what we are calling\nthought summaries. SHRESTHA BASU MALLICK: Yes. LUCIANO MARTINS: So\nbasically you are not only counting on the model\nability to reason, but also you can see on your\nresponse which key steps or which key reasoning\nthoughts the model had to get to our conclusion. So basically, that's a\npretty basic Gemini API code using the Python SDK. For those of you who\nnever used the SDK before, it's pretty straightforward. So three key blocks. You need to import the SDK,\nyou instantiate the client, and then you interact\nwith the model you want. Here we are interacting\nwith the Gemini 2.5 Flash. You send your prompts. And then you have\none specific bit called ThinkingConfig,\nwhere, in this code, you are asking the API\nto include the thought summaries on your\nresponse, and that's to include thoughts\nequals true, and also the amount of tokens you want\nto use during the reasoning process. On your response,\nyou're going to have part of the response will\nbe the thought summaries. So it's separated from the\nfinal answer by intention. If you want to keep\nthose on your backend,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.478099822998047
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_001",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 132.94,
+        "timestamp_end": 265.63,
+        "text": "And as part of that,\nwe have a section where we do a deep dive on\nagentic capabilities in the API. LUCIANO MARTINS:\nThanks for the add. SHRESTHA BASU MALLICK: Yeah. So starting with what are\nthe families of models we have available? So the most performant and\npowerful model that we have is the Gemini 2.5 Pro. It's in preview right now. A few weeks ago, we released\na updated version of 2.5 Pro. And it's suitable for highly\ncomplex tasks that require a lot of deep reasoning. And coding has been, of course,\na standout use case of that. We also have 2.5 Flash,\nwhich this Google I/O we released a new preview\nversion just yesterday for 2.5 Flash. And 2.5 Flash is\nour model size that has probably one of the\nbest price performance ratios in the market today. LUCIANO MARTINS: That's right. SHRESTHA BASU MALLICK: We\nalso have 2.0 Flash-Lite. So this is a small,\nfast, cheap model that you can use for high\nvolume tasks like summarization. And then Luciano,\ndo you want to talk about the Nano and\nthe Embedding models? LUCIANO MARTINS:\nYeah, absolutely. We heard a lot of\nfeedback from you folks. And many of you are\ndeveloping mobile applications or applications that\nmust run on devices. So then you have\nalso available what we call the Gemini\nNano, which is a smaller version of the Gemini, which is\nable to run locally on devices like on Android devices if you\nare developing with the Android Studio using the AI Corps. And also, many of you are\ntrying to create applications that do some kind\nof semantic ranking or to organize information\nin large scale. So you have also one model that\nwe call the Gemini Embedding, which the key objective of this\nmodel is to let you ingest text. And then the model delivers you\nhigh quality multidimensional embeddings. But how those\nmodels are behaving when we think about the key\nstandard benchmarks, Shrestha? SHRESTHA BASU\nMALLICK: Yeah, we'll go to the benchmarks\nin a second. But the message\nthat I want everyone to take away from this\nslide is whether it's",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.28004264831543
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 4.109065532684326
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 364.16,
+        "timestamp_end": 515.85,
+        "text": "SHRESTHA BASU\nMALLICK: Including, how did I forget that? We are number one guys,\nand we're very proud of it. [CHEERING] Thank you. One of the things,\none of the use cases that has been really emerging\nin the last couple of months is, of course, app creation\nand live coding and going from 0 to 1. The best leaderboard right now\nfor that is the WebDev Arena. And we again, are number one\nwith 2.5 Pro on WebDev Arena. So if you are trying to build\n0 to 1 or few shot apps, Gemini 2.5 Pro is a\ngreat model for that. But in addition to\nuser preferences, we also like to measure\nhow well our models are doing based on rigorous\nacademic benchmarks. And so I'm not going to\ngo into a lot of details on these slides. These are available\nin blog posts. Reach out to me\nand Luciano if you want to know how exactly\nthese models are doing. But the TL;DR here is whether\nit's in highly complex domain-specific questions,\nwhether it's in coding, whether it's in\nmultimodal understanding, the Gemini 2.5 Pro is leading\non a lot of these academic benchmarks as well. Finally, performance is\none side of the coin. The other side of the\ncoin is, of course, price. This is a chart from Swyx that's\nbeen very popular on Twitter for the last few years-- on X, I'm sorry for\nthe last few months. But this really shows that\neven for price performance, the Gemini 2.5 models are\nreally at the frontier. Luciano? LUCIANO MARTINS:\nYeah, and I think it is worth\nmentioning, Shrestha, especially for those\nof you who watched Sundar's keynote yesterday and\nalso the developer's keynotes. Inside the DeepMind, we\nare doing this huge effort of trying to cover the\ndifferent aspects of experiences you may have. So we will talk a lot\nabout Gemini here. But also, we have\nthe model family that we are calling\nGenMedia, where you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.5178134441375732
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 751.58,
+        "timestamp_end": 904.85,
+        "text": "mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers, but will be rolled\nout more widely soon. And then we also have\nGemini Diffusion, which is the first time\nwe are testing a diffusion architecture as opposed to an\nautoregressive architecture. And these models are faster\nthan the fastest model out today and for almost\nsimilar, the performance. So try out both when you have\naccess to both Gemini Deep Diffusion and Deep Think. LUCIANO MARTINS: Perfect. SHRESTHA BASU MALLICK: All\nright, so the Gemini API. LUCIANO MARTINS: So yeah, if\nyou start thinking, especially after the keynote\nspeakers today, there are many surfaces where\nyou can interact with the Gemini models. So you have the Gemini app. You have Gemini available\non Google Cloud as the Code Assist, the assistant-- the\nCloud Assist inside the Console. You have Gemini on Workspace. So when you are talking\nabout developer experiences, we have the one\nspecific Gemini API with similar experiences as you\nhave on the no-code UI that we call AI Studio, where you\ncan start experimenting and developing your solutions\nusing the Gemini models, right? SHRESTHA BASU\nMALLICK: That's right. LUCIANO MARTINS: So\nbasically, the Gemini API is a very low barrier\nentry for having Gemini programmatic experiences. You have access to\nall public models there from the Gen Media ones,\nGemma, all the Gemini models, variants. You have a very generous\nfree of charge tier, where you can start\nexperimenting just after the session\nwithout concerns about credit cards, costs,\nbilling, anything of that. We keep developing\nmore SDKs for this API. So for now, you have available\none SDK for Python, JavaScript, Go, and Java. We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.357248067855835
+      }
+    ]
+  },
+  {
+    "query": "where can I learn about Gemini GenMedia and robotic models",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 501.0,
+        "timestamp_end": 641.8,
+        "text": "you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models related to people\napplying robotics, developing robotic\nsolution with applied AI. And also, just\nafter the session, we have one another one\nwith Omar and Gus Martins to talk about Gemma 3,\nwhich is the open models family for from\nGoogle DeepMind, also developed with all\nthe technologies we use to develop Gemini. SHRESTHA BASU MALLICK:\nAnd some really good benchmark performance-- LUCIANO MARTINS: Absolutely. SHRESTHA BASU\nMALLICK: --in Gemma 3 as well, as Omar and\nGus will tell you. LUCIANO MARTINS:\nSo still talking about the different\nexperiences you may have, we heard a lot of feedbacks\nfrom you folks around the world. And one of the most asked\nfeatures we always heard were related to letting Gemini\nto create high quality audio. So yesterday we launched what\nwe are calling the Gemini TTS model, where you can from text\ngenerate high quality audio. But the coolest\nthing about the TTS is that you are not\njust creating audio. You have abilities to customize\nemotions on the audio. You may have multiple voices. You can create the audios\nwith different languages, like Brazilian Portuguese. And you can even create\nmulti-speaker interactions. So if, for example, you want\nto deliver an experience where your users will be thoughts\nabout something on a podcast, like formats, like the one\nyou have on the NotebookLM that people love. Who here is using\nNotebookLM for anything? Amazing. So you can have something\nlike the AI Overviews that are developed and delivered\nby the Gemini TTS model using the TTS, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.307231903076172
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_018",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 2055.719,
+        "timestamp_end": 2210.57,
+        "text": "development. And with AI\nco-scientist, a scientist can give a research goal to\nthe agent in natural language, and then the AI\nco-scientist is designed to give you an overview, and a\nhypothesis, and a methodology. So in order to do so, it uses\na coalition of different agents that work together. And we have the generation,\nagent review, ranking, evolution, proximity,\nand meta review that are all created\nwithin the inspiration and driven from the\nscientific method in itself. So it's another huge\nbreakthrough and another domain that we'll continue\nto see evolving here at Google DeepMind. And lastly, an area where we're\nseeing tremendous progress and we expect to continue\nhaving more future breakthroughs is in domain-specific models. And Gemini robotics\nmodels, which are currently in private early access, are\nadvanced vision, language, action models with the\naddition of physical actions as a new output\nmodality specifically for controlling robots. These models are robot agnostic,\nand it uses multi-embodiment which is a technique that can be\nused on anything from humanoids to large-scale\nindustrial machinery. So this is really,\nreally exciting. And Gemini robotics has been\nfine tuned to be dexterous. And that's why you can see so\nmany different cool use cases and applications here on stage,\nfrom folding an origami, which is something a bit more complex,\nand just holding a sandwich bag. So many new innovations\nare coming to you, are coming to life,\nand we'll continue pushing the boundaries of\nwhat's possible across all these different domains. And now, if you\nwant to learn more, there's many ways that you\ncan keep engaging with us, that you can keep\ngiving us feedback. We're also active\non social media, and we have a developer forum\nwhere you can interact directly with Googlers. So in order to learn\nmore, Josh, what do our developers have to do? JOSH GORDON: We have\njust a few links for you. So no problem. But we talked about a lot of\ndifferent tools in the stack. JOANA CARRASQUEIRA: We did.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.730037212371826
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 364.16,
+        "timestamp_end": 515.85,
+        "text": "SHRESTHA BASU\nMALLICK: Including, how did I forget that? We are number one guys,\nand we're very proud of it. [CHEERING] Thank you. One of the things,\none of the use cases that has been really emerging\nin the last couple of months is, of course, app creation\nand live coding and going from 0 to 1. The best leaderboard right now\nfor that is the WebDev Arena. And we again, are number one\nwith 2.5 Pro on WebDev Arena. So if you are trying to build\n0 to 1 or few shot apps, Gemini 2.5 Pro is a\ngreat model for that. But in addition to\nuser preferences, we also like to measure\nhow well our models are doing based on rigorous\nacademic benchmarks. And so I'm not going to\ngo into a lot of details on these slides. These are available\nin blog posts. Reach out to me\nand Luciano if you want to know how exactly\nthese models are doing. But the TL;DR here is whether\nit's in highly complex domain-specific questions,\nwhether it's in coding, whether it's in\nmultimodal understanding, the Gemini 2.5 Pro is leading\non a lot of these academic benchmarks as well. Finally, performance is\none side of the coin. The other side of the\ncoin is, of course, price. This is a chart from Swyx that's\nbeen very popular on Twitter for the last few years-- on X, I'm sorry for\nthe last few months. But this really shows that\neven for price performance, the Gemini 2.5 models are\nreally at the frontier. Luciano? LUCIANO MARTINS:\nYeah, and I think it is worth\nmentioning, Shrestha, especially for those\nof you who watched Sundar's keynote yesterday and\nalso the developer's keynotes. Inside the DeepMind, we\nare doing this huge effort of trying to cover the\ndifferent aspects of experiences you may have. So we will talk a lot\nabout Gemini here. But also, we have\nthe model family that we are calling\nGenMedia, where you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.4478187561035156
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 890.57,
+        "timestamp_end": 1021.23,
+        "text": "We launched a Java during\nI/O, right, Shrestha? And also, you have\nthe ability to use the API on other developer\ntools you may be using. For example, if you\nuse Firebase Studio, the API is available there. If you are a Google\nColab user, you have ways to interact with\nthe Gemini models as well. So the key idea is to\nmake it easier for you. No matter where you are having\nyour development experience, We are trying to bring\nGemini API closer to you. SHRESTHA BASU MALLICK:\nThat's correct. And I think this is\nalso a good place to make a plug for Google\nAI Studio, which of course, everyone knows about and loves. It is the place where\na lot of our developers first test out the\ncapabilities of the API before committing to\nbuilding applications at scale with the API. And Google AI Studio now\nhas code generation also. LUCIANO MARTINS: Absolutely. SHRESTHA BASU MALLICK: So this\nis a quick, high level overview of all the components that are\navailable through the Gemini API. It's pretty standard. You send in your prompt, you get\na response back from the model. If there's a tool\ncall needed, we do support a set of\nfirst party Google tools, as well as function calling. So in terms of the first party\nGoogle tools that we support, we, of course, support\nGoogle Search as a tool. The best search engine\nout there is now available as a tool for the\nmodel to call when it needs to. Now in addition to the\ninformation that you get out of Search, if you want to\nretrieve more in-depth content from web pages for\napplications such as you're building your own version\nof a research agent, so you pull some\ninformation from Search. You pull a set of\nURLs, but if you want to extract a little\nmore in depth content, we just released a new tool\nat I/O called URL Context. And then, of course, you can\ntake all that information. And if you want to create\nbeautiful charts out of it or run some analysis,\nwe make code execution available as a tool to\nyou via the API as well. Then, of course, you\nhave function calling.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.9200620651245117
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2746.57,
+        "timestamp_end": 2767.29,
+        "text": "more of the other features and\npossibilities with the models. And the last one is the Gemini\nCookbook, a GitHub repository that our team curates and keep\nupdating with a lot of sample experience for you. Thank you so much, Shrestha. Thank you so much you all. SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us. [CHEERING] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -4.224860191345215
+      }
+    ]
+  },
+  {
+    "query": "differences between Gemini models for robotics, chat, and audio generation tools",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 501.0,
+        "timestamp_end": 641.8,
+        "text": "you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models related to people\napplying robotics, developing robotic\nsolution with applied AI. And also, just\nafter the session, we have one another one\nwith Omar and Gus Martins to talk about Gemma 3,\nwhich is the open models family for from\nGoogle DeepMind, also developed with all\nthe technologies we use to develop Gemini. SHRESTHA BASU MALLICK:\nAnd some really good benchmark performance-- LUCIANO MARTINS: Absolutely. SHRESTHA BASU\nMALLICK: --in Gemma 3 as well, as Omar and\nGus will tell you. LUCIANO MARTINS:\nSo still talking about the different\nexperiences you may have, we heard a lot of feedbacks\nfrom you folks around the world. And one of the most asked\nfeatures we always heard were related to letting Gemini\nto create high quality audio. So yesterday we launched what\nwe are calling the Gemini TTS model, where you can from text\ngenerate high quality audio. But the coolest\nthing about the TTS is that you are not\njust creating audio. You have abilities to customize\nemotions on the audio. You may have multiple voices. You can create the audios\nwith different languages, like Brazilian Portuguese. And you can even create\nmulti-speaker interactions. So if, for example, you want\nto deliver an experience where your users will be thoughts\nabout something on a podcast, like formats, like the one\nyou have on the NotebookLM that people love. Who here is using\nNotebookLM for anything? Amazing. So you can have something\nlike the AI Overviews that are developed and delivered\nby the Gemini TTS model using the TTS, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.68087100982666
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 363.97,
+        "timestamp_end": 521.659,
+        "text": "On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API and also on [INAUDIBLE] API\nfor real generating audio. And some of the use\ncases here that we had in mind when\nwe built this were more dynamic audiobooks,\nsome more engaging podcasts, or, even for those of\nyou in customer support, producing more natural\nvoices into your workflows. We also have enhanced\ntooling, which is really cool, because now you\ncan use Grounding with Google Search, also with Code Execution\ntogether in just one API call, and URL context, which you\nheard during the keynote, which provides the model with\ndepth content from web pages. And since you can chain\nit to other tools, it's actually really powerful\nto build search agents. So really cool stuff. Lastly, just to call out that\nwe now offer Gemini SDK support for MCP, which reduces a\nlot of developer friction and simplifies building\nagentic capabilities. So you don't want to\nmiss tomorrow's talk to learn more about this. And Google AI Studio. Who here uses Google AI Studio? Can I see some hands? OK, awesome. Awesome. We have a lot to chat\nafter this session then. Google AI Studio is the\nperfect place for anyone to start developing with AI. It's the simplest way to test\nthe latest DeepMind models. We typically bring them\nto Google AI Studio so you can start prototyping\nand playing with the models. And you don't need Google\nCloud knowledge in order to set up your environment. It is free of charge, and you\ncan create, and test, and save your prompts. And there's also starter\napps that will inspire you. And that's exactly what I'm\ngoing to demo here today for you. I am going to show\nyou some of the work that the team has been doing. So if we go to Google AI Studio\nhere, if we go into Build, and Mumble Jumble is\nsomething that we've literally just created, and\nit's one of my favorite apps. So Mumble Jumble is one\nof those applications that",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 0.6535670161247253
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2130.98,
+        "timestamp_end": 2271.49,
+        "text": "If you're building\na research agent, maybe you want to\nuse the Chat API. If you're building\na gaming agent, maybe you want to use the real\ntime API or a customer support agent. Of course, you can build\nresearch agents also on the real time API. But in general, you now\nhave these two APIs. And then we've talked\nabout tools a lot. So all I'll say is\ngive us feedback in terms of what are some\nof the other tools that you would see Google make available\nthrough the Gemini API. LUCIANO MARTINS: Yeah. So as you just said,\nthe Gemini 2.5 Pro-- 2.5 models are thinking\ncapable, so they can do more advanced and\nmore complex reasoning. SHRESTHA BASU MALLICK: Yeah. LUCIANO MARTINS:\nAnd maybe we could highlight that now,\nspecifically for the 2.5 Flash, we have the ability of\nusing what we just mentioned, the thinking budgets, where\nyou can calibrate how deep and how much the model\nwill do reasoning cycles. And also for both models,\nwe can have access to what we are calling\nthought summaries. SHRESTHA BASU MALLICK: Yes. LUCIANO MARTINS: So\nbasically you are not only counting on the model\nability to reason, but also you can see on your\nresponse which key steps or which key reasoning\nthoughts the model had to get to our conclusion. So basically, that's a\npretty basic Gemini API code using the Python SDK. For those of you who\nnever used the SDK before, it's pretty straightforward. So three key blocks. You need to import the SDK,\nyou instantiate the client, and then you interact\nwith the model you want. Here we are interacting\nwith the Gemini 2.5 Flash. You send your prompts. And then you have\none specific bit called ThinkingConfig,\nwhere, in this code, you are asking the API\nto include the thought summaries on your\nresponse, and that's to include thoughts\nequals true, and also the amount of tokens you want\nto use during the reasoning process. On your response,\nyou're going to have part of the response will\nbe the thought summaries. So it's separated from the\nfinal answer by intention. If you want to keep\nthose on your backend,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -0.1672186255455017
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_005",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 628.55,
+        "timestamp_end": 769.3299999999999,
+        "text": "LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint. And then on our Live API,\nyesterday, we also rolled out the native audio output models. So this is now\nGoogle's first release of an audio-to-audio\narchitecture. And there are two variants of\nthis model that you have access through the Gemini Live API,\nwhich is our real time API. So you have the Native\nAudio Dialogue model, which is the real benefit of\nthe native audio output models are that the voices\nthat come out of it are much more natural\nand much more compelling. The native audio-to-audio\narchitecture has better contextual\nunderstanding of what humans say to the AI. It can seamlessly transition\nbetween different languages, so maybe from Brazilian\nPortuguese to Bengali, if you want to switch\nin the same language, in the same sentence. And it's available on\nour Gemini real time API. We also have a version\nof this model available, again on the real time\nAPI with thinking enabled. So for more complex use\ncases, so one use case that comes to mind is let's say\nyou're building a gaming agent to play a strategy game. And you want that agent to be\nable to think, but also to talk to you with relatively\nlow latency. We have a thinking version\nof the native audio model that's also now available\nfrom the Live API. So please try it out\nand give us feedback. LUCIANO MARTINS: Perfect. So how people can start\nusing those models, Shrestha? SHRESTHA BASU MALLICK:\nThrough the API. Of course. But before we go there,\nthere are two other things that we should mention. It's hot off the news. You've probably\nall heard about it. We've also enabled\nan advanced reasoning mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -0.35655921697616577
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_018",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 2055.719,
+        "timestamp_end": 2210.57,
+        "text": "development. And with AI\nco-scientist, a scientist can give a research goal to\nthe agent in natural language, and then the AI\nco-scientist is designed to give you an overview, and a\nhypothesis, and a methodology. So in order to do so, it uses\na coalition of different agents that work together. And we have the generation,\nagent review, ranking, evolution, proximity,\nand meta review that are all created\nwithin the inspiration and driven from the\nscientific method in itself. So it's another huge\nbreakthrough and another domain that we'll continue\nto see evolving here at Google DeepMind. And lastly, an area where we're\nseeing tremendous progress and we expect to continue\nhaving more future breakthroughs is in domain-specific models. And Gemini robotics\nmodels, which are currently in private early access, are\nadvanced vision, language, action models with the\naddition of physical actions as a new output\nmodality specifically for controlling robots. These models are robot agnostic,\nand it uses multi-embodiment which is a technique that can be\nused on anything from humanoids to large-scale\nindustrial machinery. So this is really,\nreally exciting. And Gemini robotics has been\nfine tuned to be dexterous. And that's why you can see so\nmany different cool use cases and applications here on stage,\nfrom folding an origami, which is something a bit more complex,\nand just holding a sandwich bag. So many new innovations\nare coming to you, are coming to life,\nand we'll continue pushing the boundaries of\nwhat's possible across all these different domains. And now, if you\nwant to learn more, there's many ways that you\ncan keep engaging with us, that you can keep\ngiving us feedback. We're also active\non social media, and we have a developer forum\nwhere you can interact directly with Googlers. So in order to learn\nmore, Josh, what do our developers have to do? JOSH GORDON: We have\njust a few links for you. So no problem. But we talked about a lot of\ndifferent tools in the stack. JOANA CARRASQUEIRA: We did.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.4345932006835938
+      }
+    ]
+  },
+  {
+    "query": "how can I generate natural-sounding speech from text with Gemini TTS",
+    "reranked_docs": [
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 363.97,
+        "timestamp_end": 521.659,
+        "text": "On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API and also on [INAUDIBLE] API\nfor real generating audio. And some of the use\ncases here that we had in mind when\nwe built this were more dynamic audiobooks,\nsome more engaging podcasts, or, even for those of\nyou in customer support, producing more natural\nvoices into your workflows. We also have enhanced\ntooling, which is really cool, because now you\ncan use Grounding with Google Search, also with Code Execution\ntogether in just one API call, and URL context, which you\nheard during the keynote, which provides the model with\ndepth content from web pages. And since you can chain\nit to other tools, it's actually really powerful\nto build search agents. So really cool stuff. Lastly, just to call out that\nwe now offer Gemini SDK support for MCP, which reduces a\nlot of developer friction and simplifies building\nagentic capabilities. So you don't want to\nmiss tomorrow's talk to learn more about this. And Google AI Studio. Who here uses Google AI Studio? Can I see some hands? OK, awesome. Awesome. We have a lot to chat\nafter this session then. Google AI Studio is the\nperfect place for anyone to start developing with AI. It's the simplest way to test\nthe latest DeepMind models. We typically bring them\nto Google AI Studio so you can start prototyping\nand playing with the models. And you don't need Google\nCloud knowledge in order to set up your environment. It is free of charge, and you\ncan create, and test, and save your prompts. And there's also starter\napps that will inspire you. And that's exactly what I'm\ngoing to demo here today for you. I am going to show\nyou some of the work that the team has been doing. So if we go to Google AI Studio\nhere, if we go into Build, and Mumble Jumble is\nsomething that we've literally just created, and\nit's one of my favorite apps. So Mumble Jumble is one\nof those applications that",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 3.59885311126709
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.6282472610473633
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 501.0,
+        "timestamp_end": 641.8,
+        "text": "you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models related to people\napplying robotics, developing robotic\nsolution with applied AI. And also, just\nafter the session, we have one another one\nwith Omar and Gus Martins to talk about Gemma 3,\nwhich is the open models family for from\nGoogle DeepMind, also developed with all\nthe technologies we use to develop Gemini. SHRESTHA BASU MALLICK:\nAnd some really good benchmark performance-- LUCIANO MARTINS: Absolutely. SHRESTHA BASU\nMALLICK: --in Gemma 3 as well, as Omar and\nGus will tell you. LUCIANO MARTINS:\nSo still talking about the different\nexperiences you may have, we heard a lot of feedbacks\nfrom you folks around the world. And one of the most asked\nfeatures we always heard were related to letting Gemini\nto create high quality audio. So yesterday we launched what\nwe are calling the Gemini TTS model, where you can from text\ngenerate high quality audio. But the coolest\nthing about the TTS is that you are not\njust creating audio. You have abilities to customize\nemotions on the audio. You may have multiple voices. You can create the audios\nwith different languages, like Brazilian Portuguese. And you can even create\nmulti-speaker interactions. So if, for example, you want\nto deliver an experience where your users will be thoughts\nabout something on a podcast, like formats, like the one\nyou have on the NotebookLM that people love. Who here is using\nNotebookLM for anything? Amazing. So you can have something\nlike the AI Overviews that are developed and delivered\nby the Gemini TTS model using the TTS, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.1866698265075684
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_012",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 1506.06,
+        "timestamp_end": 1650.34,
+        "text": "and images together, like\nhaving one explanation on step-by-step guide to do\nsome action, including visuals. And also, you can edit\nimages, right, Shrestha? So you can have one first\nversion of the image generated. You want to change the shirt\ncolor or the background or add glasses to the\ncharacter on the image, you can keep chatting\nwith the model, asking to modify the image. And you keep enhancing\nand optimizing your result, right, Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. And through Veo 2, you all\nsaw the release of Veo 3. That'll probably\ncome soon to the API. But with Veo 2, we support text\nto video and image to video. This is again from\na recent blog post that our researchers put\nout about a week ago. You can see the 2.5 Pro\nalso, as I mentioned earlier, leads on key video understanding\nbenchmarks like MMMU. So that's also something that\nwe're very proud of that we've been pushing the boundaries on. OK. So now let's talk\nabout the Live API. So a lot of our\nfeatures, as I mentioned, are available\nthrough the Chat API. But we also provide\nthe Gemini Live API, which is our real time, low\nlatency API for use cases that require more of these\ninteractive real time kind of experiences. There are two architectures now\navailable through this Live API. There is the cascaded\narchitecture, which has native audio\ninput, but the output is done using text\nto speech, and we were using the same text\nto speech models that was used by NotebookLM. A lot of people preferred\nthis architecture because it's more reliable. We've had it out since\nDecember, and we're aiming to bring the\nlatest 2.5 Flash model to this architecture. We also, starting I/O, now have\nthe audio-to-audio architecture that I mentioned, where you\nhave native audio input as well as native audio output. And this, of course, native\naudio output, as I already mentioned, gives you\nmuch more natural sounding voices\nand the ability-- you don't now have to\nspecify your language. You can seamlessly switch\nbetween languages and flow in and out.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 2.040912628173828
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_005",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 628.55,
+        "timestamp_end": 769.3299999999999,
+        "text": "LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint. And then on our Live API,\nyesterday, we also rolled out the native audio output models. So this is now\nGoogle's first release of an audio-to-audio\narchitecture. And there are two variants of\nthis model that you have access through the Gemini Live API,\nwhich is our real time API. So you have the Native\nAudio Dialogue model, which is the real benefit of\nthe native audio output models are that the voices\nthat come out of it are much more natural\nand much more compelling. The native audio-to-audio\narchitecture has better contextual\nunderstanding of what humans say to the AI. It can seamlessly transition\nbetween different languages, so maybe from Brazilian\nPortuguese to Bengali, if you want to switch\nin the same language, in the same sentence. And it's available on\nour Gemini real time API. We also have a version\nof this model available, again on the real time\nAPI with thinking enabled. So for more complex use\ncases, so one use case that comes to mind is let's say\nyou're building a gaming agent to play a strategy game. And you want that agent to be\nable to think, but also to talk to you with relatively\nlow latency. We have a thinking version\nof the native audio model that's also now available\nfrom the Live API. So please try it out\nand give us feedback. LUCIANO MARTINS: Perfect. So how people can start\nusing those models, Shrestha? SHRESTHA BASU MALLICK:\nThrough the API. Of course. But before we go there,\nthere are two other things that we should mention. It's hot off the news. You've probably\nall heard about it. We've also enabled\nan advanced reasoning mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -0.1445402354001999
+      }
+    ]
+  },
+  {
+    "query": "what are the customization options for voices and emotions in Gemini TTS",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 501.0,
+        "timestamp_end": 641.8,
+        "text": "you are able to generate high\nquality images, high quality videos. You also have-- and there is a\ncolleague from our team, Paul Ruiz, who is delivering\na talk this afternoon related to the Gemini Robotics,\nthe Gemini family of models related to people\napplying robotics, developing robotic\nsolution with applied AI. And also, just\nafter the session, we have one another one\nwith Omar and Gus Martins to talk about Gemma 3,\nwhich is the open models family for from\nGoogle DeepMind, also developed with all\nthe technologies we use to develop Gemini. SHRESTHA BASU MALLICK:\nAnd some really good benchmark performance-- LUCIANO MARTINS: Absolutely. SHRESTHA BASU\nMALLICK: --in Gemma 3 as well, as Omar and\nGus will tell you. LUCIANO MARTINS:\nSo still talking about the different\nexperiences you may have, we heard a lot of feedbacks\nfrom you folks around the world. And one of the most asked\nfeatures we always heard were related to letting Gemini\nto create high quality audio. So yesterday we launched what\nwe are calling the Gemini TTS model, where you can from text\ngenerate high quality audio. But the coolest\nthing about the TTS is that you are not\njust creating audio. You have abilities to customize\nemotions on the audio. You may have multiple voices. You can create the audios\nwith different languages, like Brazilian Portuguese. And you can even create\nmulti-speaker interactions. So if, for example, you want\nto deliver an experience where your users will be thoughts\nabout something on a podcast, like formats, like the one\nyou have on the NotebookLM that people love. Who here is using\nNotebookLM for anything? Amazing. So you can have something\nlike the AI Overviews that are developed and delivered\nby the Gemini TTS model using the TTS, right Shrestha? SHRESTHA BASU MALLICK:\nThat's correct. LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint.",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": 0.763524055480957
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 363.97,
+        "timestamp_end": 521.659,
+        "text": "On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API and also on [INAUDIBLE] API\nfor real generating audio. And some of the use\ncases here that we had in mind when\nwe built this were more dynamic audiobooks,\nsome more engaging podcasts, or, even for those of\nyou in customer support, producing more natural\nvoices into your workflows. We also have enhanced\ntooling, which is really cool, because now you\ncan use Grounding with Google Search, also with Code Execution\ntogether in just one API call, and URL context, which you\nheard during the keynote, which provides the model with\ndepth content from web pages. And since you can chain\nit to other tools, it's actually really powerful\nto build search agents. So really cool stuff. Lastly, just to call out that\nwe now offer Gemini SDK support for MCP, which reduces a\nlot of developer friction and simplifies building\nagentic capabilities. So you don't want to\nmiss tomorrow's talk to learn more about this. And Google AI Studio. Who here uses Google AI Studio? Can I see some hands? OK, awesome. Awesome. We have a lot to chat\nafter this session then. Google AI Studio is the\nperfect place for anyone to start developing with AI. It's the simplest way to test\nthe latest DeepMind models. We typically bring them\nto Google AI Studio so you can start prototyping\nand playing with the models. And you don't need Google\nCloud knowledge in order to set up your environment. It is free of charge, and you\ncan create, and test, and save your prompts. And there's also starter\napps that will inspire you. And that's exactly what I'm\ngoing to demo here today for you. I am going to show\nyou some of the work that the team has been doing. So if we go to Google AI Studio\nhere, if we go into Build, and Mumble Jumble is\nsomething that we've literally just created, and\nit's one of my favorite apps. So Mumble Jumble is one\nof those applications that",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -0.25326281785964966
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "schema_version": "canonical_v1",
+        "video_id": "4TE-KFXvhAk",
+        "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+        "timestamp_start": 230.74,
+        "timestamp_end": 380.44,
+        "text": "it's really good at coding\nand also more complex prompts. It leads coding\nbenchmarks including WebDev Arena leaderboard,\nand it's really our most powerful model. Gemini 2.5 Flash, which\ndevelopers love it because of its\nefficiency and speed, and it's now even better at\nalmost every single dimension. So we improved\nall the benchmarks across reasoning, coding,\nmultimodality, and also long context. Then we have our Gemini 2.0\nFlash, which is fast and cheap, works fine, and our\nGemini Nano, which is optimized for on-device tasks. And as you've heard, we've\nbeen shipping relentlessly. And I would like to give\nyou just a quick highlight of everything that we've\nbeen shipping in AI Studio and the Gemini API. There's a talk\ntomorrow that I would like to invite you to attend,\nwhich is by Shrestha Basu Mallick, a group product\nmanager on Gemini API, and Luciano Martins, our\ntechnical lead for Gemini API from DevRel. And they're going to do a deep\ndive into everything that's new within the Gemini\nAPI, so you definitely don't want to miss\nthat session tomorrow. But for now, just a glimpse to\nget you excited about what's new in AI Studio. We've built a new tab\nthat is called Build that instantly generates web apps. And it's really cool, because it\nenables developers and builders alike to prototype very\nquickly with natural language. We have a new generative media\nexperience in AI Studio as well, and I'm going to\ndemo all of this so you can see how\nit actually works. And we are always\nlistening to the community. We listen to your\nfeedback, and we always build with developers in mind. And that's why that\nsome of these features were actually\nrequested by community, and that's what happened with\nthe built-in new dashboard. You requested. We built it. And we also have some\nnew Native Audio and TTS support in AI Studio. On the Gemini API\nside of things, there are also new capabilities\nfor text-to-speech, allowing you to control\nemotion and style for a more expressive and dynamic audio. And it's both available\non the live API",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -1.3281474113464355
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_005",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 628.55,
+        "timestamp_end": 769.3299999999999,
+        "text": "LUCIANO MARTINS: And I think it\nis not the only thing related to audio. We brought that to the live\ninteractions as well, right? SHRESTHA BASU\nMALLICK: That's right. So the TTS models,\nlike Luciano said, are available via chat endpoint. And then on our Live API,\nyesterday, we also rolled out the native audio output models. So this is now\nGoogle's first release of an audio-to-audio\narchitecture. And there are two variants of\nthis model that you have access through the Gemini Live API,\nwhich is our real time API. So you have the Native\nAudio Dialogue model, which is the real benefit of\nthe native audio output models are that the voices\nthat come out of it are much more natural\nand much more compelling. The native audio-to-audio\narchitecture has better contextual\nunderstanding of what humans say to the AI. It can seamlessly transition\nbetween different languages, so maybe from Brazilian\nPortuguese to Bengali, if you want to switch\nin the same language, in the same sentence. And it's available on\nour Gemini real time API. We also have a version\nof this model available, again on the real time\nAPI with thinking enabled. So for more complex use\ncases, so one use case that comes to mind is let's say\nyou're building a gaming agent to play a strategy game. And you want that agent to be\nable to think, but also to talk to you with relatively\nlow latency. We have a thinking version\nof the native audio model that's also now available\nfrom the Live API. So please try it out\nand give us feedback. LUCIANO MARTINS: Perfect. So how people can start\nusing those models, Shrestha? SHRESTHA BASU MALLICK:\nThrough the API. Of course. But before we go there,\nthere are two other things that we should mention. It's hot off the news. You've probably\nall heard about it. We've also enabled\nan advanced reasoning mode called Deep Think. And the idea behind Deep\nThink is that the model 2.5 Pro can think through various\npossible answers to a problem before giving you\nthe best answer. So that is available\nin trusted testers,",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -2.827732801437378
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "schema_version": "canonical_v1",
+        "video_id": "gHHjDRDNUNU",
+        "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+        "timestamp_start": 2746.57,
+        "timestamp_end": 2767.29,
+        "text": "more of the other features and\npossibilities with the models. And the last one is the Gemini\nCookbook, a GitHub repository that our team curates and keep\nupdating with a lot of sample experience for you. Thank you so much, Shrestha. Thank you so much you all. SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us. [CHEERING] [MUSIC PLAYING]",
+        "source": "youtube",
+        "speaker": "unknown",
+        "rerank_score": -9.40207290649414
+      }
+    ]
+  }
+]

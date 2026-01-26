@@ -1,0 +1,60 @@
+# retrieval/config.yaml
+
+# --------------------
+# Qdrant
+# --------------------
+qdrant:
+  url: "http://localhost:6333"
+
+# --------------------
+# Retrievers
+# --------------------
+sparse:
+  collection_name: "google-io-transcripts-sparse"
+  top_k: 5
+  tokenizer: "simple"  # simple | nltk | spacy
+
+dense:
+  collection_name: "google-io-transcripts-dense"
+  embedding_model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k: 5
+
+hybrid:
+  collection_name: "google-io-transcripts-hybrid"
+  embedding_model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k: 5
+  sparse_prefetch_k: 50
+  fusion:
+    type: "rrf"   # native | rrf | weighted
+
+# --------------------
+# Rerankers
+# --------------------
+rerankers:
+  input:
+    type: "hybrid"   # hybrid | dense | sparse
+
+  cross_encoder:
+    enabled: true
+    model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    top_k: 10
+
+  # Future extension
+  cohere:
+    enabled: false
+    api_key: "YOUR_COHERE_API_KEY"
+    model_name: "rerank-english-v3.0"
+    top_k: 10
+
+# --------------------
+# Files
+# --------------------
+files:
+  input_file: "data/eval/results"
+  output_file: "data/eval/results/reranked_crossencoder.json"
+
+# --------------------
+# Logging
+# --------------------
+logging:
+  level: "INFO"

@@ -1,0 +1,422 @@
+[
+  {
+    "query": "differences between Gemini developer API features and other AI platforms",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "rerank_score": -11.298738479614258
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.300256729125977
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.301151275634766
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "rerank_score": -11.30835247039795
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "rerank_score": -11.323162078857422
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ]
+  },
+  {
+    "query": "how to integrate Gemini API for building AI apps with text, images, and video",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "rerank_score": -11.075437545776367
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "rerank_score": -11.20637321472168
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "rerank_score": -11.206552505493164
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_006",
+        "rerank_score": -11.214630126953125
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_007",
+        "rerank_score": -11.219813346862793
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ]
+  },
+  {
+    "query": "what is Gemini model family and how do I use it for multi-modal data",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.211750030517578
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_009",
+        "rerank_score": -11.211793899536133
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.217696189880371
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "rerank_score": -11.217947006225586
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_008",
+        "rerank_score": -11.298276901245117
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ]
+  },
+  {
+    "query": "how do Gemini embeddings work for semantic search and ranking",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_011",
+        "rerank_score": -11.166297912597656
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.167945861816406
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.176258087158203
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "rerank_score": -11.322742462158203
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "rerank_score": -11.322856903076172
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ]
+  },
+  {
+    "query": "how to run Gemini Nano on Android devices for on-device intelligence",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "rerank_score": -11.266986846923828
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.26853084564209
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "rerank_score": -11.272119522094727
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "rerank_score": -11.317802429199219
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_007",
+        "rerank_score": -11.31933307647705
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ]
+  },
+  {
+    "query": "what are the different Gemini AI models and what are they best for",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.416762351989746
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "rerank_score": -11.418805122375488
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.420356750488281
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.42134952545166
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "rerank_score": -11.421565055847168
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ]
+  },
+  {
+    "query": "how does the Gemini 2.5 series compare to older versions",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.348468780517578
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_003",
+        "rerank_score": -11.349992752075195
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.351916313171387
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "rerank_score": -11.354442596435547
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.354989051818848
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ]
+  },
+  {
+    "query": "what are the best Gemini models right now for on-device tasks",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.391927719116211
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.392377853393555
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "rerank_score": -11.395122528076172
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.39571762084961
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "rerank_score": -11.417276382446289
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ]
+  },
+  {
+    "query": "where can I test AI models with LMArena and see their Elo ratings",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_003",
+        "rerank_score": -11.2122163772583
+      },
+      {
+        "id": "o7Bv4r08FBM__chunk_007",
+        "rerank_score": -11.212860107421875
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_001",
+        "rerank_score": -11.271031379699707
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_019",
+        "rerank_score": -11.284661293029785
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_017",
+        "rerank_score": -11.294427871704102
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ]
+  },
+  {
+    "query": "how do Gemini models perform on coding and multimodal tasks",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.334653854370117
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_009",
+        "rerank_score": -11.338908195495605
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.341778755187988
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "rerank_score": -11.344127655029297
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.345383644104004
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ]
+  },
+  {
+    "query": "what is Gemini 2.5 Pro and what can it do for app building",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_003",
+        "rerank_score": -11.394428253173828
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.39460563659668
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_002",
+        "rerank_score": -11.395743370056152
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_006",
+        "rerank_score": -11.398605346679688
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_002",
+        "rerank_score": -11.45718002319336
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ]
+  },
+  {
+    "query": "where can I learn about Gemini GenMedia and robotic models",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.312280654907227
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.322516441345215
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "rerank_score": -11.323372840881348
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_007",
+        "rerank_score": -11.325321197509766
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_007",
+        "rerank_score": -11.406137466430664
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ]
+  },
+  {
+    "query": "differences between Gemini models for robotics, chat, and audio generation tools",
+    "reranked_docs": [
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "rerank_score": -11.190363883972168
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_017",
+        "rerank_score": -11.197527885437012
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_009",
+        "rerank_score": -11.19765567779541
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.205469131469727
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "rerank_score": -11.205978393554688
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ]
+  },
+  {
+    "query": "how can I generate natural-sounding speech from text with Gemini TTS",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_005",
+        "rerank_score": -11.252082824707031
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "rerank_score": -11.25267505645752
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_011",
+        "rerank_score": -11.340633392333984
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "rerank_score": -11.346794128417969
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_009",
+        "rerank_score": -11.348114013671875
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ]
+  },
+  {
+    "query": "what are the customization options for voices and emotions in Gemini TTS",
+    "reranked_docs": [
+      {
+        "id": "gHHjDRDNUNU__chunk_005",
+        "rerank_score": -11.30274486541748
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_022",
+        "rerank_score": -11.30726432800293
+      },
+      {
+        "id": "gHHjDRDNUNU__chunk_004",
+        "rerank_score": -11.307966232299805
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_003",
+        "rerank_score": -11.33590030670166
+      },
+      {
+        "id": "4TE-KFXvhAk__chunk_009",
+        "rerank_score": -11.338561058044434
+      }
+    ],
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ]
+  }
+]

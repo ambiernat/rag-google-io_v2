@@ -1,0 +1,4577 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "o7Bv4r08FBM",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.802
+    },
+    {
+      "text": "GUS MARTINS: Hi, everyone.",
+      "start": 6.08,
+      "duration": 1.35
+    },
+    {
+      "text": "Good morning.",
+      "start": 7.43,
+      "duration": 1.12
+    },
+    {
+      "text": "I'm very happy to be here.",
+      "start": 8.55,
+      "duration": 2.9
+    },
+    {
+      "text": "Welcome to my \"very dear\nto my heart\" session,",
+      "start": 11.45,
+      "duration": 4.21
+    },
+    {
+      "text": "What's New in the Gemmaverse?",
+      "start": 15.66,
+      "duration": 2.15
+    },
+    {
+      "text": "It's something we really, really\nwork very hard to bring to you.",
+      "start": 17.81,
+      "duration": 4.74
+    },
+    {
+      "text": "So one question that we get a\nlot is, what is Gemma, right?",
+      "start": 22.55,
+      "duration": 5.98
+    },
+    {
+      "text": "What's this new thing?",
+      "start": 28.53,
+      "duration": 1.28
+    },
+    {
+      "text": "We have Gemini,\nbut what's Gemma?",
+      "start": 29.81,
+      "duration": 2.19
+    },
+    {
+      "text": "Let me give you one step back\nand try to explain to you why",
+      "start": 32.0,
+      "duration": 3.45
+    },
+    {
+      "text": "we do all that we do.",
+      "start": 35.45,
+      "duration": 2.31
+    },
+    {
+      "text": "In Google DeepMind,\nwe, of course,",
+      "start": 37.76,
+      "duration": 2.2
+    },
+    {
+      "text": "try to push AI research\nas much as possible.",
+      "start": 39.96,
+      "duration": 3.78
+    },
+    {
+      "text": "But the important\nthing about that",
+      "start": 43.74,
+      "duration": 1.58
+    },
+    {
+      "text": "is-- and we really want\nto solve intelligence.",
+      "start": 45.32,
+      "duration": 3.33
+    },
+    {
+      "text": "How can we make\nsystems be intelligent?",
+      "start": 48.65,
+      "duration": 3.97
+    },
+    {
+      "text": "This is a very hard task.",
+      "start": 52.62,
+      "duration": 1.59
+    },
+    {
+      "text": "It's not something that\nyou can just pull it off.",
+      "start": 54.21,
+      "duration": 2.49
+    },
+    {
+      "text": "We need everyone to collaborate.",
+      "start": 56.7,
+      "duration": 1.77
+    },
+    {
+      "text": "And that's why we think\nthat's very important to make",
+      "start": 58.47,
+      "duration": 4.19
+    },
+    {
+      "text": "our research\navailable to everyone,",
+      "start": 62.66,
+      "duration": 2.95
+    },
+    {
+      "text": "to make it available\nto developers,",
+      "start": 65.61,
+      "duration": 2.19
+    },
+    {
+      "text": "to other researchers,\nto regular users,",
+      "start": 67.8,
+      "duration": 3.03
+    },
+    {
+      "text": "just so that it\nevolves with everyone,",
+      "start": 70.83,
+      "duration": 2.87
+    },
+    {
+      "text": "and everyone can collaborate.",
+      "start": 73.7,
+      "duration": 1.87
+    },
+    {
+      "text": "We've been publishing\ngreat work for a while.",
+      "start": 75.57,
+      "duration": 2.87
+    },
+    {
+      "text": "I guess you've seen AlphaFold,\nAlphaZero, AlphaStar, all",
+      "start": 78.44,
+      "duration": 4.86
+    },
+    {
+      "text": "of these Alpha--",
+      "start": 83.3,
+      "duration": 0.91
+    },
+    {
+      "text": "AlphaEvolve, all of them.",
+      "start": 84.21,
+      "duration": 1.85
+    },
+    {
+      "text": "That's not the real name.",
+      "start": 86.06,
+      "duration": 1.54
+    },
+    {
+      "text": "But the idea is we\npush this technology",
+      "start": 87.6,
+      "duration": 3.14
+    },
+    {
+      "text": "because we want to make sure\nthat everyone benefits from it.",
+      "start": 90.74,
+      "duration": 3.45
+    },
+    {
+      "text": "And when we wanted to\ncreate an open model,",
+      "start": 94.19,
+      "duration": 4.6
+    },
+    {
+      "text": "the idea was, first,\nAI for everyone.",
+      "start": 98.79,
+      "duration": 3.2
+    },
+    {
+      "text": "Make sure that everyone\nhave access to it.",
+      "start": 101.99,
+      "duration": 3.3
+    },
+    {
+      "text": "And that's why\nbeing open matters.",
+      "start": 105.29,
+      "duration": 3.16
+    },
+    {
+      "text": "That's why we want everyone\nto be able to try the model,",
+      "start": 108.45,
+      "duration": 3.63
+    },
+    {
+      "text": "change the model, make it their\nversion, make it their own.",
+      "start": 112.08,
+      "duration": 4.26
+    },
+    {
+      "text": "That's very important to us.",
+      "start": 116.34,
+      "duration": 1.98
+    },
+    {
+      "text": "And another very important\nthing that we have in mind",
+      "start": 118.32,
+      "duration": 2.58
+    },
+    {
+      "text": "is making this as\nresponsible as possible.",
+      "start": 120.9,
+      "duration": 3.52
+    },
+    {
+      "text": "We know that these models,\nthey bring a lot of power.",
+      "start": 124.42,
+      "duration": 5.04
+    },
+    {
+      "text": "But we also would like to have\nthe same responsible perspective",
+      "start": 129.46,
+      "duration": 3.8
+    },
+    {
+      "text": "on it so that we go\nbeyond benefiting people,",
+      "start": 133.26,
+      "duration": 4.42
+    },
+    {
+      "text": "protecting people from the\nharms that they could cause.",
+      "start": 137.68,
+      "duration": 3.3
+    },
+    {
+      "text": "So that's the idea of--\nall these models, whenever",
+      "start": 140.98,
+      "duration": 2.3
+    },
+    {
+      "text": "we train them, we\nkeep responsibility",
+      "start": 143.28,
+      "duration": 2.73
+    },
+    {
+      "text": "as one of the main\nthings for all of them.",
+      "start": 146.01,
+      "duration": 4.726
+    },
+    {
+      "text": "And that's how we got to Gemma.",
+      "start": 150.736,
+      "duration": 2.004
+    },
+    {
+      "text": "Gemma is our family\nof open models.",
+      "start": 152.74,
+      "duration": 3.53
+    },
+    {
+      "text": "They are based on\nGemini technology.",
+      "start": 156.27,
+      "duration": 2.07
+    },
+    {
+      "text": "And they are available for\nyou in many flavors and sizes.",
+      "start": 158.34,
+      "duration": 3.7
+    },
+    {
+      "text": "I'm going to go into\nsome details soon.",
+      "start": 162.04,
+      "duration": 2.73
+    },
+    {
+      "text": "We launched them last year.",
+      "start": 164.77,
+      "duration": 2.12
+    },
+    {
+      "text": "And we've just completed\na one-year anniversary.",
+      "start": 166.89,
+      "duration": 4.395
+    },
+    {
+      "text": "It was a beautiful journey.",
+      "start": 171.285,
+      "duration": 1.945
+    },
+    {
+      "text": "Last year, we\npresented them here.",
+      "start": 173.23,
+      "duration": 2.25
+    },
+    {
+      "text": "So if you know me, you've seen\nme talk about them for a while",
+      "start": 175.48,
+      "duration": 3.64
+    },
+    {
+      "text": "now.",
+      "start": 179.12,
+      "duration": 0.55
+    },
+    {
+      "text": "When we released Gemma\n1, we had two sizes,",
+      "start": 179.67,
+      "duration": 4.5
+    },
+    {
+      "text": "which was a 2B and a 7B.",
+      "start": 184.17,
+      "duration": 2.51
+    },
+    {
+      "text": "But what does that mean?",
+      "start": 186.68,
+      "duration": 1.54
+    },
+    {
+      "text": "So when we say \"a model,\" a\nmodel is basically a very long",
+      "start": 188.22,
+      "duration": 4.85
+    },
+    {
+      "text": "math equation, right?",
+      "start": 193.07,
+      "duration": 1.3
+    },
+    {
+      "text": "Very long.",
+      "start": 194.37,
+      "duration": 1.19
+    },
+    {
+      "text": "And for each a\ntimes x, b times x--",
+      "start": 195.56,
+      "duration": 4.62
+    },
+    {
+      "text": "for each one of these a, b, c,\nwe would say that's a parameter.",
+      "start": 200.18,
+      "duration": 4.18
+    },
+    {
+      "text": "When we say 2B, we say that\nthere are 2 billion parameters.",
+      "start": 204.36,
+      "duration": 3.48
+    },
+    {
+      "text": "So it's like a\ngigantic math equation,",
+      "start": 207.84,
+      "duration": 2.21
+    },
+    {
+      "text": "with 2 billion parameters.",
+      "start": 210.05,
+      "duration": 1.21
+    },
+    {
+      "text": "That's like a layman\nversion of what it is.",
+      "start": 211.26,
+      "duration": 5.526
+    },
+    {
+      "text": "Don't tell this to a researcher.",
+      "start": 216.786,
+      "duration": 1.854
+    },
+    {
+      "text": "But the idea is that 2B\nis a very large model,",
+      "start": 218.64,
+      "duration": 3.77
+    },
+    {
+      "text": "but it's kind of small\ncompared to other models.",
+      "start": 222.41,
+      "duration": 2.56
+    },
+    {
+      "text": "And we release also a 7B.",
+      "start": 224.97,
+      "duration": 1.28
+    },
+    {
+      "text": "And people really,\nreally like them.",
+      "start": 226.25,
+      "duration": 2.35
+    },
+    {
+      "text": "And since then, Gemma\nhas been downloaded",
+      "start": 228.6,
+      "duration": 3.08
+    },
+    {
+      "text": "over 150 million times.",
+      "start": 231.68,
+      "duration": 3.1
+    },
+    {
+      "text": "I guess we're close to 160,\nsince we created this slide.",
+      "start": 234.78,
+      "duration": 3.93
+    },
+    {
+      "text": "So things are moving super fast.",
+      "start": 238.71,
+      "duration": 2.28
+    },
+    {
+      "text": "We are very, very happy\nwith the results so far.",
+      "start": 240.99,
+      "duration": 3.83
+    },
+    {
+      "text": "Since our launch, we released\nmany variants ourselves.",
+      "start": 244.82,
+      "duration": 4.51
+    },
+    {
+      "text": "We created multiple versions.",
+      "start": 249.33,
+      "duration": 1.403
+    },
+    {
+      "text": "So for example, there's\na bunch of names here.",
+      "start": 250.733,
+      "duration": 1.917
+    },
+    {
+      "text": "Let me go a little bit--\nfor example, PaliGemma.",
+      "start": 252.65,
+      "duration": 2.56
+    },
+    {
+      "text": "PaliGemma was a model we\nreleased last year at Google",
+      "start": 255.21,
+      "duration": 2.48
+    },
+    {
+      "text": "I/O, right here, which\nis the first Gemma",
+      "start": 257.69,
+      "duration": 2.55
+    },
+    {
+      "text": "model that has vision.",
+      "start": 260.24,
+      "duration": 1.89
+    },
+    {
+      "text": "You could give an image\nand ask a question.",
+      "start": 262.13,
+      "duration": 2.82
+    },
+    {
+      "text": "And it was the best VLM,\nVisual Language Model, so far.",
+      "start": 264.95,
+      "duration": 5.22
+    },
+    {
+      "text": "It was great.",
+      "start": 270.17,
+      "duration": 1.33
+    },
+    {
+      "text": "That's why we did a PaliGemma\n2 in the end of the year,",
+      "start": 271.5,
+      "duration": 3.12
+    },
+    {
+      "text": "so we kept pushing.",
+      "start": 274.62,
+      "duration": 1.44
+    },
+    {
+      "text": "We also had other\nvariants, like ShieldGemma,",
+      "start": 276.06,
+      "duration": 2.545
+    },
+    {
+      "text": "which I'll talk\na little bit more",
+      "start": 278.605,
+      "duration": 1.375
+    },
+    {
+      "text": "later, which the idea\nis a safety classifier.",
+      "start": 279.98,
+      "duration": 2.56
+    },
+    {
+      "text": "So you can do--",
+      "start": 282.54,
+      "duration": 1.17
+    },
+    {
+      "text": "I'll explain the details\nlater, but the idea",
+      "start": 283.71,
+      "duration": 1.833
+    },
+    {
+      "text": "is to make your AI systems even\nmore responsible as a whole.",
+      "start": 285.543,
+      "duration": 5.987
+    },
+    {
+      "text": "Aside from the regular\nvariants, we also",
+      "start": 291.53,
+      "duration": 3.78
+    },
+    {
+      "text": "published more core\nmodels, as we say.",
+      "start": 295.31,
+      "duration": 2.44
+    },
+    {
+      "text": "When we say core models,\nwe release Gemma 1,",
+      "start": 297.75,
+      "duration": 2.36
+    },
+    {
+      "text": "and then we release\nGemma 2, and then",
+      "start": 300.11,
+      "duration": 2.04
+    },
+    {
+      "text": "we release Gemma 3,\nbeginning of this year.",
+      "start": 302.15,
+      "duration": 2.13
+    },
+    {
+      "text": "And yesterday, we released\nGemma 3n that I'm going to talk",
+      "start": 304.28,
+      "duration": 2.7
+    },
+    {
+      "text": "a little bit more,\nin a little bit.",
+      "start": 306.98,
+      "duration": 2.08
+    },
+    {
+      "text": "And more than tools, we\nalso released some tools",
+      "start": 309.06,
+      "duration": 3.59
+    },
+    {
+      "text": "to go around our models.",
+      "start": 312.65,
+      "duration": 1.6
+    },
+    {
+      "text": "For example, we have\nGemma Scope and Gemma.cpp.",
+      "start": 314.25,
+      "duration": 2.99
+    },
+    {
+      "text": "Gemma Scope is some\ntooling for you",
+      "start": 317.24,
+      "duration": 3.18
+    },
+    {
+      "text": "to see inside of all\nthe layers of the models",
+      "start": 320.42,
+      "duration": 3.33
+    },
+    {
+      "text": "and help you interpret,\nwhy some results?",
+      "start": 323.75,
+      "duration": 4.08
+    },
+    {
+      "text": "You give a prompt.",
+      "start": 327.83,
+      "duration": 1.08
+    },
+    {
+      "text": "Why you have this result?",
+      "start": 328.91,
+      "duration": 2.73
+    },
+    {
+      "text": "As I said, these\nmodels are quite large.",
+      "start": 331.64,
+      "duration": 2.32
+    },
+    {
+      "text": "So understanding how you go\nfrom \"Luna loves strawberries\"",
+      "start": 333.96,
+      "duration": 4.76
+    },
+    {
+      "text": "to some emojis.",
+      "start": 338.72,
+      "duration": 2.14
+    },
+    {
+      "text": "It might be very\nhard to explain that.",
+      "start": 340.86,
+      "duration": 2.85
+    },
+    {
+      "text": "So Gemma Scope helps with that.",
+      "start": 343.71,
+      "duration": 2.22
+    },
+    {
+      "text": "Gemma.cpp is our implementation\nof our Gemma models completely",
+      "start": 345.93,
+      "duration": 4.16
+    },
+    {
+      "text": "on C++.",
+      "start": 350.09,
+      "duration": 1.55
+    },
+    {
+      "text": "Then you would say, oh,\nyeah, why would you do that?",
+      "start": 351.64,
+      "duration": 2.36
+    },
+    {
+      "text": "When we do that, it enables\nyou to run these models on CPU",
+      "start": 354.0,
+      "duration": 3.83
+    },
+    {
+      "text": "only and super fast.",
+      "start": 357.83,
+      "duration": 2.02
+    },
+    {
+      "text": "So if you have a computer that\ndoesn't have a strong GPU, which",
+      "start": 359.85,
+      "duration": 3.05
+    },
+    {
+      "text": "I guess the majority\nof people have that,",
+      "start": 362.9,
+      "duration": 1.92
+    },
+    {
+      "text": "you can still use these\nmodels only on CPU,",
+      "start": 364.82,
+      "duration": 3.93
+    },
+    {
+      "text": "with a very good performance.",
+      "start": 368.75,
+      "duration": 2.97
+    },
+    {
+      "text": "And the fun thing\nis, in March, we",
+      "start": 371.72,
+      "duration": 2.55
+    },
+    {
+      "text": "released Gemma 3, our\nmost capable model so far.",
+      "start": 374.27,
+      "duration": 3.96
+    },
+    {
+      "text": "We had four sizes--",
+      "start": 378.23,
+      "duration": 1.47
+    },
+    {
+      "text": "1B, 4B, 12B, and 27B.",
+      "start": 379.7,
+      "duration": 2.34
+    },
+    {
+      "text": "And they were all state\nof the art, which I'll go",
+      "start": 382.04,
+      "duration": 2.37
+    },
+    {
+      "text": "into details in a little bit.",
+      "start": 384.41,
+      "duration": 2.16
+    },
+    {
+      "text": "But the idea was, we've learned\na lot with the community.",
+      "start": 386.57,
+      "duration": 3.28
+    },
+    {
+      "text": "We've received a\nlot of feedback.",
+      "start": 389.85,
+      "duration": 2.16
+    },
+    {
+      "text": "We've learned from our own--\nfrom researchers, from everyone,",
+      "start": 392.01,
+      "duration": 5.16
+    },
+    {
+      "text": "and we want to make the\nbest models possible.",
+      "start": 397.17,
+      "duration": 2.31
+    },
+    {
+      "text": "So what came with Gemma 3?",
+      "start": 399.48,
+      "duration": 2.4
+    },
+    {
+      "text": "First of all, community\nreally liked for the models",
+      "start": 401.88,
+      "duration": 5.93
+    },
+    {
+      "text": "to see beyond just text.",
+      "start": 407.81,
+      "duration": 2.05
+    },
+    {
+      "text": "So, of course, Gemma\n3 is multi-modal.",
+      "start": 409.86,
+      "duration": 3.21
+    },
+    {
+      "text": "There's 4, 12, and 27B.",
+      "start": 413.07,
+      "duration": 2.18
+    },
+    {
+      "text": "They can all receive an image,\nand they can do more than that.",
+      "start": 415.25,
+      "duration": 3.57
+    },
+    {
+      "text": "They can do a conversation.",
+      "start": 418.82,
+      "duration": 1.59
+    },
+    {
+      "text": "So you can ask a question\nabout a meme-- an image--",
+      "start": 420.41,
+      "duration": 2.79
+    },
+    {
+      "text": "and you can continue with\na multi-turn conversation.",
+      "start": 423.2,
+      "duration": 2.7
+    },
+    {
+      "text": "You can add more images.",
+      "start": 425.9,
+      "duration": 1.17
+    },
+    {
+      "text": "You can do all of that.",
+      "start": 427.07,
+      "duration": 1.26
+    },
+    {
+      "text": "That's part of the\nbase model already.",
+      "start": 428.33,
+      "duration": 2.9
+    },
+    {
+      "text": "More than that, one thing for\nGemma was always it was English",
+      "start": 431.23,
+      "duration": 4.38
+    },
+    {
+      "text": "only.",
+      "start": 435.61,
+      "duration": 1.21
+    },
+    {
+      "text": "But we got feedback from the\ncommunity for two things--",
+      "start": 436.82,
+      "duration": 3.66
+    },
+    {
+      "text": "the model could generate\ntexts in other languages,",
+      "start": 440.48,
+      "duration": 4.825
+    },
+    {
+      "text": "and we were very\nsurprised, which",
+      "start": 445.305,
+      "duration": 1.975
+    },
+    {
+      "text": "was-- they had very high\nquality in other languages.",
+      "start": 447.28,
+      "duration": 3.28
+    },
+    {
+      "text": "But we always said,\nit's English only.",
+      "start": 450.56,
+      "duration": 1.95
+    },
+    {
+      "text": "So what we did is we, OK, let's\nmake it really multilingual.",
+      "start": 452.51,
+      "duration": 3.87
+    },
+    {
+      "text": "So Gemma 3 now supports\nover 140 languages.",
+      "start": 456.38,
+      "duration": 3.6
+    },
+    {
+      "text": "And it's quite good in many\nof them in the benchmarks,",
+      "start": 459.98,
+      "duration": 2.9
+    },
+    {
+      "text": "in all the ones that\nwe could run at least.",
+      "start": 462.88,
+      "duration": 1.99
+    },
+    {
+      "text": "So this is a very\nstrong capability.",
+      "start": 464.87,
+      "duration": 2.15
+    },
+    {
+      "text": "I guess, I don't know--",
+      "start": 467.02,
+      "duration": 1.84
+    },
+    {
+      "text": "let me tell you a\nlittle secret here.",
+      "start": 468.86,
+      "duration": 1.89
+    },
+    {
+      "text": "I don't know if you\nnoticed, English",
+      "start": 470.75,
+      "duration": 2.48
+    },
+    {
+      "text": "is not my first language.",
+      "start": 473.23,
+      "duration": 2.87
+    },
+    {
+      "text": "Yeah.",
+      "start": 476.1,
+      "duration": 0.5
+    },
+    {
+      "text": "Can you believe that?",
+      "start": 476.6,
+      "duration": 0.875
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 477.475,
+      "duration": 0.855
+    },
+    {
+      "text": "So for me, having a\nmodel that can really",
+      "start": 478.33,
+      "duration": 3.75
+    },
+    {
+      "text": "help in multiple languages\nand multiple cultures,",
+      "start": 482.08,
+      "duration": 3.58
+    },
+    {
+      "text": "it's really, really\nimportant, dear to my heart.",
+      "start": 485.66,
+      "duration": 3.77
+    },
+    {
+      "text": "As you can see, there's\na lot of users of Gemma",
+      "start": 489.43,
+      "duration": 2.82
+    },
+    {
+      "text": "that are not from US,\nand they don't speak",
+      "start": 492.25,
+      "duration": 2.678
+    },
+    {
+      "text": "English as their main language.",
+      "start": 494.928,
+      "duration": 1.292
+    },
+    {
+      "text": "Maybe I'm part of\nthat 64% over there.",
+      "start": 496.22,
+      "duration": 3.24
+    },
+    {
+      "text": "So the idea of having a model\nthat embraces multiple languages",
+      "start": 499.46,
+      "duration": 4.19
+    },
+    {
+      "text": "and cultures, part\nof what we want",
+      "start": 503.65,
+      "duration": 1.62
+    },
+    {
+      "text": "to make in terms\nof accessibility,",
+      "start": 505.27,
+      "duration": 2.32
+    },
+    {
+      "text": "right, that we want\neveryone to be part of it.",
+      "start": 507.59,
+      "duration": 2.96
+    },
+    {
+      "text": "And the other thing that\nwe improved for Gemma 3",
+      "start": 510.55,
+      "duration": 2.79
+    },
+    {
+      "text": "is we made the\ncontext window longer.",
+      "start": 513.34,
+      "duration": 2.98
+    },
+    {
+      "text": "What is a context window?",
+      "start": 516.32,
+      "duration": 1.589
+    },
+    {
+      "text": "When you write a prompt\nto these models, this text",
+      "start": 517.909,
+      "duration": 4.581
+    },
+    {
+      "text": "you're sending, let's say\nthat's the context window.",
+      "start": 522.49,
+      "duration": 3.4
+    },
+    {
+      "text": "So the larger the context window\nof a model, the more information",
+      "start": 525.89,
+      "duration": 3.74
+    },
+    {
+      "text": "you can give per prompt\nand the longer you",
+      "start": 529.63,
+      "duration": 3.42
+    },
+    {
+      "text": "can do a conversation.",
+      "start": 533.05,
+      "duration": 2.16
+    },
+    {
+      "text": "The other important thing\nis, when you add an image--",
+      "start": 535.21,
+      "duration": 2.71
+    },
+    {
+      "text": "for example, you give an image\nand ask, describe this image--",
+      "start": 537.92,
+      "duration": 3.84
+    },
+    {
+      "text": "all of that eats\nup-- let's say, like,",
+      "start": 541.76,
+      "duration": 2.75
+    },
+    {
+      "text": "that's your context window.",
+      "start": 544.51,
+      "duration": 1.39
+    },
+    {
+      "text": "So the longer or the larger\ncontext window you have,",
+      "start": 545.9,
+      "duration": 3.12
+    },
+    {
+      "text": "the more your model can process.",
+      "start": 549.02,
+      "duration": 2.25
+    },
+    {
+      "text": "And you can also have\nlonger conversations.",
+      "start": 551.27,
+      "duration": 2.84
+    },
+    {
+      "text": "I guess 128, you can put a book.",
+      "start": 554.11,
+      "duration": 2.86
+    },
+    {
+      "text": "You can put multiple--",
+      "start": 556.97,
+      "duration": 1.35
+    },
+    {
+      "text": "I guess 500 images.",
+      "start": 558.32,
+      "duration": 2.12
+    },
+    {
+      "text": "You can do a lot of stuff.",
+      "start": 560.44,
+      "duration": 1.238
+    },
+    {
+      "text": "You can put all these--\nyou can put a video",
+      "start": 561.678,
+      "duration": 1.792
+    },
+    {
+      "text": "and ask questions\nabout the video.",
+      "start": 563.47,
+      "duration": 1.9
+    },
+    {
+      "text": "So it's very, very powerful.",
+      "start": 565.37,
+      "duration": 2.07
+    },
+    {
+      "text": "And before we were at 8k.",
+      "start": 567.44,
+      "duration": 2.7
+    },
+    {
+      "text": "So the community complained.",
+      "start": 570.14,
+      "duration": 1.35
+    },
+    {
+      "text": "We improved that,\nas you can see here.",
+      "start": 571.49,
+      "duration": 2.25
+    },
+    {
+      "text": "So we were from 8k to-- the\n1B has 32k context window.",
+      "start": 573.74,
+      "duration": 6.3
+    },
+    {
+      "text": "And the 4-- it's 12 there,\nit shouldn't be 14--",
+      "start": 580.04,
+      "duration": 3.67
+    },
+    {
+      "text": "27B have 128k context\nwindow, which is great.",
+      "start": 583.71,
+      "duration": 4.64
+    },
+    {
+      "text": "The 1B has a shorter context\nwindow because it's aimed",
+      "start": 588.35,
+      "duration": 4.52
+    },
+    {
+      "text": "for smaller devices.",
+      "start": 592.87,
+      "duration": 1.6
+    },
+    {
+      "text": "One other aspect\nof context windows,",
+      "start": 594.47,
+      "duration": 1.77
+    },
+    {
+      "text": "of course, there is no magic.",
+      "start": 596.24,
+      "duration": 1.28
+    },
+    {
+      "text": "If you give a larger, more\nprompt, it eats up memory.",
+      "start": 597.52,
+      "duration": 3.82
+    },
+    {
+      "text": "So if you're using a 1B model,\nwe expect you to be using",
+      "start": 601.34,
+      "duration": 3.23
+    },
+    {
+      "text": "a weaker machine so you will\nhave less memory anyway.",
+      "start": 604.57,
+      "duration": 4.42
+    },
+    {
+      "text": "Otherwise, you'll go for\nthe 4B, which is stronger.",
+      "start": 608.99,
+      "duration": 2.96
+    },
+    {
+      "text": "Now, here's a fun graph of how\nthe models keep the quality,",
+      "start": 611.95,
+      "duration": 4.38
+    },
+    {
+      "text": "while we increase\nthe context window.",
+      "start": 616.33,
+      "duration": 2.71
+    },
+    {
+      "text": "And we say that the context\nwindow for our models is 128k.",
+      "start": 619.04,
+      "duration": 4.38
+    },
+    {
+      "text": "You can see it\nover there, right?",
+      "start": 623.42,
+      "duration": 3.05
+    },
+    {
+      "text": "But if you look at the green\none, the green is the 27B,",
+      "start": 626.47,
+      "duration": 4.63
+    },
+    {
+      "text": "the lowest line over there.",
+      "start": 631.1,
+      "duration": 2.78
+    },
+    {
+      "text": "If you try a 512k, it will\nstill do good results.",
+      "start": 633.88,
+      "duration": 5.44
+    },
+    {
+      "text": "But, of course, we\nbenchmark until 128.",
+      "start": 639.32,
+      "duration": 3.12
+    },
+    {
+      "text": "That's what we say it's good.",
+      "start": 642.44,
+      "duration": 1.49
+    },
+    {
+      "text": "But it can go a\nlittle bit further.",
+      "start": 643.93,
+      "duration": 2.2
+    },
+    {
+      "text": "[CHUCKLES] Let's see some\nexamples of how the model works.",
+      "start": 646.13,
+      "duration": 5.28
+    },
+    {
+      "text": "Here, I'm giving an image.",
+      "start": 651.41,
+      "duration": 2.21
+    },
+    {
+      "text": "And I'm asking, how\nmuch is this ticket?",
+      "start": 653.62,
+      "duration": 2.7
+    },
+    {
+      "text": "And the answer to\nthe right, you can",
+      "start": 656.32,
+      "duration": 1.5
+    },
+    {
+      "text": "see there that, first\nof all, the model",
+      "start": 657.82,
+      "duration": 1.95
+    },
+    {
+      "text": "can not understand what's\nthis and extract the price,",
+      "start": 659.77,
+      "duration": 4.18
+    },
+    {
+      "text": "which is in Czech Koruna--",
+      "start": 663.95,
+      "duration": 2.57
+    },
+    {
+      "text": "which I've never\nused that currency.",
+      "start": 666.52,
+      "duration": 1.51
+    },
+    {
+      "text": "Sorry if I'm saying wrong.",
+      "start": 668.03,
+      "duration": 1.32
+    },
+    {
+      "text": "But the model can see and\nunderstand and parse that.",
+      "start": 669.35,
+      "duration": 3.93
+    },
+    {
+      "text": "And then the fun thing is we\ncan follow up with a question.",
+      "start": 673.28,
+      "duration": 4.61
+    },
+    {
+      "text": "How long is this ticket valid?",
+      "start": 677.89,
+      "duration": 2.953
+    },
+    {
+      "text": "Of course, you just read\nwhat's written there.",
+      "start": 680.843,
+      "duration": 1.917
+    },
+    {
+      "text": "But did you see that\nin the ticket before?",
+      "start": 682.76,
+      "duration": 4.53
+    },
+    {
+      "text": "Could you answer that yourself?",
+      "start": 687.29,
+      "duration": 2.0
+    },
+    {
+      "text": "Can I go back one slide, please?",
+      "start": 689.29,
+      "duration": 1.585
+    },
+    {
+      "text": "Can you go back\none slide, please?",
+      "start": 693.433,
+      "duration": 1.417
+    },
+    {
+      "text": "Yes.",
+      "start": 694.85,
+      "duration": 0.92
+    },
+    {
+      "text": "Can you see there, how\nlong is this ticket?",
+      "start": 695.77,
+      "duration": 4.06
+    },
+    {
+      "text": "Even for me, when I was looking\nfor the first time, I was like,",
+      "start": 699.83,
+      "duration": 3.93
+    },
+    {
+      "text": "where does this\ninformation come from?",
+      "start": 703.76,
+      "duration": 1.77
+    },
+    {
+      "text": "So on top left, the\ninformation is there, right?",
+      "start": 705.53,
+      "duration": 3.27
+    },
+    {
+      "text": "And the model knows that.",
+      "start": 708.8,
+      "duration": 2.22
+    },
+    {
+      "text": "And that's what it says there.",
+      "start": 711.02,
+      "duration": 1.38
+    },
+    {
+      "text": "So it lasts for 24 hours.",
+      "start": 712.4,
+      "duration": 1.41
+    },
+    {
+      "text": "So the model has all these, and\nyou can keep the conversation.",
+      "start": 713.81,
+      "duration": 4.173
+    },
+    {
+      "text": "Another cool thing\nthat the model can do",
+      "start": 717.983,
+      "duration": 1.667
+    },
+    {
+      "text": "is, of course, every\nfeature that's a capability,",
+      "start": 719.65,
+      "duration": 3.82
+    },
+    {
+      "text": "I told you, they\nall work together.",
+      "start": 723.47,
+      "duration": 2.61
+    },
+    {
+      "text": "It's not one or the other.",
+      "start": 726.08,
+      "duration": 1.41
+    },
+    {
+      "text": "They all work together.",
+      "start": 727.49,
+      "duration": 1.23
+    },
+    {
+      "text": "So on this example, can\nyou translate this picture?",
+      "start": 728.72,
+      "duration": 3.45
+    },
+    {
+      "text": "I'm using the vision capability,\nthe text understanding,",
+      "start": 732.17,
+      "duration": 4.43
+    },
+    {
+      "text": "of course, and the multilingual\nbecause that sign has at least",
+      "start": 736.6,
+      "duration": 4.44
+    },
+    {
+      "text": "four or five languages.",
+      "start": 741.04,
+      "duration": 1.53
+    },
+    {
+      "text": "Four, right?",
+      "start": 742.57,
+      "duration": 2.01
+    },
+    {
+      "text": "And it translates from all of\nthem, without any extra process.",
+      "start": 744.58,
+      "duration": 4.03
+    },
+    {
+      "text": "It just knows all of them,\nextracts the information,",
+      "start": 748.61,
+      "duration": 2.81
+    },
+    {
+      "text": "and gives you context\nof where the sign is.",
+      "start": 751.42,
+      "duration": 3.007
+    },
+    {
+      "text": "And this is an example, when\nI saw for the first time,",
+      "start": 754.427,
+      "duration": 3.443
+    },
+    {
+      "text": "I was like, well,\nthis is very strong.",
+      "start": 757.87,
+      "duration": 1.87
+    },
+    {
+      "text": "I didn't expect that to\nhappen to work so well.",
+      "start": 759.74,
+      "duration": 4.37
+    },
+    {
+      "text": "And one important aspect\nfor us is, as I said,",
+      "start": 764.11,
+      "duration": 3.67
+    },
+    {
+      "text": "the feedback you give.",
+      "start": 767.78,
+      "duration": 1.28
+    },
+    {
+      "text": "You give us a lot of feedback.",
+      "start": 769.06,
+      "duration": 2.1
+    },
+    {
+      "text": "Sometimes they're harsh, but\nI like the feedback anyway.",
+      "start": 771.16,
+      "duration": 2.65
+    },
+    {
+      "text": "Thank you very much.",
+      "start": 773.81,
+      "duration": 1.02
+    },
+    {
+      "text": "And the idea is, why\ndoes that matter?",
+      "start": 774.83,
+      "duration": 2.01
+    },
+    {
+      "text": "It's because we want you all\nto succeed with us so Gemma",
+      "start": 776.84,
+      "duration": 4.34
+    },
+    {
+      "text": "can really help you\non your applications,",
+      "start": 781.18,
+      "duration": 3.31
+    },
+    {
+      "text": "on your systems, whatever it is.",
+      "start": 784.49,
+      "duration": 1.56
+    },
+    {
+      "text": "So your feedback\nis very important.",
+      "start": 786.05,
+      "duration": 1.83
+    },
+    {
+      "text": "So my colleague here that\nwill present after me asked,",
+      "start": 787.88,
+      "duration": 4.47
+    },
+    {
+      "text": "what else-- what do\nyou want from Gemma?",
+      "start": 792.35,
+      "duration": 1.83
+    },
+    {
+      "text": "We asked openly.",
+      "start": 794.18,
+      "duration": 1.26
+    },
+    {
+      "text": "We got a lot of replies.",
+      "start": 795.44,
+      "duration": 2.72
+    },
+    {
+      "text": "Of course people said, we\nwant larger context window.",
+      "start": 798.16,
+      "duration": 2.77
+    },
+    {
+      "text": "We fixed that.",
+      "start": 800.93,
+      "duration": 1.2
+    },
+    {
+      "text": "We want smaller models.",
+      "start": 802.13,
+      "duration": 2.07
+    },
+    {
+      "text": "Remember, I told you that\nthe first model was 2 and 7.",
+      "start": 804.2,
+      "duration": 3.29
+    },
+    {
+      "text": "And then we released--",
+      "start": 807.49,
+      "duration": 0.93
+    },
+    {
+      "text": "Gemma 2 was 2, 9, 27.",
+      "start": 808.42,
+      "duration": 2.5
+    },
+    {
+      "text": "People wanted smaller models.",
+      "start": 810.92,
+      "duration": 1.47
+    },
+    {
+      "text": "We did the 1B model, and all\nmodels are now quantized.",
+      "start": 812.39,
+      "duration": 4.34
+    },
+    {
+      "text": "We release the\nquantized versions",
+      "start": 816.73,
+      "duration": 1.77
+    },
+    {
+      "text": "that are smaller models, but\nthey still keep the quality.",
+      "start": 818.5,
+      "duration": 4.09
+    },
+    {
+      "text": "So the 27B, it's like--",
+      "start": 822.59,
+      "duration": 2.81
+    },
+    {
+      "text": "I'll be very honest.",
+      "start": 825.4,
+      "duration": 1.2
+    },
+    {
+      "text": "We have the 27B.",
+      "start": 826.6,
+      "duration": 0.84
+    },
+    {
+      "text": "It's great, super\npowerful, blah, blah.",
+      "start": 827.44,
+      "duration": 1.625
+    },
+    {
+      "text": "But the 12B, which is like the\nmiddle son, let's say like that,",
+      "start": 829.065,
+      "duration": 4.235
+    },
+    {
+      "text": "it's amazing.",
+      "start": 833.3,
+      "duration": 2.81
+    },
+    {
+      "text": "The quality is so strong, and\nyou don't need too much hardware",
+      "start": 836.11,
+      "duration": 3.63
+    },
+    {
+      "text": "to run that.",
+      "start": 839.74,
+      "duration": 0.55
+    },
+    {
+      "text": "That's amazing.",
+      "start": 840.29,
+      "duration": 2.87
+    },
+    {
+      "text": "Can we have more modalities?",
+      "start": 843.16,
+      "duration": 1.6
+    },
+    {
+      "text": "Yes, we added vision so\nyou can do image and video.",
+      "start": 844.76,
+      "duration": 3.99
+    },
+    {
+      "text": "We also added more languages.",
+      "start": 848.75,
+      "duration": 1.59
+    },
+    {
+      "text": "As I told you, 140 languages.",
+      "start": 850.34,
+      "duration": 2.06
+    },
+    {
+      "text": "Community loved that.",
+      "start": 852.4,
+      "duration": 1.33
+    },
+    {
+      "text": "And we need system prompts.",
+      "start": 853.73,
+      "duration": 3.23
+    },
+    {
+      "text": "OK, we got there.",
+      "start": 856.96,
+      "duration": 1.39
+    },
+    {
+      "text": "Although, to be\nhonest, people want",
+      "start": 858.35,
+      "duration": 2.21
+    },
+    {
+      "text": "system prompts is\nlike system prompt is,",
+      "start": 860.56,
+      "duration": 2.19
+    },
+    {
+      "text": "before the\nconversation, you tell",
+      "start": 862.75,
+      "duration": 2.04
+    },
+    {
+      "text": "the model how it should behave\nand put some ground rules.",
+      "start": 864.79,
+      "duration": 4.62
+    },
+    {
+      "text": "We don't have a\nsystem prompt role,",
+      "start": 869.41,
+      "duration": 2.88
+    },
+    {
+      "text": "but if you add what you\nwant to the first message,",
+      "start": 872.29,
+      "duration": 3.19
+    },
+    {
+      "text": "the model will follow that.",
+      "start": 875.48,
+      "duration": 1.76
+    },
+    {
+      "text": "The Gemma models are very strong\nat following instructions.",
+      "start": 877.24,
+      "duration": 3.31
+    },
+    {
+      "text": "So whatever you say, do x, y,\nand z, it will do x, y, and z.",
+      "start": 880.55,
+      "duration": 4.77
+    },
+    {
+      "text": "So if you say,\ntalk like a pirate,",
+      "start": 885.32,
+      "duration": 3.06
+    },
+    {
+      "text": "the most basic system prompt,\nit will talk like a pirate",
+      "start": 888.38,
+      "duration": 3.59
+    },
+    {
+      "text": "during the conversation.",
+      "start": 891.97,
+      "duration": 1.91
+    },
+    {
+      "text": "So we don't have\na role for system",
+      "start": 893.88,
+      "duration": 1.96
+    },
+    {
+      "text": "prompts, but you can add to the\nfirst message, and it will work.",
+      "start": 895.84,
+      "duration": 3.28
+    },
+    {
+      "text": "You can add at any moment\nduring a conversation,",
+      "start": 899.12,
+      "duration": 2.12
+    },
+    {
+      "text": "and it will, from there,\ncontinue with your instructions.",
+      "start": 901.24,
+      "duration": 3.78
+    },
+    {
+      "text": "And people love also the\npersonality of Gemma.",
+      "start": 905.02,
+      "duration": 2.77
+    },
+    {
+      "text": "Personality is how\nthe model replies.",
+      "start": 907.79,
+      "duration": 4.355
+    },
+    {
+      "text": "When you ask a question,\nthe way it answers.",
+      "start": 912.145,
+      "duration": 3.475
+    },
+    {
+      "text": "People like its warm--",
+      "start": 915.62,
+      "duration": 1.95
+    },
+    {
+      "text": "it has a strong personality.",
+      "start": 917.57,
+      "duration": 1.89
+    },
+    {
+      "text": "It's approachable.",
+      "start": 919.46,
+      "duration": 1.77
+    },
+    {
+      "text": "And that's why we have\na LMArena score so high.",
+      "start": 921.23,
+      "duration": 4.56
+    },
+    {
+      "text": "And as you can see here--",
+      "start": 925.79,
+      "duration": 1.56
+    },
+    {
+      "text": "I guess those\nnumbers are updated.",
+      "start": 927.35,
+      "duration": 1.74
+    },
+    {
+      "text": "Those are the LM scores for our\nthree larger models, the 27 12,",
+      "start": 929.09,
+      "duration": 6.17
+    },
+    {
+      "text": "and 4B.",
+      "start": 935.26,
+      "duration": 2.97
+    },
+    {
+      "text": "And what's so great about this?",
+      "start": 938.23,
+      "duration": 2.11
+    },
+    {
+      "text": "First of all, this\nis from LMArena.",
+      "start": 940.34,
+      "duration": 2.34
+    },
+    {
+      "text": "This is a benchmark that people\ngo and blind vote on prompts.",
+      "start": 942.68,
+      "duration": 5.58
+    },
+    {
+      "text": "So you have a prompt.",
+      "start": 948.26,
+      "duration": 2.04
+    },
+    {
+      "text": "It gives you two answers, and\nyou say which one you prefer.",
+      "start": 950.3,
+      "duration": 3.39
+    },
+    {
+      "text": "So this is from the voice of\nthe people, let's say like that.",
+      "start": 953.69,
+      "duration": 4.67
+    },
+    {
+      "text": "There are, of course, criticism.",
+      "start": 958.36,
+      "duration": 1.66
+    },
+    {
+      "text": "But this is one of the\nbest benchmarks we have.",
+      "start": 960.02,
+      "duration": 2.1
+    },
+    {
+      "text": "It's people's choice.",
+      "start": 962.12,
+      "duration": 3.23
+    },
+    {
+      "text": "On this benchmark, you can see\nthe 27B is one of the top ones.",
+      "start": 965.35,
+      "duration": 4.75
+    },
+    {
+      "text": "And it's an open--\nremember, open model.",
+      "start": 970.1,
+      "duration": 1.91
+    },
+    {
+      "text": "Anyone can download\nand use right now.",
+      "start": 972.01,
+      "duration": 1.86
+    },
+    {
+      "text": "We are one of the best\nopen models, period.",
+      "start": 973.87,
+      "duration": 3.6
+    },
+    {
+      "text": "And the other thing is our\n27B needs 1 GPU to run,",
+      "start": 977.47,
+      "duration": 5.01
+    },
+    {
+      "text": "while the other open models that\nare large-- that are better,",
+      "start": 982.48,
+      "duration": 3.7
+    },
+    {
+      "text": "let's say like that, they\nneed, like, 30 GPUs, 10 GPUs.",
+      "start": 986.18,
+      "duration": 4.47
+    },
+    {
+      "text": "Do you have 10 GPUs to run now?",
+      "start": 990.65,
+      "duration": 2.82
+    },
+    {
+      "text": "Do you have access?",
+      "start": 993.47,
+      "duration": 1.4
+    },
+    {
+      "text": "So that's one of the\nimportant things.",
+      "start": 994.87,
+      "duration": 2.197
+    },
+    {
+      "text": "You can see the small\ndots over there.",
+      "start": 997.067,
+      "duration": 1.583
+    },
+    {
+      "text": "And you can see the\n12B, the middle kid.",
+      "start": 998.65,
+      "duration": 3.46
+    },
+    {
+      "text": "The 12B is really close.",
+      "start": 1002.11,
+      "duration": 2.01
+    },
+    {
+      "text": "It's super strong.",
+      "start": 1004.12,
+      "duration": 1.14
+    },
+    {
+      "text": "And you can see\nthe 4B over there.",
+      "start": 1005.26,
+      "duration": 2.88
+    },
+    {
+      "text": "I'm not going to\nsay who is after.",
+      "start": 1008.14,
+      "duration": 2.33
+    },
+    {
+      "text": "That doesn't matter.",
+      "start": 1010.47,
+      "duration": 0.88
+    },
+    {
+      "text": "But the idea is that our 4B is\nreally, really strong for 4B,",
+      "start": 1011.35,
+      "duration": 5.24
+    },
+    {
+      "text": "4 billion.",
+      "start": 1016.59,
+      "duration": 0.87
+    },
+    {
+      "text": "Can run basically\nmost of your devices.",
+      "start": 1017.46,
+      "duration": 3.73
+    },
+    {
+      "text": "I'm not saying phones.",
+      "start": 1021.19,
+      "duration": 2.06
+    },
+    {
+      "text": "And here, we see\nour capabilities",
+      "start": 1023.25,
+      "duration": 1.77
+    },
+    {
+      "text": "in terms of specific languages.",
+      "start": 1025.02,
+      "duration": 4.03
+    },
+    {
+      "text": "So if you look for\nGemma over there,",
+      "start": 1029.05,
+      "duration": 2.63
+    },
+    {
+      "text": "it's right there at the bottom.",
+      "start": 1031.68,
+      "duration": 3.04
+    },
+    {
+      "text": "You can see we were top\nin French, top in Spanish,",
+      "start": 1034.72,
+      "duration": 3.45
+    },
+    {
+      "text": "second in Japanese,\nthird in German.",
+      "start": 1038.17,
+      "duration": 3.439
+    },
+    {
+      "text": "It's great all around\nthe multiple languages.",
+      "start": 1041.609,
+      "duration": 2.321
+    },
+    {
+      "text": "Again, open model, right?",
+      "start": 1043.93,
+      "duration": 2.52
+    },
+    {
+      "text": "This is very, very strong.",
+      "start": 1046.45,
+      "duration": 2.99
+    },
+    {
+      "text": "And as of yesterday,\nwe released Gemma 3n,",
+      "start": 1049.44,
+      "duration": 3.36
+    },
+    {
+      "text": "our newest model that can run on\nas little as 2 gigabytes of RAM.",
+      "start": 1052.8,
+      "duration": 4.98
+    },
+    {
+      "text": "Gemma 3n has a lot\nof development.",
+      "start": 1057.78,
+      "duration": 4.052
+    },
+    {
+      "text": "I'm very impressed by\nthe research behind it.",
+      "start": 1061.832,
+      "duration": 3.398
+    },
+    {
+      "text": "And it's optimized\nfor on-device.",
+      "start": 1065.23,
+      "duration": 2.1
+    },
+    {
+      "text": "So the architecture is\nfocused on making own device,",
+      "start": 1067.33,
+      "duration": 5.27
+    },
+    {
+      "text": "or on small devices,\nit to run faster.",
+      "start": 1072.6,
+      "duration": 3.09
+    },
+    {
+      "text": "It's the same model.",
+      "start": 1075.69,
+      "duration": 1.37
+    },
+    {
+      "text": "It's the base model\nthat will be also used",
+      "start": 1077.06,
+      "duration": 1.75
+    },
+    {
+      "text": "for Gemini Nano,\nwhich comes embedded",
+      "start": 1078.81,
+      "duration": 2.37
+    },
+    {
+      "text": "in many, many Android\ndevices already.",
+      "start": 1081.18,
+      "duration": 2.8
+    },
+    {
+      "text": "So it's the same architecture.",
+      "start": 1083.98,
+      "duration": 1.44
+    },
+    {
+      "text": "So we're sharing that\nas open models now.",
+      "start": 1085.42,
+      "duration": 2.27
+    },
+    {
+      "text": "We expanded the capabilities.",
+      "start": 1087.69,
+      "duration": 3.48
+    },
+    {
+      "text": "Gemma 3 has vision,\ntext, and video, right?",
+      "start": 1091.17,
+      "duration": 4.2
+    },
+    {
+      "text": "Gemma 3n, we added\naudio understanding.",
+      "start": 1095.37,
+      "duration": 2.89
+    },
+    {
+      "text": "So now you can talk\ndirectly to the model.",
+      "start": 1098.26,
+      "duration": 2.55
+    },
+    {
+      "text": "And this is very,\nvery interesting.",
+      "start": 1100.81,
+      "duration": 1.83
+    },
+    {
+      "text": "This is very new.",
+      "start": 1102.64,
+      "duration": 0.78
+    },
+    {
+      "text": "Oh, let me run because\nI have my friend.",
+      "start": 1103.42,
+      "duration": 1.88
+    },
+    {
+      "text": "And we are releasing two sizes--",
+      "start": 1105.3,
+      "duration": 2.22
+    },
+    {
+      "text": "4B and 2B.",
+      "start": 1107.52,
+      "duration": 1.32
+    },
+    {
+      "text": "Today, you can test these models\nalready on Google AI Studio.",
+      "start": 1108.84,
+      "duration": 3.43
+    },
+    {
+      "text": "Let me show you this video.",
+      "start": 1112.27,
+      "duration": 1.723
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 1113.993,
+      "duration": 0.667
+    },
+    {
+      "text": "- Can you tell me\nabout this replica?",
+      "start": 1114.66,
+      "duration": 1.745
+    },
+    {
+      "text": "- Certainly.",
+      "start": 1119.4,
+      "duration": 2.17
+    },
+    {
+      "text": "This is a replica of a\nVirgin Galactic SpaceShipOne,",
+      "start": 1121.57,
+      "duration": 2.87
+    },
+    {
+      "text": "a suborbital spacecraft.",
+      "start": 1124.44,
+      "duration": 2.25
+    },
+    {
+      "text": "It's a model of the vehicle used\nfor testing and demonstration",
+      "start": 1126.69,
+      "duration": 3.0
+    },
+    {
+      "text": "flights.",
+      "start": 1129.69,
+      "duration": 1.02
+    },
+    {
+      "text": "- Can you please save\nthis to my notes?",
+      "start": 1130.71,
+      "duration": 1.67
+    },
+    {
+      "text": "- Absolutely.",
+      "start": 1135.33,
+      "duration": 0.96
+    },
+    {
+      "text": "Creating a note.",
+      "start": 1136.29,
+      "duration": 1.055
+    },
+    {
+      "text": "GUS MARTINS: This is\nrunning completely local.",
+      "start": 1141.99,
+      "duration": 1.93
+    },
+    {
+      "text": "There's zero internet, and it\nwas just saved to Google Keep.",
+      "start": 1143.92,
+      "duration": 3.77
+    },
+    {
+      "text": "- What can I add to the\nsystem to make it faster?",
+      "start": 1147.69,
+      "duration": 2.51
+    },
+    {
+      "text": "- Interesting question.",
+      "start": 1152.82,
+      "duration": 1.45
+    },
+    {
+      "text": "Adding caching layers can\nsignificantly improve speed.",
+      "start": 1154.27,
+      "duration": 3.24
+    },
+    {
+      "text": "Consider implementing\na CDN or caching proxy",
+      "start": 1157.51,
+      "duration": 2.96
+    },
+    {
+      "text": "to store\nfrequently-accessed content.",
+      "start": 1160.47,
+      "duration": 2.29
+    },
+    {
+      "text": "- Write a super short poem\nthat highlights her skills.",
+      "start": 1162.76,
+      "duration": 4.075
+    },
+    {
+      "text": "- Amazing Zoey, so bright.",
+      "start": 1170.19,
+      "duration": 2.37
+    },
+    {
+      "text": "Counting to 100, what a sight.",
+      "start": 1172.56,
+      "duration": 4.65
+    },
+    {
+      "text": "- What is the total square\nfootage of the largest room?",
+      "start": 1177.21,
+      "duration": 3.86
+    },
+    {
+      "text": "- The largest room\nis the living room.",
+      "start": 1184.77,
+      "duration": 2.7
+    },
+    {
+      "text": "Its dimensions are\n18 feet by 12 feet.",
+      "start": 1187.47,
+      "duration": 3.21
+    },
+    {
+      "text": "The area is 18 times 12,\nwhich is 216 square feet.",
+      "start": 1190.68,
+      "duration": 5.25
+    },
+    {
+      "text": "- Can you guess which\nfamous figure is this?",
+      "start": 1195.93,
+      "duration": 2.345
+    },
+    {
+      "text": "- This is a cartoon\ndrawing of Einstein.",
+      "start": 1202.14,
+      "duration": 2.88
+    },
+    {
+      "text": "The wavy hair, the mustache,\nand the mischievous grin",
+      "start": 1205.02,
+      "duration": 3.06
+    },
+    {
+      "text": "are all telltale signs.",
+      "start": 1208.08,
+      "duration": 1.75
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 1209.83,
+      "duration": 0.8
+    },
+    {
+      "text": "GUS MARTINS: Nice.",
+      "start": 1210.63,
+      "duration": 1.71
+    },
+    {
+      "text": "Thank you.",
+      "start": 1212.34,
+      "duration": 0.76
+    },
+    {
+      "text": "Thank you.",
+      "start": 1213.1,
+      "duration": 0.575
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1213.675,
+      "duration": 0.69
+    },
+    {
+      "text": "This is all running\ncompletely on-device,",
+      "start": 1214.365,
+      "duration": 2.503
+    },
+    {
+      "text": "of course in an\ninternal app we have.",
+      "start": 1216.868,
+      "duration": 1.542
+    },
+    {
+      "text": "It's not available\nto everyone to test.",
+      "start": 1218.41,
+      "duration": 1.83
+    },
+    {
+      "text": "But this is the capability\nthat Gemma 3n offers.",
+      "start": 1220.24,
+      "duration": 3.17
+    },
+    {
+      "text": "And all of it-- on-device,\nyou ask, can the model speak?",
+      "start": 1223.41,
+      "duration": 4.21
+    },
+    {
+      "text": "No, that's using text to\nspeech from the Android phone,",
+      "start": 1227.62,
+      "duration": 2.91
+    },
+    {
+      "text": "the native one\nthat everyone has.",
+      "start": 1230.53,
+      "duration": 2.12
+    },
+    {
+      "text": "But that's cool.",
+      "start": 1232.65,
+      "duration": 1.0
+    },
+    {
+      "text": "But how do you\nbuild using Gemma?",
+      "start": 1233.65,
+      "duration": 1.62
+    },
+    {
+      "text": "How do you take these\nmodels and make your own?",
+      "start": 1235.27,
+      "duration": 3.25
+    },
+    {
+      "text": "For that, I would like\nto call friend Omar",
+      "start": 1238.52,
+      "duration": 1.75
+    },
+    {
+      "text": "to continue and explain\nto you all the details.",
+      "start": 1240.27,
+      "duration": 2.44
+    },
+    {
+      "text": "Thank you.",
+      "start": 1242.71,
+      "duration": 0.72
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1243.43,
+      "duration": 2.27
+    },
+    {
+      "text": "Thank you.",
+      "start": 1245.7,
+      "duration": 1.564
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 1247.264,
+      "duration": 2.776
+    },
+    {
+      "text": "OMAR SANSEVIERO:\nThank you, guys.",
+      "start": 1250.04,
+      "duration": 1.8
+    },
+    {
+      "text": "So I'm very excited to be\nhere to talk about Gemma,",
+      "start": 1251.84,
+      "duration": 3.04
+    },
+    {
+      "text": "the fantastic\nopensource ecosystem,",
+      "start": 1254.88,
+      "duration": 1.88
+    },
+    {
+      "text": "and how to build products\nwith the Gemma models.",
+      "start": 1256.76,
+      "duration": 3.12
+    },
+    {
+      "text": "As Gus mentioned, we have been\ntalking with the community.",
+      "start": 1259.88,
+      "duration": 2.44
+    },
+    {
+      "text": "We have been talking with\nstartups, with researchers,",
+      "start": 1262.32,
+      "duration": 2.37
+    },
+    {
+      "text": "enterprises, companies,\ndevelopers, and as part of that,",
+      "start": 1264.69,
+      "duration": 3.45
+    },
+    {
+      "text": "we want to make Gemma as\neasy as possible to use.",
+      "start": 1268.14,
+      "duration": 2.39
+    },
+    {
+      "text": "We want to make Gemma very\naccessible to the developer",
+      "start": 1270.53,
+      "duration": 2.25
+    },
+    {
+      "text": "ecosystem.",
+      "start": 1272.78,
+      "duration": 2.19
+    },
+    {
+      "text": "So the easiest way to get\nstarted is with AI Studio.",
+      "start": 1274.97,
+      "duration": 3.19
+    },
+    {
+      "text": "So if you go to AI Studio\nat ai.dev, at the right,",
+      "start": 1278.16,
+      "duration": 3.57
+    },
+    {
+      "text": "you can pick among\nmany different models.",
+      "start": 1281.73,
+      "duration": 2.28
+    },
+    {
+      "text": "And within those, of course,\nyou can try out Gemma.",
+      "start": 1284.01,
+      "duration": 2.9
+    },
+    {
+      "text": "So you can test your prompts.",
+      "start": 1286.91,
+      "duration": 1.39
+    },
+    {
+      "text": "You can see if the Gemma models\nwork for your own use case.",
+      "start": 1288.3,
+      "duration": 2.6
+    },
+    {
+      "text": "There are different model sizes.",
+      "start": 1290.9,
+      "duration": 1.35
+    },
+    {
+      "text": "And depending on\nwhat you want to do,",
+      "start": 1292.25,
+      "duration": 1.72
+    },
+    {
+      "text": "different model sizes may work.",
+      "start": 1293.97,
+      "duration": 1.645
+    },
+    {
+      "text": "Just a few weeks\nago, we released also",
+      "start": 1299.36,
+      "duration": 1.77
+    },
+    {
+      "text": "Image Input in AI Studio.",
+      "start": 1301.13,
+      "duration": 1.45
+    },
+    {
+      "text": "So you can try out an image.",
+      "start": 1302.58,
+      "duration": 1.17
+    },
+    {
+      "text": "So for example,\nhere, we uploaded",
+      "start": 1303.75,
+      "duration": 1.82
+    },
+    {
+      "text": "an image of a croissant.",
+      "start": 1305.57,
+      "duration": 1.445
+    },
+    {
+      "text": "And you can ask,\ndescribe the image,",
+      "start": 1307.015,
+      "duration": 1.985
+    },
+    {
+      "text": "and then the model will give\nyou a description of the image",
+      "start": 1309.0,
+      "duration": 2.75
+    },
+    {
+      "text": "input.",
+      "start": 1311.75,
+      "duration": 1.8
+    },
+    {
+      "text": "So let's say that you\ngo to your studio.",
+      "start": 1313.55,
+      "duration": 2.43
+    },
+    {
+      "text": "You try out Gemma.",
+      "start": 1315.98,
+      "duration": 1.36
+    },
+    {
+      "text": "The model works well\nfor you, and you want",
+      "start": 1317.34,
+      "duration": 1.85
+    },
+    {
+      "text": "to deploy this in production.",
+      "start": 1319.19,
+      "duration": 2.01
+    },
+    {
+      "text": "So in the same interface,\nthere is a new button,",
+      "start": 1321.2,
+      "duration": 2.11
+    },
+    {
+      "text": "when you have Gemma selected,\nthat says Deploy in Google Cloud",
+      "start": 1323.31,
+      "duration": 3.11
+    },
+    {
+      "text": "Run.",
+      "start": 1326.42,
+      "duration": 2.37
+    },
+    {
+      "text": "Sorry, you have a button\nthat says Export the Code.",
+      "start": 1328.79,
+      "duration": 3.48
+    },
+    {
+      "text": "And it will give\nyou a code snippet",
+      "start": 1332.27,
+      "duration": 1.71
+    },
+    {
+      "text": "in Python, or in\nTypeScript, or in Rest,",
+      "start": 1333.98,
+      "duration": 2.29
+    },
+    {
+      "text": "or in Apps Script, whichever is\nyour favorite language, which",
+      "start": 1336.27,
+      "duration": 3.68
+    },
+    {
+      "text": "you can use to run and build\nyour own applications using",
+      "start": 1339.95,
+      "duration": 3.32
+    },
+    {
+      "text": "Gemma.",
+      "start": 1343.27,
+      "duration": 0.5
+    },
+    {
+      "text": "This is using the Google APIs.",
+      "start": 1343.77,
+      "duration": 4.16
+    },
+    {
+      "text": "The code is actually\nvery simple.",
+      "start": 1347.93,
+      "duration": 3.3
+    },
+    {
+      "text": "You just, first,\ninstantiate a client.",
+      "start": 1351.23,
+      "duration": 2.97
+    },
+    {
+      "text": "You specify the token,\nthe Gemini API token.",
+      "start": 1354.2,
+      "duration": 2.77
+    },
+    {
+      "text": "Then you pass the\ntext, the content.",
+      "start": 1356.97,
+      "duration": 1.89
+    },
+    {
+      "text": "You can also pass images.",
+      "start": 1358.86,
+      "duration": 1.67
+    },
+    {
+      "text": "And then on the right side,\nyou will create a text.",
+      "start": 1360.53,
+      "duration": 3.498
+    },
+    {
+      "text": "You will generate a text.",
+      "start": 1364.028,
+      "duration": 1.042
+    },
+    {
+      "text": "So you pass the name of the\nmodel, so in this case, Gemma 3,",
+      "start": 1365.07,
+      "duration": 3.21
+    },
+    {
+      "text": "the 27-billion-parameter\nversion.",
+      "start": 1368.28,
+      "duration": 2.25
+    },
+    {
+      "text": "You pass the text, and you\npass the content configuration.",
+      "start": 1370.53,
+      "duration": 5.0
+    },
+    {
+      "text": "So a new feature in\nAI Studio is that when",
+      "start": 1375.53,
+      "duration": 2.203
+    },
+    {
+      "text": "you have a Gemma model\nselected, there's",
+      "start": 1377.733,
+      "duration": 1.667
+    },
+    {
+      "text": "this new button called\nDeploy in Cloud Run,",
+      "start": 1379.4,
+      "duration": 2.16
+    },
+    {
+      "text": "that I was mentioning\nbefore, that",
+      "start": 1381.56,
+      "duration": 1.68
+    },
+    {
+      "text": "allows you to create an endpoint\nthat will automatically scale.",
+      "start": 1383.24,
+      "duration": 3.19
+    },
+    {
+      "text": "So if you wanted to\nscale to 100 GPUs,",
+      "start": 1386.43,
+      "duration": 2.82
+    },
+    {
+      "text": "or if you wanted to scale down\nto 0 when there is no usage,",
+      "start": 1389.25,
+      "duration": 3.05
+    },
+    {
+      "text": "Google Cloud Run will\ntake care of all of it.",
+      "start": 1392.3,
+      "duration": 3.09
+    },
+    {
+      "text": "And the very nice thing\nof this is that you",
+      "start": 1395.39,
+      "duration": 2.61
+    },
+    {
+      "text": "don't need to change the code.",
+      "start": 1398.0,
+      "duration": 1.27
+    },
+    {
+      "text": "There are just two\nthings-- two lines of code,",
+      "start": 1399.27,
+      "duration": 2.06
+    },
+    {
+      "text": "if you saw the details,\nthat you need to change.",
+      "start": 1401.33,
+      "duration": 2.05
+    },
+    {
+      "text": "You need to change the URL, and\nyou need to change the token.",
+      "start": 1403.38,
+      "duration": 3.72
+    },
+    {
+      "text": "So you just change\ntwo lines of code,",
+      "start": 1407.1,
+      "duration": 1.92
+    },
+    {
+      "text": "but the rest is exactly\nthe same code as before.",
+      "start": 1409.02,
+      "duration": 4.94
+    },
+    {
+      "text": "But that's not the\nonly way to use Gemma.",
+      "start": 1413.96,
+      "duration": 2.65
+    },
+    {
+      "text": "Gemma is designed to\nbe easily integrated",
+      "start": 1416.61,
+      "duration": 1.85
+    },
+    {
+      "text": "into your favorite\nopensource tools.",
+      "start": 1418.46,
+      "duration": 2.08
+    },
+    {
+      "text": "So of course, there\nis Google AI Studio,",
+      "start": 1420.54,
+      "duration": 1.92
+    },
+    {
+      "text": "but we also support Gemma\nin Keras, or in vLLM,",
+      "start": 1422.46,
+      "duration": 3.02
+    },
+    {
+      "text": "or in JAX, or Ollama, or Hugging\nFace Transformers, PyTorch,",
+      "start": 1425.48,
+      "duration": 4.75
+    },
+    {
+      "text": "MediaPipe.",
+      "start": 1430.23,
+      "duration": 0.76
+    },
+    {
+      "text": "So there are many\ndifferent opensource tools",
+      "start": 1430.99,
+      "duration": 1.833
+    },
+    {
+      "text": "that you have probably used.",
+      "start": 1432.823,
+      "duration": 1.197
+    },
+    {
+      "text": "And the idea is to make Gemma\nas easy as possible to user,",
+      "start": 1434.02,
+      "duration": 3.59
+    },
+    {
+      "text": "to enable developers to\nrun the models locally.",
+      "start": 1437.61,
+      "duration": 2.11
+    },
+    {
+      "text": "Because that's the cool\nthing of open models.",
+      "start": 1439.72,
+      "duration": 1.875
+    },
+    {
+      "text": "You don't need an\nAPI necessarily.",
+      "start": 1441.595,
+      "duration": 1.485
+    },
+    {
+      "text": "You can run these models in your\nown laptops, in your own phones.",
+      "start": 1443.08,
+      "duration": 2.84
+    },
+    {
+      "text": "And we'll talk a\nbit more about that.",
+      "start": 1445.92,
+      "duration": 1.9
+    },
+    {
+      "text": "But this is a good\nopportunity for me",
+      "start": 1447.82,
+      "duration": 1.97
+    },
+    {
+      "text": "to talk a bit about Kaggle.",
+      "start": 1449.79,
+      "duration": 2.35
+    },
+    {
+      "text": "Kaggle is the platform, where AI\nbuilders, learners, developers,",
+      "start": 1452.14,
+      "duration": 4.2
+    },
+    {
+      "text": "researchers participate\nin AI challenges.",
+      "start": 1456.34,
+      "duration": 2.31
+    },
+    {
+      "text": "There are over 24 million\npeople participating here.",
+      "start": 1458.65,
+      "duration": 3.77
+    },
+    {
+      "text": "And here, you can\ndiscover models.",
+      "start": 1462.42,
+      "duration": 1.72
+    },
+    {
+      "text": "You can share knowledge.",
+      "start": 1464.14,
+      "duration": 1.142
+    },
+    {
+      "text": "And within those, of course,\nyou can find the Gemma models.",
+      "start": 1465.282,
+      "duration": 2.458
+    },
+    {
+      "text": "You can find the\nGemma models, read",
+      "start": 1467.74,
+      "duration": 1.97
+    },
+    {
+      "text": "the model card, which is like\na documentation of a model.",
+      "start": 1469.71,
+      "duration": 3.34
+    },
+    {
+      "text": "You can download\nthe checkpoints.",
+      "start": 1473.05,
+      "duration": 2.58
+    },
+    {
+      "text": "OK.",
+      "start": 1475.63,
+      "duration": 0.5
+    },
+    {
+      "text": "Let's say that now you want\nto go and download and run",
+      "start": 1476.13,
+      "duration": 2.34
+    },
+    {
+      "text": "Gemma in your computer.",
+      "start": 1478.47,
+      "duration": 1.39
+    },
+    {
+      "text": "Who here knows Ollama?",
+      "start": 1479.86,
+      "duration": 2.15
+    },
+    {
+      "text": "OK, many of you.",
+      "start": 1482.01,
+      "duration": 0.73
+    },
+    {
+      "text": "That's great.",
+      "start": 1482.74,
+      "duration": 0.69
+    },
+    {
+      "text": "So Ollama is a tool that is\ndesigned to very easily, very",
+      "start": 1483.43,
+      "duration": 3.86
+    },
+    {
+      "text": "seamlessly run Gemma models--",
+      "start": 1487.29,
+      "duration": 1.83
+    },
+    {
+      "text": "well, open models locally\nin your own computer.",
+      "start": 1489.12,
+      "duration": 3.3
+    },
+    {
+      "text": "So with a simple command,\nollama run gemma3,",
+      "start": 1492.42,
+      "duration": 3.19
+    },
+    {
+      "text": "it will download and\ncreate a local API,",
+      "start": 1495.61,
+      "duration": 3.38
+    },
+    {
+      "text": "or a local chat interface\nthat you can use to experiment",
+      "start": 1498.99,
+      "duration": 3.0
+    },
+    {
+      "text": "with the Gemma models.",
+      "start": 1501.99,
+      "duration": 1.95
+    },
+    {
+      "text": "The nice thing of Ollama is\nthat it's very well integrated",
+      "start": 1503.94,
+      "duration": 2.7
+    },
+    {
+      "text": "into many opensource tools.",
+      "start": 1506.64,
+      "duration": 1.63
+    },
+    {
+      "text": "So if you use LLaMA\nindex, for example,",
+      "start": 1508.27,
+      "duration": 1.89
+    },
+    {
+      "text": "you can consume ollama--",
+      "start": 1510.16,
+      "duration": 2.3
+    },
+    {
+      "text": "you can use ollama to consume\ndifferent open models.",
+      "start": 1512.46,
+      "duration": 5.07
+    },
+    {
+      "text": "Or same for langchain.",
+      "start": 1517.53,
+      "duration": 1.21
+    },
+    {
+      "text": "So if you have\nused langchain, you",
+      "start": 1518.74,
+      "duration": 1.49
+    },
+    {
+      "text": "can combine langchain and\nollama to very easily use--",
+      "start": 1520.23,
+      "duration": 3.36
+    },
+    {
+      "text": "to use open models,\nsuch as Gemma 3.",
+      "start": 1523.59,
+      "duration": 3.36
+    },
+    {
+      "text": "Ollama, by the way, is also\nintegrated in Google Cloud Run.",
+      "start": 1526.95,
+      "duration": 3.04
+    },
+    {
+      "text": "So you can very easily\ndeploy a model with Ollama",
+      "start": 1529.99,
+      "duration": 3.44
+    },
+    {
+      "text": "through Google Cloud Run.",
+      "start": 1533.43,
+      "duration": 3.27
+    },
+    {
+      "text": "Ollama is just one of\nmany different open tools",
+      "start": 1536.7,
+      "duration": 2.25
+    },
+    {
+      "text": "to run open models.",
+      "start": 1538.95,
+      "duration": 1.12
+    },
+    {
+      "text": "So another one very\npopular is Keras.",
+      "start": 1540.07,
+      "duration": 1.98
+    },
+    {
+      "text": "Keras provides\nhigh-level APIs that",
+      "start": 1542.05,
+      "duration": 1.94
+    },
+    {
+      "text": "are designed for very quickly\nprototyping and building",
+      "start": 1543.99,
+      "duration": 4.67
+    },
+    {
+      "text": "with models.",
+      "start": 1548.66,
+      "duration": 0.84
+    },
+    {
+      "text": "You can build models.",
+      "start": 1549.5,
+      "duration": 1.21
+    },
+    {
+      "text": "You can experiment.",
+      "start": 1550.71,
+      "duration": 0.84
+    },
+    {
+      "text": "You can train very easily.",
+      "start": 1551.55,
+      "duration": 1.44
+    },
+    {
+      "text": "It gives you very nice,\nsimple abstractions",
+      "start": 1552.99,
+      "duration": 2.42
+    },
+    {
+      "text": "that let you try out\nthe Gemma capabilities",
+      "start": 1555.41,
+      "duration": 2.22
+    },
+    {
+      "text": "and build products with it.",
+      "start": 1557.63,
+      "duration": 1.77
+    },
+    {
+      "text": "So here you can see the code.",
+      "start": 1559.4,
+      "duration": 1.95
+    },
+    {
+      "text": "First, we load the Gemma 3\n4-billion-parameter model with",
+      "start": 1561.35,
+      "duration": 4.56
+    },
+    {
+      "text": "a specific precision.",
+      "start": 1565.91,
+      "duration": 1.33
+    },
+    {
+      "text": "So I'll talk a bit\nmore about precisions",
+      "start": 1567.24,
+      "duration": 1.88
+    },
+    {
+      "text": "in a couple of minutes.",
+      "start": 1569.12,
+      "duration": 1.26
+    },
+    {
+      "text": "But in this case, we\nare using bfloat16.",
+      "start": 1570.38,
+      "duration": 3.69
+    },
+    {
+      "text": "The second part is parsing\nthe actual text to the model.",
+      "start": 1574.07,
+      "duration": 3.16
+    },
+    {
+      "text": "And you may see there that\nthere are some weird words--",
+      "start": 1577.23,
+      "duration": 2.6
+    },
+    {
+      "text": "start_of_turn, end_of_turn.",
+      "start": 1579.83,
+      "duration": 1.9
+    },
+    {
+      "text": "What's that?",
+      "start": 1581.73,
+      "duration": 1.43
+    },
+    {
+      "text": "So when you go and\nyou train a model,",
+      "start": 1583.16,
+      "duration": 2.46
+    },
+    {
+      "text": "you use a specific format.",
+      "start": 1585.62,
+      "duration": 1.63
+    },
+    {
+      "text": "So when you train a\nmodel with conversations,",
+      "start": 1587.25,
+      "duration": 2.07
+    },
+    {
+      "text": "you use a specific format.",
+      "start": 1589.32,
+      "duration": 1.353
+    },
+    {
+      "text": "And the idea is that when you\nactually want to run a model",
+      "start": 1590.673,
+      "duration": 2.417
+    },
+    {
+      "text": "that was trained-- so if you\ndownload Gemma 3, for example--",
+      "start": 1593.09,
+      "duration": 3.1
+    },
+    {
+      "text": "you want to use the same\nprompt structure, the same text",
+      "start": 1596.19,
+      "duration": 3.62
+    },
+    {
+      "text": "structure as what was\nused to train the model.",
+      "start": 1599.81,
+      "duration": 2.92
+    },
+    {
+      "text": "So some libraries,\nsuch as Ollama,",
+      "start": 1602.73,
+      "duration": 2.55
+    },
+    {
+      "text": "take care of doing\nall of this for you,",
+      "start": 1605.28,
+      "duration": 1.92
+    },
+    {
+      "text": "while other libraries,\nsuch as Keras,",
+      "start": 1607.2,
+      "duration": 1.67
+    },
+    {
+      "text": "give you more fine-grained\ncontrol on the prompts",
+      "start": 1608.87,
+      "duration": 2.4
+    },
+    {
+      "text": "and allow you to\ncontrol how things work.",
+      "start": 1611.27,
+      "duration": 4.29
+    },
+    {
+      "text": "Just a couple of months ago,\nwith the Gemma 3 launch,",
+      "start": 1615.56,
+      "duration": 2.41
+    },
+    {
+      "text": "we also announced\nGemma Python Library.",
+      "start": 1617.97,
+      "duration": 2.88
+    },
+    {
+      "text": "It's powered by JAX.",
+      "start": 1620.85,
+      "duration": 1.29
+    },
+    {
+      "text": "It also gives you\nhigh-level abstractions that",
+      "start": 1622.14,
+      "duration": 2.03
+    },
+    {
+      "text": "let you run the Gemma models.",
+      "start": 1624.17,
+      "duration": 1.72
+    },
+    {
+      "text": "And it has three key components.",
+      "start": 1625.89,
+      "duration": 1.56
+    },
+    {
+      "text": "It has a tokenizer.",
+      "start": 1627.45,
+      "duration": 1.32
+    },
+    {
+      "text": "It has the model, the model\nconfiguration, let's say.",
+      "start": 1628.77,
+      "duration": 3.11
+    },
+    {
+      "text": "And it has the actual\nmodel parameters.",
+      "start": 1631.88,
+      "duration": 2.46
+    },
+    {
+      "text": "And this JAX library gives\nyou this sampler class",
+      "start": 1634.34,
+      "duration": 2.76
+    },
+    {
+      "text": "that lets you combine the\nmodel, the parameters,",
+      "start": 1637.1,
+      "duration": 3.93
+    },
+    {
+      "text": "and the tokenizer\ninto a single class.",
+      "start": 1641.03,
+      "duration": 2.68
+    },
+    {
+      "text": "And then when you do\n\"sampler.sample Roses are red,\"",
+      "start": 1643.71,
+      "duration": 3.03
+    },
+    {
+      "text": "it will keep\ngenerating the text.",
+      "start": 1646.74,
+      "duration": 1.69
+    },
+    {
+      "text": "Finally, if you\nknow Hugging Face,",
+      "start": 1651.74,
+      "duration": 1.8
+    },
+    {
+      "text": "they have this library\ncalled Transformers,",
+      "start": 1653.54,
+      "duration": 2.1
+    },
+    {
+      "text": "which gives you a\nvery high level,",
+      "start": 1655.64,
+      "duration": 2.05
+    },
+    {
+      "text": "also a pipeline as a\nclass, that lets you say,",
+      "start": 1657.69,
+      "duration": 4.05
+    },
+    {
+      "text": "I want to do text\ngeneration, with a Gemma 3",
+      "start": 1661.74,
+      "duration": 2.7
+    },
+    {
+      "text": "12-billion-parameter model.",
+      "start": 1664.44,
+      "duration": 1.59
+    },
+    {
+      "text": "And just like that, you can\nspecify, OK, the user is saying,",
+      "start": 1666.03,
+      "duration": 3.27
+    },
+    {
+      "text": "who are you?",
+      "start": 1669.3,
+      "duration": 0.57
+    },
+    {
+      "text": "Answer in pirate speak.",
+      "start": 1669.87,
+      "duration": 1.5
+    },
+    {
+      "text": "You pass that to the model, and\nthe model will keep generating.",
+      "start": 1671.37,
+      "duration": 3.305
+    },
+    {
+      "text": "So as you can see, Gemma\nis deeply integrated",
+      "start": 1674.675,
+      "duration": 1.875
+    },
+    {
+      "text": "into many of your\nfavorite opensource tools.",
+      "start": 1676.55,
+      "duration": 3.19
+    },
+    {
+      "text": "And we are talking with\nall of these developers",
+      "start": 1679.74,
+      "duration": 2.15
+    },
+    {
+      "text": "to make it as easy as\npossible to run them.",
+      "start": 1681.89,
+      "duration": 3.39
+    },
+    {
+      "text": "Now, these models are\nrunning in your computer.",
+      "start": 1685.28,
+      "duration": 2.38
+    },
+    {
+      "text": "And as Gus was\nmentioning, we have",
+      "start": 1687.66,
+      "duration": 1.43
+    },
+    {
+      "text": "models that go from\n1 billion parameters",
+      "start": 1689.09,
+      "duration": 2.43
+    },
+    {
+      "text": "to 27 billion parameters.",
+      "start": 1691.52,
+      "duration": 1.81
+    },
+    {
+      "text": "And you may be\nwondering, can I run",
+      "start": 1693.33,
+      "duration": 1.49
+    },
+    {
+      "text": "this model in my own computer?",
+      "start": 1694.82,
+      "duration": 2.25
+    },
+    {
+      "text": "So each parameter is stored with\na number, a specific precision.",
+      "start": 1697.07,
+      "duration": 5.32
+    },
+    {
+      "text": "So previously, I\nmentioned bfloat16.",
+      "start": 1702.39,
+      "duration": 2.7
+    },
+    {
+      "text": "That means that there are 16\nbits for every single parameter.",
+      "start": 1705.09,
+      "duration": 4.8
+    },
+    {
+      "text": "So kind of rough napkin\nmath-- so this is just",
+      "start": 1709.89,
+      "duration": 2.96
+    },
+    {
+      "text": "an approximation-- is that for\nevery single billion parameters,",
+      "start": 1712.85,
+      "duration": 3.84
+    },
+    {
+      "text": "you need 2 gigabytes of VRAM.",
+      "start": 1716.69,
+      "duration": 2.38
+    },
+    {
+      "text": "So you need a GPU\nof 2 gigabytes.",
+      "start": 1719.07,
+      "duration": 3.06
+    },
+    {
+      "text": "So the 27-billion-parameter\nmodel, it's 54 gigabytes.",
+      "start": 1722.13,
+      "duration": 5.31
+    },
+    {
+      "text": "And probably most of you\ndon't have that at home.",
+      "start": 1727.44,
+      "duration": 2.34
+    },
+    {
+      "text": "So now you may be wondering,\ncan I actually use these models?",
+      "start": 1729.78,
+      "duration": 3.952
+    },
+    {
+      "text": "So there is a family\nof techniques called",
+      "start": 1733.732,
+      "duration": 1.708
+    },
+    {
+      "text": "\"quantization.\"",
+      "start": 1735.44,
+      "duration": 0.97
+    },
+    {
+      "text": "Quantization reduces the\nprecision of the parameters.",
+      "start": 1736.41,
+      "duration": 3.03
+    },
+    {
+      "text": "So you can go down to 8 bits per\nparameter, 4 bits, even 2 bits.",
+      "start": 1739.44,
+      "duration": 4.55
+    },
+    {
+      "text": "And as we reduce the\nprecision, the quality",
+      "start": 1743.99,
+      "duration": 2.1
+    },
+    {
+      "text": "begins to degrade a bit.",
+      "start": 1746.09,
+      "duration": 1.27
+    },
+    {
+      "text": "So the models may become\nworse than the bfloat16.",
+      "start": 1747.36,
+      "duration": 4.26
+    },
+    {
+      "text": "So you may be\nwondering, OK, can I",
+      "start": 1751.62,
+      "duration": 2.45
+    },
+    {
+      "text": "reduce the precision while\nmaintaining the same quality?",
+      "start": 1754.07,
+      "duration": 2.8
+    },
+    {
+      "text": "And this is a good moment\njust to show, with int4,",
+      "start": 1756.87,
+      "duration": 3.48
+    },
+    {
+      "text": "so if we quantize the model, now\nthe 27-billion parameter just",
+      "start": 1760.35,
+      "duration": 4.01
+    },
+    {
+      "text": "needs 14 gigabytes of VRAM,\nwhich is quite good, actually.",
+      "start": 1764.36,
+      "duration": 3.49
+    },
+    {
+      "text": "I personally really like the\n12-billion parameter model.",
+      "start": 1767.85,
+      "duration": 2.52
+    },
+    {
+      "text": "It's a very nice size.",
+      "start": 1770.37,
+      "duration": 1.05
+    },
+    {
+      "text": "Just 6.6 gigabytes\nof VRAM to load",
+      "start": 1771.42,
+      "duration": 2.3
+    },
+    {
+      "text": "a model, which is a size for\nmost normal computer GPUs.",
+      "start": 1773.72,
+      "duration": 4.6
+    },
+    {
+      "text": "So it's a very friendly size.",
+      "start": 1778.32,
+      "duration": 2.33
+    },
+    {
+      "text": "A few weeks ago, we released\na QAT, Quantization-Aware",
+      "start": 1780.65,
+      "duration": 3.45
+    },
+    {
+      "text": "Training, checkpoints of Gemma.",
+      "start": 1784.1,
+      "duration": 1.89
+    },
+    {
+      "text": "QAT is a technique that allows\nyou to make the model more",
+      "start": 1785.99,
+      "duration": 3.27
+    },
+    {
+      "text": "robust to quantization.",
+      "start": 1789.26,
+      "duration": 1.48
+    },
+    {
+      "text": "It's a very small\nadditional training stage.",
+      "start": 1790.74,
+      "duration": 2.97
+    },
+    {
+      "text": "And what that means is that\nonce you quantize the model down",
+      "start": 1793.71,
+      "duration": 3.38
+    },
+    {
+      "text": "to int4, the model will\npreserve the same quality",
+      "start": 1797.09,
+      "duration": 2.97
+    },
+    {
+      "text": "as a larger model.",
+      "start": 1800.06,
+      "duration": 1.12
+    },
+    {
+      "text": "So it will be a bit worse, but\nyou don't have so much quality",
+      "start": 1801.18,
+      "duration": 3.02
+    },
+    {
+      "text": "degradation.",
+      "start": 1804.2,
+      "duration": 0.97
+    },
+    {
+      "text": "So now with the\nGemma 3 models, you",
+      "start": 1805.17,
+      "duration": 1.51
+    },
+    {
+      "text": "can also try out\nthe QAT checkpoints",
+      "start": 1806.68,
+      "duration": 1.69
+    },
+    {
+      "text": "that are specifically\naimed to make it very",
+      "start": 1808.37,
+      "duration": 2.37
+    },
+    {
+      "text": "easy to run the models locally.",
+      "start": 1810.74,
+      "duration": 2.52
+    },
+    {
+      "text": "So I've been talking\na lot about how to run",
+      "start": 1813.26,
+      "duration": 2.34
+    },
+    {
+      "text": "and how to load\nthe Gemma models.",
+      "start": 1815.6,
+      "duration": 2.01
+    },
+    {
+      "text": "And now I would love to talk a\nbit more about the Gemmaverse,",
+      "start": 1817.61,
+      "duration": 2.62
+    },
+    {
+      "text": "which is composed of tens\nof thousands of variants,",
+      "start": 1820.23,
+      "duration": 2.67
+    },
+    {
+      "text": "tools, libraries built by\nyou, the developer ecosystem,",
+      "start": 1822.9,
+      "duration": 3.14
+    },
+    {
+      "text": "and also researchers.",
+      "start": 1826.04,
+      "duration": 1.51
+    },
+    {
+      "text": "It's a vibrant ecosystem\nwith huge adoption.",
+      "start": 1827.55,
+      "duration": 3.978
+    },
+    {
+      "text": "And just to understand\nit a bit more,",
+      "start": 1831.528,
+      "duration": 1.542
+    },
+    {
+      "text": "it's good to talk about\npretraining and post-training.",
+      "start": 1833.07,
+      "duration": 2.82
+    },
+    {
+      "text": "So in LLMs, there are\nusually two main stages.",
+      "start": 1835.89,
+      "duration": 3.44
+    },
+    {
+      "text": "In the pretraining, you usually\ntrain a model from scratch.",
+      "start": 1839.33,
+      "duration": 3.33
+    },
+    {
+      "text": "That needs lots of\ndata, lots of compute.",
+      "start": 1842.66,
+      "duration": 3.0
+    },
+    {
+      "text": "And the outcome of that stage\nis that it's a model that",
+      "start": 1845.66,
+      "duration": 2.76
+    },
+    {
+      "text": "will predict the next token.",
+      "start": 1848.42,
+      "duration": 2.778
+    },
+    {
+      "text": "It's not the one that you\nwould put in a chat interface",
+      "start": 1851.198,
+      "duration": 2.292
+    },
+    {
+      "text": "or in a product.",
+      "start": 1853.49,
+      "duration": 2.01
+    },
+    {
+      "text": "There is also the\npost-training stage.",
+      "start": 1855.5,
+      "duration": 2.05
+    },
+    {
+      "text": "So if you have heard about RLHF,\nQLoRA, PEFT for finetuning,",
+      "start": 1857.55,
+      "duration": 4.47
+    },
+    {
+      "text": "that's post-training.",
+      "start": 1862.02,
+      "duration": 1.05
+    },
+    {
+      "text": "And the idea is to make the\nmodel better conversational.",
+      "start": 1863.07,
+      "duration": 4.17
+    },
+    {
+      "text": "So I'll talk a bit more\nabout that in a minute.",
+      "start": 1867.24,
+      "duration": 2.58
+    },
+    {
+      "text": "But for Gemma, we released\nboth the pretrained",
+      "start": 1869.82,
+      "duration": 2.24
+    },
+    {
+      "text": "and the post-trained\ncheckpoints.",
+      "start": 1872.06,
+      "duration": 1.69
+    },
+    {
+      "text": "The pretrained checkpoints\nwork as a foundation",
+      "start": 1873.75,
+      "duration": 2.33
+    },
+    {
+      "text": "for the community to\nbuild their own models",
+      "start": 1876.08,
+      "duration": 2.25
+    },
+    {
+      "text": "with their favorite\nfinetuning tools.",
+      "start": 1878.33,
+      "duration": 3.27
+    },
+    {
+      "text": "And the post-training checkpoint\nis a generalist conversational",
+      "start": 1881.6,
+      "duration": 3.06
+    },
+    {
+      "text": "model.",
+      "start": 1884.66,
+      "duration": 0.652
+    },
+    {
+      "text": "But there are many cases\nin which you will want",
+      "start": 1885.312,
+      "duration": 1.958
+    },
+    {
+      "text": "to fine tune your own models.",
+      "start": 1887.27,
+      "duration": 1.56
+    },
+    {
+      "text": "So when will you\nwant to do that?",
+      "start": 1888.83,
+      "duration": 2.02
+    },
+    {
+      "text": "If you want to add\nnew capabilities;",
+      "start": 1890.85,
+      "duration": 1.83
+    },
+    {
+      "text": "if you want to make the model\nbetter for Spanish, for example,",
+      "start": 1892.68,
+      "duration": 3.57
+    },
+    {
+      "text": "so for your own\nlanguages; if you",
+      "start": 1896.25,
+      "duration": 1.64
+    },
+    {
+      "text": "want to make the model\nbetter for your own domain,",
+      "start": 1897.89,
+      "duration": 2.88
+    },
+    {
+      "text": "so if you have your\nown company data",
+      "start": 1900.77,
+      "duration": 1.5
+    },
+    {
+      "text": "and you want the model to\nlearn about your company data,",
+      "start": 1902.27,
+      "duration": 3.04
+    },
+    {
+      "text": "you can fine-tune.",
+      "start": 1905.31,
+      "duration": 0.78
+    },
+    {
+      "text": "And these are\nmodels that you own,",
+      "start": 1906.09,
+      "duration": 1.417
+    },
+    {
+      "text": "that you can host in your own\ncomputers, in your own servers.",
+      "start": 1907.507,
+      "duration": 4.033
+    },
+    {
+      "text": "So you already saw\nthe LMArena score.",
+      "start": 1911.54,
+      "duration": 2.5
+    },
+    {
+      "text": "So what you see here is\nactually the chat model.",
+      "start": 1914.04,
+      "duration": 2.03
+    },
+    {
+      "text": "It's the post-train checkpoint,\nwhich is a generalist",
+      "start": 1916.07,
+      "duration": 3.33
+    },
+    {
+      "text": "conversational model.",
+      "start": 1919.4,
+      "duration": 1.21
+    },
+    {
+      "text": "But again, you can fine-tune\nGemma for your own use cases.",
+      "start": 1920.61,
+      "duration": 3.06
+    },
+    {
+      "text": "So if have your own\ninternal leaderboards",
+      "start": 1923.67,
+      "duration": 2.0
+    },
+    {
+      "text": "for your own use cases, this is\nwhere finetuning will come in.",
+      "start": 1925.67,
+      "duration": 4.26
+    },
+    {
+      "text": "And there are many\ndifferent finetuning tools.",
+      "start": 1929.93,
+      "duration": 2.41
+    },
+    {
+      "text": "So again, I mentioned already\nKeras and Hugging Face.",
+      "start": 1932.34,
+      "duration": 2.37
+    },
+    {
+      "text": "There is Unsloth\nand Axolotl, which",
+      "start": 1934.71,
+      "duration": 1.85
+    },
+    {
+      "text": "are two other very\npopular opensource",
+      "start": 1936.56,
+      "duration": 2.73
+    },
+    {
+      "text": "libraries to fine-tune models.",
+      "start": 1939.29,
+      "duration": 2.07
+    },
+    {
+      "text": "I will not dive too much into\nthe code for the sake of time.",
+      "start": 1941.36,
+      "duration": 3.28
+    },
+    {
+      "text": "But with Transformers,\nfor example,",
+      "start": 1944.64,
+      "duration": 1.65
+    },
+    {
+      "text": "there is trl, which is a\nhigh-level wrapper that",
+      "start": 1946.29,
+      "duration": 2.15
+    },
+    {
+      "text": "allows you to very easily,\njust with a SFTTrainer,",
+      "start": 1948.44,
+      "duration": 3.46
+    },
+    {
+      "text": "do the training of a model.",
+      "start": 1951.9,
+      "duration": 2.36
+    },
+    {
+      "text": "Or Unsloth.",
+      "start": 1954.26,
+      "duration": 1.11
+    },
+    {
+      "text": "Unsloth is a wrapper around\nHugging Face Transformers that",
+      "start": 1955.37,
+      "duration": 3.6
+    },
+    {
+      "text": "makes it very, very, very\neasy to fine-tune models",
+      "start": 1958.97,
+      "duration": 3.99
+    },
+    {
+      "text": "with very limited compute.",
+      "start": 1962.96,
+      "duration": 1.81
+    },
+    {
+      "text": "So in a free Google Colab,\nin a Kaggle instance,",
+      "start": 1964.77,
+      "duration": 2.61
+    },
+    {
+      "text": "for example, you can use\nUnsloth to train models.",
+      "start": 1967.38,
+      "duration": 2.85
+    },
+    {
+      "text": "And this is extremely quickly,\nwithout losing any quality.",
+      "start": 1970.23,
+      "duration": 2.85
+    },
+    {
+      "text": "So it's a very strong\ntechnique to do finetuning.",
+      "start": 1973.08,
+      "duration": 3.62
+    },
+    {
+      "text": "And there are over 70,000\nGemma-based models built",
+      "start": 1976.7,
+      "duration": 3.54
+    },
+    {
+      "text": "by the community.",
+      "start": 1980.24,
+      "duration": 1.38
+    },
+    {
+      "text": "The top three are\nmultilingual examples.",
+      "start": 1981.62,
+      "duration": 2.05
+    },
+    {
+      "text": "So we have seen people training\nGemma for Korean conversations.",
+      "start": 1983.67,
+      "duration": 4.23
+    },
+    {
+      "text": "We have seen GemmaX, which\nis Gemma for translation.",
+      "start": 1987.9,
+      "duration": 3.06
+    },
+    {
+      "text": "We have seen SILMA Kashif,\nwhich is a retrieval augmented",
+      "start": 1990.96,
+      "duration": 2.75
+    },
+    {
+      "text": "generation for\nArabic and English.",
+      "start": 1993.71,
+      "duration": 2.17
+    },
+    {
+      "text": "But we have also\nseen people using",
+      "start": 1995.88,
+      "duration": 1.79
+    },
+    {
+      "text": "Gemma to change the way\nthey develop models,",
+      "start": 1997.67,
+      "duration": 2.25
+    },
+    {
+      "text": "that they build models.",
+      "start": 1999.92,
+      "duration": 1.66
+    },
+    {
+      "text": "So Lumina Image\nis a way in which",
+      "start": 2001.58,
+      "duration": 1.91
+    },
+    {
+      "text": "they combine Gemma\nwith a few other models",
+      "start": 2003.49,
+      "duration": 1.89
+    },
+    {
+      "text": "to do image generation.",
+      "start": 2005.38,
+      "duration": 1.75
+    },
+    {
+      "text": "Or OmniAudio, which\nis a model that",
+      "start": 2007.13,
+      "duration": 1.73
+    },
+    {
+      "text": "can also take audio as input.",
+      "start": 2008.86,
+      "duration": 1.93
+    },
+    {
+      "text": "Or finally, SimPO, which is a\ndifferent post-train technique.",
+      "start": 2010.79,
+      "duration": 3.69
+    },
+    {
+      "text": "It's a different RLHF\ntechnique based on Gemma.",
+      "start": 2014.48,
+      "duration": 3.96
+    },
+    {
+      "text": "So we are seeing people\nbuilding research, also,",
+      "start": 2018.44,
+      "duration": 2.18
+    },
+    {
+      "text": "on top of the open\nmodels that we release.",
+      "start": 2020.62,
+      "duration": 3.15
+    },
+    {
+      "text": "It's been fantastic to see\nwhat the community built. Just",
+      "start": 2023.77,
+      "duration": 2.543
+    },
+    {
+      "text": "a couple of months ago, we\ndid a Kaggle competition,",
+      "start": 2026.313,
+      "duration": 2.167
+    },
+    {
+      "text": "focused on enabling\nthe community to train",
+      "start": 2028.48,
+      "duration": 2.85
+    },
+    {
+      "text": "Gemma for their own languages.",
+      "start": 2031.33,
+      "duration": 1.45
+    },
+    {
+      "text": "And we saw thousands of people\nparticipating, contributing,",
+      "start": 2032.78,
+      "duration": 3.51
+    },
+    {
+      "text": "sharing knowledge,\ncollaborating.",
+      "start": 2036.29,
+      "duration": 2.63
+    },
+    {
+      "text": "So this was very exciting.",
+      "start": 2038.92,
+      "duration": 1.36
+    },
+    {
+      "text": "And now I'm happy\nto hand it over",
+      "start": 2040.28,
+      "duration": 1.58
+    },
+    {
+      "text": "again to Gus, who will\ntalk a bit more about some",
+      "start": 2041.86,
+      "duration": 2.67
+    },
+    {
+      "text": "of his favorite case studies.",
+      "start": 2044.53,
+      "duration": 1.36
+    },
+    {
+      "text": "Thanks.",
+      "start": 2045.89,
+      "duration": 0.56
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2046.45,
+      "duration": 2.542
+    },
+    {
+      "text": "GUS MARTINS: Thank you.",
+      "start": 2048.992,
+      "duration": 0.958
+    },
+    {
+      "text": "Nice.",
+      "start": 2052.81,
+      "duration": 1.119
+    },
+    {
+      "text": "Yeah, you thought you didn't\nhave me anymore, right?",
+      "start": 2053.929,
+      "duration": 3.051
+    },
+    {
+      "text": "So let's talk about how\npeople are leveraging Gemma",
+      "start": 2056.98,
+      "duration": 3.36
+    },
+    {
+      "text": "even further.",
+      "start": 2060.34,
+      "duration": 1.18
+    },
+    {
+      "text": "We've seen lots of variants\nthat Omar just showed,",
+      "start": 2061.52,
+      "duration": 3.09
+    },
+    {
+      "text": "but we have some\nvery cool use cases.",
+      "start": 2064.61,
+      "duration": 2.75
+    },
+    {
+      "text": "For example, we have our\nfriends from AI Singapore.",
+      "start": 2067.36,
+      "duration": 2.92
+    },
+    {
+      "text": "They built the SEA-LION model.",
+      "start": 2070.28,
+      "duration": 2.01
+    },
+    {
+      "text": "And the idea is they\nwanted to create",
+      "start": 2072.29,
+      "duration": 2.21
+    },
+    {
+      "text": "a Gemma version\nthat was very good",
+      "start": 2074.5,
+      "duration": 2.4
+    },
+    {
+      "text": "on Southeast Asian languages.",
+      "start": 2076.9,
+      "duration": 1.989
+    },
+    {
+      "text": "There's a bunch of those.",
+      "start": 2078.889,
+      "duration": 1.491
+    },
+    {
+      "text": "And Gemma was good.",
+      "start": 2080.38,
+      "duration": 2.069
+    },
+    {
+      "text": "There are many models\nthat try to do that.",
+      "start": 2082.449,
+      "duration": 2.221
+    },
+    {
+      "text": "Our model was good.",
+      "start": 2084.67,
+      "duration": 1.08
+    },
+    {
+      "text": "But what they did is\nthey finetuned Gemma,",
+      "start": 2085.75,
+      "duration": 2.21
+    },
+    {
+      "text": "a Gemma 2 model, a 9B, to be the\nbest Southeast Asian language",
+      "start": 2087.96,
+      "duration": 5.16
+    },
+    {
+      "text": "model, period.",
+      "start": 2093.12,
+      "duration": 2.309
+    },
+    {
+      "text": "And that's their scores\nthere you can see.",
+      "start": 2095.429,
+      "duration": 2.681
+    },
+    {
+      "text": "And we've been working with them\nto make even further updates",
+      "start": 2098.11,
+      "duration": 3.83
+    },
+    {
+      "text": "to that and enable\na lot of people",
+      "start": 2101.94,
+      "duration": 2.73
+    },
+    {
+      "text": "to have access, in\ntheir own language,",
+      "start": 2104.67,
+      "duration": 2.67
+    },
+    {
+      "text": "to a large language model.",
+      "start": 2107.34,
+      "duration": 2.956
+    },
+    {
+      "text": "Beyond that, we have our\ncolleagues on Insait.",
+      "start": 2110.296,
+      "duration": 2.594
+    },
+    {
+      "text": "And they built the first\nnational Bulgarian LLM,",
+      "start": 2112.89,
+      "duration": 5.05
+    },
+    {
+      "text": "let's say like that.",
+      "start": 2117.94,
+      "duration": 1.11
+    },
+    {
+      "text": "And what they did is they\nfinetuned also a Gemma 2 model--",
+      "start": 2119.05,
+      "duration": 3.69
+    },
+    {
+      "text": "again, a model that\nwas English only,",
+      "start": 2122.74,
+      "duration": 2.39
+    },
+    {
+      "text": "to be the best\nBulgarian LLM, period.",
+      "start": 2125.13,
+      "duration": 3.46
+    },
+    {
+      "text": "And it's offered to\ncitizens in Bulgaria",
+      "start": 2128.59,
+      "duration": 2.36
+    },
+    {
+      "text": "so every citizen can use.",
+      "start": 2130.95,
+      "duration": 2.26
+    },
+    {
+      "text": "It's used by the government.",
+      "start": 2133.21,
+      "duration": 1.47
+    },
+    {
+      "text": "So this is exactly what we want.",
+      "start": 2134.68,
+      "duration": 3.03
+    },
+    {
+      "text": "We want to enable people to\nbring this to their communities,",
+      "start": 2137.71,
+      "duration": 4.32
+    },
+    {
+      "text": "to their citizens, which\nis very, very cool,",
+      "start": 2142.03,
+      "duration": 3.3
+    },
+    {
+      "text": "and giving this\npower to everyone,",
+      "start": 2145.33,
+      "duration": 3.09
+    },
+    {
+      "text": "making it accessible\nto everyone.",
+      "start": 2148.42,
+      "duration": 1.83
+    },
+    {
+      "text": "So we're very proud\nof these use cases.",
+      "start": 2150.25,
+      "duration": 3.38
+    },
+    {
+      "text": "And in terms of\nvariants, there's,",
+      "start": 2153.63,
+      "duration": 1.8
+    },
+    {
+      "text": "of course, the community ones.",
+      "start": 2155.43,
+      "duration": 1.48
+    },
+    {
+      "text": "We are absurdly happy with them.",
+      "start": 2156.91,
+      "duration": 1.86
+    },
+    {
+      "text": "But we also keep pushing our own\nvariants, going into new fields.",
+      "start": 2158.77,
+      "duration": 4.98
+    },
+    {
+      "text": "I don't know if you saw.",
+      "start": 2163.75,
+      "duration": 3.27
+    },
+    {
+      "text": "Last month, we released--\nwe announced DolphinGemma,",
+      "start": 2167.02,
+      "duration": 3.57
+    },
+    {
+      "text": "which is our first large\nlanguage model for dolphin",
+      "start": 2170.59,
+      "duration": 3.71
+    },
+    {
+      "text": "communication.",
+      "start": 2174.3,
+      "duration": 1.03
+    },
+    {
+      "text": "The idea is, of\ncourse, to create--",
+      "start": 2175.33,
+      "duration": 1.94
+    },
+    {
+      "text": "with this model, we create a\nshared vocabulary with dolphins.",
+      "start": 2177.27,
+      "duration": 4.6
+    },
+    {
+      "text": "And then we can, at\nsome point, start",
+      "start": 2181.87,
+      "duration": 1.85
+    },
+    {
+      "text": "to understand how\nto talk to them.",
+      "start": 2183.72,
+      "duration": 2.74
+    },
+    {
+      "text": "We are not there yet.",
+      "start": 2186.46,
+      "duration": 1.85
+    },
+    {
+      "text": "I don't want to sell hype.",
+      "start": 2188.31,
+      "duration": 1.69
+    },
+    {
+      "text": "That's not what I do.",
+      "start": 2190.0,
+      "duration": 1.02
+    },
+    {
+      "text": "This model is helping\nresearchers get there.",
+      "start": 2191.02,
+      "duration": 3.38
+    },
+    {
+      "text": "And we are using decades\nof field research data",
+      "start": 2194.4,
+      "duration": 3.42
+    },
+    {
+      "text": "to train models together.",
+      "start": 2197.82,
+      "duration": 1.72
+    },
+    {
+      "text": "This is very cool.",
+      "start": 2199.54,
+      "duration": 1.11
+    },
+    {
+      "text": "It's coming soon.",
+      "start": 2200.65,
+      "duration": 0.862
+    },
+    {
+      "text": "We are going to open that\nfor everyone to play.",
+      "start": 2201.512,
+      "duration": 1.958
+    },
+    {
+      "text": "Maybe you do a version\nfor whales or for dogs.",
+      "start": 2203.47,
+      "duration": 3.963
+    },
+    {
+      "text": "I don't know.",
+      "start": 2207.433,
+      "duration": 0.542
+    },
+    {
+      "text": "Up to you.",
+      "start": 2207.975,
+      "duration": 1.365
+    },
+    {
+      "text": "So this is great.",
+      "start": 2209.34,
+      "duration": 1.63
+    },
+    {
+      "text": "It's coming soon.",
+      "start": 2210.97,
+      "duration": 1.58
+    },
+    {
+      "text": "We also released,\nyesterday, MedGemma,",
+      "start": 2212.55,
+      "duration": 2.94
+    },
+    {
+      "text": "which is a Gemma variant\nfor the health industry.",
+      "start": 2215.49,
+      "duration": 4.44
+    },
+    {
+      "text": "The idea here is you can--",
+      "start": 2219.93,
+      "duration": 2.43
+    },
+    {
+      "text": "Gemma is good on visual and all.",
+      "start": 2222.36,
+      "duration": 1.9
+    },
+    {
+      "text": "But when you start to use\nmedical vocabulary or images",
+      "start": 2224.26,
+      "duration": 4.97
+    },
+    {
+      "text": "from health-related\nfield, of course",
+      "start": 2229.23,
+      "duration": 3.24
+    },
+    {
+      "text": "Gemma is not great on that.",
+      "start": 2232.47,
+      "duration": 1.66
+    },
+    {
+      "text": "It wasn't trained to do that.",
+      "start": 2234.13,
+      "duration": 1.77
+    },
+    {
+      "text": "That's what MedGemma\nhelps you address.",
+      "start": 2235.9,
+      "duration": 2.57
+    },
+    {
+      "text": "They fine-tune Gemma 3 to\nbe great for medical use",
+      "start": 2238.47,
+      "duration": 4.32
+    },
+    {
+      "text": "cases, both image and text.",
+      "start": 2242.79,
+      "duration": 3.87
+    },
+    {
+      "text": "The 4B and the 27B, these are\navailable on Hugging Face,",
+      "start": 2246.66,
+      "duration": 5.55
+    },
+    {
+      "text": "Vertex, and we are bringing\nit to even more surfaces.",
+      "start": 2252.21,
+      "duration": 3.46
+    },
+    {
+      "text": "So this is very good for you to\nstart playing on health apps.",
+      "start": 2255.67,
+      "duration": 5.59
+    },
+    {
+      "text": "And why does this matter?",
+      "start": 2261.26,
+      "duration": 2.64
+    },
+    {
+      "text": "When we talk about\nhealth-related applications,",
+      "start": 2263.9,
+      "duration": 4.85
+    },
+    {
+      "text": "this is a field where\nyou cannot just, oh,",
+      "start": 2268.75,
+      "duration": 2.2
+    },
+    {
+      "text": "let me send your data\nto any cloud, anywhere.",
+      "start": 2270.95,
+      "duration": 2.58
+    },
+    {
+      "text": "Let me do that.",
+      "start": 2273.53,
+      "duration": 0.87
+    },
+    {
+      "text": "You cannot do that.",
+      "start": 2274.4,
+      "duration": 1.042
+    },
+    {
+      "text": "There's a lot of regulations.",
+      "start": 2275.442,
+      "duration": 1.208
+    },
+    {
+      "text": "So running completely local on\nyour computer, on your server,",
+      "start": 2276.65,
+      "duration": 4.71
+    },
+    {
+      "text": "that's very important.",
+      "start": 2281.36,
+      "duration": 1.28
+    },
+    {
+      "text": "And MedGemma enables that.",
+      "start": 2282.64,
+      "duration": 1.698
+    },
+    {
+      "text": "Gemma enables that.",
+      "start": 2284.338,
+      "duration": 0.792
+    },
+    {
+      "text": "MedGemma enables that.",
+      "start": 2285.13,
+      "duration": 2.46
+    },
+    {
+      "text": "We also mentioned\nyesterday, SignGemma,",
+      "start": 2287.59,
+      "duration": 3.48
+    },
+    {
+      "text": "where we're expanding\nGemma to sign language.",
+      "start": 2291.07,
+      "duration": 3.01
+    },
+    {
+      "text": "So you'll be able to do a\nsign-- this is not a real sign.",
+      "start": 2294.08,
+      "duration": 3.72
+    },
+    {
+      "text": "But you'll be able to do\nsign language with the model.",
+      "start": 2297.8,
+      "duration": 2.97
+    },
+    {
+      "text": "It will translate that to text.",
+      "start": 2300.77,
+      "duration": 2.42
+    },
+    {
+      "text": "At first, it will be American\nSign language and English,",
+      "start": 2303.19,
+      "duration": 2.95
+    },
+    {
+      "text": "but we are working\nwith the community",
+      "start": 2306.14,
+      "duration": 2.18
+    },
+    {
+      "text": "to make this in as many\nsign languages as possible.",
+      "start": 2308.32,
+      "duration": 3.91
+    },
+    {
+      "text": "This is coming soon--",
+      "start": 2312.23,
+      "duration": 1.34
+    },
+    {
+      "text": "hopefully really, really soon.",
+      "start": 2313.57,
+      "duration": 1.69
+    },
+    {
+      "text": "And this is also\nanother field we're",
+      "start": 2315.26,
+      "duration": 1.72
+    },
+    {
+      "text": "expanding with our variants\nto help, again, engage",
+      "start": 2316.98,
+      "duration": 3.96
+    },
+    {
+      "text": "the community,\nreach more people,",
+      "start": 2320.94,
+      "duration": 2.56
+    },
+    {
+      "text": "help more people benefit\nfrom these kind of tools.",
+      "start": 2323.5,
+      "duration": 5.0
+    },
+    {
+      "text": "Another variant that I'm\nvery proud of is ShieldGemma.",
+      "start": 2328.5,
+      "duration": 2.512
+    },
+    {
+      "text": "ShieldGemma, there's 1 and 2.",
+      "start": 2331.012,
+      "duration": 1.208
+    },
+    {
+      "text": "ShieldGemma 2 specifically\nwas released in March.",
+      "start": 2332.22,
+      "duration": 2.77
+    },
+    {
+      "text": "It's a model as a\nsafety classifier,",
+      "start": 2334.99,
+      "duration": 2.61
+    },
+    {
+      "text": "but Gemma 2 is\nspecialized for image.",
+      "start": 2337.6,
+      "duration": 4.68
+    },
+    {
+      "text": "So you give an\nimage and a prompt,",
+      "start": 2342.28,
+      "duration": 1.61
+    },
+    {
+      "text": "and it can classify the\nsafety of that image",
+      "start": 2343.89,
+      "duration": 2.64
+    },
+    {
+      "text": "based on your prompt.",
+      "start": 2346.53,
+      "duration": 1.8
+    },
+    {
+      "text": "And it's based on\nthe Gemma 3 4B,",
+      "start": 2348.33,
+      "duration": 2.22
+    },
+    {
+      "text": "which is already very strong.",
+      "start": 2350.55,
+      "duration": 1.48
+    },
+    {
+      "text": "And how would you use that?",
+      "start": 2352.03,
+      "duration": 2.33
+    },
+    {
+      "text": "You would put on a system that\nyou have an image input or text,",
+      "start": 2354.36,
+      "duration": 5.92
+    },
+    {
+      "text": "and then you put your Gemma to--",
+      "start": 2360.28,
+      "duration": 3.5
+    },
+    {
+      "text": "you could use that\nto protect your LLM.",
+      "start": 2363.78,
+      "duration": 2.86
+    },
+    {
+      "text": "That's after.",
+      "start": 2366.64,
+      "duration": 1.07
+    },
+    {
+      "text": "You could put your Gemma after\nyour model generates an image,",
+      "start": 2367.71,
+      "duration": 3.31
+    },
+    {
+      "text": "for example.",
+      "start": 2371.02,
+      "duration": 1.19
+    },
+    {
+      "text": "And this is how you do a--",
+      "start": 2372.21,
+      "duration": 2.82
+    },
+    {
+      "text": "the safety classifier\nwas built, right?",
+      "start": 2375.03,
+      "duration": 1.83
+    },
+    {
+      "text": "You have a policy,\nimages, and you train it.",
+      "start": 2376.86,
+      "duration": 2.26
+    },
+    {
+      "text": "So Gemma works in\nmany, many places,",
+      "start": 2379.12,
+      "duration": 2.66
+    },
+    {
+      "text": "helping your system become\nmore responsible, safe,",
+      "start": 2381.78,
+      "duration": 4.0
+    },
+    {
+      "text": "and all like that.",
+      "start": 2385.78,
+      "duration": 1.68
+    },
+    {
+      "text": "And this is all great and all,\nbut what I really want to know",
+      "start": 2387.46,
+      "duration": 3.23
+    },
+    {
+      "text": "is what you are\ngoing to build next.",
+      "start": 2390.69,
+      "duration": 2.74
+    },
+    {
+      "text": "Please reach out to us.",
+      "start": 2393.43,
+      "duration": 2.37
+    },
+    {
+      "text": "We are all on social, or we will\nbe there on the Q&A after this.",
+      "start": 2395.8,
+      "duration": 3.63
+    },
+    {
+      "text": "I would love to\nunderstand how you're",
+      "start": 2399.43,
+      "duration": 2.18
+    },
+    {
+      "text": "using Gemma, how you\nwant to use Gemma,",
+      "start": 2401.61,
+      "duration": 2.49
+    },
+    {
+      "text": "if Gemma can help\nyou on your business.",
+      "start": 2404.1,
+      "duration": 3.73
+    },
+    {
+      "text": "We've been talking\nto the community.",
+      "start": 2407.83,
+      "duration": 1.5
+    },
+    {
+      "text": "We know how important it is.",
+      "start": 2409.33,
+      "duration": 2.45
+    },
+    {
+      "text": "Well, a lot of people know me\nfrom talking to the community",
+      "start": 2411.78,
+      "duration": 2.7
+    },
+    {
+      "text": "because I really think that\nwe have to work all together.",
+      "start": 2414.48,
+      "duration": 4.74
+    },
+    {
+      "text": "Your opinion is\nextremely important.",
+      "start": 2419.22,
+      "duration": 2.17
+    },
+    {
+      "text": "So thank you very much.",
+      "start": 2421.39,
+      "duration": 2.06
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2423.45,
+      "duration": 0.9
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2424.35,
+      "duration": 2.45
+    }
+  ]
+}

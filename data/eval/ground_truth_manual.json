@@ -1,0 +1,52 @@
+[
+  {
+    "query": "What new AI models were announced at Google I/O 2025?",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_012",
+      "4TE-KFXvhAk__chunk_013"
+    ]
+  },
+  {
+    "query": "What did Google announce about Gemini updates?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_045"
+    ]
+  },
+  {
+    "query": "Can AGI have emotions?",
+    "relevant_doc_ids": [
+        "Uh-7YX8tkxI__chunk_007"
+    ]
+  },
+  {
+    "query": "Which model is best used for coding tasks?",
+    "relevant_doc_ids": [
+        "4TE-KFXvhAk__chunk_01",
+        "gHHjDRDNUNU__chunk_001",
+        "gHHjDRDNUNU__chunk_003",
+        "gHHjDRDNUNU__chunk_015"
+    ]
+ },
+    {
+        "query": "What are the new features of Gemini Pro?",
+        "relevant_doc_ids": [
+            "gHHjDRDNUNU__chunk_030",
+            "gHHjDRDNUNU__chunk_031"
+        ]
+    },
+      {
+    "query": "How does Deepthink work?",
+    "relevant_doc_ids": [
+        "Uh-7YX8tkxI__chunk_01",
+        "Uh-7YX8tkxI__chunk_02",
+        "Uh-7YX8tkxI__chunk_03"
+  
+    ]
+    },
+    {
+    "query": "Diffusion architecture is tested as opposed to which other architecture?",
+    "relevant_doc_ids": [
+        "gHHjDRDNUNU__chunk_06"
+    ]
+    }
+]

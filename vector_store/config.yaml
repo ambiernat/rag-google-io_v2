@@ -1,0 +1,17 @@
+#vector_store/config.yaml
+qdrant:
+  url: "http://localhost:6333"
+
+collections:
+  sparse:
+    name: "google-io-transcripts-sparse"
+    type: "bm25"
+
+  dense:
+    name: "google-io-transcripts-dense"
+    embedding_model: "all-MiniLM-L6-v2"
+
+  hybrid:
+    name: "google-io-transcripts-hybrid"
+    dense_weight: 0.7
+    sparse_weight: 0.3

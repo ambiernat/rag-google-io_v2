@@ -1,0 +1,3682 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "Uh-7YX8tkxI",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.248
+    },
+    {
+      "text": "ALEX KANTROWITZ: All\nright, everybody,",
+      "start": 4.477,
+      "duration": 1.583
+    },
+    {
+      "text": "we have an amazing\ncrowd here today.",
+      "start": 6.06,
+      "duration": 1.56
+    },
+    {
+      "text": "We're going to be\nlive-streaming this.",
+      "start": 7.62,
+      "duration": 1.35
+    },
+    {
+      "text": "So let's hear you make\nsome noise so everybody",
+      "start": 8.97,
+      "duration": 1.49
+    },
+    {
+      "text": "can hear that you're here.",
+      "start": 10.46,
+      "duration": 1.083
+    },
+    {
+      "text": "Let's go.",
+      "start": 11.543,
+      "duration": 0.576
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 12.119,
+      "duration": 2.874
+    },
+    {
+      "text": "Not bad.",
+      "start": 17.34,
+      "duration": 0.5
+    },
+    {
+      "text": "I'm Alex Kantrowitz I'm the host\nof \"Big Technology\" podcast,",
+      "start": 17.84,
+      "duration": 3.79
+    },
+    {
+      "text": "and I'm here to speak with you\nabout the frontiers of AI with",
+      "start": 21.63,
+      "duration": 3.17
+    },
+    {
+      "text": "two amazing guests.",
+      "start": 24.8,
+      "duration": 1.51
+    },
+    {
+      "text": "Demis Hassabis, the CEO\nof DeepMind, is here.",
+      "start": 26.31,
+      "duration": 3.6
+    },
+    {
+      "text": "Google DeepMind.",
+      "start": 29.91,
+      "duration": 0.872
+    },
+    {
+      "text": "Good to see you, Demis.",
+      "start": 30.782,
+      "duration": 0.958
+    },
+    {
+      "text": "DEMIS HASSABIS:\nGood to see you too.",
+      "start": 31.74,
+      "duration": 0.949
+    },
+    {
+      "text": "ALEX KANTROWITZ: And we\nhave a special guest.",
+      "start": 32.689,
+      "duration": 1.875
+    },
+    {
+      "text": "Sergey Brin, the co-founder\nof Google, is also here.",
+      "start": 34.564,
+      "duration": 2.888
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 37.452,
+      "duration": 3.938
+    },
+    {
+      "text": "All right.",
+      "start": 41.39,
+      "duration": 0.67
+    },
+    {
+      "text": "So this is going to be fun.",
+      "start": 42.06,
+      "duration": 2.0
+    },
+    {
+      "text": "Let's start with\nthe frontier models.",
+      "start": 44.06,
+      "duration": 3.48
+    },
+    {
+      "text": "Demis, this is for you.",
+      "start": 47.54,
+      "duration": 1.62
+    },
+    {
+      "text": "With what we know today\nabout frontier models,",
+      "start": 49.16,
+      "duration": 4.17
+    },
+    {
+      "text": "how much improvement is\nthere left to be unlocked,",
+      "start": 53.33,
+      "duration": 3.52
+    },
+    {
+      "text": "and why do you think so\nmany smart people are",
+      "start": 56.85,
+      "duration": 3.11
+    },
+    {
+      "text": "saying that the gains\nare about to level off?",
+      "start": 59.96,
+      "duration": 4.025
+    },
+    {
+      "text": "DEMIS HASSABIS: I think we're\nseeing incredible progress.",
+      "start": 63.985,
+      "duration": 2.375
+    },
+    {
+      "text": "You've all seen it today, all\nthe amazing stuff we showed in",
+      "start": 66.36,
+      "duration": 2.5
+    },
+    {
+      "text": "the [INAUDIBLE] keynote.",
+      "start": 68.86,
+      "duration": 1.22
+    },
+    {
+      "text": "So I think we're\nseeing incredible gains",
+      "start": 70.08,
+      "duration": 3.14
+    },
+    {
+      "text": "with the existing techniques,\npushing them to the limit.",
+      "start": 73.22,
+      "duration": 2.95
+    },
+    {
+      "text": "But we're also inventing new\nthings all the time as well.",
+      "start": 76.17,
+      "duration": 2.7
+    },
+    {
+      "text": "And I think to get all\nthe way to something",
+      "start": 78.87,
+      "duration": 1.94
+    },
+    {
+      "text": "like AGI may require one or\ntwo more new breakthroughs.",
+      "start": 80.81,
+      "duration": 3.67
+    },
+    {
+      "text": "And I think we have\nlots of promising ideas",
+      "start": 84.48,
+      "duration": 2.0
+    },
+    {
+      "text": "that we're cooking\nup and we hope",
+      "start": 86.48,
+      "duration": 1.59
+    },
+    {
+      "text": "to bring into the main\nbranch of the Gemini branch.",
+      "start": 88.07,
+      "duration": 2.395
+    },
+    {
+      "text": "ALEX KANTROWITZ: All right.",
+      "start": 90.465,
+      "duration": 1.125
+    },
+    {
+      "text": "And so there's been this\ndiscussion about scale.",
+      "start": 91.59,
+      "duration": 3.74
+    },
+    {
+      "text": "Does solve all problems,\nor does it not?",
+      "start": 95.33,
+      "duration": 2.56
+    },
+    {
+      "text": "So I want to ask you, in terms\nof the improvement that's",
+      "start": 97.89,
+      "duration": 3.05
+    },
+    {
+      "text": "available today, is\nscale still the star,",
+      "start": 100.94,
+      "duration": 3.75
+    },
+    {
+      "text": "or is it a supporting actor?",
+      "start": 104.69,
+      "duration": 1.728
+    },
+    {
+      "text": "DEMIS HASSABIS: I think I've\nalways been of the opinion",
+      "start": 106.418,
+      "duration": 2.292
+    },
+    {
+      "text": "that you need both.",
+      "start": 108.71,
+      "duration": 0.85
+    },
+    {
+      "text": "You need to scale to the\nmaximum the techniques",
+      "start": 109.56,
+      "duration": 2.915
+    },
+    {
+      "text": "that you know about.",
+      "start": 112.475,
+      "duration": 1.525
+    },
+    {
+      "text": "You want to exploit them to\nthe limit, whether that's data",
+      "start": 114.0,
+      "duration": 2.63
+    },
+    {
+      "text": "or compute scale.",
+      "start": 116.63,
+      "duration": 1.74
+    },
+    {
+      "text": "And at the same time, you want\nto spend a bunch of effort",
+      "start": 118.37,
+      "duration": 2.7
+    },
+    {
+      "text": "on what's coming next maybe six\nmonths, a year down the line,",
+      "start": 121.07,
+      "duration": 3.46
+    },
+    {
+      "text": "so you have the next innovation\nthat might do a 10x leap in some",
+      "start": 124.53,
+      "duration": 3.23
+    },
+    {
+      "text": "way to intersect with the scale.",
+      "start": 127.76,
+      "duration": 3.4
+    },
+    {
+      "text": "So you want both in my opinion.",
+      "start": 131.16,
+      "duration": 1.59
+    },
+    {
+      "text": "I don't know.",
+      "start": 132.75,
+      "duration": 0.542
+    },
+    {
+      "text": "Sergey, what do you think?",
+      "start": 133.292,
+      "duration": 1.398
+    },
+    {
+      "text": "SERGEY BRIN: I mean, I agree.",
+      "start": 134.69,
+      "duration": 1.208
+    },
+    {
+      "text": "It takes both.",
+      "start": 135.898,
+      "duration": 1.142
+    },
+    {
+      "text": "You can have algorithmic\nimprovements and simply compute",
+      "start": 137.04,
+      "duration": 3.5
+    },
+    {
+      "text": "improvements-- better chips,\nmore chips, more power,",
+      "start": 140.54,
+      "duration": 3.19
+    },
+    {
+      "text": "bigger data centers.",
+      "start": 143.73,
+      "duration": 1.77
+    },
+    {
+      "text": "I think that\nhistorically, if you",
+      "start": 145.5,
+      "duration": 2.03
+    },
+    {
+      "text": "look at things like\nthe n-body problem",
+      "start": 147.53,
+      "duration": 4.29
+    },
+    {
+      "text": "and simulating just\ngravitational bodies and things",
+      "start": 151.82,
+      "duration": 2.64
+    },
+    {
+      "text": "like that, as you plot it,\nthe algorithmic advances",
+      "start": 154.46,
+      "duration": 3.57
+    },
+    {
+      "text": "have actually beaten out the\ncomputational advances even",
+      "start": 158.03,
+      "duration": 3.45
+    },
+    {
+      "text": "with Moore's law.",
+      "start": 161.48,
+      "duration": 2.04
+    },
+    {
+      "text": "If I had to guess, I would say\nthe algorithmic advances are",
+      "start": 163.52,
+      "duration": 3.69
+    },
+    {
+      "text": "probably going to be\neven more significant",
+      "start": 167.21,
+      "duration": 3.3
+    },
+    {
+      "text": "than the computational advances.",
+      "start": 170.51,
+      "duration": 2.97
+    },
+    {
+      "text": "But both of them\nare coming up now,",
+      "start": 173.48,
+      "duration": 3.76
+    },
+    {
+      "text": "so we're getting the\nbenefits of both.",
+      "start": 177.24,
+      "duration": 2.443
+    },
+    {
+      "text": "ALEX KANTROWITZ:\nAnd Demis, do you",
+      "start": 179.683,
+      "duration": 1.417
+    },
+    {
+      "text": "think the majority\nof your improvement",
+      "start": 181.1,
+      "duration": 1.583
+    },
+    {
+      "text": "is coming from building\nbigger data centers",
+      "start": 182.683,
+      "duration": 2.637
+    },
+    {
+      "text": "and using more chips?",
+      "start": 185.32,
+      "duration": 0.88
+    },
+    {
+      "text": "There's talk about how the\nworld will be just wallpapered",
+      "start": 186.2,
+      "duration": 3.59
+    },
+    {
+      "text": "with data centers.",
+      "start": 189.79,
+      "duration": 1.33
+    },
+    {
+      "text": "Is that your vision?",
+      "start": 191.12,
+      "duration": 0.96
+    },
+    {
+      "text": "DEMIS HASSABIS: Well, no.",
+      "start": 192.08,
+      "duration": 1.042
+    },
+    {
+      "text": "Look, I mean, we're definitely\ngoing to need a lot more data",
+      "start": 193.122,
+      "duration": 2.908
+    },
+    {
+      "text": "centers.",
+      "start": 196.03,
+      "duration": 1.71
+    },
+    {
+      "text": "It's amazing that--\nit's still amazes me,",
+      "start": 197.74,
+      "duration": 1.8
+    },
+    {
+      "text": "from a scientific point\nof view, we turn sand",
+      "start": 199.54,
+      "duration": 2.04
+    },
+    {
+      "text": "into thinking machines.",
+      "start": 201.58,
+      "duration": 1.12
+    },
+    {
+      "text": "It's pretty incredible.",
+      "start": 202.7,
+      "duration": 1.05
+    },
+    {
+      "text": "But actually, it's not\njust for the training.",
+      "start": 203.75,
+      "duration": 3.41
+    },
+    {
+      "text": "Now we've got these models\nthat everyone wants to use.",
+      "start": 207.16,
+      "duration": 2.61
+    },
+    {
+      "text": "And actually, we're seeing\nincredible demand for 2.5 Pro.",
+      "start": 209.77,
+      "duration": 3.7
+    },
+    {
+      "text": "And I think Flash we're\nreally excited about how",
+      "start": 213.47,
+      "duration": 2.48
+    },
+    {
+      "text": "performant that is for the\nincredible sort of low cost.",
+      "start": 215.95,
+      "duration": 4.83
+    },
+    {
+      "text": "I think the whole world's going\nto want to use these things.",
+      "start": 220.78,
+      "duration": 3.28
+    },
+    {
+      "text": "And so we're going to need a\nlot of data centers for serving.",
+      "start": 224.06,
+      "duration": 3.44
+    },
+    {
+      "text": "And also for\ninference time compute",
+      "start": 227.5,
+      "duration": 2.65
+    },
+    {
+      "text": "You saw you saw\nDeepthink today--",
+      "start": 230.15,
+      "duration": 1.67
+    },
+    {
+      "text": "2.5 Pro Deepthink.",
+      "start": 231.82,
+      "duration": 1.53
+    },
+    {
+      "text": "The more time you give\nit, the better it will be.",
+      "start": 233.35,
+      "duration": 2.5
+    },
+    {
+      "text": "And certain tasks, very high\nvalue, very difficult tasks,",
+      "start": 235.85,
+      "duration": 3.77
+    },
+    {
+      "text": "it will be worth letting it\nthink for a very long time.",
+      "start": 239.62,
+      "duration": 2.59
+    },
+    {
+      "text": "And we're thinking about how\nto push that even further.",
+      "start": 242.21,
+      "duration": 2.67
+    },
+    {
+      "text": "And again, that's going\nto require a lot of chips",
+      "start": 244.88,
+      "duration": 2.36
+    },
+    {
+      "text": "at runtime.",
+      "start": 247.24,
+      "duration": 0.702
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 247.942,
+      "duration": 0.833
+    },
+    {
+      "text": "So you brought up\ntest time compute.",
+      "start": 248.775,
+      "duration": 3.115
+    },
+    {
+      "text": "We've been about a year into\nthis reasoning paradigm,",
+      "start": 251.89,
+      "duration": 2.543
+    },
+    {
+      "text": "and you and I have\nspoken about it",
+      "start": 254.433,
+      "duration": 1.417
+    },
+    {
+      "text": "twice in the past as\nsomething that you",
+      "start": 255.85,
+      "duration": 1.83
+    },
+    {
+      "text": "might be able to add on to\ntraditional LLMs to get gains.",
+      "start": 257.68,
+      "duration": 3.407
+    },
+    {
+      "text": "So I think this is a pretty\ngood time for me to be like,",
+      "start": 261.087,
+      "duration": 2.333
+    },
+    {
+      "text": "\"What's happening?\"",
+      "start": 263.42,
+      "duration": 2.21
+    },
+    {
+      "text": "Can you help us contextualize\nthe magnitude of improvement",
+      "start": 265.63,
+      "duration": 3.3
+    },
+    {
+      "text": "we're seeing from reasoning?",
+      "start": 268.93,
+      "duration": 1.41
+    },
+    {
+      "text": "DEMIS HASSABIS:\nWell, we've always",
+      "start": 270.34,
+      "duration": 0.84
+    },
+    {
+      "text": "been big believers\nin what we're now",
+      "start": 271.18,
+      "duration": 1.56
+    },
+    {
+      "text": "calling this thinking paradigm.",
+      "start": 272.74,
+      "duration": 1.84
+    },
+    {
+      "text": "If you go back to our very early\nwork on things like AlphaGo",
+      "start": 274.58,
+      "duration": 2.75
+    },
+    {
+      "text": "and AlphaZero, our agent\nwork on playing games,",
+      "start": 277.33,
+      "duration": 3.37
+    },
+    {
+      "text": "they will all have this type\nof attribute of a thinking",
+      "start": 280.7,
+      "duration": 3.05
+    },
+    {
+      "text": "system on top of a model.",
+      "start": 283.75,
+      "duration": 1.45
+    },
+    {
+      "text": "And actually, you can\nquantify how much difference",
+      "start": 285.2,
+      "duration": 2.21
+    },
+    {
+      "text": "that makes if you look at\na game like chess or Go.",
+      "start": 287.41,
+      "duration": 3.57
+    },
+    {
+      "text": "We had versions of\nAlphaGo and AlphaZero",
+      "start": 290.98,
+      "duration": 1.86
+    },
+    {
+      "text": "with the thinking turned\noff that was just the model",
+      "start": 292.84,
+      "duration": 2.4
+    },
+    {
+      "text": "telling you its first idea.",
+      "start": 295.24,
+      "duration": 1.75
+    },
+    {
+      "text": "And it's not bad.",
+      "start": 296.99,
+      "duration": 1.29
+    },
+    {
+      "text": "It's maybe master level--\nsomething like that.",
+      "start": 298.28,
+      "duration": 2.4
+    },
+    {
+      "text": "But then, if you\nturn the thinking on,",
+      "start": 300.68,
+      "duration": 1.89
+    },
+    {
+      "text": "it'll be way beyond\nworld champion level.",
+      "start": 302.57,
+      "duration": 2.25
+    },
+    {
+      "text": "It's like a 600\nELO-plus difference",
+      "start": 304.82,
+      "duration": 2.75
+    },
+    {
+      "text": "between the two versions.",
+      "start": 307.57,
+      "duration": 1.6
+    },
+    {
+      "text": "So you can see that\nin games, let alone",
+      "start": 309.17,
+      "duration": 2.45
+    },
+    {
+      "text": "for the real world, which\nis way more complicated.",
+      "start": 311.62,
+      "duration": 2.5
+    },
+    {
+      "text": "And I think the gains\nwill be potentially even",
+      "start": 314.12,
+      "duration": 2.48
+    },
+    {
+      "text": "bigger by adding this thinking\ntype of paradigm on top.",
+      "start": 316.6,
+      "duration": 4.39
+    },
+    {
+      "text": "Of course, the challenge\nis that your models--",
+      "start": 320.99,
+      "duration": 2.505
+    },
+    {
+      "text": "and I talked about this\nearlier in the talk--",
+      "start": 323.495,
+      "duration": 1.875
+    },
+    {
+      "text": "need to be a kind\nof world model.",
+      "start": 325.37,
+      "duration": 1.65
+    },
+    {
+      "text": "And that's much harder\nthan building a model",
+      "start": 327.02,
+      "duration": 2.09
+    },
+    {
+      "text": "of a simple game of course.",
+      "start": 329.11,
+      "duration": 1.81
+    },
+    {
+      "text": "And it has errors in it,\nand those can compound over",
+      "start": 330.92,
+      "duration": 3.53
+    },
+    {
+      "text": "longer term plans.",
+      "start": 334.45,
+      "duration": 1.872
+    },
+    {
+      "text": "But I think we're making\nreally good progress",
+      "start": 336.322,
+      "duration": 2.118
+    },
+    {
+      "text": "on all those fronts.",
+      "start": 338.44,
+      "duration": 2.79
+    },
+    {
+      "text": "SERGEY BRIN: Yeah, look,\nI mean, as Demis said,",
+      "start": 341.23,
+      "duration": 2.23
+    },
+    {
+      "text": "DeepMind really pioneered a lot\nof this reinforcement learning",
+      "start": 343.46,
+      "duration": 3.32
+    },
+    {
+      "text": "work.",
+      "start": 346.78,
+      "duration": 0.61
+    },
+    {
+      "text": "And what they did with AlphaGo\nand AlphaZero, as you mentioned,",
+      "start": 347.39,
+      "duration": 5.45
+    },
+    {
+      "text": "showed, as I recall, something\nyou would take 5,000 times",
+      "start": 352.84,
+      "duration": 4.41
+    },
+    {
+      "text": "as much training to match what\nyou were able to do with still",
+      "start": 357.25,
+      "duration": 4.05
+    },
+    {
+      "text": "a lot of training and the\ninference time compute that you",
+      "start": 361.3,
+      "duration": 3.75
+    },
+    {
+      "text": "were doing with Go.",
+      "start": 365.05,
+      "duration": 1.74
+    },
+    {
+      "text": "So it's obviously\na huge advantage.",
+      "start": 366.79,
+      "duration": 2.95
+    },
+    {
+      "text": "And obviously,\nlike most of us, we",
+      "start": 369.74,
+      "duration": 3.08
+    },
+    {
+      "text": "get some benefit by thinking\nbefore we speak, although--",
+      "start": 372.82,
+      "duration": 5.143
+    },
+    {
+      "text": "ALEX KANTROWITZ: Not always.",
+      "start": 377.963,
+      "duration": 1.167
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 379.13,
+      "duration": 1.49
+    },
+    {
+      "text": "SERGEY BRIN: I always\nget reminded to do that.",
+      "start": 380.62,
+      "duration": 3.12
+    },
+    {
+      "text": "But I think that\nthe AI's obviously",
+      "start": 383.74,
+      "duration": 6.03
+    },
+    {
+      "text": "are much stronger once\nyou add that capability.",
+      "start": 389.77,
+      "duration": 2.47
+    },
+    {
+      "text": "And I think we're just\nat the tip of the iceberg",
+      "start": 392.24,
+      "duration": 2.0
+    },
+    {
+      "text": "right now in that sense.",
+      "start": 394.24,
+      "duration": 2.16
+    },
+    {
+      "text": "It's been less than a year\nthan these models have really",
+      "start": 396.4,
+      "duration": 2.43
+    },
+    {
+      "text": "been around.",
+      "start": 398.83,
+      "duration": 1.14
+    },
+    {
+      "text": "DEMIS HASSABIS:\nEspecially if you",
+      "start": 399.97,
+      "duration": 1.375
+    },
+    {
+      "text": "think about, obviously with an\nAI, during its thinking process",
+      "start": 401.345,
+      "duration": 2.955
+    },
+    {
+      "text": "it can also use a bunch\nof tools or even other AIs",
+      "start": 404.3,
+      "duration": 4.31
+    },
+    {
+      "text": "during that thinking\nprocess to improve",
+      "start": 408.61,
+      "duration": 1.89
+    },
+    {
+      "text": "what the final output is.",
+      "start": 410.5,
+      "duration": 1.27
+    },
+    {
+      "text": "So I think it's going to be an\nincredibly powerful paradigm.",
+      "start": 411.77,
+      "duration": 2.67
+    },
+    {
+      "text": "ALEX KANTROWITZ: Deepthink\nis very interesting.",
+      "start": 414.44,
+      "duration": 1.97
+    },
+    {
+      "text": "I'm going to describe it--",
+      "start": 416.41,
+      "duration": 1.3
+    },
+    {
+      "text": "I'm trying to describe it right.",
+      "start": 417.71,
+      "duration": 1.762
+    },
+    {
+      "text": "It's basically a bunch of\nparallel reasoning processes",
+      "start": 419.472,
+      "duration": 2.968
+    },
+    {
+      "text": "working and then\nchecking each other.",
+      "start": 422.44,
+      "duration": 2.02
+    },
+    {
+      "text": "And then it's like\nreasoning on steroids.",
+      "start": 424.46,
+      "duration": 2.61
+    },
+    {
+      "text": "Now, Demis, you mentioned that\nthe industry needs a couple more",
+      "start": 427.07,
+      "duration": 2.9
+    },
+    {
+      "text": "advances to get to AGI.",
+      "start": 429.97,
+      "duration": 2.25
+    },
+    {
+      "text": "Where would you put\nthis type of mechanism?",
+      "start": 432.22,
+      "duration": 2.8
+    },
+    {
+      "text": "Is this one of those that\nmight get the industry closer?",
+      "start": 435.02,
+      "duration": 3.045
+    },
+    {
+      "text": "DEMIS HASSABIS: I think so.",
+      "start": 438.065,
+      "duration": 1.125
+    },
+    {
+      "text": "I think it's maybe part\nof one, shall we say.",
+      "start": 439.19,
+      "duration": 4.58
+    },
+    {
+      "text": "And there are others\ntoo that we need",
+      "start": 443.77,
+      "duration": 1.89
+    },
+    {
+      "text": "to-- maybe this can be part\nof improving reasoning.",
+      "start": 445.66,
+      "duration": 2.98
+    },
+    {
+      "text": "Where does true\ninvention come from,",
+      "start": 448.64,
+      "duration": 1.83
+    },
+    {
+      "text": "where you're not just\nsolving a maths conjecture,",
+      "start": 450.47,
+      "duration": 2.49
+    },
+    {
+      "text": "you're actually proposing\none or hypothesizing",
+      "start": 452.96,
+      "duration": 3.2
+    },
+    {
+      "text": "a new theory in physics?",
+      "start": 456.16,
+      "duration": 2.437
+    },
+    {
+      "text": "I think we don't\nhave systems yet that",
+      "start": 458.597,
+      "duration": 1.583
+    },
+    {
+      "text": "can do that type of creativity.",
+      "start": 460.18,
+      "duration": 1.75
+    },
+    {
+      "text": "I think they are coming.",
+      "start": 461.93,
+      "duration": 2.12
+    },
+    {
+      "text": "And these types\nof paradigms might",
+      "start": 464.05,
+      "duration": 2.61
+    },
+    {
+      "text": "be helpful in\nthings like thinking",
+      "start": 466.66,
+      "duration": 3.0
+    },
+    {
+      "text": "and then probably\nmany other things.",
+      "start": 469.66,
+      "duration": 1.78
+    },
+    {
+      "text": "I mean, I think we\nneed a lot of advances",
+      "start": 471.44,
+      "duration": 1.79
+    },
+    {
+      "text": "on the accuracy of the world\nmodels that we're building.",
+      "start": 473.23,
+      "duration": 3.54
+    },
+    {
+      "text": "I think you saw that with\nVeo, the potential Veo 3.",
+      "start": 476.77,
+      "duration": 4.25
+    },
+    {
+      "text": "It amazes me how it\ncan intuit the physics",
+      "start": 481.02,
+      "duration": 3.27
+    },
+    {
+      "text": "of the light and the gravity.",
+      "start": 484.29,
+      "duration": 1.54
+    },
+    {
+      "text": "Having someone who-- I used to\nwork on computer games, not just",
+      "start": 485.83,
+      "duration": 3.92
+    },
+    {
+      "text": "the AI but also graphics\nengines in my early career,",
+      "start": 489.75,
+      "duration": 2.8
+    },
+    {
+      "text": "and remember having to\ndo all of this by hand,",
+      "start": 492.55,
+      "duration": 2.87
+    },
+    {
+      "text": "and program all of the\nlighting, and the shaders,",
+      "start": 495.42,
+      "duration": 2.4
+    },
+    {
+      "text": "and all of these things.",
+      "start": 497.82,
+      "duration": 1.24
+    },
+    {
+      "text": "Incredibly complicated stuff\nwe used to do in early games,",
+      "start": 499.06,
+      "duration": 2.97
+    },
+    {
+      "text": "And now it's just intuiting\nit within the model.",
+      "start": 502.03,
+      "duration": 3.27
+    },
+    {
+      "text": "It's pretty astounding.",
+      "start": 505.3,
+      "duration": 1.465
+    },
+    {
+      "text": "ALEX KANTROWITZ:\nI saw you shared",
+      "start": 506.765,
+      "duration": 1.375
+    },
+    {
+      "text": "an image of a frying pan with\nsome onions and some oil.",
+      "start": 508.14,
+      "duration": 4.019
+    },
+    {
+      "text": "[INTERPOSING VOICES]",
+      "start": 512.159,
+      "duration": 0.851
+    },
+    {
+      "text": "ALEX KANTROWITZ: There was no\nsubliminal messaging about that?",
+      "start": 513.01,
+      "duration": 2.779
+    },
+    {
+      "text": "DEMIS HASSABIS: Not really.",
+      "start": 515.789,
+      "duration": 0.76
+    },
+    {
+      "text": "Not really.",
+      "start": 516.549,
+      "duration": 0.51
+    },
+    {
+      "text": "Just maybe a subtle,\nsubtle message.",
+      "start": 517.059,
+      "duration": 1.951
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 519.01,
+      "duration": 0.89
+    },
+    {
+      "text": "So we said the word or the\nacronym AGI a couple of times.",
+      "start": 519.9,
+      "duration": 4.57
+    },
+    {
+      "text": "There's, I think, a movement\nwithin the AI world right",
+      "start": 524.47,
+      "duration": 3.02
+    },
+    {
+      "text": "now to say let's\nnot say AGI anymore.",
+      "start": 527.49,
+      "duration": 2.35
+    },
+    {
+      "text": "The term is so overused\nas to be meaningless.",
+      "start": 529.84,
+      "duration": 3.06
+    },
+    {
+      "text": "But Demis, it seems like\nyou think it's important.",
+      "start": 532.9,
+      "duration": 2.55
+    },
+    {
+      "text": "Why?",
+      "start": 535.45,
+      "duration": 0.5
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, I\nthink it's very important.",
+      "start": 535.95,
+      "duration": 1.51
+    },
+    {
+      "text": "But I think maybe I need to\nwrite something about this",
+      "start": 537.46,
+      "duration": 2.65
+    },
+    {
+      "text": "also with Shane Legg, who's\nour chief scientist, who",
+      "start": 540.11,
+      "duration": 3.11
+    },
+    {
+      "text": "was one of the people who\ninvented the term 25 years back.",
+      "start": 543.22,
+      "duration": 3.997
+    },
+    {
+      "text": "I think there's two things\nthat are getting a little bit",
+      "start": 547.217,
+      "duration": 2.333
+    },
+    {
+      "text": "conflated.",
+      "start": 549.55,
+      "duration": 1.17
+    },
+    {
+      "text": "One is, what can a typical\nperson do, an individual do?",
+      "start": 550.72,
+      "duration": 6.04
+    },
+    {
+      "text": "And we're all very\ncapable, but we can only",
+      "start": 556.76,
+      "duration": 2.078
+    },
+    {
+      "text": "do-- however capable\nyou are, there's",
+      "start": 558.838,
+      "duration": 1.542
+    },
+    {
+      "text": "only a certain slice of\nthings that one is expert in.",
+      "start": 560.38,
+      "duration": 3.61
+    },
+    {
+      "text": "Right?",
+      "start": 563.99,
+      "duration": 1.206
+    },
+    {
+      "text": "Or you could say, can you do\nwhat 90% of humans can do?",
+      "start": 565.196,
+      "duration": 4.154
+    },
+    {
+      "text": "That's obviously going to be\neconomically very important",
+      "start": 569.35,
+      "duration": 2.47
+    },
+    {
+      "text": "and I think from a product\nperspective also very important.",
+      "start": 571.82,
+      "duration": 2.73
+    },
+    {
+      "text": "So it's a very\nimportant milestone.",
+      "start": 574.55,
+      "duration": 1.71
+    },
+    {
+      "text": "So maybe we should say that's\ntypical human intelligence.",
+      "start": 576.26,
+      "duration": 3.26
+    },
+    {
+      "text": "But what I'm interested in,\nand what I would call AGI,",
+      "start": 579.52,
+      "duration": 2.25
+    },
+    {
+      "text": "is really a more\ntheoretical construct.",
+      "start": 581.77,
+      "duration": 2.23
+    },
+    {
+      "text": "Which is, what is\nthe human brain",
+      "start": 584.0,
+      "duration": 1.76
+    },
+    {
+      "text": "as an architecture able to do?",
+      "start": 585.76,
+      "duration": 2.23
+    },
+    {
+      "text": "And the human brain is an\nimportant reference point,",
+      "start": 587.99,
+      "duration": 2.83
+    },
+    {
+      "text": "because it's the only evidence\nwe have maybe in the universe",
+      "start": 590.82,
+      "duration": 2.5
+    },
+    {
+      "text": "that general\nintelligence is possible.",
+      "start": 593.32,
+      "duration": 1.9
+    },
+    {
+      "text": "And there, it would have\nto be able to-- you'd",
+      "start": 595.22,
+      "duration": 2.11
+    },
+    {
+      "text": "have to show your system\nwas capable of doing",
+      "start": 597.33,
+      "duration": 2.28
+    },
+    {
+      "text": "the range of things even\nthe best humans in history",
+      "start": 599.61,
+      "duration": 2.73
+    },
+    {
+      "text": "were able to do with the\nsame brain architectures.",
+      "start": 602.34,
+      "duration": 2.5
+    },
+    {
+      "text": "Not one brain, but the\nsame brain architecture.",
+      "start": 604.84,
+      "duration": 2.28
+    },
+    {
+      "text": "So what Einstein\ndid, what Mozart",
+      "start": 607.12,
+      "duration": 1.82
+    },
+    {
+      "text": "was able to do, what\nMarie Curie, and so on.",
+      "start": 608.94,
+      "duration": 2.44
+    },
+    {
+      "text": "And that, it's clear to me,\ntoday's systems don't have that.",
+      "start": 611.38,
+      "duration": 3.18
+    },
+    {
+      "text": "And then the other thing why I\nthink it's sort of overblown,",
+      "start": 614.56,
+      "duration": 3.06
+    },
+    {
+      "text": "the hype today on AGI, is\nthat our systems are not",
+      "start": 617.62,
+      "duration": 3.05
+    },
+    {
+      "text": "consistent enough\nto be considered",
+      "start": 620.67,
+      "duration": 1.53
+    },
+    {
+      "text": "to be fully general yet.",
+      "start": 622.2,
+      "duration": 1.26
+    },
+    {
+      "text": "They're quite general, So they\ncan do thousands of things.",
+      "start": 623.46,
+      "duration": 2.86
+    },
+    {
+      "text": "You've seen many\nimpressive things today.",
+      "start": 626.32,
+      "duration": 1.77
+    },
+    {
+      "text": "But every one of us have\nexperience with today's chatbots",
+      "start": 628.09,
+      "duration": 3.14
+    },
+    {
+      "text": "and assistants.",
+      "start": 631.23,
+      "duration": 0.94
+    },
+    {
+      "text": "You can easily,\nwithin a few minutes,",
+      "start": 632.17,
+      "duration": 1.59
+    },
+    {
+      "text": "find some obvious\nflaw with them--",
+      "start": 633.76,
+      "duration": 1.86
+    },
+    {
+      "text": "some high school math thing\nthat it doesn't solve,",
+      "start": 635.62,
+      "duration": 3.5
+    },
+    {
+      "text": "some basic game it can't play.",
+      "start": 639.12,
+      "duration": 3.51
+    },
+    {
+      "text": "It's not very difficult to find\nthat those holes in the system.",
+      "start": 642.63,
+      "duration": 3.1
+    },
+    {
+      "text": "And for me, for something\nto be called AGI,",
+      "start": 645.73,
+      "duration": 2.76
+    },
+    {
+      "text": "it would need to be consistent,\nmuch more consistent",
+      "start": 648.49,
+      "duration": 3.59
+    },
+    {
+      "text": "across the board\nthan it is today.",
+      "start": 652.08,
+      "duration": 2.02
+    },
+    {
+      "text": "It should take a\ncouple of months",
+      "start": 654.1,
+      "duration": 3.11
+    },
+    {
+      "text": "for maybe a team of\nexperts to find a hole",
+      "start": 657.21,
+      "duration": 4.14
+    },
+    {
+      "text": "in it, an obvious hole in it.",
+      "start": 661.35,
+      "duration": 1.48
+    },
+    {
+      "text": "Whereas today, it takes an\nindividual minutes to find that.",
+      "start": 662.83,
+      "duration": 2.783
+    },
+    {
+      "text": "ALEX KANTROWITZ: Sergey,\nthis is a good one for you.",
+      "start": 665.613,
+      "duration": 2.167
+    },
+    {
+      "text": "Do you think that AGI\nis going to be reached",
+      "start": 667.78,
+      "duration": 2.42
+    },
+    {
+      "text": "by one company and\nit's game over,",
+      "start": 670.2,
+      "duration": 2.56
+    },
+    {
+      "text": "or could you see Google\nhaving AGI, OpenAI having",
+      "start": 672.76,
+      "duration": 3.29
+    },
+    {
+      "text": "AGI, Anthropic having\nAGI, China having AGI?",
+      "start": 676.05,
+      "duration": 4.8
+    },
+    {
+      "text": "SERGEY BRIN: Wow,\nthat's a great question.",
+      "start": 680.85,
+      "duration": 1.84
+    },
+    {
+      "text": "I mean, I guess I would suppose\nthat one company or country",
+      "start": 682.69,
+      "duration": 6.02
+    },
+    {
+      "text": "or entity will reach AGI first.",
+      "start": 688.71,
+      "duration": 2.47
+    },
+    {
+      "text": "Now, it is a little\nbit of a spectrum.",
+      "start": 691.18,
+      "duration": 4.23
+    },
+    {
+      "text": "It's not a completely\nprecise thing.",
+      "start": 695.41,
+      "duration": 2.34
+    },
+    {
+      "text": "So it's conceivable that there\nwill be more than one roughly",
+      "start": 697.75,
+      "duration": 3.29
+    },
+    {
+      "text": "in that range at the same time.",
+      "start": 701.04,
+      "duration": 3.18
+    },
+    {
+      "text": "After that, what happens?",
+      "start": 704.22,
+      "duration": 1.75
+    },
+    {
+      "text": "I mean, I think it's\nvery hard to foresee.",
+      "start": 705.97,
+      "duration": 2.75
+    },
+    {
+      "text": "But you could certainly\nimagine there's",
+      "start": 708.72,
+      "duration": 2.16
+    },
+    {
+      "text": "going to be multiple\nentities that come through.",
+      "start": 710.88,
+      "duration": 2.2
+    },
+    {
+      "text": "And in our AI space,\nwe've seen when",
+      "start": 713.08,
+      "duration": 6.86
+    },
+    {
+      "text": "we make a certain\nkind of advance,",
+      "start": 719.94,
+      "duration": 2.28
+    },
+    {
+      "text": "other companies are quick\nto follow and vice versa.",
+      "start": 722.22,
+      "duration": 2.56
+    },
+    {
+      "text": "When other companies\nmake certain advances,",
+      "start": 724.78,
+      "duration": 2.87
+    },
+    {
+      "text": "it's kind of a\nconstant leapfrog.",
+      "start": 727.65,
+      "duration": 2.2
+    },
+    {
+      "text": "So I do think there's\nan inspiration",
+      "start": 729.85,
+      "duration": 1.94
+    },
+    {
+      "text": "element that you see.",
+      "start": 731.79,
+      "duration": 2.31
+    },
+    {
+      "text": "And that would probably\nencourage more and more entities",
+      "start": 734.1,
+      "duration": 3.18
+    },
+    {
+      "text": "to cross that threshold.",
+      "start": 737.28,
+      "duration": 2.452
+    },
+    {
+      "text": "ALEX KANTROWITZ: Demis,\nwhat do you think?",
+      "start": 739.732,
+      "duration": 2.061
+    },
+    {
+      "text": "DEMIS HASSABIS: Well, I\nthink we probably do--",
+      "start": 741.793,
+      "duration": 1.917
+    },
+    {
+      "text": "I think it is\nimportant for the field",
+      "start": 743.71,
+      "duration": 1.542
+    },
+    {
+      "text": "to agree on a definition of AGI.",
+      "start": 745.252,
+      "duration": 1.698
+    },
+    {
+      "text": "So maybe we should try\nand help that to coalesce.",
+      "start": 746.95,
+      "duration": 3.0
+    },
+    {
+      "text": "Assuming there is\none, there probably",
+      "start": 749.95,
+      "duration": 2.0
+    },
+    {
+      "text": "will be some organizations\nthat get there first.",
+      "start": 751.95,
+      "duration": 2.56
+    },
+    {
+      "text": "And I think it's important\nthat those first systems are",
+      "start": 754.51,
+      "duration": 3.2
+    },
+    {
+      "text": "built reliably and safely.",
+      "start": 757.71,
+      "duration": 2.17
+    },
+    {
+      "text": "And I think after that,\nif that's the case,",
+      "start": 759.88,
+      "duration": 3.47
+    },
+    {
+      "text": "we can imagine using them to\nshard off many systems that",
+      "start": 763.35,
+      "duration": 3.66
+    },
+    {
+      "text": "have safe architectures sort of\nbuilt provably underneath them.",
+      "start": 767.01,
+      "duration": 5.16
+    },
+    {
+      "text": "And then you could have\npersonal AGIs and all sorts",
+      "start": 772.17,
+      "duration": 2.807
+    },
+    {
+      "text": "of things happening.",
+      "start": 774.977,
+      "duration": 0.833
+    },
+    {
+      "text": "But it's quite difficult,\nas Sergey says, to predict,",
+      "start": 775.81,
+      "duration": 4.74
+    },
+    {
+      "text": "sort of see beyond the\nevent horizon to predict,",
+      "start": 780.55,
+      "duration": 2.33
+    },
+    {
+      "text": "what that's going to be like.",
+      "start": 782.88,
+      "duration": 1.252
+    },
+    {
+      "text": "ALEX KANTROWITZ: Right.",
+      "start": 784.132,
+      "duration": 0.958
+    },
+    {
+      "text": "So we talked a little bit\nabout the definition of AGI.",
+      "start": 785.09,
+      "duration": 2.51
+    },
+    {
+      "text": "And a lot of people have\nsaid AGI must be knowledge--",
+      "start": 787.6,
+      "duration": 4.02
+    },
+    {
+      "text": "the intelligence of the brain.",
+      "start": 791.62,
+      "duration": 1.592
+    },
+    {
+      "text": "What about the\nintelligence of the heart?",
+      "start": 793.212,
+      "duration": 1.708
+    },
+    {
+      "text": "Demis, briefly, does.",
+      "start": 794.92,
+      "duration": 1.53
+    },
+    {
+      "text": "AI have to have emotion\nto be considered AGI?",
+      "start": 796.45,
+      "duration": 3.15
+    },
+    {
+      "text": "Can it have emotion?",
+      "start": 799.6,
+      "duration": 1.14
+    },
+    {
+      "text": "DEMIS HASSABIS: I think it will\nneed to understand emotion.",
+      "start": 800.74,
+      "duration": 2.458
+    },
+    {
+      "text": "I don't know if--",
+      "start": 803.198,
+      "duration": 0.742
+    },
+    {
+      "text": "I think it will be a sort of\nalmost a design decision if we",
+      "start": 803.94,
+      "duration": 2.64
+    },
+    {
+      "text": "want it to mimic emotions.",
+      "start": 806.58,
+      "duration": 3.0
+    },
+    {
+      "text": "I don't see any reason\nwhy it couldn't in theory.",
+      "start": 809.58,
+      "duration": 2.82
+    },
+    {
+      "text": "But it might be\ndifferent, or it might",
+      "start": 812.4,
+      "duration": 2.76
+    },
+    {
+      "text": "be not necessary, or,\nin fact, not desirable",
+      "start": 815.16,
+      "duration": 2.31
+    },
+    {
+      "text": "for them to have the emotional\nreactions that we do as humans.",
+      "start": 817.47,
+      "duration": 4.33
+    },
+    {
+      "text": "So I think, again, it's a bit\nof an open question as we get",
+      "start": 821.8,
+      "duration": 4.37
+    },
+    {
+      "text": "closer to this AGI\ntime frame of events,",
+      "start": 826.17,
+      "duration": 4.09
+    },
+    {
+      "text": "which I think is more than\na 5 to 10-year time scale.",
+      "start": 830.26,
+      "duration": 2.225
+    },
+    {
+      "text": "So I think we have\na bit of time.",
+      "start": 832.485,
+      "duration": 1.375
+    },
+    {
+      "text": "Not much time, but\nsome time to research",
+      "start": 833.86,
+      "duration": 2.2
+    },
+    {
+      "text": "those kinds of questions.",
+      "start": 836.06,
+      "duration": 1.28
+    },
+    {
+      "text": "ALEX KANTROWITZ: When I think\nabout how the time frame might",
+      "start": 837.34,
+      "duration": 2.5
+    },
+    {
+      "text": "be shrunk, I wonder\nif it's going",
+      "start": 839.84,
+      "duration": 2.82
+    },
+    {
+      "text": "to be the creation of\nself-improving systems.",
+      "start": 842.66,
+      "duration": 3.16
+    },
+    {
+      "text": "And last week, I almost\nfell out of my chair reading",
+      "start": 845.82,
+      "duration": 2.45
+    },
+    {
+      "text": "this headline about something\ncalled AlphaEvolve, which",
+      "start": 848.27,
+      "duration": 3.18
+    },
+    {
+      "text": "is an AI that helps\ndesign better algorithms",
+      "start": 851.45,
+      "duration": 3.94
+    },
+    {
+      "text": "and even improve\nthe way LLMs train.",
+      "start": 855.39,
+      "duration": 3.6
+    },
+    {
+      "text": "So, Demis, are you trying to\ncause an intelligence explosion?",
+      "start": 858.99,
+      "duration": 3.77
+    },
+    {
+      "text": "DEMIS HASSABIS: No, not\nan uncontrolled one.",
+      "start": 862.76,
+      "duration": 3.24
+    },
+    {
+      "text": "Look, I think it's an\ninteresting first experiment.",
+      "start": 866.0,
+      "duration": 3.172
+    },
+    {
+      "text": "It's an amazing system.",
+      "start": 869.172,
+      "duration": 0.958
+    },
+    {
+      "text": "We've got a a great\nteam that's working",
+      "start": 870.13,
+      "duration": 1.75
+    },
+    {
+      "text": "on that, where it's interesting\nnow to start pairing",
+      "start": 871.88,
+      "duration": 3.03
+    },
+    {
+      "text": "other types of\ntechniques, in this case",
+      "start": 874.91,
+      "duration": 1.8
+    },
+    {
+      "text": "evolutionary\nprogramming techniques,",
+      "start": 876.71,
+      "duration": 2.26
+    },
+    {
+      "text": "with the latest foundation\nmodels, which are getting",
+      "start": 878.97,
+      "duration": 2.66
+    },
+    {
+      "text": "increasingly powerful.",
+      "start": 881.63,
+      "duration": 1.12
+    },
+    {
+      "text": "And I actually want to see in\nour exploratory work a lot more",
+      "start": 882.75,
+      "duration": 3.38
+    },
+    {
+      "text": "of these kind of\ncombinatorial systems",
+      "start": 886.13,
+      "duration": 2.73
+    },
+    {
+      "text": "and pairing different\napproaches together.",
+      "start": 888.86,
+      "duration": 2.767
+    },
+    {
+      "text": "And you're right, that\nis one of the things,",
+      "start": 891.627,
+      "duration": 1.833
+    },
+    {
+      "text": "the self-improvement--\nsomeone discovering a kind",
+      "start": 893.46,
+      "duration": 2.042
+    },
+    {
+      "text": "of self-improvement loop--",
+      "start": 895.502,
+      "duration": 1.698
+    },
+    {
+      "text": "would be one way where things\nmight accelerate further",
+      "start": 897.2,
+      "duration": 3.09
+    },
+    {
+      "text": "than they're even going today.",
+      "start": 900.29,
+      "duration": 3.16
+    },
+    {
+      "text": "And we've seen it before\nwith our own work,",
+      "start": 903.45,
+      "duration": 2.34
+    },
+    {
+      "text": "with things like AlphaZero\nlearning chess, and Go,",
+      "start": 905.79,
+      "duration": 3.44
+    },
+    {
+      "text": "and any two-player\ngame from scratch",
+      "start": 909.23,
+      "duration": 2.37
+    },
+    {
+      "text": "within less than 24 hours,\nstarting from random",
+      "start": 911.6,
+      "duration": 3.81
+    },
+    {
+      "text": "with self-improving processes.",
+      "start": 915.41,
+      "duration": 1.96
+    },
+    {
+      "text": "So we know it's possible.",
+      "start": 917.37,
+      "duration": 1.26
+    },
+    {
+      "text": "But again, those are in\nquite limited game domains",
+      "start": 918.63,
+      "duration": 3.41
+    },
+    {
+      "text": "which are very well described.",
+      "start": 922.04,
+      "duration": 1.6
+    },
+    {
+      "text": "So the real world is far\nmessier and far more complex.",
+      "start": 923.64,
+      "duration": 3.0
+    },
+    {
+      "text": "So it remains to be seen\nif that type of approach",
+      "start": 926.64,
+      "duration": 3.26
+    },
+    {
+      "text": "can work in a more general way.",
+      "start": 929.9,
+      "duration": 1.497
+    },
+    {
+      "text": "ALEX KANTROWITZ: Sergey, we've\ntalked about some very powerful",
+      "start": 931.397,
+      "duration": 2.583
+    },
+    {
+      "text": "systems, and it's a race.",
+      "start": 933.98,
+      "duration": 1.9
+    },
+    {
+      "text": "It's a race to\ndevelop these systems.",
+      "start": 935.88,
+      "duration": 1.945
+    },
+    {
+      "text": "Is that why you\ncame back to Google?",
+      "start": 937.825,
+      "duration": 1.5
+    },
+    {
+      "text": "SERGEY BRIN: I mean, I think,\nas a computer scientist,",
+      "start": 942.11,
+      "duration": 3.12
+    },
+    {
+      "text": "it's a very unique\ntime in history.",
+      "start": 945.23,
+      "duration": 3.984
+    },
+    {
+      "text": "Honestly, anybody who's\na computer scientist",
+      "start": 949.214,
+      "duration": 3.036
+    },
+    {
+      "text": "should not be retired right now.",
+      "start": 952.25,
+      "duration": 1.89
+    },
+    {
+      "text": "They should be working on AI.",
+      "start": 954.14,
+      "duration": 1.48
+    },
+    {
+      "text": "That's what I would just say.",
+      "start": 955.62,
+      "duration": 1.26
+    },
+    {
+      "text": "I mean, there's just\nnever been a greater sort",
+      "start": 956.88,
+      "duration": 4.25
+    },
+    {
+      "text": "of problem, an opportunity,\na greater cusp of technology.",
+      "start": 961.13,
+      "duration": 5.1
+    },
+    {
+      "text": "So I wouldn't say it's\nbecause of the race.",
+      "start": 966.23,
+      "duration": 3.66
+    },
+    {
+      "text": "Although, we fully\nintend that Gemini",
+      "start": 969.89,
+      "duration": 2.16
+    },
+    {
+      "text": "will be the very first AGI.",
+      "start": 972.05,
+      "duration": 1.205
+    },
+    {
+      "text": "Let me clarify that.",
+      "start": 973.255,
+      "duration": 2.965
+    },
+    {
+      "text": "But to be immersed in this\nincredible technological",
+      "start": 976.22,
+      "duration": 7.35
+    },
+    {
+      "text": "revolution, it's unlike--",
+      "start": 983.57,
+      "duration": 2.1
+    },
+    {
+      "text": "I went through\nthe web 1.0 thing.",
+      "start": 985.67,
+      "duration": 2.41
+    },
+    {
+      "text": "It was very exciting, and\nwe had mobile, we had this,",
+      "start": 988.08,
+      "duration": 2.69
+    },
+    {
+      "text": "we had that.",
+      "start": 990.77,
+      "duration": 0.58
+    },
+    {
+      "text": "But I think this is\nscientifically far",
+      "start": 991.35,
+      "duration": 5.3
+    },
+    {
+      "text": "more exciting.",
+      "start": 996.65,
+      "duration": 1.3
+    },
+    {
+      "text": "And I think ultimately\nthe impact on the world",
+      "start": 997.95,
+      "duration": 3.14
+    },
+    {
+      "text": "is going to be even greater.",
+      "start": 1001.09,
+      "duration": 1.21
+    },
+    {
+      "text": "Inasmuch as the web and mobile\nphones have had a lot of impact,",
+      "start": 1002.3,
+      "duration": 5.33
+    },
+    {
+      "text": "I think AI is going to be\nvastly more transformative.",
+      "start": 1007.63,
+      "duration": 3.48
+    },
+    {
+      "text": "ALEX KANTROWITZ: So what\ndo you do day to day?",
+      "start": 1011.11,
+      "duration": 2.02
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 1013.13,
+      "duration": 1.31
+    },
+    {
+      "text": "SERGEY BRIN: I think\nI torture people",
+      "start": 1014.44,
+      "duration": 1.83
+    },
+    {
+      "text": "like Demis, who's amazing.",
+      "start": 1016.27,
+      "duration": 2.89
+    },
+    {
+      "text": "By the way, he tolerated\nme crashing this fireside.",
+      "start": 1019.16,
+      "duration": 4.88
+    },
+    {
+      "text": "I'm across the street\npretty much every day,",
+      "start": 1024.04,
+      "duration": 4.59
+    },
+    {
+      "text": "and people who are working\non the key Gemini text",
+      "start": 1028.63,
+      "duration": 4.709
+    },
+    {
+      "text": "models, on the pre-training, on\nthe post training, mostly those.",
+      "start": 1033.339,
+      "duration": 4.02
+    },
+    {
+      "text": "I periodically delve into\nsome of the multimodal work--",
+      "start": 1037.359,
+      "duration": 4.561
+    },
+    {
+      "text": "Veo 3, as you've all seen.",
+      "start": 1041.92,
+      "duration": 4.05
+    },
+    {
+      "text": "But I tend to be pretty deep\nin the technical details.",
+      "start": 1045.97,
+      "duration": 5.58
+    },
+    {
+      "text": "And that's a luxury I\nreally enjoy, fortunately,",
+      "start": 1051.55,
+      "duration": 3.01
+    },
+    {
+      "text": "because guys like Demis\nare minding the shop.",
+      "start": 1054.56,
+      "duration": 4.67
+    },
+    {
+      "text": "And yeah, that's just where\nmy scientific interest is.",
+      "start": 1059.23,
+      "duration": 5.04
+    },
+    {
+      "text": "It's deep in the algorithms\nand how they can evolve.",
+      "start": 1064.27,
+      "duration": 3.787
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 1068.057,
+      "duration": 0.833
+    },
+    {
+      "text": "Let's talk about the\nproducts a little bit,",
+      "start": 1068.89,
+      "duration": 1.792
+    },
+    {
+      "text": "some that were\nintroduced recently.",
+      "start": 1070.682,
+      "duration": 2.558
+    },
+    {
+      "text": "I just want to ask you a broad\nquestion about agents, Demis.",
+      "start": 1073.24,
+      "duration": 2.53
+    },
+    {
+      "text": "Because when I look at\nother tech companies",
+      "start": 1075.77,
+      "duration": 2.27
+    },
+    {
+      "text": "building agents, what we see in\nthe demos is usually something",
+      "start": 1078.04,
+      "duration": 3.3
+    },
+    {
+      "text": "that's contextually aware,\nhas a disembodied voice,",
+      "start": 1081.34,
+      "duration": 3.73
+    },
+    {
+      "text": "is often interacted--",
+      "start": 1085.07,
+      "duration": 2.06
+    },
+    {
+      "text": "you often interact\nwith it on a screen.",
+      "start": 1087.13,
+      "duration": 2.23
+    },
+    {
+      "text": "When I see DeepMind\nand Google demos,",
+      "start": 1089.36,
+      "duration": 2.61
+    },
+    {
+      "text": "oftentimes it's\nthrough the camera.",
+      "start": 1091.97,
+      "duration": 1.74
+    },
+    {
+      "text": "It's very visual.",
+      "start": 1093.71,
+      "duration": 1.67
+    },
+    {
+      "text": "There was an announcement\nabout smart glasses today.",
+      "start": 1095.38,
+      "duration": 3.19
+    },
+    {
+      "text": "So talk a little bit about--",
+      "start": 1098.57,
+      "duration": 2.09
+    },
+    {
+      "text": "if that's the right\nread-- why Google",
+      "start": 1100.66,
+      "duration": 2.61
+    },
+    {
+      "text": "is so interested in having an\nassistant or a companion that",
+      "start": 1103.27,
+      "duration": 3.84
+    },
+    {
+      "text": "is something that sees\nthe world as you see it.",
+      "start": 1107.11,
+      "duration": 2.762
+    },
+    {
+      "text": "DEMIS HASSABIS: Well,\nit's for several reasons.",
+      "start": 1109.872,
+      "duration": 1.958
+    },
+    {
+      "text": "Several threads come together.",
+      "start": 1111.83,
+      "duration": 1.298
+    },
+    {
+      "text": "So as we talked\nearlier, we've always",
+      "start": 1113.128,
+      "duration": 1.542
+    },
+    {
+      "text": "been interested in agents.",
+      "start": 1114.67,
+      "duration": 1.3
+    },
+    {
+      "text": "That's actually the heritage\nof DeepMind actually.",
+      "start": 1115.97,
+      "duration": 2.81
+    },
+    {
+      "text": "We started with agent-based\nsystems in games.",
+      "start": 1118.78,
+      "duration": 2.74
+    },
+    {
+      "text": "We are trying to\nbuild AGI, which",
+      "start": 1121.52,
+      "duration": 1.73
+    },
+    {
+      "text": "is a full general intelligence.",
+      "start": 1123.25,
+      "duration": 1.39
+    },
+    {
+      "text": "Clearly, that would\nhave to understand",
+      "start": 1124.64,
+      "duration": 2.15
+    },
+    {
+      "text": "the physical environment, the\nphysical world around you.",
+      "start": 1126.79,
+      "duration": 2.65
+    },
+    {
+      "text": "And two of the massive use\ncases for that, in my opinion,",
+      "start": 1129.44,
+      "duration": 2.82
+    },
+    {
+      "text": "are a truly useful\nassistant that",
+      "start": 1132.26,
+      "duration": 1.853
+    },
+    {
+      "text": "can come around with\nyou in your daily life",
+      "start": 1134.113,
+      "duration": 1.792
+    },
+    {
+      "text": "and not just stuck on your\ncomputer or on one device.",
+      "start": 1135.905,
+      "duration": 3.385
+    },
+    {
+      "text": "We want it to be useful in your\neveryday life for everything.",
+      "start": 1139.29,
+      "duration": 3.1
+    },
+    {
+      "text": "And so it needs to come\naround you and understand",
+      "start": 1142.39,
+      "duration": 2.81
+    },
+    {
+      "text": "your physical context.",
+      "start": 1145.2,
+      "duration": 1.8
+    },
+    {
+      "text": "And then the other big\nthing is, I've always",
+      "start": 1147.0,
+      "duration": 2.04
+    },
+    {
+      "text": "felt for robotics to\nwork, you sort of want",
+      "start": 1149.04,
+      "duration": 2.85
+    },
+    {
+      "text": "what you saw with\nAstra on a robot.",
+      "start": 1151.89,
+      "duration": 2.29
+    },
+    {
+      "text": "And I've always felt that\nthe bottleneck in robotics",
+      "start": 1154.18,
+      "duration": 2.99
+    },
+    {
+      "text": "isn't so much the hardware--\nalthough, obviously there's",
+      "start": 1157.17,
+      "duration": 2.91
+    },
+    {
+      "text": "many, many companies and\nworking on fantastic hardware,",
+      "start": 1160.08,
+      "duration": 3.412
+    },
+    {
+      "text": "and we partner with\na lot of them--",
+      "start": 1163.492,
+      "duration": 1.458
+    },
+    {
+      "text": "but it's actually the\nsoftware intelligence",
+      "start": 1164.95,
+      "duration": 1.792
+    },
+    {
+      "text": "that I think is always\nwhat's held robotics back.",
+      "start": 1166.742,
+      "duration": 2.805
+    },
+    {
+      "text": "But I think we're in a\nreally exciting moment now,",
+      "start": 1169.547,
+      "duration": 2.083
+    },
+    {
+      "text": "where finally, with\nthese latest versions,",
+      "start": 1171.63,
+      "duration": 3.01
+    },
+    {
+      "text": "especially 2.5 Gemini and more\nthings that we're going to bring",
+      "start": 1174.64,
+      "duration": 3.2
+    },
+    {
+      "text": "in-- this kind of Veo\ntechnology and other things--",
+      "start": 1177.84,
+      "duration": 2.35
+    },
+    {
+      "text": "I think we're going to have\nreally exciting algorithms",
+      "start": 1180.19,
+      "duration": 3.35
+    },
+    {
+      "text": "to make robotics finally work\nand realize its potential.",
+      "start": 1183.54,
+      "duration": 5.2
+    },
+    {
+      "text": "Which could be enormous.",
+      "start": 1188.74,
+      "duration": 1.05
+    },
+    {
+      "text": "So",
+      "start": 1189.79,
+      "duration": 0.71
+    },
+    {
+      "text": "And then in the\nend, AGI needs to be",
+      "start": 1190.5,
+      "duration": 2.58
+    },
+    {
+      "text": "able to do all of those things.",
+      "start": 1193.08,
+      "duration": 1.33
+    },
+    {
+      "text": "So for us-- and that's\nwhy you can see we always",
+      "start": 1194.41,
+      "duration": 2.0
+    },
+    {
+      "text": "had this in mind--\nthat's why Gemini",
+      "start": 1196.41,
+      "duration": 1.89
+    },
+    {
+      "text": "was built from the beginning,\neven the earliest versions,",
+      "start": 1198.3,
+      "duration": 2.73
+    },
+    {
+      "text": "to be multimodal.",
+      "start": 1201.03,
+      "duration": 1.128
+    },
+    {
+      "text": "And that made it\nharder at the start,",
+      "start": 1202.158,
+      "duration": 1.542
+    },
+    {
+      "text": "because it's harder to make\nthings multimodal than just text",
+      "start": 1203.7,
+      "duration": 2.52
+    },
+    {
+      "text": "only.",
+      "start": 1206.22,
+      "duration": 0.61
+    },
+    {
+      "text": "But in the end, I\nthink we're reaping",
+      "start": 1206.83,
+      "duration": 1.61
+    },
+    {
+      "text": "the benefits of\nthose decisions now--",
+      "start": 1208.44,
+      "duration": 1.72
+    },
+    {
+      "text": "and I see many of\nthe Gemini team",
+      "start": 1210.16,
+      "duration": 1.19
+    },
+    {
+      "text": "here in the front row-- of\nthe correct decisions we made.",
+      "start": 1211.35,
+      "duration": 2.56
+    },
+    {
+      "text": "They were the hardest decisions,\nbut we made the right decisions.",
+      "start": 1213.91,
+      "duration": 3.39
+    },
+    {
+      "text": "And now, you can see the\nfruits of that with all of what",
+      "start": 1217.3,
+      "duration": 2.93
+    },
+    {
+      "text": "you've seen today actually.",
+      "start": 1220.23,
+      "duration": 1.125
+    },
+    {
+      "text": "ALEX KANTROWITZ:\nSergey, I've been",
+      "start": 1221.355,
+      "duration": 1.417
+    },
+    {
+      "text": "thinking about whether to ask\nyou a Google Glass question.",
+      "start": 1222.772,
+      "duration": 2.688
+    },
+    {
+      "text": "SERGEY BRIN: Fire away.",
+      "start": 1225.46,
+      "duration": 1.02
+    },
+    {
+      "text": "ALEX KANTROWITZ: What did you\nlearn from Glass that Google",
+      "start": 1226.48,
+      "duration": 3.17
+    },
+    {
+      "text": "might be able to apply\ntoday now that it",
+      "start": 1229.65,
+      "duration": 3.81
+    },
+    {
+      "text": "seems like smart glasses\nhave made a reappearance?",
+      "start": 1233.46,
+      "duration": 3.852
+    },
+    {
+      "text": "SERGEY BRIN: Wow.",
+      "start": 1237.312,
+      "duration": 0.708
+    },
+    {
+      "text": "Yeah, a great question.",
+      "start": 1238.02,
+      "duration": 1.89
+    },
+    {
+      "text": "I learned a lot.",
+      "start": 1239.91,
+      "duration": 1.09
+    },
+    {
+      "text": "I mean, that was--",
+      "start": 1241.0,
+      "duration": 1.692
+    },
+    {
+      "text": "I definitely feel like\nI made a lot of mistakes",
+      "start": 1242.692,
+      "duration": 1.958
+    },
+    {
+      "text": "with Google Glass,\nI'll be honest.",
+      "start": 1244.65,
+      "duration": 3.24
+    },
+    {
+      "text": "I am still a big believer\nin the form factor,",
+      "start": 1247.89,
+      "duration": 3.34
+    },
+    {
+      "text": "so I'm glad that we have it now.",
+      "start": 1251.23,
+      "duration": 1.73
+    },
+    {
+      "text": "And now it looks\nlike normal glasses.",
+      "start": 1252.96,
+      "duration": 2.405
+    },
+    {
+      "text": "It doesn't have\nthe thing in front.",
+      "start": 1255.365,
+      "duration": 2.365
+    },
+    {
+      "text": "I think there was a\ntechnology gap honestly.",
+      "start": 1257.73,
+      "duration": 4.15
+    },
+    {
+      "text": "Now, in the AI world, the\nthings that these glasses can",
+      "start": 1261.88,
+      "duration": 2.81
+    },
+    {
+      "text": "do to help you out without\nconstantly distracting you,",
+      "start": 1264.69,
+      "duration": 4.48
+    },
+    {
+      "text": "that capability is much higher.",
+      "start": 1269.17,
+      "duration": 3.32
+    },
+    {
+      "text": "There's also just I didn't\nknow anything about consumer",
+      "start": 1272.49,
+      "duration": 4.44
+    },
+    {
+      "text": "electronics supply chains\nreally and how hard",
+      "start": 1276.93,
+      "duration": 2.55
+    },
+    {
+      "text": "it would be to build that and\nhave it be at a reasonable price",
+      "start": 1279.48,
+      "duration": 2.67
+    },
+    {
+      "text": "point.",
+      "start": 1282.15,
+      "duration": 1.98
+    },
+    {
+      "text": "Managing all the\nmanufacturing and so forth.",
+      "start": 1284.13,
+      "duration": 3.78
+    },
+    {
+      "text": "This time, we have\ngreat partners",
+      "start": 1287.91,
+      "duration": 1.86
+    },
+    {
+      "text": "that are helping us build this.",
+      "start": 1289.77,
+      "duration": 3.75
+    },
+    {
+      "text": "So that's another step forward.",
+      "start": 1293.52,
+      "duration": 3.45
+    },
+    {
+      "text": "What else can I say?",
+      "start": 1296.97,
+      "duration": 1.09
+    },
+    {
+      "text": "I do have to say I miss the\nairship with the wingsuiting",
+      "start": 1298.06,
+      "duration": 4.85
+    },
+    {
+      "text": "skydivers for the demo.",
+      "start": 1302.91,
+      "duration": 1.78
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 1304.69,
+      "duration": 0.86
+    },
+    {
+      "text": "SERGEY BRIN: Honestly, it would\nhave been even cooler here",
+      "start": 1305.55,
+      "duration": 3.15
+    },
+    {
+      "text": "at Shoreline amphitheater\nthan it was up in Moscone back",
+      "start": 1308.7,
+      "duration": 2.82
+    },
+    {
+      "text": "in the day.",
+      "start": 1311.52,
+      "duration": 0.73
+    },
+    {
+      "text": "But maybe we'll have to--",
+      "start": 1312.25,
+      "duration": 1.79
+    },
+    {
+      "text": "we should probably polish\nthe product first this time.",
+      "start": 1314.04,
+      "duration": 2.707
+    },
+    {
+      "text": "DEMIS HASSABIS: This time.",
+      "start": 1316.747,
+      "duration": 1.083
+    },
+    {
+      "text": "We'll do it that way\naround this time.",
+      "start": 1317.83,
+      "duration": 0.68
+    },
+    {
+      "text": "SERGEY BRIN: Make sure\nit's ready and available.",
+      "start": 1318.51,
+      "duration": 2.0
+    },
+    {
+      "text": "And then we'll do\na really cool demo.",
+      "start": 1320.51,
+      "duration": 1.97
+    },
+    {
+      "text": "So that's probably a smart move.",
+      "start": 1322.48,
+      "duration": 1.62
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah.",
+      "start": 1324.1,
+      "duration": 0.32
+    },
+    {
+      "text": "What I will say\nis, I mean, look,",
+      "start": 1324.42,
+      "duration": 1.39
+    },
+    {
+      "text": "we've got obviously an\nincredible history of glass",
+      "start": 1325.81,
+      "duration": 2.3
+    },
+    {
+      "text": "devices and smart devices.",
+      "start": 1328.11,
+      "duration": 1.81
+    },
+    {
+      "text": "We can bring all those\nlearnings to today.",
+      "start": 1329.92,
+      "duration": 2.22
+    },
+    {
+      "text": "And I'm very excited about\nour new glasses, as you saw.",
+      "start": 1332.14,
+      "duration": 3.54
+    },
+    {
+      "text": "But what I was always talking\nto our team and [INAUDIBLE]",
+      "start": 1335.68,
+      "duration": 2.54
+    },
+    {
+      "text": "and the team about is that--",
+      "start": 1338.22,
+      "duration": 1.318
+    },
+    {
+      "text": "I mean, I don't know if\nSergey would agree, but--",
+      "start": 1339.538,
+      "duration": 2.042
+    },
+    {
+      "text": "I feel like the universal\nassistant is the killer",
+      "start": 1341.58,
+      "duration": 4.05
+    },
+    {
+      "text": "app for smart glasses.",
+      "start": 1345.63,
+      "duration": 2.35
+    },
+    {
+      "text": "And I think that's what's\ngoing to make it work.",
+      "start": 1347.98,
+      "duration": 2.31
+    },
+    {
+      "text": "Apart from the fact that the\nhardware technology has also",
+      "start": 1350.29,
+      "duration": 2.66
+    },
+    {
+      "text": "moved on and improved\na lot is I feel",
+      "start": 1352.95,
+      "duration": 3.12
+    },
+    {
+      "text": "like this is the actual killer\napp, the natural killer app",
+      "start": 1356.07,
+      "duration": 2.43
+    },
+    {
+      "text": "for it.",
+      "start": 1358.5,
+      "duration": 0.577
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 1359.077,
+      "duration": 0.833
+    },
+    {
+      "text": "Briefly, on video\ngeneration, I sat",
+      "start": 1359.91,
+      "duration": 2.82
+    },
+    {
+      "text": "in the audience in the\nkeynote today and was fairly",
+      "start": 1362.73,
+      "duration": 3.33
+    },
+    {
+      "text": "blown away by the\nlevel of improvement",
+      "start": 1366.06,
+      "duration": 2.82
+    },
+    {
+      "text": "we've seen from these models.",
+      "start": 1368.88,
+      "duration": 1.99
+    },
+    {
+      "text": "And you had filmmakers talking\nabout it in the presentation.",
+      "start": 1370.87,
+      "duration": 4.3
+    },
+    {
+      "text": "I want to ask you,\nDemis, specifically",
+      "start": 1375.17,
+      "duration": 2.28
+    },
+    {
+      "text": "about model quality.",
+      "start": 1377.45,
+      "duration": 1.69
+    },
+    {
+      "text": "If the internet fills\nwith video that's",
+      "start": 1379.14,
+      "duration": 3.17
+    },
+    {
+      "text": "been made with\nartificial intelligence,",
+      "start": 1382.31,
+      "duration": 3.46
+    },
+    {
+      "text": "does that then go\nback into the training",
+      "start": 1385.77,
+      "duration": 2.3
+    },
+    {
+      "text": "and lead to a\nlower quality model",
+      "start": 1388.07,
+      "duration": 2.34
+    },
+    {
+      "text": "than if you were training just\nfrom human-generated content?",
+      "start": 1390.41,
+      "duration": 3.865
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah.",
+      "start": 1394.275,
+      "duration": 0.875
+    },
+    {
+      "text": "Look, we know there's\na lot of worries",
+      "start": 1395.15,
+      "duration": 1.583
+    },
+    {
+      "text": "about this so-called\nmodel collapse.",
+      "start": 1396.733,
+      "duration": 2.027
+    },
+    {
+      "text": "I mean, video is just one\nthing, but in any modality.",
+      "start": 1398.76,
+      "duration": 2.33
+    },
+    {
+      "text": "Text as well.",
+      "start": 1401.09,
+      "duration": 1.145
+    },
+    {
+      "text": "There's a few things\nto say about that.",
+      "start": 1402.235,
+      "duration": 1.625
+    },
+    {
+      "text": "First of all, we're very\nrigorous with our data quality",
+      "start": 1403.86,
+      "duration": 2.57
+    },
+    {
+      "text": "management and curation.",
+      "start": 1406.43,
+      "duration": 1.84
+    },
+    {
+      "text": "We also, at least for all\nof our generative models,",
+      "start": 1408.27,
+      "duration": 3.8
+    },
+    {
+      "text": "attach SynthID to them.",
+      "start": 1412.07,
+      "duration": 1.63
+    },
+    {
+      "text": "So there's this invisible\nAI-made watermark that is very",
+      "start": 1413.7,
+      "duration": 5.06
+    },
+    {
+      "text": "robust--",
+      "start": 1418.76,
+      "duration": 0.81
+    },
+    {
+      "text": "has held up now for a year, 18\nmonths, since we released it.",
+      "start": 1419.57,
+      "duration": 3.55
+    },
+    {
+      "text": "And all of our\nimages and videos are",
+      "start": 1423.12,
+      "duration": 3.98
+    },
+    {
+      "text": "embedded with this watermark.",
+      "start": 1427.1,
+      "duration": 1.36
+    },
+    {
+      "text": "So we can detect, and\nwe're releasing tools",
+      "start": 1428.46,
+      "duration": 2.6
+    },
+    {
+      "text": "to allow anyone to\ndetect, these watermarks",
+      "start": 1431.06,
+      "duration": 3.04
+    },
+    {
+      "text": "and know that was an\nAI-generated image or video.",
+      "start": 1434.1,
+      "duration": 4.99
+    },
+    {
+      "text": "And of course that's\nimportant to combat deepfakes",
+      "start": 1439.09,
+      "duration": 2.3
+    },
+    {
+      "text": "and misinformation, but\nit's also, of course,",
+      "start": 1441.39,
+      "duration": 2.32
+    },
+    {
+      "text": "you could use that to filter\nout, if you wanted to, whatever",
+      "start": 1443.71,
+      "duration": 2.96
+    },
+    {
+      "text": "was in your training data.",
+      "start": 1446.67,
+      "duration": 1.42
+    },
+    {
+      "text": "So I don't actually see\nthat as a big problem.",
+      "start": 1448.09,
+      "duration": 3.05
+    },
+    {
+      "text": "Eventually, we may\nhave video models",
+      "start": 1451.14,
+      "duration": 2.07
+    },
+    {
+      "text": "that are so good you\ncould put them back",
+      "start": 1453.21,
+      "duration": 2.16
+    },
+    {
+      "text": "into the loop as a source\nof additional data.",
+      "start": 1455.37,
+      "duration": 3.67
+    },
+    {
+      "text": "Synthetic data, it's called.",
+      "start": 1459.04,
+      "duration": 1.59
+    },
+    {
+      "text": "And there, you've just got to\nbe very careful that you're",
+      "start": 1460.63,
+      "duration": 2.84
+    },
+    {
+      "text": "actually creating from\nthe same distribution",
+      "start": 1463.47,
+      "duration": 2.79
+    },
+    {
+      "text": "that you're going\nto model, you're",
+      "start": 1466.26,
+      "duration": 1.89
+    },
+    {
+      "text": "not distorting that distribution\nsomehow, the quality",
+      "start": 1468.15,
+      "duration": 2.88
+    },
+    {
+      "text": "is high enough.",
+      "start": 1471.03,
+      "duration": 0.79
+    },
+    {
+      "text": "We have some experience of this\nin a completely different way",
+      "start": 1471.82,
+      "duration": 2.542
+    },
+    {
+      "text": "with things like AlphaFold,\nwhere there wasn't actually",
+      "start": 1474.362,
+      "duration": 2.308
+    },
+    {
+      "text": "enough real experimental data\nto build the final AlphaFold,",
+      "start": 1476.67,
+      "duration": 3.05
+    },
+    {
+      "text": "so we had to build an\nearlier version that",
+      "start": 1479.72,
+      "duration": 1.75
+    },
+    {
+      "text": "then predicted about a\nmillion protein structures.",
+      "start": 1481.47,
+      "duration": 2.44
+    },
+    {
+      "text": "And it had a confidence\nlevel on that,",
+      "start": 1483.91,
+      "duration": 2.61
+    },
+    {
+      "text": "and we selected the top\n300,000-400,000 and put them",
+      "start": 1486.52,
+      "duration": 2.57
+    },
+    {
+      "text": "back in the training data.",
+      "start": 1489.09,
+      "duration": 1.33
+    },
+    {
+      "text": "So there's lots very\ncutting edge research",
+      "start": 1490.42,
+      "duration": 2.23
+    },
+    {
+      "text": "to mix synthetic\ndata with real data.",
+      "start": 1492.65,
+      "duration": 2.188
+    },
+    {
+      "text": "So there are also\nways of doing that.",
+      "start": 1494.838,
+      "duration": 1.542
+    },
+    {
+      "text": "But on the terms of the\nvideo-generated stuff,",
+      "start": 1496.38,
+      "duration": 2.82
+    },
+    {
+      "text": "you can just exclude\nit if you want",
+      "start": 1499.2,
+      "duration": 1.52
+    },
+    {
+      "text": "to, at least with our own work,\nand hopefully other gen media",
+      "start": 1500.72,
+      "duration": 3.99
+    },
+    {
+      "text": "companies follow suit and put\nrobust watermarks in also,",
+      "start": 1504.71,
+      "duration": 4.93
+    },
+    {
+      "text": "obviously, first and\nforemost to combat",
+      "start": 1509.64,
+      "duration": 2.09
+    },
+    {
+      "text": "deepfakes and misinformation.",
+      "start": 1511.73,
+      "duration": 1.84
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK,\nwe have four minutes.",
+      "start": 1513.57,
+      "duration": 1.83
+    },
+    {
+      "text": "I got four questions left.",
+      "start": 1515.4,
+      "duration": 1.41
+    },
+    {
+      "text": "We now move to the miscellaneous\npart of my questions.",
+      "start": 1516.81,
+      "duration": 2.76
+    },
+    {
+      "text": "So let's see how many we\ncan get through in as fast",
+      "start": 1519.57,
+      "duration": 2.125
+    },
+    {
+      "text": "as we can get through them.",
+      "start": 1521.695,
+      "duration": 1.285
+    },
+    {
+      "text": "Let's go to Sergey\nwith this one.",
+      "start": 1522.98,
+      "duration": 2.17
+    },
+    {
+      "text": "What does the web\nlook like in 10 years?",
+      "start": 1525.15,
+      "duration": 1.8
+    },
+    {
+      "text": "SERGEY BRIN: What does the\nweb look like in 10 years?",
+      "start": 1526.95,
+      "duration": 2.7
+    },
+    {
+      "text": "I mean--",
+      "start": 1529.65,
+      "duration": 0.69
+    },
+    {
+      "text": "DEMIS HASSABIS:\nYou've got one minute.",
+      "start": 1530.34,
+      "duration": 1.583
+    },
+    {
+      "text": "SERGEY BRIN: Boy, I\nthink 10 years, because",
+      "start": 1531.923,
+      "duration": 2.307
+    },
+    {
+      "text": "of the rate of progress in\nAI, is so far beyond anything",
+      "start": 1534.23,
+      "duration": 3.97
+    },
+    {
+      "text": "we can see--",
+      "start": 1538.2,
+      "duration": 0.5
+    },
+    {
+      "text": "ALEX KANTROWITZ: Best guess.",
+      "start": 1538.7,
+      "duration": 1.23
+    },
+    {
+      "text": "SERGEY BRIN: Not just the web.",
+      "start": 1539.93,
+      "duration": 1.415
+    },
+    {
+      "text": "I mean, I don't know.",
+      "start": 1541.345,
+      "duration": 0.875
+    },
+    {
+      "text": "I don't think we really\nknow what the world looks",
+      "start": 1542.22,
+      "duration": 2.042
+    },
+    {
+      "text": "like in 10 years.",
+      "start": 1544.262,
+      "duration": 0.868
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 1545.13,
+      "duration": 0.833
+    },
+    {
+      "text": "Demis?",
+      "start": 1545.963,
+      "duration": 0.882
+    },
+    {
+      "text": "DEMIS HASSABIS: Well, I\nthink that's a good answer.",
+      "start": 1546.845,
+      "duration": 2.125
+    },
+    {
+      "text": "I do think the web\nin the nearer term",
+      "start": 1548.97,
+      "duration": 2.008
+    },
+    {
+      "text": "is going to change quite a lot.",
+      "start": 1550.978,
+      "duration": 1.292
+    },
+    {
+      "text": "If you think about\nan agent-first web,",
+      "start": 1552.27,
+      "duration": 2.94
+    },
+    {
+      "text": "does it really need to--",
+      "start": 1555.21,
+      "duration": 1.34
+    },
+    {
+      "text": "it doesn't necessarily need to\nsee renders and things like we",
+      "start": 1556.55,
+      "duration": 2.55
+    },
+    {
+      "text": "do as humans using the web.",
+      "start": 1559.1,
+      "duration": 1.51
+    },
+    {
+      "text": "So I think things will be\npretty different in a few years.",
+      "start": 1560.61,
+      "duration": 3.079
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 1563.689,
+      "duration": 0.833
+    },
+    {
+      "text": "This is kind of an\nunder-over question.",
+      "start": 1564.522,
+      "duration": 2.498
+    },
+    {
+      "text": "AGI before 2030 or after 2030?",
+      "start": 1567.02,
+      "duration": 5.94
+    },
+    {
+      "text": "SERGEY BRIN: 2030.",
+      "start": 1572.96,
+      "duration": 0.75
+    },
+    {
+      "text": "Boy, you really put\nit on that fine line.",
+      "start": 1573.71,
+      "duration": 2.56
+    },
+    {
+      "text": "I'm going to say before.",
+      "start": 1576.27,
+      "duration": 1.27
+    },
+    {
+      "text": "ALEX KANTROWITZ: Before?",
+      "start": 1577.54,
+      "duration": 1.0
+    },
+    {
+      "text": "SERGEY BRIN: Yeah.",
+      "start": 1578.54,
+      "duration": 0.67
+    },
+    {
+      "text": "ALEX KANTROWITZ: Demis.",
+      "start": 1579.21,
+      "duration": 0.53
+    },
+    {
+      "text": "DEMIS HASSABIS: I'm just after.",
+      "start": 1579.74,
+      "duration": 1.24
+    },
+    {
+      "text": "ALEX KANTROWITZ: Just after.",
+      "start": 1580.98,
+      "duration": 1.167
+    },
+    {
+      "text": "OK.",
+      "start": 1582.147,
+      "duration": 2.14
+    },
+    {
+      "text": "SERGEY BRIN: No pressure, Demis.",
+      "start": 1584.287,
+      "duration": 1.333
+    },
+    {
+      "text": "DEMIS HASSABIS: Exactly.",
+      "start": 1585.62,
+      "duration": 1.0
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 1586.62,
+      "duration": 0.62
+    },
+    {
+      "text": "DEMIS HASSABIS: I'll have to\ngo back and get working harder.",
+      "start": 1587.24,
+      "duration": 2.58
+    },
+    {
+      "text": "ALEX KANTROWITZ: Is that--",
+      "start": 1589.82,
+      "duration": 0.63
+    },
+    {
+      "text": "SERGEY BRIN: I can ask for it.",
+      "start": 1590.45,
+      "duration": 0.88
+    },
+    {
+      "text": "He needs to deliver it.",
+      "start": 1591.33,
+      "duration": 1.06
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, exactly.",
+      "start": 1592.39,
+      "duration": 1.25
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 1593.64,
+      "duration": 0.89
+    },
+    {
+      "text": "SERGEY BRIN: Stop sandbagging.",
+      "start": 1594.53,
+      "duration": 2.22
+    },
+    {
+      "text": "We need it next week.",
+      "start": 1596.75,
+      "duration": 1.39
+    },
+    {
+      "text": "DEMIS HASSABIS: That's true.",
+      "start": 1598.14,
+      "duration": 1.37
+    },
+    {
+      "text": "ALEX KANTROWITZ: I'll\ncome to the review.",
+      "start": 1599.51,
+      "duration": 1.36
+    },
+    {
+      "text": "All right.",
+      "start": 1600.87,
+      "duration": 0.57
+    },
+    {
+      "text": "So would you hire someone that\nused AI in their interview?",
+      "start": 1601.44,
+      "duration": 3.86
+    },
+    {
+      "text": "Demis?",
+      "start": 1605.3,
+      "duration": 1.558
+    },
+    {
+      "text": "DEMIS HASSABIS: Oh.",
+      "start": 1606.858,
+      "duration": 0.792
+    },
+    {
+      "text": "In their interview?",
+      "start": 1607.65,
+      "duration": 3.02
+    },
+    {
+      "text": "It depends how they used it.",
+      "start": 1610.67,
+      "duration": 1.18
+    },
+    {
+      "text": "I think using today's\nmodels, tools, probably not.",
+      "start": 1611.85,
+      "duration": 3.75
+    },
+    {
+      "text": "But I think that would be--",
+      "start": 1615.6,
+      "duration": 1.192
+    },
+    {
+      "text": "well, it depends how they\nwould use it actually",
+      "start": 1616.792,
+      "duration": 1.958
+    },
+    {
+      "text": "I think is probably the answer.",
+      "start": 1618.75,
+      "duration": 1.38
+    },
+    {
+      "text": "Sergey.",
+      "start": 1620.13,
+      "duration": 2.33
+    },
+    {
+      "text": "SERGEY BRIN: I mean, I\nnever interviewed at all.",
+      "start": 1622.46,
+      "duration": 2.02
+    },
+    {
+      "text": "So.",
+      "start": 1624.48,
+      "duration": 0.81
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 1625.29,
+      "duration": 1.817
+    },
+    {
+      "text": "SERGEY BRIN: I don't know.",
+      "start": 1627.107,
+      "duration": 1.083
+    },
+    {
+      "text": "I feel it would be hypocritical\nfor me to judge people",
+      "start": 1628.19,
+      "duration": 3.12
+    },
+    {
+      "text": "exactly how they interview.",
+      "start": 1631.31,
+      "duration": 1.48
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, I\nhaven't either, actually.",
+      "start": 1632.79,
+      "duration": 1.23
+    },
+    {
+      "text": "So [INAUDIBLE] on that.",
+      "start": 1634.02,
+      "duration": 1.072
+    },
+    {
+      "text": "I've never done a job interview.",
+      "start": 1635.092,
+      "duration": 1.333
+    },
+    {
+      "text": "SERGEY BRIN: Yeah.",
+      "start": 1636.425,
+      "duration": 0.815
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 1637.24,
+      "duration": 0.88
+    },
+    {
+      "text": "So Demis, I've been\nreading your tweets.",
+      "start": 1638.12,
+      "duration": 2.79
+    },
+    {
+      "text": "You put a very\ninteresting tweet up",
+      "start": 1640.91,
+      "duration": 2.82
+    },
+    {
+      "text": "where there was a\nprompt that created",
+      "start": 1643.73,
+      "duration": 2.46
+    },
+    {
+      "text": "some sort of natural scene.",
+      "start": 1646.19,
+      "duration": 1.38
+    },
+    {
+      "text": "DEMIS HASSABIS: Oh yeah.",
+      "start": 1647.57,
+      "duration": 1.0
+    },
+    {
+      "text": "ALEX KANTROWITZ:\nHere was the tweet.",
+      "start": 1648.57,
+      "duration": 1.5
+    },
+    {
+      "text": "\"Nature to simulation at the\npress of a button does make you",
+      "start": 1650.07,
+      "duration": 3.47
+    },
+    {
+      "text": "wonder,\" with a\ncouple of emojis.",
+      "start": 1653.54,
+      "duration": 2.44
+    },
+    {
+      "text": "And people ran with that and\nwrote some headlines saying",
+      "start": 1655.98,
+      "duration": 2.9
+    },
+    {
+      "text": "\"Demis thinks we're\nin a simulation.\"",
+      "start": 1658.88,
+      "duration": 2.94
+    },
+    {
+      "text": "Are we in a simulation?",
+      "start": 1661.82,
+      "duration": 1.62
+    },
+    {
+      "text": "DEMIS HASSABIS: Not in the way\nthat Nick Bostrom and people",
+      "start": 1663.44,
+      "duration": 3.5
+    },
+    {
+      "text": "talk about.",
+      "start": 1666.94,
+      "duration": 0.5
+    },
+    {
+      "text": "I do think, though--",
+      "start": 1667.44,
+      "duration": 2.66
+    },
+    {
+      "text": "I don't think this\nis some kind of game,",
+      "start": 1670.1,
+      "duration": 2.12
+    },
+    {
+      "text": "even though I wrote\na lot of games.",
+      "start": 1672.22,
+      "duration": 1.54
+    },
+    {
+      "text": "I do think that ultimately\nunderlying physics is",
+      "start": 1673.76,
+      "duration": 3.62
+    },
+    {
+      "text": "information theory.",
+      "start": 1677.38,
+      "duration": 1.09
+    },
+    {
+      "text": "So I do think we're in a\ncomputational universe,",
+      "start": 1678.47,
+      "duration": 2.482
+    },
+    {
+      "text": "but it's not just a\nstraightforward simulation.",
+      "start": 1680.952,
+      "duration": 1.958
+    },
+    {
+      "text": "I can't answer\nyou in one minute.",
+      "start": 1682.91,
+      "duration": 1.71
+    },
+    {
+      "text": "But I think the fact\nthat these systems are",
+      "start": 1684.62,
+      "duration": 3.32
+    },
+    {
+      "text": "able to model real\nstructures in nature",
+      "start": 1687.94,
+      "duration": 5.49
+    },
+    {
+      "text": "is quite interesting\nand telling.",
+      "start": 1693.43,
+      "duration": 2.47
+    },
+    {
+      "text": "And I've been thinking\na lot about our work",
+      "start": 1695.9,
+      "duration": 2.228
+    },
+    {
+      "text": "we've done with AlphaGo, and\nAlphaFold, and these types",
+      "start": 1698.128,
+      "duration": 2.292
+    },
+    {
+      "text": "of systems.",
+      "start": 1700.42,
+      "duration": 1.35
+    },
+    {
+      "text": "I've spoken a little about it.",
+      "start": 1701.77,
+      "duration": 1.535
+    },
+    {
+      "text": "Maybe at some\npoint I'll write up",
+      "start": 1703.305,
+      "duration": 1.375
+    },
+    {
+      "text": "a scientific paper\nabout what I think",
+      "start": 1704.68,
+      "duration": 1.89
+    },
+    {
+      "text": "that really means in\nterms of what's actually",
+      "start": 1706.57,
+      "duration": 2.46
+    },
+    {
+      "text": "going on here in reality.",
+      "start": 1709.03,
+      "duration": 1.432
+    },
+    {
+      "text": "ALEX KANTROWITZ: Sergey,\nyou want to make a headline?",
+      "start": 1710.462,
+      "duration": 2.208
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 1712.67,
+      "duration": 1.16
+    },
+    {
+      "text": "SERGEY BRIN: Well, I think that\nargument applies recursively,",
+      "start": 1713.83,
+      "duration": 3.32
+    },
+    {
+      "text": "right?",
+      "start": 1717.15,
+      "duration": 0.76
+    },
+    {
+      "text": "If we're in a simulation, then\nby the same argument, whatever",
+      "start": 1717.91,
+      "duration": 3.27
+    },
+    {
+      "text": "beings are making\nthe simulation are",
+      "start": 1721.18,
+      "duration": 2.01
+    },
+    {
+      "text": "themselves in a simulation\nfor roughly the same reasons,",
+      "start": 1723.19,
+      "duration": 3.16
+    },
+    {
+      "text": "and so on and so forth.",
+      "start": 1726.35,
+      "duration": 1.2
+    },
+    {
+      "text": "So I think you're going\nto have to either accept",
+      "start": 1727.55,
+      "duration": 3.11
+    },
+    {
+      "text": "that we're in an infinite\nstack of simulations,",
+      "start": 1730.66,
+      "duration": 3.27
+    },
+    {
+      "text": "or that there's got to be\nsome stopping criteria.",
+      "start": 1733.93,
+      "duration": 3.0
+    },
+    {
+      "text": "ALEX KANTROWITZ: And\nwhat's your best guess?",
+      "start": 1736.93,
+      "duration": 3.39
+    },
+    {
+      "text": "SERGEY BRIN: I think that we're\ntaking a very anthropocentric",
+      "start": 1740.32,
+      "duration": 5.19
+    },
+    {
+      "text": "view when we say\nsimulation, in the sense",
+      "start": 1745.51,
+      "duration": 3.27
+    },
+    {
+      "text": "that some kind of\nconscious being",
+      "start": 1748.78,
+      "duration": 2.94
+    },
+    {
+      "text": "is running a simulation\nthat we are then in,",
+      "start": 1751.72,
+      "duration": 2.89
+    },
+    {
+      "text": "and that they have\nsome kind of semblance",
+      "start": 1754.61,
+      "duration": 3.14
+    },
+    {
+      "text": "of desire and consciousness\nthat's similar to us.",
+      "start": 1757.75,
+      "duration": 2.68
+    },
+    {
+      "text": "I think that's where it\nkind of breaks down for me.",
+      "start": 1760.43,
+      "duration": 4.01
+    },
+    {
+      "text": "So I just don't think\nthat we're really equipped",
+      "start": 1764.44,
+      "duration": 3.15
+    },
+    {
+      "text": "to reason about one level\nup in the hierarchy.",
+      "start": 1767.59,
+      "duration": 4.507
+    },
+    {
+      "text": "ALEX KANTROWITZ: OK.",
+      "start": 1772.097,
+      "duration": 0.833
+    },
+    {
+      "text": "Well, Demis, Sergey,\nthank you so much.",
+      "start": 1772.93,
+      "duration": 2.063
+    },
+    {
+      "text": "This has been such a\nfascinating conversation.",
+      "start": 1774.993,
+      "duration": 1.917
+    },
+    {
+      "text": "SERGEY BRIN: Thank you.",
+      "start": 1776.91,
+      "duration": 0.44
+    },
+    {
+      "text": "ALEX KANTROWITZ:\nAnd Thank you all.",
+      "start": 1777.35,
+      "duration": 1.458
+    },
+    {
+      "text": "[APPLAUSE, MUSIC]",
+      "start": 1778.808,
+      "duration": 2.062
+    }
+  ]
+}

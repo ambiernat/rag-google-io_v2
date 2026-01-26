@@ -1,0 +1,4762 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "gHHjDRDNUNU",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.844
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 3.792,
+      "duration": 1.898
+    },
+    {
+      "text": "[AUDIENCE SCREAMING]",
+      "start": 5.69,
+      "duration": 2.31
+    },
+    {
+      "text": "LUCIANO MARTINS: Hey, folks.",
+      "start": 10.353,
+      "duration": 1.167
+    },
+    {
+      "text": "Good morning.",
+      "start": 11.52,
+      "duration": 1.64
+    },
+    {
+      "text": "It's a pleasure to\nbe here with you all.",
+      "start": 13.16,
+      "duration": 1.96
+    },
+    {
+      "text": "I'm Luciano Martins.",
+      "start": 15.12,
+      "duration": 1.85
+    },
+    {
+      "text": "I'm Brazilian.",
+      "start": 16.97,
+      "duration": 0.97
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 17.94,
+      "duration": 3.59
+    },
+    {
+      "text": "I'm an AI Developer\nAdvocate at Google DeepMind.",
+      "start": 21.53,
+      "duration": 2.92
+    },
+    {
+      "text": "And I'm here with\nmy friend Shrestha.",
+      "start": 24.45,
+      "duration": 1.542
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: Thank you.",
+      "start": 25.992,
+      "duration": 1.375
+    },
+    {
+      "text": "Luciano Hi, everyone.",
+      "start": 27.367,
+      "duration": 1.433
+    },
+    {
+      "text": "I am Shreshta Basu Mallick.",
+      "start": 28.8,
+      "duration": 1.86
+    },
+    {
+      "text": "I'm the Product Lead for\nthe Gemini Developer API.",
+      "start": 30.66,
+      "duration": 3.36
+    },
+    {
+      "text": "And it looks like I should have\nbrought an Indian contingent",
+      "start": 34.02,
+      "duration": 2.6
+    },
+    {
+      "text": "here.",
+      "start": 36.62,
+      "duration": 1.177
+    },
+    {
+      "text": "[LAUGHING]",
+      "start": 37.797,
+      "duration": 1.433
+    },
+    {
+      "text": "Thank you.",
+      "start": 39.23,
+      "duration": 0.94
+    },
+    {
+      "text": "LUCIANO MARTINS: Yay!",
+      "start": 40.17,
+      "duration": 1.49
+    },
+    {
+      "text": "OK, so the idea of\nthis conversation",
+      "start": 41.66,
+      "duration": 2.58
+    },
+    {
+      "text": "is we want to share with you\nsome of the new things you have",
+      "start": 44.24,
+      "duration": 3.87
+    },
+    {
+      "text": "available to develop your\nsolutions using Gemini",
+      "start": 48.11,
+      "duration": 3.33
+    },
+    {
+      "text": "models and the Gemini API.",
+      "start": 51.44,
+      "duration": 1.51
+    },
+    {
+      "text": "How many developers\nyou have here?",
+      "start": 52.95,
+      "duration": 2.66
+    },
+    {
+      "text": "Amazing.",
+      "start": 55.61,
+      "duration": 1.05
+    },
+    {
+      "text": "OK, so we can start talking\nabout the Gemini models",
+      "start": 56.66,
+      "duration": 5.41
+    },
+    {
+      "text": "universe.",
+      "start": 62.07,
+      "duration": 0.82
+    },
+    {
+      "text": "We started Gemini\nby the end of 2023.",
+      "start": 62.89,
+      "duration": 3.0
+    },
+    {
+      "text": "And since then, we\nhave done a lot of work",
+      "start": 65.89,
+      "duration": 3.23
+    },
+    {
+      "text": "together between many different\nGoogle DeepMind teams.",
+      "start": 69.12,
+      "duration": 3.85
+    },
+    {
+      "text": "And by now, we are very\nproud of the point we got in",
+      "start": 72.97,
+      "duration": 4.67
+    },
+    {
+      "text": "and all the stuff we\nlaunched at during I/O.",
+      "start": 77.64,
+      "duration": 2.22
+    },
+    {
+      "text": "Just doing a quick recap,\none of the key differentials",
+      "start": 79.86,
+      "duration": 3.27
+    },
+    {
+      "text": "of the Gemini is that it is\nmulti-modal from scratch.",
+      "start": 83.13,
+      "duration": 3.94
+    },
+    {
+      "text": "Since when we started\ndeveloping the model,",
+      "start": 87.07,
+      "duration": 2.88
+    },
+    {
+      "text": "it always handled and\nunderstood multi-modal data.",
+      "start": 89.95,
+      "duration": 4.05
+    },
+    {
+      "text": "It means that you\ncan work with Gemini",
+      "start": 94.0,
+      "duration": 3.17
+    },
+    {
+      "text": "with any format\nof information you",
+      "start": 97.17,
+      "duration": 2.79
+    },
+    {
+      "text": "want, from text, image, video,\naudio, code, anything, right",
+      "start": 99.96,
+      "duration": 3.98
+    },
+    {
+      "text": "Shrestha?",
+      "start": 103.94,
+      "duration": 0.5
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 104.44,
+      "duration": 2.24
+    },
+    {
+      "text": "And just a quick\noverview of what",
+      "start": 106.68,
+      "duration": 4.05
+    },
+    {
+      "text": "are all the types\nof models, and what",
+      "start": 110.73,
+      "duration": 2.28
+    },
+    {
+      "text": "are all the families of\nmodels we have available.",
+      "start": 113.01,
+      "duration": 3.46
+    },
+    {
+      "text": "So what we're going\nto do today is Luciano",
+      "start": 116.47,
+      "duration": 3.05
+    },
+    {
+      "text": "and I split this\ntalk into two parts.",
+      "start": 119.52,
+      "duration": 2.38
+    },
+    {
+      "text": "So the first part\nof the talk will",
+      "start": 121.9,
+      "duration": 1.49
+    },
+    {
+      "text": "be talking about the models.",
+      "start": 123.39,
+      "duration": 1.42
+    },
+    {
+      "text": "And then the second\npart of the talk",
+      "start": 124.81,
+      "duration": 1.88
+    },
+    {
+      "text": "will be talking about the API.",
+      "start": 126.69,
+      "duration": 2.14
+    },
+    {
+      "text": "What are the capabilities\nand functionalities",
+      "start": 128.83,
+      "duration": 2.48
+    },
+    {
+      "text": "available through the API?",
+      "start": 131.31,
+      "duration": 1.63
+    },
+    {
+      "text": "And as part of that,\nwe have a section",
+      "start": 132.94,
+      "duration": 2.51
+    },
+    {
+      "text": "where we do a deep dive on\nagentic capabilities in the API.",
+      "start": 135.45,
+      "duration": 3.57
+    },
+    {
+      "text": "LUCIANO MARTINS:\nThanks for the add.",
+      "start": 139.02,
+      "duration": 1.5
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yeah.",
+      "start": 140.52,
+      "duration": 1.167
+    },
+    {
+      "text": "So starting with what are\nthe families of models",
+      "start": 141.687,
+      "duration": 3.123
+    },
+    {
+      "text": "we have available?",
+      "start": 144.81,
+      "duration": 1.3
+    },
+    {
+      "text": "So the most performant and\npowerful model that we have",
+      "start": 146.11,
+      "duration": 6.26
+    },
+    {
+      "text": "is the Gemini 2.5 Pro.",
+      "start": 152.37,
+      "duration": 2.17
+    },
+    {
+      "text": "It's in preview right now.",
+      "start": 154.54,
+      "duration": 1.83
+    },
+    {
+      "text": "A few weeks ago, we released\na updated version of 2.5 Pro.",
+      "start": 156.37,
+      "duration": 4.53
+    },
+    {
+      "text": "And it's suitable for highly\ncomplex tasks that require",
+      "start": 160.9,
+      "duration": 4.28
+    },
+    {
+      "text": "a lot of deep reasoning.",
+      "start": 165.18,
+      "duration": 1.83
+    },
+    {
+      "text": "And coding has been, of course,\na standout use case of that.",
+      "start": 167.01,
+      "duration": 3.81
+    },
+    {
+      "text": "We also have 2.5 Flash,\nwhich this Google",
+      "start": 170.82,
+      "duration": 4.62
+    },
+    {
+      "text": "I/O we released a new preview\nversion just yesterday for 2.5",
+      "start": 175.44,
+      "duration": 5.53
+    },
+    {
+      "text": "Flash.",
+      "start": 180.97,
+      "duration": 0.84
+    },
+    {
+      "text": "And 2.5 Flash is\nour model size that",
+      "start": 181.81,
+      "duration": 4.02
+    },
+    {
+      "text": "has probably one of the\nbest price performance",
+      "start": 185.83,
+      "duration": 4.26
+    },
+    {
+      "text": "ratios in the market today.",
+      "start": 190.09,
+      "duration": 1.39
+    },
+    {
+      "text": "LUCIANO MARTINS: That's right.",
+      "start": 191.48,
+      "duration": 1.25
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: We\nalso have 2.0 Flash-Lite.",
+      "start": 192.73,
+      "duration": 3.07
+    },
+    {
+      "text": "So this is a small,\nfast, cheap model",
+      "start": 195.8,
+      "duration": 3.44
+    },
+    {
+      "text": "that you can use for high\nvolume tasks like summarization.",
+      "start": 199.24,
+      "duration": 3.67
+    },
+    {
+      "text": "And then Luciano,\ndo you want to talk",
+      "start": 202.91,
+      "duration": 1.58
+    },
+    {
+      "text": "about the Nano and\nthe Embedding models?",
+      "start": 204.49,
+      "duration": 1.773
+    },
+    {
+      "text": "LUCIANO MARTINS:\nYeah, absolutely.",
+      "start": 206.263,
+      "duration": 1.417
+    },
+    {
+      "text": "We heard a lot of\nfeedback from you folks.",
+      "start": 207.68,
+      "duration": 2.19
+    },
+    {
+      "text": "And many of you are\ndeveloping mobile applications",
+      "start": 209.87,
+      "duration": 3.71
+    },
+    {
+      "text": "or applications that\nmust run on devices.",
+      "start": 213.58,
+      "duration": 3.04
+    },
+    {
+      "text": "So then you have\nalso available what",
+      "start": 216.62,
+      "duration": 1.97
+    },
+    {
+      "text": "we call the Gemini\nNano, which is a smaller",
+      "start": 218.59,
+      "duration": 2.49
+    },
+    {
+      "text": "version of the Gemini, which is\nable to run locally on devices",
+      "start": 221.08,
+      "duration": 3.66
+    },
+    {
+      "text": "like on Android devices if you\nare developing with the Android",
+      "start": 224.74,
+      "duration": 3.93
+    },
+    {
+      "text": "Studio using the AI Corps.",
+      "start": 228.67,
+      "duration": 1.72
+    },
+    {
+      "text": "And also, many of you are\ntrying to create applications",
+      "start": 230.39,
+      "duration": 4.04
+    },
+    {
+      "text": "that do some kind\nof semantic ranking",
+      "start": 234.43,
+      "duration": 2.85
+    },
+    {
+      "text": "or to organize information\nin large scale.",
+      "start": 237.28,
+      "duration": 2.5
+    },
+    {
+      "text": "So you have also one model that\nwe call the Gemini Embedding,",
+      "start": 239.78,
+      "duration": 3.87
+    },
+    {
+      "text": "which the key objective of this\nmodel is to let you ingest text.",
+      "start": 243.65,
+      "duration": 4.92
+    },
+    {
+      "text": "And then the model delivers you\nhigh quality multidimensional",
+      "start": 248.57,
+      "duration": 3.23
+    },
+    {
+      "text": "embeddings.",
+      "start": 251.8,
+      "duration": 0.88
+    },
+    {
+      "text": "But how those\nmodels are behaving",
+      "start": 252.68,
+      "duration": 1.85
+    },
+    {
+      "text": "when we think about the key\nstandard benchmarks, Shrestha?",
+      "start": 254.53,
+      "duration": 3.173
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: Yeah, we'll",
+      "start": 257.703,
+      "duration": 1.417
+    },
+    {
+      "text": "go to the benchmarks\nin a second.",
+      "start": 259.12,
+      "duration": 1.69
+    },
+    {
+      "text": "But the message\nthat I want everyone",
+      "start": 260.81,
+      "duration": 2.0
+    },
+    {
+      "text": "to take away from this\nslide is whether it's",
+      "start": 262.81,
+      "duration": 2.82
+    },
+    {
+      "text": "a super complex task, or whether\nit's on-device processing,",
+      "start": 265.63,
+      "duration": 5.23
+    },
+    {
+      "text": "you now have a Gemini model\nthat you can use for it.",
+      "start": 270.86,
+      "duration": 2.85
+    },
+    {
+      "text": "And it's pretty powerful.",
+      "start": 273.71,
+      "duration": 1.67
+    },
+    {
+      "text": "And it's pretty price effective.",
+      "start": 275.38,
+      "duration": 2.865
+    },
+    {
+      "text": "LUCIANO MARTINS: Yeah,\nmaybe it is also worth",
+      "start": 278.245,
+      "duration": 1.875
+    },
+    {
+      "text": "mentioning, Shrestha,\nthat some folks here",
+      "start": 280.12,
+      "duration": 2.7
+    },
+    {
+      "text": "may be developing with\nGemini since it was released.",
+      "start": 282.82,
+      "duration": 2.895
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yeah.",
+      "start": 285.715,
+      "duration": 1.167
+    },
+    {
+      "text": "LUCIANO MARTINS: So using the\nAI Studio, using the Gemini API,",
+      "start": 286.882,
+      "duration": 2.728
+    },
+    {
+      "text": "the older versions\nof Gemini like 2.0,",
+      "start": 289.61,
+      "duration": 3.96
+    },
+    {
+      "text": "1.5 are still available.",
+      "start": 293.57,
+      "duration": 1.47
+    },
+    {
+      "text": "But we really\nencourage everybody",
+      "start": 295.04,
+      "duration": 1.68
+    },
+    {
+      "text": "to start experimenting\nwith the newer ones",
+      "start": 296.72,
+      "duration": 3.48
+    },
+    {
+      "text": "with better capabilities\nand better performance.",
+      "start": 300.2,
+      "duration": 2.17
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 302.37,
+      "duration": 1.583
+    },
+    {
+      "text": "So 2.0 Flash continues to be one\nof our most widely-used models,",
+      "start": 303.953,
+      "duration": 4.597
+    },
+    {
+      "text": "just again, because of how good\nit is for the price it's at.",
+      "start": 308.55,
+      "duration": 4.29
+    },
+    {
+      "text": "And we have a lot of people\nwho are still using it.",
+      "start": 312.84,
+      "duration": 2.99
+    },
+    {
+      "text": "And then we also have some\npeople on the 1.5 models.",
+      "start": 315.83,
+      "duration": 3.73
+    },
+    {
+      "text": "But we're encouraging\npeople now,",
+      "start": 319.56,
+      "duration": 2.1
+    },
+    {
+      "text": "we're two generations\nahead, to start",
+      "start": 321.66,
+      "duration": 1.97
+    },
+    {
+      "text": "using the 2.5 series of\nmodels and give us feedback.",
+      "start": 323.63,
+      "duration": 3.268
+    },
+    {
+      "text": "LUCIANO MARTINS: Nice.",
+      "start": 326.898,
+      "duration": 0.917
+    },
+    {
+      "text": "So please tell us a little bit\nabout the benchmarks, Shrestha.",
+      "start": 327.815,
+      "duration": 2.895
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nYeah, next slide.",
+      "start": 330.71,
+      "duration": 1.98
+    },
+    {
+      "text": "Yeah, so we're not going\nto spend a lot of time",
+      "start": 332.69,
+      "duration": 2.82
+    },
+    {
+      "text": "on the benchmarks.",
+      "start": 335.51,
+      "duration": 0.97
+    },
+    {
+      "text": "But the two key points\nthat I'd like to hit here",
+      "start": 336.48,
+      "duration": 2.6
+    },
+    {
+      "text": "is number one, is one\nway in which we measure",
+      "start": 339.08,
+      "duration": 3.81
+    },
+    {
+      "text": "how good these models are is\nby putting them on LMArena,",
+      "start": 342.89,
+      "duration": 4.54
+    },
+    {
+      "text": "which is where developers\nand builders like",
+      "start": 347.43,
+      "duration": 2.39
+    },
+    {
+      "text": "yourself test out\nall these models",
+      "start": 349.82,
+      "duration": 2.34
+    },
+    {
+      "text": "and give it an ELO rating.",
+      "start": 352.16,
+      "duration": 2.19
+    },
+    {
+      "text": "And we're, of course, very\nproud that right now you",
+      "start": 354.35,
+      "duration": 3.36
+    },
+    {
+      "text": "have three Gemini models in\nthe top 10 in the LMArena.",
+      "start": 357.71,
+      "duration": 4.825
+    },
+    {
+      "text": "LUCIANO MARTINS:\nIncluding the top one.",
+      "start": 362.535,
+      "duration": 1.625
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: Including,",
+      "start": 364.16,
+      "duration": 0.97
+    },
+    {
+      "text": "how did I forget that?",
+      "start": 365.13,
+      "duration": 1.22
+    },
+    {
+      "text": "We are number one guys,\nand we're very proud of it.",
+      "start": 366.35,
+      "duration": 4.03
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 370.38,
+      "duration": 2.57
+    },
+    {
+      "text": "Thank you.",
+      "start": 372.95,
+      "duration": 0.86
+    },
+    {
+      "text": "One of the things,\none of the use cases",
+      "start": 376.88,
+      "duration": 2.67
+    },
+    {
+      "text": "that has been really emerging\nin the last couple of months",
+      "start": 379.55,
+      "duration": 3.09
+    },
+    {
+      "text": "is, of course, app creation\nand live coding and going",
+      "start": 382.64,
+      "duration": 3.87
+    },
+    {
+      "text": "from 0 to 1.",
+      "start": 386.51,
+      "duration": 2.25
+    },
+    {
+      "text": "The best leaderboard right now\nfor that is the WebDev Arena.",
+      "start": 388.76,
+      "duration": 4.03
+    },
+    {
+      "text": "And we again, are number one\nwith 2.5 Pro on WebDev Arena.",
+      "start": 392.79,
+      "duration": 4.71
+    },
+    {
+      "text": "So if you are trying to build\n0 to 1 or few shot apps,",
+      "start": 397.5,
+      "duration": 3.12
+    },
+    {
+      "text": "Gemini 2.5 Pro is a\ngreat model for that.",
+      "start": 400.62,
+      "duration": 3.28
+    },
+    {
+      "text": "But in addition to\nuser preferences,",
+      "start": 406.88,
+      "duration": 2.86
+    },
+    {
+      "text": "we also like to measure\nhow well our models are",
+      "start": 409.74,
+      "duration": 3.62
+    },
+    {
+      "text": "doing based on rigorous\nacademic benchmarks.",
+      "start": 413.36,
+      "duration": 4.4
+    },
+    {
+      "text": "And so I'm not going to\ngo into a lot of details",
+      "start": 417.76,
+      "duration": 2.78
+    },
+    {
+      "text": "on these slides.",
+      "start": 420.54,
+      "duration": 0.91
+    },
+    {
+      "text": "These are available\nin blog posts.",
+      "start": 421.45,
+      "duration": 2.07
+    },
+    {
+      "text": "Reach out to me\nand Luciano if you",
+      "start": 423.52,
+      "duration": 1.91
+    },
+    {
+      "text": "want to know how exactly\nthese models are doing.",
+      "start": 425.43,
+      "duration": 2.5
+    },
+    {
+      "text": "But the TL;DR here is whether\nit's in highly complex",
+      "start": 427.93,
+      "duration": 5.3
+    },
+    {
+      "text": "domain-specific questions,\nwhether it's in coding,",
+      "start": 433.23,
+      "duration": 3.25
+    },
+    {
+      "text": "whether it's in\nmultimodal understanding,",
+      "start": 436.48,
+      "duration": 2.67
+    },
+    {
+      "text": "the Gemini 2.5 Pro is leading\non a lot of these academic",
+      "start": 439.15,
+      "duration": 4.52
+    },
+    {
+      "text": "benchmarks as well.",
+      "start": 443.67,
+      "duration": 1.28
+    },
+    {
+      "text": "Finally, performance is\none side of the coin.",
+      "start": 447.57,
+      "duration": 3.34
+    },
+    {
+      "text": "The other side of the\ncoin is, of course, price.",
+      "start": 450.91,
+      "duration": 2.37
+    },
+    {
+      "text": "This is a chart from Swyx that's\nbeen very popular on Twitter",
+      "start": 453.28,
+      "duration": 4.25
+    },
+    {
+      "text": "for the last few years--",
+      "start": 457.53,
+      "duration": 1.8
+    },
+    {
+      "text": "on X, I'm sorry for\nthe last few months.",
+      "start": 459.33,
+      "duration": 3.57
+    },
+    {
+      "text": "But this really shows that\neven for price performance,",
+      "start": 462.9,
+      "duration": 4.72
+    },
+    {
+      "text": "the Gemini 2.5 models are\nreally at the frontier.",
+      "start": 467.62,
+      "duration": 3.953
+    },
+    {
+      "text": "Luciano?",
+      "start": 475.47,
+      "duration": 0.63
+    },
+    {
+      "text": "LUCIANO MARTINS:\nYeah, and I think",
+      "start": 476.1,
+      "duration": 1.53
+    },
+    {
+      "text": "it is worth\nmentioning, Shrestha,",
+      "start": 477.63,
+      "duration": 2.04
+    },
+    {
+      "text": "especially for those\nof you who watched",
+      "start": 479.67,
+      "duration": 2.4
+    },
+    {
+      "text": "Sundar's keynote yesterday and\nalso the developer's keynotes.",
+      "start": 482.07,
+      "duration": 3.87
+    },
+    {
+      "text": "Inside the DeepMind, we\nare doing this huge effort",
+      "start": 485.94,
+      "duration": 2.52
+    },
+    {
+      "text": "of trying to cover the\ndifferent aspects of experiences",
+      "start": 488.46,
+      "duration": 3.81
+    },
+    {
+      "text": "you may have.",
+      "start": 492.27,
+      "duration": 0.85
+    },
+    {
+      "text": "So we will talk a lot\nabout Gemini here.",
+      "start": 493.12,
+      "duration": 3.75
+    },
+    {
+      "text": "But also, we have\nthe model family",
+      "start": 496.87,
+      "duration": 2.09
+    },
+    {
+      "text": "that we are calling\nGenMedia, where",
+      "start": 498.96,
+      "duration": 2.04
+    },
+    {
+      "text": "you are able to generate high\nquality images, high quality",
+      "start": 501.0,
+      "duration": 3.96
+    },
+    {
+      "text": "videos.",
+      "start": 504.96,
+      "duration": 0.94
+    },
+    {
+      "text": "You also have-- and there is a\ncolleague from our team, Paul",
+      "start": 505.9,
+      "duration": 3.65
+    },
+    {
+      "text": "Ruiz, who is delivering\na talk this afternoon",
+      "start": 509.55,
+      "duration": 2.22
+    },
+    {
+      "text": "related to the Gemini Robotics,\nthe Gemini family of models",
+      "start": 511.77,
+      "duration": 4.08
+    },
+    {
+      "text": "related to people\napplying robotics,",
+      "start": 515.85,
+      "duration": 3.3
+    },
+    {
+      "text": "developing robotic\nsolution with applied AI.",
+      "start": 519.15,
+      "duration": 3.94
+    },
+    {
+      "text": "And also, just\nafter the session,",
+      "start": 523.09,
+      "duration": 2.16
+    },
+    {
+      "text": "we have one another one\nwith Omar and Gus Martins",
+      "start": 525.25,
+      "duration": 4.52
+    },
+    {
+      "text": "to talk about Gemma 3,\nwhich is the open models",
+      "start": 529.77,
+      "duration": 5.17
+    },
+    {
+      "text": "family for from\nGoogle DeepMind, also",
+      "start": 534.94,
+      "duration": 3.39
+    },
+    {
+      "text": "developed with all\nthe technologies",
+      "start": 538.33,
+      "duration": 2.88
+    },
+    {
+      "text": "we use to develop Gemini.",
+      "start": 541.21,
+      "duration": 2.018
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nAnd some really good",
+      "start": 543.228,
+      "duration": 1.792
+    },
+    {
+      "text": "benchmark performance--",
+      "start": 545.02,
+      "duration": 1.3
+    },
+    {
+      "text": "LUCIANO MARTINS: Absolutely.",
+      "start": 546.32,
+      "duration": 0.34
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: --in Gemma 3",
+      "start": 546.66,
+      "duration": 1.458
+    },
+    {
+      "text": "as well, as Omar and\nGus will tell you.",
+      "start": 548.118,
+      "duration": 3.232
+    },
+    {
+      "text": "LUCIANO MARTINS:\nSo still talking",
+      "start": 551.35,
+      "duration": 1.92
+    },
+    {
+      "text": "about the different\nexperiences you may have,",
+      "start": 553.27,
+      "duration": 3.88
+    },
+    {
+      "text": "we heard a lot of feedbacks\nfrom you folks around the world.",
+      "start": 557.15,
+      "duration": 3.15
+    },
+    {
+      "text": "And one of the most asked\nfeatures we always heard",
+      "start": 560.3,
+      "duration": 3.62
+    },
+    {
+      "text": "were related to letting Gemini\nto create high quality audio.",
+      "start": 563.92,
+      "duration": 8.47
+    },
+    {
+      "text": "So yesterday we launched what\nwe are calling the Gemini TTS",
+      "start": 572.39,
+      "duration": 3.92
+    },
+    {
+      "text": "model, where you can from text\ngenerate high quality audio.",
+      "start": 576.31,
+      "duration": 4.69
+    },
+    {
+      "text": "But the coolest\nthing about the TTS",
+      "start": 581.0,
+      "duration": 2.03
+    },
+    {
+      "text": "is that you are not\njust creating audio.",
+      "start": 583.03,
+      "duration": 3.37
+    },
+    {
+      "text": "You have abilities to customize\nemotions on the audio.",
+      "start": 586.4,
+      "duration": 3.36
+    },
+    {
+      "text": "You may have multiple voices.",
+      "start": 589.76,
+      "duration": 2.37
+    },
+    {
+      "text": "You can create the audios\nwith different languages,",
+      "start": 592.13,
+      "duration": 3.62
+    },
+    {
+      "text": "like Brazilian Portuguese.",
+      "start": 595.75,
+      "duration": 1.6
+    },
+    {
+      "text": "And you can even create\nmulti-speaker interactions.",
+      "start": 597.35,
+      "duration": 4.11
+    },
+    {
+      "text": "So if, for example, you want\nto deliver an experience where",
+      "start": 601.46,
+      "duration": 3.2
+    },
+    {
+      "text": "your users will be thoughts\nabout something on a podcast,",
+      "start": 604.66,
+      "duration": 4.09
+    },
+    {
+      "text": "like formats, like the one\nyou have on the NotebookLM",
+      "start": 608.75,
+      "duration": 3.08
+    },
+    {
+      "text": "that people love.",
+      "start": 611.83,
+      "duration": 1.06
+    },
+    {
+      "text": "Who here is using\nNotebookLM for anything?",
+      "start": 612.89,
+      "duration": 3.26
+    },
+    {
+      "text": "Amazing.",
+      "start": 616.15,
+      "duration": 0.84
+    },
+    {
+      "text": "So you can have something\nlike the AI Overviews",
+      "start": 616.99,
+      "duration": 3.87
+    },
+    {
+      "text": "that are developed and delivered\nby the Gemini TTS model using",
+      "start": 620.86,
+      "duration": 5.7
+    },
+    {
+      "text": "the TTS, right Shrestha?",
+      "start": 626.56,
+      "duration": 1.27
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 627.83,
+      "duration": 0.72
+    },
+    {
+      "text": "LUCIANO MARTINS: And I think it\nis not the only thing related",
+      "start": 628.55,
+      "duration": 2.21
+    },
+    {
+      "text": "to audio.",
+      "start": 630.76,
+      "duration": 0.7
+    },
+    {
+      "text": "We brought that to the live\ninteractions as well, right?",
+      "start": 631.46,
+      "duration": 2.76
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: That's right.",
+      "start": 634.22,
+      "duration": 1.5
+    },
+    {
+      "text": "So the TTS models,\nlike Luciano said,",
+      "start": 635.72,
+      "duration": 2.9
+    },
+    {
+      "text": "are available via chat endpoint.",
+      "start": 638.62,
+      "duration": 3.18
+    },
+    {
+      "text": "And then on our Live API,\nyesterday, we also rolled out",
+      "start": 641.8,
+      "duration": 4.68
+    },
+    {
+      "text": "the native audio output models.",
+      "start": 646.48,
+      "duration": 2.74
+    },
+    {
+      "text": "So this is now\nGoogle's first release",
+      "start": 649.22,
+      "duration": 3.06
+    },
+    {
+      "text": "of an audio-to-audio\narchitecture.",
+      "start": 652.28,
+      "duration": 3.0
+    },
+    {
+      "text": "And there are two variants of\nthis model that you have access",
+      "start": 655.28,
+      "duration": 3.15
+    },
+    {
+      "text": "through the Gemini Live API,\nwhich is our real time API.",
+      "start": 658.43,
+      "duration": 3.37
+    },
+    {
+      "text": "So you have the Native\nAudio Dialogue model,",
+      "start": 661.8,
+      "duration": 5.03
+    },
+    {
+      "text": "which is the real benefit of\nthe native audio output models",
+      "start": 666.83,
+      "duration": 4.35
+    },
+    {
+      "text": "are that the voices\nthat come out of it",
+      "start": 671.18,
+      "duration": 2.13
+    },
+    {
+      "text": "are much more natural\nand much more compelling.",
+      "start": 673.31,
+      "duration": 3.93
+    },
+    {
+      "text": "The native audio-to-audio\narchitecture",
+      "start": 677.24,
+      "duration": 3.36
+    },
+    {
+      "text": "has better contextual\nunderstanding",
+      "start": 680.6,
+      "duration": 2.82
+    },
+    {
+      "text": "of what humans say to the AI.",
+      "start": 683.42,
+      "duration": 3.87
+    },
+    {
+      "text": "It can seamlessly transition\nbetween different languages,",
+      "start": 687.29,
+      "duration": 4.18
+    },
+    {
+      "text": "so maybe from Brazilian\nPortuguese to Bengali,",
+      "start": 691.47,
+      "duration": 2.61
+    },
+    {
+      "text": "if you want to switch\nin the same language,",
+      "start": 694.08,
+      "duration": 2.73
+    },
+    {
+      "text": "in the same sentence.",
+      "start": 696.81,
+      "duration": 2.03
+    },
+    {
+      "text": "And it's available on\nour Gemini real time API.",
+      "start": 698.84,
+      "duration": 3.34
+    },
+    {
+      "text": "We also have a version\nof this model available,",
+      "start": 702.18,
+      "duration": 4.46
+    },
+    {
+      "text": "again on the real time\nAPI with thinking enabled.",
+      "start": 706.64,
+      "duration": 4.42
+    },
+    {
+      "text": "So for more complex use\ncases, so one use case that",
+      "start": 711.06,
+      "duration": 3.98
+    },
+    {
+      "text": "comes to mind is let's say\nyou're building a gaming",
+      "start": 715.04,
+      "duration": 2.49
+    },
+    {
+      "text": "agent to play a strategy game.",
+      "start": 717.53,
+      "duration": 2.47
+    },
+    {
+      "text": "And you want that agent to be\nable to think, but also to talk",
+      "start": 720.0,
+      "duration": 3.47
+    },
+    {
+      "text": "to you with relatively\nlow latency.",
+      "start": 723.47,
+      "duration": 2.82
+    },
+    {
+      "text": "We have a thinking version\nof the native audio model",
+      "start": 726.29,
+      "duration": 2.94
+    },
+    {
+      "text": "that's also now available\nfrom the Live API.",
+      "start": 729.23,
+      "duration": 2.92
+    },
+    {
+      "text": "So please try it out\nand give us feedback.",
+      "start": 732.15,
+      "duration": 2.84
+    },
+    {
+      "text": "LUCIANO MARTINS: Perfect.",
+      "start": 734.99,
+      "duration": 1.042
+    },
+    {
+      "text": "So how people can start\nusing those models, Shrestha?",
+      "start": 736.032,
+      "duration": 3.253
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThrough the API.",
+      "start": 739.285,
+      "duration": 1.625
+    },
+    {
+      "text": "Of course.",
+      "start": 740.91,
+      "duration": 0.66
+    },
+    {
+      "text": "But before we go there,\nthere are two other things",
+      "start": 741.57,
+      "duration": 2.9
+    },
+    {
+      "text": "that we should mention.",
+      "start": 744.47,
+      "duration": 1.09
+    },
+    {
+      "text": "It's hot off the news.",
+      "start": 745.56,
+      "duration": 0.96
+    },
+    {
+      "text": "You've probably\nall heard about it.",
+      "start": 746.52,
+      "duration": 1.83
+    },
+    {
+      "text": "We've also enabled\nan advanced reasoning",
+      "start": 748.35,
+      "duration": 3.23
+    },
+    {
+      "text": "mode called Deep Think.",
+      "start": 751.58,
+      "duration": 1.63
+    },
+    {
+      "text": "And the idea behind Deep\nThink is that the model 2.5",
+      "start": 753.21,
+      "duration": 6.11
+    },
+    {
+      "text": "Pro can think through various\npossible answers to a problem",
+      "start": 759.32,
+      "duration": 4.11
+    },
+    {
+      "text": "before giving you\nthe best answer.",
+      "start": 763.43,
+      "duration": 2.85
+    },
+    {
+      "text": "So that is available\nin trusted testers,",
+      "start": 766.28,
+      "duration": 3.05
+    },
+    {
+      "text": "but will be rolled\nout more widely soon.",
+      "start": 769.33,
+      "duration": 2.49
+    },
+    {
+      "text": "And then we also have\nGemini Diffusion,",
+      "start": 771.82,
+      "duration": 2.58
+    },
+    {
+      "text": "which is the first time\nwe are testing a diffusion",
+      "start": 774.4,
+      "duration": 4.37
+    },
+    {
+      "text": "architecture as opposed to an\nautoregressive architecture.",
+      "start": 778.77,
+      "duration": 3.49
+    },
+    {
+      "text": "And these models are faster\nthan the fastest model",
+      "start": 782.26,
+      "duration": 3.77
+    },
+    {
+      "text": "out today and for almost\nsimilar, the performance.",
+      "start": 786.03,
+      "duration": 4.18
+    },
+    {
+      "text": "So try out both when you have\naccess to both Gemini Deep",
+      "start": 790.21,
+      "duration": 3.32
+    },
+    {
+      "text": "Diffusion and Deep Think.",
+      "start": 793.53,
+      "duration": 1.77
+    },
+    {
+      "text": "LUCIANO MARTINS: Perfect.",
+      "start": 795.3,
+      "duration": 2.1
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: All\nright, so the Gemini API.",
+      "start": 797.4,
+      "duration": 2.65
+    },
+    {
+      "text": "LUCIANO MARTINS: So yeah, if\nyou start thinking, especially",
+      "start": 800.05,
+      "duration": 2.765
+    },
+    {
+      "text": "after the keynote\nspeakers today,",
+      "start": 802.815,
+      "duration": 1.375
+    },
+    {
+      "text": "there are many surfaces where\nyou can interact with the Gemini",
+      "start": 804.19,
+      "duration": 2.96
+    },
+    {
+      "text": "models.",
+      "start": 807.15,
+      "duration": 0.82
+    },
+    {
+      "text": "So you have the Gemini app.",
+      "start": 807.97,
+      "duration": 1.8
+    },
+    {
+      "text": "You have Gemini available\non Google Cloud as the Code",
+      "start": 809.77,
+      "duration": 3.725
+    },
+    {
+      "text": "Assist, the assistant-- the\nCloud Assist inside the Console.",
+      "start": 813.495,
+      "duration": 5.175
+    },
+    {
+      "text": "You have Gemini on Workspace.",
+      "start": 818.67,
+      "duration": 2.5
+    },
+    {
+      "text": "So when you are talking\nabout developer experiences,",
+      "start": 821.17,
+      "duration": 3.45
+    },
+    {
+      "text": "we have the one\nspecific Gemini API",
+      "start": 824.62,
+      "duration": 3.62
+    },
+    {
+      "text": "with similar experiences as you\nhave on the no-code UI that we",
+      "start": 828.24,
+      "duration": 4.83
+    },
+    {
+      "text": "call AI Studio, where you\ncan start experimenting",
+      "start": 833.07,
+      "duration": 3.6
+    },
+    {
+      "text": "and developing your solutions\nusing the Gemini models, right?",
+      "start": 836.67,
+      "duration": 3.64
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: That's right.",
+      "start": 840.31,
+      "duration": 2.66
+    },
+    {
+      "text": "LUCIANO MARTINS: So\nbasically, the Gemini API",
+      "start": 842.97,
+      "duration": 2.19
+    },
+    {
+      "text": "is a very low barrier\nentry for having Gemini",
+      "start": 845.16,
+      "duration": 5.7
+    },
+    {
+      "text": "programmatic experiences.",
+      "start": 850.86,
+      "duration": 2.02
+    },
+    {
+      "text": "You have access to\nall public models",
+      "start": 852.88,
+      "duration": 3.08
+    },
+    {
+      "text": "there from the Gen Media ones,\nGemma, all the Gemini models,",
+      "start": 855.96,
+      "duration": 5.74
+    },
+    {
+      "text": "variants.",
+      "start": 861.7,
+      "duration": 1.22
+    },
+    {
+      "text": "You have a very generous\nfree of charge tier,",
+      "start": 862.92,
+      "duration": 4.14
+    },
+    {
+      "text": "where you can start\nexperimenting just",
+      "start": 867.06,
+      "duration": 2.73
+    },
+    {
+      "text": "after the session\nwithout concerns",
+      "start": 869.79,
+      "duration": 2.64
+    },
+    {
+      "text": "about credit cards, costs,\nbilling, anything of that.",
+      "start": 872.43,
+      "duration": 3.74
+    },
+    {
+      "text": "We keep developing\nmore SDKs for this API.",
+      "start": 879.07,
+      "duration": 4.02
+    },
+    {
+      "text": "So for now, you have available\none SDK for Python, JavaScript,",
+      "start": 883.09,
+      "duration": 5.35
+    },
+    {
+      "text": "Go, and Java.",
+      "start": 888.44,
+      "duration": 2.13
+    },
+    {
+      "text": "We launched a Java during\nI/O, right, Shrestha?",
+      "start": 890.57,
+      "duration": 2.6
+    },
+    {
+      "text": "And also, you have\nthe ability to use",
+      "start": 893.17,
+      "duration": 2.82
+    },
+    {
+      "text": "the API on other developer\ntools you may be using.",
+      "start": 895.99,
+      "duration": 5.2
+    },
+    {
+      "text": "For example, if you\nuse Firebase Studio,",
+      "start": 901.19,
+      "duration": 2.04
+    },
+    {
+      "text": "the API is available there.",
+      "start": 903.23,
+      "duration": 1.62
+    },
+    {
+      "text": "If you are a Google\nColab user, you",
+      "start": 904.85,
+      "duration": 1.85
+    },
+    {
+      "text": "have ways to interact with\nthe Gemini models as well.",
+      "start": 906.7,
+      "duration": 2.95
+    },
+    {
+      "text": "So the key idea is to\nmake it easier for you.",
+      "start": 909.65,
+      "duration": 3.23
+    },
+    {
+      "text": "No matter where you are having\nyour development experience,",
+      "start": 912.88,
+      "duration": 3.88
+    },
+    {
+      "text": "We are trying to bring\nGemini API closer to you.",
+      "start": 916.76,
+      "duration": 2.017
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 918.777,
+      "duration": 1.583
+    },
+    {
+      "text": "And I think this is\nalso a good place",
+      "start": 920.36,
+      "duration": 1.55
+    },
+    {
+      "text": "to make a plug for Google\nAI Studio, which of course,",
+      "start": 921.91,
+      "duration": 2.8
+    },
+    {
+      "text": "everyone knows about and loves.",
+      "start": 924.71,
+      "duration": 1.74
+    },
+    {
+      "text": "It is the place where\na lot of our developers",
+      "start": 926.45,
+      "duration": 2.9
+    },
+    {
+      "text": "first test out the\ncapabilities of the API",
+      "start": 929.35,
+      "duration": 3.03
+    },
+    {
+      "text": "before committing to\nbuilding applications",
+      "start": 932.38,
+      "duration": 2.64
+    },
+    {
+      "text": "at scale with the API.",
+      "start": 935.02,
+      "duration": 1.51
+    },
+    {
+      "text": "And Google AI Studio now\nhas code generation also.",
+      "start": 936.53,
+      "duration": 4.34
+    },
+    {
+      "text": "LUCIANO MARTINS: Absolutely.",
+      "start": 940.87,
+      "duration": 3.42
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: So this\nis a quick, high level overview",
+      "start": 944.29,
+      "duration": 4.44
+    },
+    {
+      "text": "of all the components that are\navailable through the Gemini",
+      "start": 948.73,
+      "duration": 2.76
+    },
+    {
+      "text": "API.",
+      "start": 951.49,
+      "duration": 0.64
+    },
+    {
+      "text": "It's pretty standard.",
+      "start": 952.13,
+      "duration": 1.74
+    },
+    {
+      "text": "You send in your prompt, you get\na response back from the model.",
+      "start": 953.87,
+      "duration": 4.38
+    },
+    {
+      "text": "If there's a tool\ncall needed, we",
+      "start": 958.25,
+      "duration": 2.24
+    },
+    {
+      "text": "do support a set of\nfirst party Google tools,",
+      "start": 960.49,
+      "duration": 3.66
+    },
+    {
+      "text": "as well as function calling.",
+      "start": 964.15,
+      "duration": 2.52
+    },
+    {
+      "text": "So in terms of the first party\nGoogle tools that we support,",
+      "start": 966.67,
+      "duration": 4.05
+    },
+    {
+      "text": "we, of course, support\nGoogle Search as a tool.",
+      "start": 970.72,
+      "duration": 4.05
+    },
+    {
+      "text": "The best search engine\nout there is now",
+      "start": 974.77,
+      "duration": 2.37
+    },
+    {
+      "text": "available as a tool for the\nmodel to call when it needs to.",
+      "start": 977.14,
+      "duration": 3.66
+    },
+    {
+      "text": "Now in addition to the\ninformation that you get out",
+      "start": 980.8,
+      "duration": 2.76
+    },
+    {
+      "text": "of Search, if you want to\nretrieve more in-depth content",
+      "start": 983.56,
+      "duration": 4.5
+    },
+    {
+      "text": "from web pages for\napplications such as you're",
+      "start": 988.06,
+      "duration": 3.45
+    },
+    {
+      "text": "building your own version\nof a research agent,",
+      "start": 991.51,
+      "duration": 2.83
+    },
+    {
+      "text": "so you pull some\ninformation from Search.",
+      "start": 994.34,
+      "duration": 2.19
+    },
+    {
+      "text": "You pull a set of\nURLs, but if you",
+      "start": 996.53,
+      "duration": 1.61
+    },
+    {
+      "text": "want to extract a little\nmore in depth content,",
+      "start": 998.14,
+      "duration": 3.34
+    },
+    {
+      "text": "we just released a new tool\nat I/O called URL Context.",
+      "start": 1001.48,
+      "duration": 4.66
+    },
+    {
+      "text": "And then, of course, you can\ntake all that information.",
+      "start": 1006.14,
+      "duration": 3.87
+    },
+    {
+      "text": "And if you want to create\nbeautiful charts out of it",
+      "start": 1010.01,
+      "duration": 2.84
+    },
+    {
+      "text": "or run some analysis,\nwe make code execution",
+      "start": 1012.85,
+      "duration": 3.12
+    },
+    {
+      "text": "available as a tool to\nyou via the API as well.",
+      "start": 1015.97,
+      "duration": 3.04
+    },
+    {
+      "text": "Then, of course, you\nhave function calling.",
+      "start": 1019.01,
+      "duration": 2.22
+    },
+    {
+      "text": "And as part of all\nthe improvements",
+      "start": 1021.23,
+      "duration": 2.69
+    },
+    {
+      "text": "that we've released\nat Google I/O,",
+      "start": 1023.92,
+      "duration": 3.28
+    },
+    {
+      "text": "we've also put a lot\nof effort into making",
+      "start": 1027.2,
+      "duration": 2.69
+    },
+    {
+      "text": "sure our structured outputs\nfunctionality, which",
+      "start": 1029.89,
+      "duration": 3.57
+    },
+    {
+      "text": "lets you get outputs\nin JSON schema,",
+      "start": 1033.46,
+      "duration": 2.59
+    },
+    {
+      "text": "is much more robust\nand comprehensive.",
+      "start": 1036.05,
+      "duration": 2.549
+    },
+    {
+      "text": "So again, try it out\nand give us feedback.",
+      "start": 1038.599,
+      "duration": 2.97
+    },
+    {
+      "text": "And then finally, we do have\na set of safety and copyright",
+      "start": 1041.569,
+      "duration": 4.161
+    },
+    {
+      "text": "filters.",
+      "start": 1045.73,
+      "duration": 1.2
+    },
+    {
+      "text": "These are configurable\nby developers.",
+      "start": 1046.93,
+      "duration": 3.66
+    },
+    {
+      "text": "The idea is in order--",
+      "start": 1050.59,
+      "duration": 2.17
+    },
+    {
+      "text": "you have the tools you need\nto make the applications you",
+      "start": 1052.76,
+      "duration": 3.83
+    },
+    {
+      "text": "build safer.",
+      "start": 1056.59,
+      "duration": 1.24
+    },
+    {
+      "text": "And you have control about\nhow-- for most of the filters,",
+      "start": 1057.83,
+      "duration": 3.72
+    },
+    {
+      "text": "you have control about how where\nyou want to set that threshold.",
+      "start": 1061.55,
+      "duration": 4.396
+    },
+    {
+      "text": "LUCIANO MARTINS: Perfect.",
+      "start": 1068.068,
+      "duration": 1.042
+    },
+    {
+      "text": "So as a TL;DR, if we could\nexplain on a tweet how that",
+      "start": 1069.11,
+      "duration": 4.7
+    },
+    {
+      "text": "works, with the Gemini\nAPI and using the SDK,",
+      "start": 1073.81,
+      "duration": 3.07
+    },
+    {
+      "text": "you can work with all\nthe information you need.",
+      "start": 1076.88,
+      "duration": 3.48
+    },
+    {
+      "text": "Doesn't matter on which format\nit is, if you have spreadsheets,",
+      "start": 1080.36,
+      "duration": 3.63
+    },
+    {
+      "text": "docs, PDF files,\nvideos, audio, live",
+      "start": 1083.99,
+      "duration": 3.44
+    },
+    {
+      "text": "interactions via voice\nand video sort of stuff.",
+      "start": 1087.43,
+      "duration": 3.25
+    },
+    {
+      "text": "If you need to give specific\ninstructions to the model,",
+      "start": 1090.68,
+      "duration": 3.42
+    },
+    {
+      "text": "you have the ability to bring\nthese instructions to the model",
+      "start": 1094.1,
+      "duration": 3.41
+    },
+    {
+      "text": "follow on every interaction you\nhave during your application",
+      "start": 1097.51,
+      "duration": 3.48
+    },
+    {
+      "text": "usage.",
+      "start": 1100.99,
+      "duration": 0.6
+    },
+    {
+      "text": "And you have, as results\nor as outputs, the ability",
+      "start": 1101.59,
+      "duration": 4.68
+    },
+    {
+      "text": "to have generated text or\ngenerated images or audio",
+      "start": 1106.27,
+      "duration": 4.71
+    },
+    {
+      "text": "or video, or even keep\ntraining with more API",
+      "start": 1110.98,
+      "duration": 3.72
+    },
+    {
+      "text": "calls using function calling.",
+      "start": 1114.7,
+      "duration": 2.1
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 1116.8,
+      "duration": 0.61
+    },
+    {
+      "text": "LUCIANO MARTINS: That\nwas a huge tweet.",
+      "start": 1117.41,
+      "duration": 1.4
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: That\nwas a huge tweet, maybe",
+      "start": 1118.81,
+      "duration": 2.125
+    },
+    {
+      "text": "threaded tweet.",
+      "start": 1120.935,
+      "duration": 2.295
+    },
+    {
+      "text": "All right, so let's talk about\nsome key Gemini API features.",
+      "start": 1123.23,
+      "duration": 3.7
+    },
+    {
+      "text": "We don't have enough\ntime in this talk",
+      "start": 1126.93,
+      "duration": 2.12
+    },
+    {
+      "text": "to go through everything.",
+      "start": 1129.05,
+      "duration": 1.15
+    },
+    {
+      "text": "But Luciano and I thought we\nwould hit some of the highlights",
+      "start": 1130.2,
+      "duration": 3.23
+    },
+    {
+      "text": "that we really want people\nto know more about and use.",
+      "start": 1133.43,
+      "duration": 3.45
+    },
+    {
+      "text": "So one of the areas of feedback\nthat we used to get a lot",
+      "start": 1136.88,
+      "duration": 3.48
+    },
+    {
+      "text": "is you can, of course, upload\nfiles to the Gemini API.",
+      "start": 1140.36,
+      "duration": 4.24
+    },
+    {
+      "text": "You can also, if you're\nless than 20 megabytes,",
+      "start": 1144.6,
+      "duration": 3.03
+    },
+    {
+      "text": "you can also pass some of\nthese media information inline.",
+      "start": 1147.63,
+      "duration": 4.86
+    },
+    {
+      "text": "But now, you can also--",
+      "start": 1152.49,
+      "duration": 1.97
+    },
+    {
+      "text": "and we've had this feature\nout for a few weeks.",
+      "start": 1154.46,
+      "duration": 2.2
+    },
+    {
+      "text": "You can also pass\na YouTube link.",
+      "start": 1156.66,
+      "duration": 2.43
+    },
+    {
+      "text": "And the Gemini API can\nanalyze that information.",
+      "start": 1159.09,
+      "duration": 5.36
+    },
+    {
+      "text": "When you pass media files\nlike videos, depending",
+      "start": 1164.45,
+      "duration": 4.83
+    },
+    {
+      "text": "on how much you want to fit\ninto the context window,",
+      "start": 1169.28,
+      "duration": 4.3
+    },
+    {
+      "text": "you have now, a choice between\nthree resolution settings.",
+      "start": 1173.58,
+      "duration": 4.65
+    },
+    {
+      "text": "At the lowest setting,\nyou can process up",
+      "start": 1178.23,
+      "duration": 3.06
+    },
+    {
+      "text": "to six hours of video.",
+      "start": 1181.29,
+      "duration": 1.63
+    },
+    {
+      "text": "But then you also have more\nhigh resolution settings",
+      "start": 1182.92,
+      "duration": 2.84
+    },
+    {
+      "text": "that you can use.",
+      "start": 1185.76,
+      "duration": 1.83
+    },
+    {
+      "text": "We support dynamic frame rate\nper second in the Gemini API.",
+      "start": 1187.59,
+      "duration": 5.34
+    },
+    {
+      "text": "You can read that more about\nthat in our documentation,",
+      "start": 1192.93,
+      "duration": 3.07
+    },
+    {
+      "text": "or come talk to me and Luciano.",
+      "start": 1196.0,
+      "duration": 2.21
+    },
+    {
+      "text": "We support video clipping.",
+      "start": 1198.21,
+      "duration": 2.08
+    },
+    {
+      "text": "That's a new feature.",
+      "start": 1200.29,
+      "duration": 1.49
+    },
+    {
+      "text": "And we support\nimage segmentation.",
+      "start": 1201.78,
+      "duration": 3.63
+    },
+    {
+      "text": "One other point I want to make\non multimodal understanding",
+      "start": 1205.41,
+      "duration": 3.9
+    },
+    {
+      "text": "is even in the days\nof 1.5 and 2.0,",
+      "start": 1209.31,
+      "duration": 4.8
+    },
+    {
+      "text": "Gemini models were\nsome of the best models",
+      "start": 1214.11,
+      "duration": 3.6
+    },
+    {
+      "text": "out there for multimodal\nunderstanding.",
+      "start": 1217.71,
+      "duration": 4.78
+    },
+    {
+      "text": "The example I like to give\nhere is I was in Costa Rica,",
+      "start": 1222.49,
+      "duration": 3.5
+    },
+    {
+      "text": "and my guide showed\nme-- this is night.",
+      "start": 1225.99,
+      "duration": 2.43
+    },
+    {
+      "text": "And my guide showed me\noh, there's a glass frog",
+      "start": 1228.42,
+      "duration": 3.24
+    },
+    {
+      "text": "somewhere there on a branch.",
+      "start": 1231.66,
+      "duration": 1.75
+    },
+    {
+      "text": "I took a photo, but I did not\nsee the glass frog in real life",
+      "start": 1233.41,
+      "duration": 3.68
+    },
+    {
+      "text": "or in the photo.",
+      "start": 1237.09,
+      "duration": 1.27
+    },
+    {
+      "text": "But I passed it to Gemini.",
+      "start": 1238.36,
+      "duration": 1.88
+    },
+    {
+      "text": "And Gemini not\nonly saw the frog,",
+      "start": 1240.24,
+      "duration": 2.11
+    },
+    {
+      "text": "it identified the\nspecies correctly.",
+      "start": 1242.35,
+      "duration": 2.34
+    },
+    {
+      "text": "So that's how good multimodal\nunderstanding is on the Gemini.",
+      "start": 1244.69,
+      "duration": 3.41
+    },
+    {
+      "text": "Please try it out.",
+      "start": 1248.1,
+      "duration": 1.5
+    },
+    {
+      "text": "We also support long context.",
+      "start": 1249.6,
+      "duration": 1.943
+    },
+    {
+      "text": "And then we, along with long--",
+      "start": 1254.76,
+      "duration": 2.89
+    },
+    {
+      "text": "long context is we have some\nof the largest context windows",
+      "start": 1257.65,
+      "duration": 3.26
+    },
+    {
+      "text": "out there.",
+      "start": 1260.91,
+      "duration": 1.11
+    },
+    {
+      "text": "So like the equivalent\nof depending on",
+      "start": 1262.02,
+      "duration": 2.25
+    },
+    {
+      "text": "whether you're using a model\nwith 1 million context or 2",
+      "start": 1264.27,
+      "duration": 3.79
+    },
+    {
+      "text": "million context, you can read\nthe equivalent of eight novels,",
+      "start": 1268.06,
+      "duration": 4.46
+    },
+    {
+      "text": "have the model read it\nand/or entire code bases.",
+      "start": 1272.52,
+      "duration": 4.56
+    },
+    {
+      "text": "But what can sometimes\nhappen with long context",
+      "start": 1277.08,
+      "duration": 3.18
+    },
+    {
+      "text": "is that your input\ntoken pricing goes up.",
+      "start": 1280.26,
+      "duration": 3.07
+    },
+    {
+      "text": "But for that, we now\nhave context caching.",
+      "start": 1283.33,
+      "duration": 3.18
+    },
+    {
+      "text": "We have been supporting what\nwe call explicit context",
+      "start": 1286.51,
+      "duration": 3.47
+    },
+    {
+      "text": "caching for a while.",
+      "start": 1289.98,
+      "duration": 1.33
+    },
+    {
+      "text": "Explicit context caching\nis when you tell the API,",
+      "start": 1291.31,
+      "duration": 3.08
+    },
+    {
+      "text": "cache this context, and reuse\nit for the next few turns.",
+      "start": 1294.39,
+      "duration": 6.01
+    },
+    {
+      "text": "And you were going to get a\n75% discount on the pricing.",
+      "start": 1300.4,
+      "duration": 4.26
+    },
+    {
+      "text": "But now what we support is\nimplicit context caching.",
+      "start": 1304.66,
+      "duration": 3.39
+    },
+    {
+      "text": "So if we feel that you\nhave a context that",
+      "start": 1308.05,
+      "duration": 3.5
+    },
+    {
+      "text": "is getting repeatedly\nused, we will automatically",
+      "start": 1311.55,
+      "duration": 3.21
+    },
+    {
+      "text": "cache that for you and pass\nthe price savings to you.",
+      "start": 1314.76,
+      "duration": 3.94
+    },
+    {
+      "text": "So again, hopefully this\nis a huge price benefit",
+      "start": 1318.7,
+      "duration": 3.41
+    },
+    {
+      "text": "to our developers.",
+      "start": 1322.11,
+      "duration": 1.59
+    },
+    {
+      "text": "And then we, of course,\nprovide you with transparency",
+      "start": 1323.7,
+      "duration": 3.27
+    },
+    {
+      "text": "to see how many\ntokens you are using.",
+      "start": 1326.97,
+      "duration": 3.897
+    },
+    {
+      "text": "LUCIANO MARTINS: That's amazing.",
+      "start": 1330.867,
+      "duration": 1.333
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yeah.",
+      "start": 1332.2,
+      "duration": 0.852
+    },
+    {
+      "text": "Do you want to talk a little\nbit about text generation?",
+      "start": 1333.052,
+      "duration": 2.538
+    },
+    {
+      "text": "LUCIANO MARTINS: Yeah, I think\none of the greatest things",
+      "start": 1335.59,
+      "duration": 3.89
+    },
+    {
+      "text": "that we are building step by\nstep with the Gemini models",
+      "start": 1339.48,
+      "duration": 4.41
+    },
+    {
+      "text": "and the Gemini API is, you may\nhave different experiences,",
+      "start": 1343.89,
+      "duration": 4.6
+    },
+    {
+      "text": "as Shrestha explained,\nwith videos and clipping,",
+      "start": 1348.49,
+      "duration": 3.23
+    },
+    {
+      "text": "specific time offsets, or\nchanging the frames per second.",
+      "start": 1351.72,
+      "duration": 3.55
+    },
+    {
+      "text": "And then the first\nout-of-the-box output of Gemini",
+      "start": 1355.27,
+      "duration": 5.1
+    },
+    {
+      "text": "when we launched it in December\nof '23 was text generation.",
+      "start": 1360.37,
+      "duration": 3.57
+    },
+    {
+      "text": "So we keep having this.",
+      "start": 1363.94,
+      "duration": 2.04
+    },
+    {
+      "text": "As one of the\nchoices you have, you",
+      "start": 1365.98,
+      "duration": 1.62
+    },
+    {
+      "text": "can have an experience where\nGemini will just create text.",
+      "start": 1367.6,
+      "duration": 3.3
+    },
+    {
+      "text": "And by text, it may\nbe like anything.",
+      "start": 1370.9,
+      "duration": 2.11
+    },
+    {
+      "text": "It may be one\nstructured JSON output.",
+      "start": 1373.01,
+      "duration": 2.79
+    },
+    {
+      "text": "Or it may be some\ncoding in Python, C,",
+      "start": 1375.8,
+      "duration": 2.36
+    },
+    {
+      "text": "or any language of\nyour preference.",
+      "start": 1378.16,
+      "duration": 2.28
+    },
+    {
+      "text": "But then we keep increasing\nthe semantic understanding",
+      "start": 1380.44,
+      "duration": 5.31
+    },
+    {
+      "text": "capabilities of the models.",
+      "start": 1385.75,
+      "duration": 1.45
+    },
+    {
+      "text": "So we are not just uploading\none PDF file with a lot of text",
+      "start": 1387.2,
+      "duration": 5.09
+    },
+    {
+      "text": "and some charts and\nsome conclusions.",
+      "start": 1392.29,
+      "duration": 2.62
+    },
+    {
+      "text": "You are also counting\non the Gemini ability",
+      "start": 1394.91,
+      "duration": 2.81
+    },
+    {
+      "text": "to understand how the\ninformation on those documents",
+      "start": 1397.72,
+      "duration": 3.54
+    },
+    {
+      "text": "or on those spreadsheets\nconnect to each other,",
+      "start": 1401.26,
+      "duration": 3.28
+    },
+    {
+      "text": "especially if you have a more\ncomplex situation, where you are",
+      "start": 1404.54,
+      "duration": 3.41
+    },
+    {
+      "text": "sending multiple PDF files or\nPDF files with spreadsheets",
+      "start": 1407.95,
+      "duration": 3.78
+    },
+    {
+      "text": "and videos and everything.",
+      "start": 1411.73,
+      "duration": 1.71
+    },
+    {
+      "text": "Without a huge, heavy\nlift from your side,",
+      "start": 1413.44,
+      "duration": 3.22
+    },
+    {
+      "text": "you can count on Gemini\nto understand what's",
+      "start": 1416.66,
+      "duration": 2.818
+    },
+    {
+      "text": "the message, what's\nthe information, what's",
+      "start": 1419.478,
+      "duration": 1.792
+    },
+    {
+      "text": "the reasoning behind all that\ninformation and do the math",
+      "start": 1421.27,
+      "duration": 3.45
+    },
+    {
+      "text": "or do the understanding\nfor you, right Shrestha?",
+      "start": 1424.72,
+      "duration": 2.437
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 1427.157,
+      "duration": 1.583
+    },
+    {
+      "text": "I just want to give a special\ncall-out to two features",
+      "start": 1428.74,
+      "duration": 3.57
+    },
+    {
+      "text": "here, which again, developers\nhave been asking us for.",
+      "start": 1432.31,
+      "duration": 2.71
+    },
+    {
+      "text": "One is you can get bounding\nboxes through the API.",
+      "start": 1435.02,
+      "duration": 3.33
+    },
+    {
+      "text": "And secondly, in addition\nto bounding boxes,",
+      "start": 1438.35,
+      "duration": 3.47
+    },
+    {
+      "text": "you have what's called\nimage segmentation, which",
+      "start": 1441.82,
+      "duration": 2.1
+    },
+    {
+      "text": "is get the bounding\nbox information",
+      "start": 1443.92,
+      "duration": 2.1
+    },
+    {
+      "text": "for an object in the image.",
+      "start": 1446.02,
+      "duration": 2.08
+    },
+    {
+      "text": "You get a classification of\nwhat that image might be,",
+      "start": 1448.1,
+      "duration": 3.84
+    },
+    {
+      "text": "so that's sent to\nyou as metadata.",
+      "start": 1451.94,
+      "duration": 1.59
+    },
+    {
+      "text": "And then you get this\nmasked segmentation",
+      "start": 1453.53,
+      "duration": 3.32
+    },
+    {
+      "text": "of that specific area\nand that object as well.",
+      "start": 1456.85,
+      "duration": 3.643
+    },
+    {
+      "text": "LUCIANO MARTINS: Nice.",
+      "start": 1460.493,
+      "duration": 0.917
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: We\nalso support streaming.",
+      "start": 1461.41,
+      "duration": 2.042
+    },
+    {
+      "text": "And you can set\nsystem instructions",
+      "start": 1463.452,
+      "duration": 3.268
+    },
+    {
+      "text": "on top of whatever\nsystem instructions",
+      "start": 1466.72,
+      "duration": 2.04
+    },
+    {
+      "text": "we already have in place.",
+      "start": 1468.76,
+      "duration": 2.815
+    },
+    {
+      "text": "LUCIANO MARTINS: Yep.",
+      "start": 1471.575,
+      "duration": 0.875
+    },
+    {
+      "text": "And I think that's the\nsame for the media models",
+      "start": 1472.45,
+      "duration": 3.153
+    },
+    {
+      "text": "right, Shrestha?",
+      "start": 1475.603,
+      "duration": 0.667
+    },
+    {
+      "text": "So now you have basically,\nthree main doors",
+      "start": 1476.27,
+      "duration": 5.4
+    },
+    {
+      "text": "to use the media models.",
+      "start": 1481.67,
+      "duration": 1.57
+    },
+    {
+      "text": "You have the Imagen 3,\nthe, Google DeepMind",
+      "start": 1483.24,
+      "duration": 2.9
+    },
+    {
+      "text": "model with the best high\nquality image generated.",
+      "start": 1486.14,
+      "duration": 4.38
+    },
+    {
+      "text": "You have one variant of Gemini\nthat we call Gemini Image",
+      "start": 1490.52,
+      "duration": 4.95
+    },
+    {
+      "text": "Out that lets you\nalso generate images,",
+      "start": 1495.47,
+      "duration": 3.46
+    },
+    {
+      "text": "but with two key\ndifferences from Imagen 3.",
+      "start": 1498.93,
+      "duration": 3.24
+    },
+    {
+      "text": "First, you can have interleaved\noutputs, including text",
+      "start": 1502.17,
+      "duration": 3.89
+    },
+    {
+      "text": "and images together, like\nhaving one explanation",
+      "start": 1506.06,
+      "duration": 3.72
+    },
+    {
+      "text": "on step-by-step guide to do\nsome action, including visuals.",
+      "start": 1509.78,
+      "duration": 3.85
+    },
+    {
+      "text": "And also, you can edit\nimages, right, Shrestha?",
+      "start": 1513.63,
+      "duration": 2.93
+    },
+    {
+      "text": "So you can have one first\nversion of the image generated.",
+      "start": 1516.56,
+      "duration": 3.04
+    },
+    {
+      "text": "You want to change the shirt\ncolor or the background",
+      "start": 1519.6,
+      "duration": 3.6
+    },
+    {
+      "text": "or add glasses to the\ncharacter on the image,",
+      "start": 1523.2,
+      "duration": 2.82
+    },
+    {
+      "text": "you can keep chatting\nwith the model,",
+      "start": 1526.02,
+      "duration": 2.1
+    },
+    {
+      "text": "asking to modify the image.",
+      "start": 1528.12,
+      "duration": 1.68
+    },
+    {
+      "text": "And you keep enhancing\nand optimizing",
+      "start": 1529.8,
+      "duration": 2.202
+    },
+    {
+      "text": "your result, right, Shrestha?",
+      "start": 1532.002,
+      "duration": 1.208
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 1533.21,
+      "duration": 1.583
+    },
+    {
+      "text": "And through Veo 2, you all\nsaw the release of Veo 3.",
+      "start": 1534.793,
+      "duration": 5.347
+    },
+    {
+      "text": "That'll probably\ncome soon to the API.",
+      "start": 1540.14,
+      "duration": 2.17
+    },
+    {
+      "text": "But with Veo 2, we support text\nto video and image to video.",
+      "start": 1542.31,
+      "duration": 4.495
+    },
+    {
+      "text": "This is again from\na recent blog post",
+      "start": 1551.09,
+      "duration": 2.85
+    },
+    {
+      "text": "that our researchers put\nout about a week ago.",
+      "start": 1553.94,
+      "duration": 3.36
+    },
+    {
+      "text": "You can see the 2.5 Pro\nalso, as I mentioned earlier,",
+      "start": 1557.3,
+      "duration": 4.21
+    },
+    {
+      "text": "leads on key video understanding\nbenchmarks like MMMU.",
+      "start": 1561.51,
+      "duration": 4.82
+    },
+    {
+      "text": "So that's also something that\nwe're very proud of that we've",
+      "start": 1566.33,
+      "duration": 4.47
+    },
+    {
+      "text": "been pushing the boundaries on.",
+      "start": 1570.8,
+      "duration": 2.43
+    },
+    {
+      "text": "OK.",
+      "start": 1573.23,
+      "duration": 0.67
+    },
+    {
+      "text": "So now let's talk\nabout the Live API.",
+      "start": 1573.9,
+      "duration": 2.04
+    },
+    {
+      "text": "So a lot of our\nfeatures, as I mentioned,",
+      "start": 1575.94,
+      "duration": 2.91
+    },
+    {
+      "text": "are available\nthrough the Chat API.",
+      "start": 1578.85,
+      "duration": 2.37
+    },
+    {
+      "text": "But we also provide\nthe Gemini Live API,",
+      "start": 1581.22,
+      "duration": 3.21
+    },
+    {
+      "text": "which is our real time, low\nlatency API for use cases",
+      "start": 1584.43,
+      "duration": 4.76
+    },
+    {
+      "text": "that require more of these\ninteractive real time",
+      "start": 1589.19,
+      "duration": 2.85
+    },
+    {
+      "text": "kind of experiences.",
+      "start": 1592.04,
+      "duration": 2.11
+    },
+    {
+      "text": "There are two architectures now\navailable through this Live API.",
+      "start": 1594.15,
+      "duration": 4.0
+    },
+    {
+      "text": "There is the cascaded\narchitecture,",
+      "start": 1598.15,
+      "duration": 2.03
+    },
+    {
+      "text": "which has native audio\ninput, but the output",
+      "start": 1600.18,
+      "duration": 2.97
+    },
+    {
+      "text": "is done using text\nto speech, and we",
+      "start": 1603.15,
+      "duration": 3.87
+    },
+    {
+      "text": "were using the same text\nto speech models that",
+      "start": 1607.02,
+      "duration": 2.73
+    },
+    {
+      "text": "was used by NotebookLM.",
+      "start": 1609.75,
+      "duration": 1.75
+    },
+    {
+      "text": "A lot of people preferred\nthis architecture",
+      "start": 1611.5,
+      "duration": 2.0
+    },
+    {
+      "text": "because it's more reliable.",
+      "start": 1613.5,
+      "duration": 2.26
+    },
+    {
+      "text": "We've had it out since\nDecember, and we're",
+      "start": 1615.76,
+      "duration": 3.5
+    },
+    {
+      "text": "aiming to bring the\nlatest 2.5 Flash",
+      "start": 1619.26,
+      "duration": 2.82
+    },
+    {
+      "text": "model to this architecture.",
+      "start": 1622.08,
+      "duration": 2.04
+    },
+    {
+      "text": "We also, starting I/O, now have\nthe audio-to-audio architecture",
+      "start": 1624.12,
+      "duration": 5.1
+    },
+    {
+      "text": "that I mentioned, where you\nhave native audio input as well",
+      "start": 1629.22,
+      "duration": 3.66
+    },
+    {
+      "text": "as native audio output.",
+      "start": 1632.88,
+      "duration": 2.61
+    },
+    {
+      "text": "And this, of course, native\naudio output, as I already",
+      "start": 1635.49,
+      "duration": 3.24
+    },
+    {
+      "text": "mentioned, gives you\nmuch more natural",
+      "start": 1638.73,
+      "duration": 1.95
+    },
+    {
+      "text": "sounding voices\nand the ability--",
+      "start": 1640.68,
+      "duration": 2.49
+    },
+    {
+      "text": "you don't now have to\nspecify your language.",
+      "start": 1643.17,
+      "duration": 2.56
+    },
+    {
+      "text": "You can seamlessly switch\nbetween languages and flow",
+      "start": 1645.73,
+      "duration": 2.99
+    },
+    {
+      "text": "in and out.",
+      "start": 1648.72,
+      "duration": 1.62
+    },
+    {
+      "text": "We support tool chaining\nin the Live API.",
+      "start": 1650.34,
+      "duration": 3.43
+    },
+    {
+      "text": "We have supported\nthis since December.",
+      "start": 1653.77,
+      "duration": 2.16
+    },
+    {
+      "text": "So all of the tools that\nI mentioned, Search,",
+      "start": 1655.93,
+      "duration": 2.27
+    },
+    {
+      "text": "Code Execution, URL\ncontext, function calling,",
+      "start": 1658.2,
+      "duration": 3.25
+    },
+    {
+      "text": "you can layer these\ntools in the same prompt",
+      "start": 1661.45,
+      "duration": 3.71
+    },
+    {
+      "text": "and get much more\ncompelling results.",
+      "start": 1665.16,
+      "duration": 3.12
+    },
+    {
+      "text": "Get data from Search, do some\nanalysis, get the output.",
+      "start": 1668.28,
+      "duration": 4.5
+    },
+    {
+      "text": "We have voice\nactivity detection.",
+      "start": 1672.78,
+      "duration": 2.65
+    },
+    {
+      "text": "Of course, we need\nit in the Live API.",
+      "start": 1675.43,
+      "duration": 2.1
+    },
+    {
+      "text": "What we now provide for\nyou, though, is the ability",
+      "start": 1677.53,
+      "duration": 3.35
+    },
+    {
+      "text": "to configure the\nthresholds, how much of time",
+      "start": 1680.88,
+      "duration": 4.89
+    },
+    {
+      "text": "do you want after\nthe end of speech",
+      "start": 1685.77,
+      "duration": 2.61
+    },
+    {
+      "text": "to decide that the\nuser's speech has ended.",
+      "start": 1688.38,
+      "duration": 3.11
+    },
+    {
+      "text": "That's one of four\nthresholds that you can now",
+      "start": 1691.49,
+      "duration": 2.74
+    },
+    {
+      "text": "set with the Live API.",
+      "start": 1694.23,
+      "duration": 2.43
+    },
+    {
+      "text": "You can also disable our\nvoice activity detection model",
+      "start": 1696.66,
+      "duration": 3.72
+    },
+    {
+      "text": "and bring your own.",
+      "start": 1700.38,
+      "duration": 2.37
+    },
+    {
+      "text": "Session management.",
+      "start": 1702.75,
+      "duration": 1.48
+    },
+    {
+      "text": "We have a lot of\nparameters out there.",
+      "start": 1704.23,
+      "duration": 2.19
+    },
+    {
+      "text": "So in its most basic state,\nthe Live API currently",
+      "start": 1706.42,
+      "duration": 3.47
+    },
+    {
+      "text": "supports about 20\nminutes of audio",
+      "start": 1709.89,
+      "duration": 2.19
+    },
+    {
+      "text": "and about a few\nminutes of video.",
+      "start": 1712.08,
+      "duration": 3.35
+    },
+    {
+      "text": "But we now have\nvarious techniques",
+      "start": 1715.43,
+      "duration": 2.66
+    },
+    {
+      "text": "for you to increase\nyour session length,",
+      "start": 1718.09,
+      "duration": 3.31
+    },
+    {
+      "text": "including sliding window, the\nability to change resolution",
+      "start": 1721.4,
+      "duration": 4.43
+    },
+    {
+      "text": "on what video is\npassed, the ability",
+      "start": 1725.83,
+      "duration": 2.82
+    },
+    {
+      "text": "to decide, do you want audio\nto be streamed only when--",
+      "start": 1728.65,
+      "duration": 6.33
+    },
+    {
+      "text": "do you want video to be streamed\nonly when audio is being spoken,",
+      "start": 1734.98,
+      "duration": 3.55
+    },
+    {
+      "text": "or even when audio\nis not being spoken,",
+      "start": 1738.53,
+      "duration": 3.68
+    },
+    {
+      "text": "and other parameters that you\ncan use through the Live API.",
+      "start": 1742.21,
+      "duration": 4.65
+    },
+    {
+      "text": "Ephemeral tokens\nare coming soon,",
+      "start": 1746.86,
+      "duration": 3.45
+    },
+    {
+      "text": "but that's one way to do\nauthorization into the Live API.",
+      "start": 1750.31,
+      "duration": 4.0
+    },
+    {
+      "text": "And finally, with the native\naudio output, specifically",
+      "start": 1754.31,
+      "duration": 5.09
+    },
+    {
+      "text": "the audio-to-audio\narchitecture, we",
+      "start": 1759.4,
+      "duration": 2.34
+    },
+    {
+      "text": "are also releasing a couple\nof modes for you to try out.",
+      "start": 1761.74,
+      "duration": 3.7
+    },
+    {
+      "text": "One of them is proactive audio.",
+      "start": 1765.44,
+      "duration": 2.48
+    },
+    {
+      "text": "What this feature\ndoes today is it",
+      "start": 1767.92,
+      "duration": 3.18
+    },
+    {
+      "text": "lets the AI decide\nwhen to respond to you",
+      "start": 1771.1,
+      "duration": 3.5
+    },
+    {
+      "text": "and when whatever the human\nis saying is irrelevant.",
+      "start": 1774.6,
+      "duration": 4.25
+    },
+    {
+      "text": "So imagine if I'm having a\nconversation with the AI,",
+      "start": 1778.85,
+      "duration": 3.18
+    },
+    {
+      "text": "and Luciano comes to me and\nsays something unrelated.",
+      "start": 1782.03,
+      "duration": 3.6
+    },
+    {
+      "text": "The AI will know not to\nrespond to that audio output,",
+      "start": 1785.63,
+      "duration": 3.57
+    },
+    {
+      "text": "so the AI proactively\ndecides not to respond.",
+      "start": 1789.2,
+      "duration": 2.82
+    },
+    {
+      "text": "So we are calling\nit proactive audio,",
+      "start": 1792.02,
+      "duration": 2.19
+    },
+    {
+      "text": "because we aim to\nbring much more",
+      "start": 1794.21,
+      "duration": 2.27
+    },
+    {
+      "text": "proactivity to this feature.",
+      "start": 1796.48,
+      "duration": 2.28
+    },
+    {
+      "text": "And then effective\ndialogue lets you pick up",
+      "start": 1798.76,
+      "duration": 2.64
+    },
+    {
+      "text": "on the user's tone\nand sentiment and lets",
+      "start": 1801.4,
+      "duration": 2.58
+    },
+    {
+      "text": "the AI respond appropriately.",
+      "start": 1803.98,
+      "duration": 3.06
+    },
+    {
+      "text": "As I mentioned, you also\nhave thinking available",
+      "start": 1807.04,
+      "duration": 2.49
+    },
+    {
+      "text": "with the Live API.",
+      "start": 1809.53,
+      "duration": 2.04
+    },
+    {
+      "text": "All right.",
+      "start": 1811.57,
+      "duration": 0.85
+    },
+    {
+      "text": "Time for agents.",
+      "start": 1812.42,
+      "duration": 1.14
+    },
+    {
+      "text": "LUCIANO MARTINS: Excellent.",
+      "start": 1813.56,
+      "duration": 1.125
+    },
+    {
+      "text": "So how many of you are\ntrying to experiment",
+      "start": 1814.685,
+      "duration": 2.585
+    },
+    {
+      "text": "solving your computational\nproblems using agents",
+      "start": 1817.27,
+      "duration": 3.6
+    },
+    {
+      "text": "or multi-agent solutions?",
+      "start": 1820.87,
+      "duration": 1.74
+    },
+    {
+      "text": "Yay, everybody.",
+      "start": 1822.61,
+      "duration": 0.863
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: All\nthe Brazilian contingent.",
+      "start": 1823.473,
+      "duration": 2.167
+    },
+    {
+      "text": "LUCIANO MARTINS: OK.",
+      "start": 1825.64,
+      "duration": 0.833
+    },
+    {
+      "text": "So with that in\nmind, we always try",
+      "start": 1826.473,
+      "duration": 3.427
+    },
+    {
+      "text": "to develop the new tools and the\nnew capabilities of the model",
+      "start": 1829.9,
+      "duration": 3.38
+    },
+    {
+      "text": "thinking how you\nfolks can use them",
+      "start": 1833.28,
+      "duration": 3.2
+    },
+    {
+      "text": "in your projects to make agents\nbetter and more trustful.",
+      "start": 1836.48,
+      "duration": 6.25
+    },
+    {
+      "text": "Right, Shrestha?",
+      "start": 1842.73,
+      "duration": 0.752
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 1843.482,
+      "duration": 0.838
+    },
+    {
+      "text": "LUCIANO MARTINS: So\nif you start thinking",
+      "start": 1844.32,
+      "duration": 1.708
+    },
+    {
+      "text": "about how our regular\nagents architecture work,",
+      "start": 1846.028,
+      "duration": 4.102
+    },
+    {
+      "text": "what do you have\nthere, Shrestha?",
+      "start": 1850.13,
+      "duration": 2.13
+    },
+    {
+      "text": "So basically, we have\nthree main blocks.",
+      "start": 1852.26,
+      "duration": 1.965
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yes.",
+      "start": 1854.225,
+      "duration": 1.125
+    },
+    {
+      "text": "LUCIANO MARTINS: We normally\nsee one orchestration layer,",
+      "start": 1855.35,
+      "duration": 3.34
+    },
+    {
+      "text": "one models layer,\nand one tools layer.",
+      "start": 1858.69,
+      "duration": 2.785
+    },
+    {
+      "text": "Right?",
+      "start": 1861.475,
+      "duration": 0.5
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yeah.",
+      "start": 1861.975,
+      "duration": 0.495
+    },
+    {
+      "text": "May I build upon that?",
+      "start": 1862.47,
+      "duration": 1.43
+    },
+    {
+      "text": "I think as we've been mentioning\nwith the 2.5 series models,",
+      "start": 1863.9,
+      "duration": 5.85
+    },
+    {
+      "text": "these models are predominantly\ntrained to be really",
+      "start": 1869.75,
+      "duration": 4.05
+    },
+    {
+      "text": "good at planning and reasoning,\nwhich, when you think about it,",
+      "start": 1873.8,
+      "duration": 3.07
+    },
+    {
+      "text": "is a key part of what\nmakes an agent work.",
+      "start": 1876.87,
+      "duration": 3.77
+    },
+    {
+      "text": "So the model layer is\nwhere a lot of the planning",
+      "start": 1880.64,
+      "duration": 4.44
+    },
+    {
+      "text": "and reasoning happens.",
+      "start": 1885.08,
+      "duration": 1.33
+    },
+    {
+      "text": "And then, of course,\nthere's the tools layer.",
+      "start": 1886.41,
+      "duration": 3.08
+    },
+    {
+      "text": "We've already talked\na lot about we",
+      "start": 1889.49,
+      "duration": 2.04
+    },
+    {
+      "text": "have a set of first party\nhosted tools from Google, Google",
+      "start": 1891.53,
+      "duration": 3.36
+    },
+    {
+      "text": "Search, Code Execution,\nand URL context,",
+      "start": 1894.89,
+      "duration": 4.29
+    },
+    {
+      "text": "as well as a few other tools.",
+      "start": 1899.18,
+      "duration": 2.64
+    },
+    {
+      "text": "Some of you may have heard\nSundar mention the computer use",
+      "start": 1901.82,
+      "duration": 4.11
+    },
+    {
+      "text": "tool that's coming,\nso we're going",
+      "start": 1905.93,
+      "duration": 2.16
+    },
+    {
+      "text": "to make it available\nthrough the API.",
+      "start": 1908.09,
+      "duration": 2.02
+    },
+    {
+      "text": "We've already rolled it\nout into trusted testers,",
+      "start": 1910.11,
+      "duration": 2.55
+    },
+    {
+      "text": "but that's going to be\npublicly available soon.",
+      "start": 1912.66,
+      "duration": 2.31
+    },
+    {
+      "text": "And then we have a couple of\nother tools on the way as well.",
+      "start": 1914.97,
+      "duration": 2.97
+    },
+    {
+      "text": "LUCIANO MARTINS: All right.",
+      "start": 1917.94,
+      "duration": 0.42
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: And then\nthere's the orchestration layer,",
+      "start": 1918.36,
+      "duration": 1.83
+    },
+    {
+      "text": "as you were saying, Luciano.",
+      "start": 1920.19,
+      "duration": 0.99
+    },
+    {
+      "text": "LUCIANO MARTINS: Yeah,\nyeah, absolutely.",
+      "start": 1921.18,
+      "duration": 1.02
+    },
+    {
+      "text": "So basically, when we\nare creating an agent,",
+      "start": 1922.2,
+      "duration": 2.1
+    },
+    {
+      "text": "you want to give key\ndirections to these agents.",
+      "start": 1924.3,
+      "duration": 4.11
+    },
+    {
+      "text": "So basically how\nit's going to behave,",
+      "start": 1928.41,
+      "duration": 2.04
+    },
+    {
+      "text": "what's the profile of these\nagents, what's the goal of it.",
+      "start": 1930.45,
+      "duration": 3.72
+    },
+    {
+      "text": "It's going to help\nwith researching,",
+      "start": 1934.17,
+      "duration": 2.13
+    },
+    {
+      "text": "with coding, with learning.",
+      "start": 1936.3,
+      "duration": 1.58
+    },
+    {
+      "text": "Any specific area you are\ntrying to address actions",
+      "start": 1937.88,
+      "duration": 5.79
+    },
+    {
+      "text": "for your users,\nyou need to count",
+      "start": 1943.67,
+      "duration": 3.09
+    },
+    {
+      "text": "with some memory\nfor these agents",
+      "start": 1946.76,
+      "duration": 1.91
+    },
+    {
+      "text": "so you can keep\nthe previous user's",
+      "start": 1948.67,
+      "duration": 3.38
+    },
+    {
+      "text": "interactions with the model.",
+      "start": 1952.05,
+      "duration": 1.42
+    },
+    {
+      "text": "Or you can try to extend\nthis agent memory using",
+      "start": 1953.47,
+      "duration": 3.47
+    },
+    {
+      "text": "any mechanism like RAG or adding\nPDFs or using the wrong context.",
+      "start": 1956.94,
+      "duration": 4.36
+    },
+    {
+      "text": "And also you must\ncount on the model",
+      "start": 1961.3,
+      "duration": 3.08
+    },
+    {
+      "text": "to do the key reasoning\npart of this agent.",
+      "start": 1964.38,
+      "duration": 3.13
+    },
+    {
+      "text": "So how to bring all\nthose stuff together,",
+      "start": 1967.51,
+      "duration": 2.43
+    },
+    {
+      "text": "how to give the best\nanswer to the users,",
+      "start": 1969.94,
+      "duration": 2.13
+    },
+    {
+      "text": "and when and how to\nuse each of the tools",
+      "start": 1972.07,
+      "duration": 3.23
+    },
+    {
+      "text": "that are available\nto this agent.",
+      "start": 1975.3,
+      "duration": 1.87
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 1977.17,
+      "duration": 2.438
+    },
+    {
+      "text": "LUCIANO MARTINS: So yeah.",
+      "start": 1979.608,
+      "duration": 1.042
+    },
+    {
+      "text": "So basically, if you\nput all that together,",
+      "start": 1980.65,
+      "duration": 2.94
+    },
+    {
+      "text": "we are looking for\napplications that we",
+      "start": 1983.59,
+      "duration": 2.75
+    },
+    {
+      "text": "are calling like\nmulti-agentic applications",
+      "start": 1986.34,
+      "duration": 2.61
+    },
+    {
+      "text": "or multi-agent applications\nwhere we want some autonomous",
+      "start": 1988.95,
+      "duration": 3.81
+    },
+    {
+      "text": "integration with our tools.",
+      "start": 1992.76,
+      "duration": 2.29
+    },
+    {
+      "text": "We want those agents to take\nactions to help our users.",
+      "start": 1995.05,
+      "duration": 3.81
+    },
+    {
+      "text": "We count on the models like the\nGemini 2.5 Pro, the best one",
+      "start": 1998.86,
+      "duration": 4.4
+    },
+    {
+      "text": "on reasoning capabilities,\nto reason and plan",
+      "start": 2003.26,
+      "duration": 3.63
+    },
+    {
+      "text": "all their actions to\nbe given to this user",
+      "start": 2006.89,
+      "duration": 2.94
+    },
+    {
+      "text": "from helping with shopping\nto generate new codes",
+      "start": 2009.83,
+      "duration": 4.2
+    },
+    {
+      "text": "for a new application.",
+      "start": 2014.03,
+      "duration": 1.42
+    },
+    {
+      "text": "This model must be able to\nbe continuously learning.",
+      "start": 2015.45,
+      "duration": 4.14
+    },
+    {
+      "text": "So if you want to append\nmore pieces of information,",
+      "start": 2019.59,
+      "duration": 3.03
+    },
+    {
+      "text": "fresher information, use\ntools like the Google Search",
+      "start": 2022.62,
+      "duration": 4.1
+    },
+    {
+      "text": "grounding, right, Shrestha, to\nbring up-to-date information",
+      "start": 2026.72,
+      "duration": 3.06
+    },
+    {
+      "text": "from Google Search.",
+      "start": 2029.78,
+      "duration": 0.97
+    },
+    {
+      "text": "This model must be\nable to support that.",
+      "start": 2030.75,
+      "duration": 2.88
+    },
+    {
+      "text": "And at last but\nnot least, we count",
+      "start": 2033.63,
+      "duration": 2.84
+    },
+    {
+      "text": "on multi-agent collaboration.",
+      "start": 2036.47,
+      "duration": 1.81
+    },
+    {
+      "text": "So we must be able to not\ncreate huge monolithic agents,",
+      "start": 2038.28,
+      "duration": 4.86
+    },
+    {
+      "text": "but also to keep connecting\nto other specialized agents",
+      "start": 2043.14,
+      "duration": 3.41
+    },
+    {
+      "text": "to bring a better experience.",
+      "start": 2046.55,
+      "duration": 1.57
+    },
+    {
+      "text": "Right?",
+      "start": 2048.12,
+      "duration": 0.792
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: That's right.",
+      "start": 2048.912,
+      "duration": 1.5
+    },
+    {
+      "text": "You've probably heard us talk\nabout all of these components",
+      "start": 2052.46,
+      "duration": 4.469
+    },
+    {
+      "text": "50 times already in\nthis talk, so I'm",
+      "start": 2056.929,
+      "duration": 3.301
+    },
+    {
+      "text": "going to go through this\nslide really quickly.",
+      "start": 2060.23,
+      "duration": 2.58
+    },
+    {
+      "text": "But one thing we\nwanted to emphasize",
+      "start": 2062.81,
+      "duration": 2.55
+    },
+    {
+      "text": "is when we started\nthinking about how",
+      "start": 2065.36,
+      "duration": 2.41
+    },
+    {
+      "text": "to enable agentic\ncapabilities through our API,",
+      "start": 2067.77,
+      "duration": 3.49
+    },
+    {
+      "text": "we made a conscious\ndecision on first",
+      "start": 2071.26,
+      "duration": 2.39
+    },
+    {
+      "text": "focusing on providing\nhigh quality primitives.",
+      "start": 2073.65,
+      "duration": 4.029
+    },
+    {
+      "text": "And once we had\nmade some progress",
+      "start": 2077.679,
+      "duration": 2.871
+    },
+    {
+      "text": "along that, that's\nwhen we have now",
+      "start": 2080.55,
+      "duration": 2.25
+    },
+    {
+      "text": "started to do things like\nrelease MCP through our SDK,",
+      "start": 2082.8,
+      "duration": 4.41
+    },
+    {
+      "text": "and you'll see some more\nhigher abstractions rolling out",
+      "start": 2087.21,
+      "duration": 3.21
+    },
+    {
+      "text": "in the next couple of months.",
+      "start": 2090.42,
+      "duration": 2.13
+    },
+    {
+      "text": "But in terms of\nagentic primitives,",
+      "start": 2092.55,
+      "duration": 2.89
+    },
+    {
+      "text": "again, we have the 2.5\nseries models, which",
+      "start": 2095.44,
+      "duration": 3.05
+    },
+    {
+      "text": "are thinking first models.",
+      "start": 2098.49,
+      "duration": 1.81
+    },
+    {
+      "text": "You now have Deep Think,\nwhich is an advanced thinking",
+      "start": 2100.3,
+      "duration": 3.5
+    },
+    {
+      "text": "mode on top of 2.5 Pro.",
+      "start": 2103.8,
+      "duration": 2.67
+    },
+    {
+      "text": "And with Flash today\nand Pro soon, you",
+      "start": 2106.47,
+      "duration": 3.6
+    },
+    {
+      "text": "have the ability to set budgets.",
+      "start": 2110.07,
+      "duration": 2.1
+    },
+    {
+      "text": "So you can tell the model when\nto think and how much to think,",
+      "start": 2112.17,
+      "duration": 4.06
+    },
+    {
+      "text": "and that lets you both control\ncost, latency, and whatever",
+      "start": 2116.23,
+      "duration": 4.01
+    },
+    {
+      "text": "is the amount of thinking that's\nsuitable for your application.",
+      "start": 2120.24,
+      "duration": 3.42
+    },
+    {
+      "text": "In terms of API, depending on\nwhat agent you are building,",
+      "start": 2123.66,
+      "duration": 4.54
+    },
+    {
+      "text": "you may want to use different\nversions of the API.",
+      "start": 2128.2,
+      "duration": 2.78
+    },
+    {
+      "text": "If you're building\na research agent,",
+      "start": 2130.98,
+      "duration": 1.72
+    },
+    {
+      "text": "maybe you want to\nuse the Chat API.",
+      "start": 2132.7,
+      "duration": 2.01
+    },
+    {
+      "text": "If you're building\na gaming agent,",
+      "start": 2134.71,
+      "duration": 1.77
+    },
+    {
+      "text": "maybe you want to use the real\ntime API or a customer support",
+      "start": 2136.48,
+      "duration": 3.47
+    },
+    {
+      "text": "agent.",
+      "start": 2139.95,
+      "duration": 0.61
+    },
+    {
+      "text": "Of course, you can build\nresearch agents also",
+      "start": 2140.56,
+      "duration": 4.16
+    },
+    {
+      "text": "on the real time API.",
+      "start": 2144.72,
+      "duration": 1.12
+    },
+    {
+      "text": "But in general, you now\nhave these two APIs.",
+      "start": 2145.84,
+      "duration": 3.62
+    },
+    {
+      "text": "And then we've talked\nabout tools a lot.",
+      "start": 2149.46,
+      "duration": 3.15
+    },
+    {
+      "text": "So all I'll say is\ngive us feedback",
+      "start": 2152.61,
+      "duration": 3.33
+    },
+    {
+      "text": "in terms of what are some\nof the other tools that you",
+      "start": 2155.94,
+      "duration": 3.09
+    },
+    {
+      "text": "would see Google make available\nthrough the Gemini API.",
+      "start": 2159.03,
+      "duration": 3.455
+    },
+    {
+      "text": "LUCIANO MARTINS: Yeah.",
+      "start": 2165.523,
+      "duration": 0.917
+    },
+    {
+      "text": "So as you just said,\nthe Gemini 2.5 Pro--",
+      "start": 2166.44,
+      "duration": 3.57
+    },
+    {
+      "text": "2.5 models are thinking\ncapable, so they",
+      "start": 2170.01,
+      "duration": 3.12
+    },
+    {
+      "text": "can do more advanced and\nmore complex reasoning.",
+      "start": 2173.13,
+      "duration": 3.333
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yeah.",
+      "start": 2176.463,
+      "duration": 1.167
+    },
+    {
+      "text": "LUCIANO MARTINS:\nAnd maybe we could",
+      "start": 2177.63,
+      "duration": 1.53
+    },
+    {
+      "text": "highlight that now,\nspecifically for the 2.5",
+      "start": 2179.16,
+      "duration": 3.48
+    },
+    {
+      "text": "Flash, we have the ability of\nusing what we just mentioned,",
+      "start": 2182.64,
+      "duration": 3.76
+    },
+    {
+      "text": "the thinking budgets, where\nyou can calibrate how deep",
+      "start": 2186.4,
+      "duration": 3.63
+    },
+    {
+      "text": "and how much the model\nwill do reasoning cycles.",
+      "start": 2190.03,
+      "duration": 4.21
+    },
+    {
+      "text": "And also for both models,\nwe can have access",
+      "start": 2194.24,
+      "duration": 3.5
+    },
+    {
+      "text": "to what we are calling\nthought summaries.",
+      "start": 2197.74,
+      "duration": 1.96
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Yes.",
+      "start": 2199.7,
+      "duration": 0.35
+    },
+    {
+      "text": "LUCIANO MARTINS: So\nbasically you are not only",
+      "start": 2200.05,
+      "duration": 2.01
+    },
+    {
+      "text": "counting on the model\nability to reason,",
+      "start": 2202.06,
+      "duration": 2.35
+    },
+    {
+      "text": "but also you can see on your\nresponse which key steps",
+      "start": 2204.41,
+      "duration": 4.49
+    },
+    {
+      "text": "or which key reasoning\nthoughts the model",
+      "start": 2208.9,
+      "duration": 3.63
+    },
+    {
+      "text": "had to get to our conclusion.",
+      "start": 2212.53,
+      "duration": 2.2
+    },
+    {
+      "text": "So basically, that's a\npretty basic Gemini API",
+      "start": 2214.73,
+      "duration": 3.62
+    },
+    {
+      "text": "code using the Python SDK.",
+      "start": 2218.35,
+      "duration": 3.27
+    },
+    {
+      "text": "For those of you who\nnever used the SDK before,",
+      "start": 2221.62,
+      "duration": 2.56
+    },
+    {
+      "text": "it's pretty straightforward.",
+      "start": 2224.18,
+      "duration": 1.32
+    },
+    {
+      "text": "So three key blocks.",
+      "start": 2225.5,
+      "duration": 1.46
+    },
+    {
+      "text": "You need to import the SDK,\nyou instantiate the client,",
+      "start": 2226.96,
+      "duration": 3.1
+    },
+    {
+      "text": "and then you interact\nwith the model you want.",
+      "start": 2230.06,
+      "duration": 2.16
+    },
+    {
+      "text": "Here we are interacting\nwith the Gemini 2.5 Flash.",
+      "start": 2232.22,
+      "duration": 3.96
+    },
+    {
+      "text": "You send your prompts.",
+      "start": 2236.18,
+      "duration": 1.88
+    },
+    {
+      "text": "And then you have\none specific bit",
+      "start": 2238.06,
+      "duration": 2.4
+    },
+    {
+      "text": "called ThinkingConfig,\nwhere, in this code,",
+      "start": 2240.46,
+      "duration": 3.04
+    },
+    {
+      "text": "you are asking the API\nto include the thought",
+      "start": 2243.5,
+      "duration": 4.01
+    },
+    {
+      "text": "summaries on your\nresponse, and that's",
+      "start": 2247.51,
+      "duration": 1.83
+    },
+    {
+      "text": "to include thoughts\nequals true, and also",
+      "start": 2249.34,
+      "duration": 2.55
+    },
+    {
+      "text": "the amount of tokens you want\nto use during the reasoning",
+      "start": 2251.89,
+      "duration": 3.72
+    },
+    {
+      "text": "process.",
+      "start": 2255.61,
+      "duration": 0.78
+    },
+    {
+      "text": "On your response,\nyou're going to have",
+      "start": 2256.39,
+      "duration": 3.51
+    },
+    {
+      "text": "part of the response will\nbe the thought summaries.",
+      "start": 2259.9,
+      "duration": 3.64
+    },
+    {
+      "text": "So it's separated from the\nfinal answer by intention.",
+      "start": 2263.54,
+      "duration": 4.35
+    },
+    {
+      "text": "If you want to keep\nthose on your backend,",
+      "start": 2267.89,
+      "duration": 3.6
+    },
+    {
+      "text": "on your data warehouse,\nyour BI environment,",
+      "start": 2271.49,
+      "duration": 2.76
+    },
+    {
+      "text": "you are free to do that.",
+      "start": 2274.25,
+      "duration": 1.05
+    },
+    {
+      "text": "And also you have a second part,\nwhich is the final model answer.",
+      "start": 2275.3,
+      "duration": 3.89
+    },
+    {
+      "text": "That may be, for example, the\npart that goes to the end user.",
+      "start": 2279.19,
+      "duration": 3.61
+    },
+    {
+      "text": "Right, Shrestha?",
+      "start": 2282.8,
+      "duration": 0.71
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 2283.51,
+      "duration": 1.583
+    },
+    {
+      "text": "LUCIANO MARTINS: So here,\nwe added two quick GIFs",
+      "start": 2285.093,
+      "duration": 2.977
+    },
+    {
+      "text": "showing how the\nthought summaries work.",
+      "start": 2288.07,
+      "duration": 2.7
+    },
+    {
+      "text": "You have, on the left GIF,\nthe AI Studio experience,",
+      "start": 2290.77,
+      "duration": 3.99
+    },
+    {
+      "text": "and on the right, the\nGoogle Colab experience.",
+      "start": 2294.76,
+      "duration": 4.0
+    },
+    {
+      "text": "And pretty much we ask\nit the same question",
+      "start": 2298.76,
+      "duration": 2.255
+    },
+    {
+      "text": "and you can see how\nyou can interact",
+      "start": 2301.015,
+      "duration": 2.135
+    },
+    {
+      "text": "with the thoughts on\nboth environments.",
+      "start": 2303.15,
+      "duration": 2.913
+    },
+    {
+      "text": "Right, Shrestha?",
+      "start": 2306.063,
+      "duration": 0.667
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 2306.73,
+      "duration": 1.583
+    },
+    {
+      "text": "LUCIANO MARTINS: OK.",
+      "start": 2309.617,
+      "duration": 0.833
+    },
+    {
+      "text": "So what about the enhanced\ntooling we have now, Shrestha?",
+      "start": 2310.45,
+      "duration": 2.6
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: I\nthink in the interest of time,",
+      "start": 2313.05,
+      "duration": 2.292
+    },
+    {
+      "text": "we can skip the slide because\nwe've talked about tools a lot.",
+      "start": 2315.342,
+      "duration": 2.578
+    },
+    {
+      "text": "The one point I\ndo want to make is",
+      "start": 2317.92,
+      "duration": 2.33
+    },
+    {
+      "text": "I mentioned when I was\ntalking about the Live API,",
+      "start": 2320.25,
+      "duration": 3.13
+    },
+    {
+      "text": "that one of the things we\nstarted doing in December",
+      "start": 2323.38,
+      "duration": 2.84
+    },
+    {
+      "text": "itself is we allowed\nyou to chain tool,",
+      "start": 2326.22,
+      "duration": 2.47
+    },
+    {
+      "text": "so use multiple tools\ntogether in the Live API.",
+      "start": 2328.69,
+      "duration": 2.64
+    },
+    {
+      "text": "We're now rolling that out\nto the Chat API as well,",
+      "start": 2331.33,
+      "duration": 3.72
+    },
+    {
+      "text": "starting from Search and\nCode Execution together.",
+      "start": 2335.05,
+      "duration": 3.78
+    },
+    {
+      "text": "But you will see\nmore the ability",
+      "start": 2338.83,
+      "duration": 1.61
+    },
+    {
+      "text": "to do more combinations of\ntools in the Chat API as well.",
+      "start": 2340.44,
+      "duration": 3.168
+    },
+    {
+      "text": "LUCIANO MARTINS: Amazing.",
+      "start": 2343.608,
+      "duration": 1.042
+    },
+    {
+      "text": "So basically that's\nwhat you just said.",
+      "start": 2344.65,
+      "duration": 2.52
+    },
+    {
+      "text": "That's a similar\nexperience with the SDK.",
+      "start": 2347.17,
+      "duration": 2.1
+    },
+    {
+      "text": "Now you have two tools\nincluded on your interaction.",
+      "start": 2349.27,
+      "duration": 3.27
+    },
+    {
+      "text": "You have, in this case, the Code\nExecution tool and the Google",
+      "start": 2352.54,
+      "duration": 3.56
+    },
+    {
+      "text": "Search tool.",
+      "start": 2356.1,
+      "duration": 0.82
+    },
+    {
+      "text": "And then on your answer you can\nsee also on separate structures",
+      "start": 2356.92,
+      "duration": 4.45
+    },
+    {
+      "text": "the Code Execution results,\nincluding the Python code used",
+      "start": 2361.37,
+      "duration": 3.54
+    },
+    {
+      "text": "by the Code Execution, and also\nthe output of this execution.",
+      "start": 2364.91,
+      "duration": 3.82
+    },
+    {
+      "text": "The Google Search grounding\nresults, including the Google",
+      "start": 2368.73,
+      "duration": 3.38
+    },
+    {
+      "text": "Search, real search\nthat was performed,",
+      "start": 2372.11,
+      "duration": 3.34
+    },
+    {
+      "text": "and the results of this,\nand your final answer",
+      "start": 2375.45,
+      "duration": 4.31
+    },
+    {
+      "text": "from the model.",
+      "start": 2379.76,
+      "duration": 0.69
+    },
+    {
+      "text": "Right?",
+      "start": 2380.45,
+      "duration": 2.43
+    },
+    {
+      "text": "SHRESTHA BASU\nMALLICK: URL context.",
+      "start": 2382.88,
+      "duration": 1.69
+    },
+    {
+      "text": "As we said, this is a new\ntool that we are rolling out.",
+      "start": 2384.57,
+      "duration": 3.65
+    },
+    {
+      "text": "It's one of the tools\nthat powers Deep Research",
+      "start": 2388.22,
+      "duration": 3.1
+    },
+    {
+      "text": "if you've used Google's research\nagent through the Gemini app.",
+      "start": 2391.32,
+      "duration": 4.1
+    },
+    {
+      "text": "And the idea is\ngiven a set of URLs,",
+      "start": 2395.42,
+      "duration": 4.66
+    },
+    {
+      "text": "we allow you to extract\nmore in-depth content.",
+      "start": 2400.08,
+      "duration": 3.42
+    },
+    {
+      "text": "Of course, in a way\nthat's approved by",
+      "start": 2403.5,
+      "duration": 2.3
+    },
+    {
+      "text": "and respectful to our\npublisher ecosystem.",
+      "start": 2405.8,
+      "duration": 2.56
+    },
+    {
+      "text": "But you can get\nmore content out.",
+      "start": 2408.36,
+      "duration": 2.66
+    },
+    {
+      "text": "And this is really helpful\nfor research and analysis",
+      "start": 2411.02,
+      "duration": 3.0
+    },
+    {
+      "text": "type of use cases.",
+      "start": 2414.02,
+      "duration": 1.36
+    },
+    {
+      "text": "You can use this tool by itself,\nor you can use this in tandem",
+      "start": 2415.38,
+      "duration": 4.34
+    },
+    {
+      "text": "with the Search tool.",
+      "start": 2419.72,
+      "duration": 1.553
+    },
+    {
+      "text": "LUCIANO MARTINS: Yeah.",
+      "start": 2421.273,
+      "duration": 0.917
+    },
+    {
+      "text": "And again, a quick code snippet.",
+      "start": 2422.19,
+      "duration": 2.56
+    },
+    {
+      "text": "You add the two\ncode URL contexts",
+      "start": 2424.75,
+      "duration": 3.5
+    },
+    {
+      "text": "and you can send\ndirectly on the prompts,",
+      "start": 2428.25,
+      "duration": 2.73
+    },
+    {
+      "text": "without further efforts, all\nthe links, up to 20 links,",
+      "start": 2430.98,
+      "duration": 3.27
+    },
+    {
+      "text": "you want to consider\non the model,",
+      "start": 2434.25,
+      "duration": 2.37
+    },
+    {
+      "text": "processing on the\nmodel execution.",
+      "start": 2436.62,
+      "duration": 1.72
+    },
+    {
+      "text": "And you have all the reasoning,\nall the semantic extraction",
+      "start": 2438.34,
+      "duration": 3.47
+    },
+    {
+      "text": "performed by the\nmodel really fast.",
+      "start": 2441.81,
+      "duration": 2.27
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nLooked like some people",
+      "start": 2446.313,
+      "duration": 1.917
+    },
+    {
+      "text": "were still taking pictures.",
+      "start": 2448.23,
+      "duration": 1.45
+    },
+    {
+      "text": "But if you all missed\ntaking an image of a slide,",
+      "start": 2449.68,
+      "duration": 4.2
+    },
+    {
+      "text": "all of this information is\navailable in our documentation.",
+      "start": 2453.88,
+      "duration": 3.053
+    },
+    {
+      "text": "LUCIANO MARTINS: Absolutely.",
+      "start": 2456.933,
+      "duration": 1.167
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: And\nLuciano and I are also here",
+      "start": 2458.1,
+      "duration": 2.25
+    },
+    {
+      "text": "to answer questions.",
+      "start": 2460.35,
+      "duration": 1.26
+    },
+    {
+      "text": "Function calling.",
+      "start": 2461.61,
+      "duration": 1.36
+    },
+    {
+      "text": "I think we've had-- of\ncourse, function calling",
+      "start": 2462.97,
+      "duration": 4.1
+    },
+    {
+      "text": "is bread and butter for all\nkinds of agentic applications.",
+      "start": 2467.07,
+      "duration": 4.92
+    },
+    {
+      "text": "The Gemini API has supported\nsingle function calling,",
+      "start": 2471.99,
+      "duration": 3.52
+    },
+    {
+      "text": "parallel function calling, and\ncompositional function calling",
+      "start": 2475.51,
+      "duration": 3.35
+    },
+    {
+      "text": "for a while.",
+      "start": 2478.86,
+      "duration": 2.07
+    },
+    {
+      "text": "Compositional meaning where you\ncan put a whole logic around",
+      "start": 2480.93,
+      "duration": 3.73
+    },
+    {
+      "text": "if A happens, then call\nfunction 1, if B happens,",
+      "start": 2484.66,
+      "duration": 2.94
+    },
+    {
+      "text": "then call function 2.",
+      "start": 2487.6,
+      "duration": 1.7
+    },
+    {
+      "text": "As part of I/O, we are also\nreleasing asynchronous function",
+      "start": 2489.3,
+      "duration": 4.5
+    },
+    {
+      "text": "calling through the Live API.",
+      "start": 2493.8,
+      "duration": 1.75
+    },
+    {
+      "text": "So imagine some tasks like you\nstart having a conversation",
+      "start": 2495.55,
+      "duration": 4.19
+    },
+    {
+      "text": "with the AI agent,\nbut in the background,",
+      "start": 2499.74,
+      "duration": 2.79
+    },
+    {
+      "text": "you ask it to crank\nout on some other task.",
+      "start": 2502.53,
+      "duration": 3.37
+    },
+    {
+      "text": "And that task may not\nbe a real time task,",
+      "start": 2505.9,
+      "duration": 2.91
+    },
+    {
+      "text": "but it may be something that's\nrelevant to the conversation,",
+      "start": 2508.81,
+      "duration": 3.12
+    },
+    {
+      "text": "like maybe analyzing\na lot of context",
+      "start": 2511.93,
+      "duration": 2.06
+    },
+    {
+      "text": "about the user to\nprovide some answer.",
+      "start": 2513.99,
+      "duration": 3.3
+    },
+    {
+      "text": "You can now turn on an\nasynchronous function.",
+      "start": 2517.29,
+      "duration": 3.165
+    },
+    {
+      "text": "The function will do its\nthing in the background.",
+      "start": 2523.33,
+      "duration": 2.79
+    },
+    {
+      "text": "And then when ready, it will\nnotify you with the results.",
+      "start": 2526.12,
+      "duration": 4.19
+    },
+    {
+      "text": "LUCIANO MARTINS: Amazing.",
+      "start": 2530.31,
+      "duration": 1.57
+    },
+    {
+      "text": "And maybe one of\nthe greatest news",
+      "start": 2531.88,
+      "duration": 1.76
+    },
+    {
+      "text": "for the Gemini\nAPI SDK during I/O",
+      "start": 2533.64,
+      "duration": 2.61
+    },
+    {
+      "text": "is that we brought--\nwe heard you.",
+      "start": 2536.25,
+      "duration": 2.32
+    },
+    {
+      "text": "Many of you gave\nthis feedback for us,",
+      "start": 2538.57,
+      "duration": 2.22
+    },
+    {
+      "text": "and we added to the Gemini\nAPI SDK support for MCP.",
+      "start": 2540.79,
+      "duration": 4.54
+    },
+    {
+      "text": "So now you don't need to have\nseparated and siloed codes",
+      "start": 2545.33,
+      "duration": 5.57
+    },
+    {
+      "text": "with MCP clients,\nMCP servers, and then",
+      "start": 2550.9,
+      "duration": 2.7
+    },
+    {
+      "text": "your Gemini API interactions.",
+      "start": 2553.6,
+      "duration": 1.87
+    },
+    {
+      "text": "You can have it all\ntogether, using the same code",
+      "start": 2555.47,
+      "duration": 2.69
+    },
+    {
+      "text": "base of the Gemini API SDK.",
+      "start": 2558.16,
+      "duration": 2.554
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nVery exciting.",
+      "start": 2560.714,
+      "duration": 1.542
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2562.256,
+      "duration": 2.302
+    },
+    {
+      "text": "LUCIANO MARTINS: Yeah.",
+      "start": 2566.02,
+      "duration": 1.92
+    },
+    {
+      "text": "Thank you.",
+      "start": 2567.94,
+      "duration": 0.61
+    },
+    {
+      "text": "And still talking about\nthose interactions,",
+      "start": 2568.55,
+      "duration": 3.45
+    },
+    {
+      "text": "we know that we have many\nchoices of agent frameworks.",
+      "start": 2572.0,
+      "duration": 4.41
+    },
+    {
+      "text": "You may have heard\nabout the Google ADK,",
+      "start": 2576.41,
+      "duration": 2.91
+    },
+    {
+      "text": "the Agent Development Kits\nlaunched during the Google Cloud",
+      "start": 2579.32,
+      "duration": 2.75
+    },
+    {
+      "text": "Next a few weeks ago.",
+      "start": 2582.07,
+      "duration": 1.39
+    },
+    {
+      "text": "We may have heard about the\nagent-to-agent protocol as well.",
+      "start": 2583.46,
+      "duration": 3.54
+    },
+    {
+      "text": "You have other choices like link\nchain, link graph, everything,",
+      "start": 2587.0,
+      "duration": 6.17
+    },
+    {
+      "text": "and we keep open\ncollaborating with all",
+      "start": 2593.17,
+      "duration": 2.94
+    },
+    {
+      "text": "those internal and external\nopen source efforts",
+      "start": 2596.11,
+      "duration": 3.45
+    },
+    {
+      "text": "to bring the best\nexperience for you all.",
+      "start": 2599.56,
+      "duration": 2.057
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThat's correct.",
+      "start": 2601.617,
+      "duration": 1.583
+    },
+    {
+      "text": "And especially thanks to folks\nlike Philip Schmidt and Patrick",
+      "start": 2603.2,
+      "duration": 4.4
+    },
+    {
+      "text": "here on our developer\nrelations team.",
+      "start": 2607.6,
+      "duration": 3.15
+    },
+    {
+      "text": "We have been working on building\ncloser relationships, closer",
+      "start": 2610.75,
+      "duration": 5.76
+    },
+    {
+      "text": "interactions, better code\nsamples with some of the leading",
+      "start": 2616.51,
+      "duration": 3.24
+    },
+    {
+      "text": "agent frameworks,\nlike LangChain crew.",
+      "start": 2619.75,
+      "duration": 4.29
+    },
+    {
+      "text": "And so that is also\nsome of the areas",
+      "start": 2624.04,
+      "duration": 3.69
+    },
+    {
+      "text": "where you'll see the\nGemini API show up.",
+      "start": 2627.73,
+      "duration": 3.194
+    },
+    {
+      "text": "LUCIANO MARTINS: Amazing.",
+      "start": 2630.924,
+      "duration": 1.042
+    },
+    {
+      "text": "So if you folks are\nconcerned about a lot",
+      "start": 2631.966,
+      "duration": 5.094
+    },
+    {
+      "text": "of-- the amount\nof stuff you just",
+      "start": 2637.06,
+      "duration": 2.34
+    },
+    {
+      "text": "shared today, that's\na huge dump of things.",
+      "start": 2639.4,
+      "duration": 2.68
+    },
+    {
+      "text": "Maybe the best suggestion or the\nbest guidance we could give you",
+      "start": 2642.08,
+      "duration": 5.51
+    },
+    {
+      "text": "is first, as Shrestha\nmentioned, we",
+      "start": 2647.59,
+      "duration": 2.4
+    },
+    {
+      "text": "have the Google\nDeepMind DevRel team",
+      "start": 2649.99,
+      "duration": 2.79
+    },
+    {
+      "text": "distributed across the globe.",
+      "start": 2652.78,
+      "duration": 1.81
+    },
+    {
+      "text": "We have people in Latin\nAmerica, in Europe, in Asia.",
+      "start": 2654.59,
+      "duration": 3.19
+    },
+    {
+      "text": "We have a huge presence here in\nthe US, so please count on us.",
+      "start": 2657.78,
+      "duration": 3.33
+    },
+    {
+      "text": "Connect with us online, on\non-site events like this.",
+      "start": 2661.11,
+      "duration": 3.62
+    },
+    {
+      "text": "And think on those\ntop six actions",
+      "start": 2664.73,
+      "duration": 5.83
+    },
+    {
+      "text": "when you are creating your\nagentic experience from having",
+      "start": 2670.56,
+      "duration": 4.25
+    },
+    {
+      "text": "clear objectives on your mind.",
+      "start": 2674.81,
+      "duration": 1.93
+    },
+    {
+      "text": "Try to laser focus on the\nproblem you need to solve.",
+      "start": 2676.74,
+      "duration": 3.63
+    },
+    {
+      "text": "Do a lot of interactions\non your developments.",
+      "start": 2680.37,
+      "duration": 2.79
+    },
+    {
+      "text": "Do live coding if you\nneed to part on those.",
+      "start": 2683.16,
+      "duration": 4.59
+    },
+    {
+      "text": "Live coding if you need, if\nyou are working with something",
+      "start": 2687.75,
+      "duration": 2.52
+    },
+    {
+      "text": "you are not that familiar.",
+      "start": 2690.27,
+      "duration": 1.29
+    },
+    {
+      "text": "Count with the Gemini\n2.5 models to help you",
+      "start": 2691.56,
+      "duration": 2.78
+    },
+    {
+      "text": "with your coding experience.",
+      "start": 2694.34,
+      "duration": 1.75
+    },
+    {
+      "text": "And always, always focus\non your user experience.",
+      "start": 2696.09,
+      "duration": 4.61
+    },
+    {
+      "text": "That's the best key for success\nyou may have with your tools.",
+      "start": 2700.7,
+      "duration": 4.013
+    },
+    {
+      "text": "Right, Shrestha?",
+      "start": 2704.713,
+      "duration": 0.667
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK:\nThe OG rule of product.",
+      "start": 2705.38,
+      "duration": 2.37
+    },
+    {
+      "text": "LUCIANO MARTINS: Absolutely.",
+      "start": 2707.75,
+      "duration": 1.51
+    },
+    {
+      "text": "So yeah.",
+      "start": 2709.26,
+      "duration": 0.69
+    },
+    {
+      "text": "And that's it.",
+      "start": 2709.95,
+      "duration": 0.9
+    },
+    {
+      "text": "I hope you enjoyed that.",
+      "start": 2710.85,
+      "duration": 1.32
+    },
+    {
+      "text": "Start building now.",
+      "start": 2712.17,
+      "duration": 1.17
+    },
+    {
+      "text": "We brought you here--",
+      "start": 2713.34,
+      "duration": 1.82
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 2715.16,
+      "duration": 2.178
+    },
+    {
+      "text": "Thank you.",
+      "start": 2722.09,
+      "duration": 0.73
+    },
+    {
+      "text": "We give you some links here.",
+      "start": 2722.82,
+      "duration": 2.52
+    },
+    {
+      "text": "So some of you may\nget the reference.",
+      "start": 2725.34,
+      "duration": 2.49
+    },
+    {
+      "text": "But basically the first link\nis the AI Studio, the UI",
+      "start": 2727.83,
+      "duration": 3.89
+    },
+    {
+      "text": "and no code experience where you\ncan experiment all the Gemini",
+      "start": 2731.72,
+      "duration": 3.51
+    },
+    {
+      "text": "models features really\nfast without writing",
+      "start": 2735.23,
+      "duration": 3.42
+    },
+    {
+      "text": "a single line of code.",
+      "start": 2738.65,
+      "duration": 1.24
+    },
+    {
+      "text": "The second link is\nthe Gemini API docs,",
+      "start": 2739.89,
+      "duration": 2.94
+    },
+    {
+      "text": "where you may find all the\nthings we shared here, and way",
+      "start": 2742.83,
+      "duration": 3.74
+    },
+    {
+      "text": "more of the other features and\npossibilities with the models.",
+      "start": 2746.57,
+      "duration": 3.31
+    },
+    {
+      "text": "And the last one is the Gemini\nCookbook, a GitHub repository",
+      "start": 2749.88,
+      "duration": 4.04
+    },
+    {
+      "text": "that our team curates and keep\nupdating with a lot of sample",
+      "start": 2753.92,
+      "duration": 3.42
+    },
+    {
+      "text": "experience for you.",
+      "start": 2757.34,
+      "duration": 1.06
+    },
+    {
+      "text": "Thank you so much, Shrestha.",
+      "start": 2758.4,
+      "duration": 1.22
+    },
+    {
+      "text": "Thank you so much you all.",
+      "start": 2759.62,
+      "duration": 0.87
+    },
+    {
+      "text": "SHRESTHA BASU MALLICK: Thank you\nall for coming out to hear us.",
+      "start": 2760.49,
+      "duration": 2.625
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 2763.115,
+      "duration": 1.425
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2764.54,
+      "duration": 2.75
+    }
+  ]
+}

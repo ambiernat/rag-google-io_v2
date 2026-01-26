@@ -1,0 +1,6 @@
+artifact_location: file:///home/al/Documents/rag-google-io/notebooks/../mlruns/624004126080311294
+creation_time: 1769018106611
+experiment_id: '624004126080311294'
+last_update_time: 1769018106611
+lifecycle_stage: active
+name: dense_rerank_hpo
