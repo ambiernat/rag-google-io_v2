@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MLflow
+mlruns/
+
+# Qdrant and large vector storage
+qdrant_storage/
+data/models/
+data/chunked/
+
+# Other temporary / build files
+build/__pycache__/
+old/__pycache__/
+ingestion/__pycache__/
+evaluation/__pycache__/
