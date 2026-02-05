@@ -224,3 +224,9 @@ build/__pycache__/
 old/__pycache__/
 ingestion/__pycache__/
 evaluation/__pycache__/
+
+# Binaries
+*.mmap
+*.dat
+*.pkl
+*.bin
