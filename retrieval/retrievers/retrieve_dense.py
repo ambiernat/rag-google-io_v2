@@ -8,7 +8,7 @@ No interactive input. Designed for evaluation pipelines.
 from pathlib import Path
 import yaml
 from qdrant_client import QdrantClient
-from sentence_transformers import SentenceTransformer
+from api.models import get_embedding_model
 
 # -------------------------------------------------
 # Load config
@@ -32,22 +32,26 @@ DEFAULT_TOP_K = DENSE_CFG.get("top_k", 5)
 # Initialize shared state (once per process)
 # -------------------------------------------------
 q_client = QdrantClient(url=QDRANT_URL)
-embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
-EMBEDDING_DIM = embedding_model.get_sentence_embedding_dimension()
+#embedding_model = get_embedding_model() --> Don't load the model at import!!
+#EMBEDDING_DIM = embedding_model.get_sentence_embedding_dimension()
 
 print(f"[INFO] Dense retriever initialized")
 print(f"[INFO] Collection: {COLLECTION_NAME}")
 print(f"[INFO] Embedding model: {EMBEDDING_MODEL_NAME}")
-print(f"[INFO] Embedding dim: {EMBEDDING_DIM}")
 
 # -------------------------------------------------
 # Helpers
 # -------------------------------------------------
+_embedding_model = None  # Global variable to hold the loaded model
+
 def embed_query(query: str) -> list:
     """
     Embed a query into a dense vector.
     """
-    return embedding_model.encode(
+    global _embedding_model
+    if _embedding_model is None:
+        _embedding_model = get_embedding_model()
+    return _embedding_model.encode(
         query,
         normalize_embeddings=True
     ).tolist()
@@ -85,10 +89,12 @@ def retrieve_dense(query: str, top_k: int = DEFAULT_TOP_K):
 # Example usage (non-interactive)
 # -------------------------------------------------
 if __name__ == "__main__":
+    #model = get_embedding_model()
     test_queries = [
         "What is Gemma?",
         "Who is speaking in the keynote?",
     ]
+    #print(f"[INFO] Embedding dim: {model.get_sentence_embedding_dimension()}")
     
     for q in test_queries:
         print(f"\n=== Query: {q} ===")

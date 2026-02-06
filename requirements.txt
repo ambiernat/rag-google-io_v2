@@ -2,6 +2,7 @@ youtube-transcript-api
 jupyter
 qdrant-client>=1.16.2
 sentence-transformers
+torch>=2.1.0 # for compatibility with sentence-transformers
 pandas
 openai
 matplotlib
@@ -10,3 +11,6 @@ rank_bm25
 mlflow
 optuna
 wordcloud
+fastapi 
+uvicorn[standard]
+PyYAML
