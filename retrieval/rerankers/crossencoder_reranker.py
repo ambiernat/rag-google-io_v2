@@ -86,7 +86,7 @@ def extract_text(doc: Dict) -> str:
 def crossencoder_rerank(
     query: str,
     documents: list,
-    model_name: str,
+    model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
     top_k: int = 10,
     device: str = "cpu",
     batch_size: int = 16,

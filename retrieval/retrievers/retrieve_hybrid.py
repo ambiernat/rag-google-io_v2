@@ -11,6 +11,7 @@ import yaml
 from qdrant_client import QdrantClient
 from qdrant_client.models import Prefetch, Document
 from api.models import get_embedding_model
+import os
 
 # -------------------------------------------------
 # Load config
@@ -24,7 +25,8 @@ if not CONFIG_PATH.exists():
 with open(CONFIG_PATH, "r") as f:
     config = yaml.safe_load(f)
 
-QDRANT_URL = config["qdrant"]["url"]
+# Allow environment variable to override
+QDRANT_URL = os.getenv("QDRANT_URL", config["qdrant"]["url"])
 HYBRID_CFG = config["hybrid"]
 COLLECTION_NAME = HYBRID_CFG["collection_name"]
 EMBEDDING_MODEL_NAME = HYBRID_CFG["embedding_model_name"]
@@ -63,7 +65,7 @@ def embed_query(query: str) -> list:
 # -------------------------------------------------
 # Public API
 # -------------------------------------------------
-def retrieve_hybrid(query: str, top_k: int = DEFAULT_TOP_K):
+def retrieve_hybrid(query: str, top_k: int = DEFAULT_TOP_K, client: QdrantClient | None = None):
     """
     Retrieve top-K documents from hybrid Qdrant collection using native fusion.
     
@@ -76,6 +78,8 @@ def retrieve_hybrid(query: str, top_k: int = DEFAULT_TOP_K):
         (compatible with evaluate_hybrid.py expectations)
     """
     from qdrant_client.models import Prefetch, Document
+    # Use injected client or fall back to global q_client
+    q_client_to_use = client or q_client
     
     vector = embed_query(query)
     
@@ -84,7 +88,7 @@ def retrieve_hybrid(query: str, top_k: int = DEFAULT_TOP_K):
     
     if fusion_type == "native":
         # Native fusion: use dense as primary query, BM25 as prefetch
-        response = q_client.query_points(
+        response = q_client_to_use.query_points(
             collection_name=COLLECTION_NAME,
             query=vector,           # Dense vector as primary
             using="dense",
@@ -107,7 +111,7 @@ def retrieve_hybrid(query: str, top_k: int = DEFAULT_TOP_K):
         # RRF fusion: both methods as prefetch, then fuse
         from qdrant_client.models import FusionQuery, Fusion
         
-        response = q_client.query_points(
+        response = q_client_to_use.query_points(
             collection_name=COLLECTION_NAME,
             prefetch=[
                 Prefetch(

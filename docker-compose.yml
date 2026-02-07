@@ -9,18 +9,22 @@ services:
       - ./retrieval:/app/retrieval
       - ./data:/app/data
       - ./requirements.txt:/app/requirements.txt
+      - huggingface-cache:/root/.cache/huggingface
     depends_on:
       - qdrant
     environment:
       - PYTHONUNBUFFERED=1
-      - QDRANT_HOST=qdrant  # Add this
-      - QDRANT_PORT=6333    # Add this
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
 
   qdrant:
-    image: qdrant/qdrant:latest  # or a specific version like v1.12.0
+    image: qdrant/qdrant:latest
     container_name: qdrant
     ports:
       - "6333:6333"
-      - "6334:6334"  # gRPC port
+      - "6334:6334"
     volumes:
       - ./qdrant_storage:/qdrant/storage
+
+volumes:
+  huggingface-cache:

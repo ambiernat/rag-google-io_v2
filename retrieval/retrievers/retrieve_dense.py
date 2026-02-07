@@ -9,6 +9,7 @@ from pathlib import Path
 import yaml
 from qdrant_client import QdrantClient
 from api.models import get_embedding_model
+import os
 
 # -------------------------------------------------
 # Load config
@@ -22,7 +23,8 @@ if not CONFIG_PATH.exists():
 with open(CONFIG_PATH, "r") as f:
     config = yaml.safe_load(f)
 
-QDRANT_URL = config["qdrant"]["url"]
+# Allow environment variable to override
+QDRANT_URL = os.getenv("QDRANT_URL", config["qdrant"]["url"])
 DENSE_CFG = config["dense"]
 COLLECTION_NAME = DENSE_CFG["collection_name"]
 EMBEDDING_MODEL_NAME = DENSE_CFG["embedding_model_name"]
@@ -59,7 +61,7 @@ def embed_query(query: str) -> list:
 # -------------------------------------------------
 # Public API
 # -------------------------------------------------
-def retrieve_dense(query: str, top_k: int = DEFAULT_TOP_K):
+def retrieve_dense(query: str, top_k: int = DEFAULT_TOP_K, client: QdrantClient | None = None):
     """
     Retrieve top-K documents from dense Qdrant collection.
     
@@ -71,9 +73,15 @@ def retrieve_dense(query: str, top_k: int = DEFAULT_TOP_K):
         List of ScoredPoint objects with .id, .score, .payload attributes
         (compatible with evaluate_dense.py expectations)
     """
+
+    from qdrant_client.models import Prefetch, Document
+    
+    # Use injected client or fall back to global q_client
+    q_client_to_use = client or q_client
+
     vector = embed_query(query)
     
-    response = q_client.query_points(
+    response = q_client_to_use.query_points(
         collection_name=COLLECTION_NAME,
         query=vector,
         limit=top_k,
