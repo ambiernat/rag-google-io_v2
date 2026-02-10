@@ -103,3 +103,4 @@ def test_hybrid_network_exception():
     mock_client.query_points.side_effect = ResponseHandlingException("Failed")
     with pytest.raises(ResponseHandlingException):
         retrieve_hybrid("query", top_k=2, client=mock_client)
+

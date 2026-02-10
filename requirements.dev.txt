@@ -1,3 +1,5 @@
+-r requirements.api.txt
+
 youtube-transcript-api
 jupyter
 qdrant-client>=1.16.2

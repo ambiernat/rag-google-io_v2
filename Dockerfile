@@ -8,7 +8,9 @@ FROM python:3.12-slim
 # -----------------------------
 ENV PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
-    POETRY_VIRTUALENVS_CREATE=false
+    POETRY_VIRTUALENVS_CREATE=false \
+    PIP_EXTRA_INDEX_URL=https://download.pytorch.org/whl/cpu
+
 
 # -----------------------------
 # Set work directory
@@ -31,7 +33,7 @@ RUN apt-get update && apt-get install -y \
 # -----------------------------
 # COPY pyproject.toml poetry.lock* /app/  # if using poetry
 # OR
-COPY requirements.txt /app/ 
+COPY requirements.api.txt /app/requirements.txt
 
 # -----------------------------
 # Install Python dependencies
@@ -44,6 +46,11 @@ RUN pip install --upgrade pip setuptools wheel
 # If using requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
+# -----------------------------
+# Copy project code
+# -----------------------------
+COPY ./api /app/api
+
 
 # -----------------------------
 # Expose port
@@ -53,8 +60,6 @@ EXPOSE 8000
 # -----------------------------
 # Start Uvicorn
 # -----------------------------
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
-# Do NOT COPY the whole project here for dev, we'll mount it
-# Dockerfile
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
  # Add --reload for development (not recommended for production)
