@@ -4,6 +4,6 @@ __pycache__
 .env
 .env.*
 node_modules
-data/
+#data/
 models/
 .cache/
