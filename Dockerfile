@@ -50,12 +50,16 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 # Copy project code
 # -----------------------------
 COPY ./api /app/api
-
+COPY ./retrieval /app/retrieval  # <-- ADD THIS LINE
+COPY ./data /app/data 
 
 # -----------------------------
 # Expose port
 # -----------------------------
 EXPOSE 8000
+
+# Download the model at build time - reduces cost of first request and ensures it's available when the container starts
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
 
 # -----------------------------
 # Start Uvicorn
