@@ -50,7 +50,7 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 # Copy project code
 # -----------------------------
 COPY ./api /app/api
-COPY ./retrieval /app/retrieval  # <-- ADD THIS LINE
+COPY ./retrieval /app/retrieval 
 COPY ./data /app/data 
 
 # -----------------------------
