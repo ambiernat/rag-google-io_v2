@@ -9,7 +9,7 @@ from api.schemas import SearchRequest, SearchResponse, RetrievedDocument
 from retrieval.retrievers.retrieve_sparse import SparseRetriever
 from retrieval.retrievers.retrieve_dense import retrieve_dense
 from retrieval.retrievers.retrieve_hybrid import retrieve_hybrid
-from retrieval.rerankers.crossencoder_reranker import crossencoder_rerank
+#from retrieval.rerankers.crossencoder_reranker import crossencoder_rerank
 from sentence_transformers import CrossEncoder
 
 # -----------------------------
