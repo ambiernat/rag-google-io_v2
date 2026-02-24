@@ -79,6 +79,9 @@ It combines:
 ├── docker-compose_prod.yml  # Production-like stack
 ├── requirements.api.txt
 └── README.md
+```
+
+---
 
 ## ⚙️ Configuration
 
@@ -97,6 +100,9 @@ collections:
 
 retrieval:
   top_k: 5
+```
+
+---
 
 ## ▶️ Running Locally
 
@@ -104,6 +110,7 @@ retrieval:
 
 ```bash
 docker-compose up
+```
 
 ## Services
 
@@ -111,8 +118,12 @@ docker-compose up
 
 ```bash
 curl "http://localhost:8000/search?query=large language models&top_k=5"
+```
+
+---
 
 ## 🧪 Offline Evaluation
+
 ### Run retrieval benchmarks locally:
 
 ```bash
@@ -120,11 +131,15 @@ python evaluation/evaluate_dense.py
 python evaluation/evaluate_sparse.py
 python evaluation/evaluate_hybrid.py
 python evaluation/evaluate_rerank_post_hpo.py
+```
 
 ### Outputs are written to:
 
 ```text
 data/eval/results/
+```
+
+---
 
 ## 🧠 Testing
 
@@ -136,6 +151,9 @@ Run all tests with:
 
 ```bash
 pytest
+```
+
+---
 
 ## 🚀 Production Deployment (AWS)
 
@@ -145,23 +163,25 @@ This project is fully deployed on AWS using serverless containers.
 Production Docker image bundles:
 
 - FastAPI API
-
 - Retrieval logic
-
 - Model dependencies
 
 **Image size**: ~550MB
 
+---
+
 ## 📦 ECR — Elastic Container Registry
 
 - Private image registry
-
 - Repository: fastapi-rag
 
 **Image URI:**
 
 ```text
 886166401772.dkr.ecr.us-east-1.amazonaws.com/fastapi-rag:latest
+```
+
+---
 
 ## 🎯 ECS — Elastic Container Service
 
@@ -199,6 +219,9 @@ The ECS service keeps tasks alive (desired count configurable).
 **Example access:**
 ```text
 http://<public-ip>:8000
+```
+
+---
 
 ## 📊 CloudWatch Logs
 
