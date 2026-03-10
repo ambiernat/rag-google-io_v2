@@ -42,7 +42,7 @@ ECR (Elastic Container Registry) is AWS's private Docker image registry. The rep
 
 From the ECR console, the **View push commands** dialog provides the exact CLI commands needed to authenticate, tag, and push the image:
 
-![ECR push commands](screenshots/01_ecr_push_commands.png)
+![ECR push commands](01_ecr_push_commands.png)
 
 The repository URI is:
 ```
