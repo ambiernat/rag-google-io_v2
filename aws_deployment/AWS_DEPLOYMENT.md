@@ -57,7 +57,7 @@ CloudShell has a disk limit that makes building large images impractical. A `t3.
 
 **Launch the EC2 instance:**
 
-![EC2 launch success](screenshots/08_ec2_launch_success.png)
+![EC2 launch success](08_ec2_launch_success.png)
 
 **Connect via EC2 Instance Connect and run the build:**
 
@@ -71,11 +71,11 @@ cd rag-google-io_v2
 docker build -t fastapi-rag .
 ```
 
-![EC2 SSH build](screenshots/09_ec2_connect_build.png)
+![EC2 SSH build](9_ec2_connect_build.png)
 
 The build process downloads and compiles all Python dependencies:
 
-![Docker build layers](screenshots/02_docker_build_ec2.png)
+![Docker build layers](02_docker_build_ec2.png)
 
 Once built, authenticate to ECR and push:
 
@@ -91,7 +91,7 @@ docker push \
   886166401772.dkr.ecr.us-east-1.amazonaws.com/fastapi-rag:latest
 ```
 
-![ECR login succeeded + repo details](screenshots/03_ecr_repo_login_success.png)
+![ECR login succeeded + repo details](03_ecr_repo_login_success.png)
 
 The 550 MB image is now stored in ECR. The EC2 instance was terminated immediately after — no ongoing cost.
 
@@ -103,11 +103,11 @@ ECS (Elastic Container Service) is the container orchestrator. A **cluster** is 
 
 Starting from an empty cluster list:
 
-![Empty ECS clusters](screenshots/04_ecs_clusters_empty.png)
+![Empty ECS clusters](04_ecs_clusters_empty.png)
 
 Create a new cluster named `rag-cluster`, selecting **Fargate only** as the compute type (serverless — no EC2 instances to manage):
 
-![Create ECS cluster](screenshots/05_ecs_create_cluster.png)
+![Create ECS cluster](05_ecs_create_cluster.png)
 
 ---
 
@@ -121,7 +121,7 @@ Configuration for `rag-task`:
 - **Memory:** 4 GB
 - **Containers:** 2 — `fastapi` (3 GB) and `qdrant` (1 GB)
 
-![Create task definition](screenshots/06_ecs_task_definition.png)
+![Create task definition](06_ecs_task_definition.png)
 
 The FastAPI container image points to the ECR URI pushed in Step 3. The Qdrant container uses the public `qdrant/qdrant:latest` image.
 
@@ -133,7 +133,7 @@ An ECS **service** keeps a specified number of task instances running at all tim
 
 A new security group `rag-sg` was configured with an inbound rule allowing TCP traffic on port **8000** from anywhere (`0.0.0.0/0`), so the FastAPI docs and API are publicly accessible:
 
-![Security group port 8000](screenshots/07_ecs_security_group_port8000.png)
+![Security group port 8000](07_ecs_security_group_port8000.png)
 
 The service `rag-task3` was created with **desired count = 1** (one running task).
 
