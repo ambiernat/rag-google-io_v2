@@ -218,7 +218,7 @@ When running: **~$42/month**.
 
 Two IAM principals were used:
 
-- **`claude-deploy`** — IAM user with ECR Full Access and ECS Full Access, used for CLI operations
+- **`al-deploy`** — IAM user with ECR Full Access and ECS Full Access, used for CLI operations
 - **`ecsTaskExecutionRole`** — IAM role attached to the task definition, allowing ECS to pull images from ECR and write logs to CloudWatch
 
 ---
