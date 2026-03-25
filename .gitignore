@@ -230,3 +230,4 @@ evaluation/__pycache__/
 *.dat
 *.pkl
 *.bin.claude/
+.claude/
