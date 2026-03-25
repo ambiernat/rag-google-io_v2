@@ -12,7 +12,7 @@ os.environ.setdefault('QDRANT_URL', 'http://localhost:6333')
 @pytest.fixture(scope="session", autouse=True)
 def setup_test_environment():
     """Setup test environment variables"""
-    os.environ['QDRANT_URL'] = 'http://localhost:6333'
+    os.environ['QDRANT_URL'] = os.getenv('QDRANT_URL', 'http://localhost:6333')
 
 @pytest.fixture(scope="session")
 def test_query():

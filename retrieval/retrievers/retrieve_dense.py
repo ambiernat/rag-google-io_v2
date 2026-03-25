@@ -8,7 +8,7 @@ No interactive input. Designed for evaluation pipelines.
 from pathlib import Path
 import yaml
 from qdrant_client import QdrantClient
-from api.models import get_embedding_model
+from api.models import embed_query
 import os
 
 # -------------------------------------------------
@@ -40,23 +40,6 @@ q_client = QdrantClient(url=QDRANT_URL)
 print(f"[INFO] Dense retriever initialized")
 print(f"[INFO] Collection: {COLLECTION_NAME}")
 print(f"[INFO] Embedding model: {EMBEDDING_MODEL_NAME}")
-
-# -------------------------------------------------
-# Helpers
-# -------------------------------------------------
-_embedding_model = None  # Global variable to hold the loaded model
-
-def embed_query(query: str) -> list:
-    """
-    Embed a query into a dense vector.
-    """
-    global _embedding_model
-    if _embedding_model is None:
-        _embedding_model = get_embedding_model()
-    return _embedding_model.encode(
-        query,
-        normalize_embeddings=True
-    ).tolist()
 
 # -------------------------------------------------
 # Public API

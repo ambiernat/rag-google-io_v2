@@ -10,7 +10,7 @@ from pathlib import Path
 import yaml
 from qdrant_client import QdrantClient
 from qdrant_client.models import Prefetch, Document
-from api.models import get_embedding_model
+from api.models import embed_query
 import os
 
 # -------------------------------------------------
@@ -44,23 +44,6 @@ print(f"[INFO] Hybrid retriever initialized")
 print(f"[INFO] Collection: {COLLECTION_NAME}")
 print(f"[INFO] Embedding model: {EMBEDDING_MODEL_NAME}")
 # print(f"[INFO] Embedding dim: {EMBEDDING_DIM}")
-
-# -------------------------------------------------
-# Helpers
-# -------------------------------------------------
-_embedding_model = None  # Global variable to hold the loaded model
-
-def embed_query(query: str) -> list:
-    """
-    Embed a query into a dense vector.
-    """
-    global _embedding_model
-    if _embedding_model is None:
-        _embedding_model = get_embedding_model()
-    return _embedding_model.encode(
-        query,
-        normalize_embeddings=True
-    ).tolist()
 
 # -------------------------------------------------
 # Public API

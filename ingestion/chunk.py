@@ -1,9 +1,13 @@
 # ingestion/chunk.py
 import json
+import logging
 from pathlib import Path
 from datetime import datetime, UTC
 import yaml
 from typing import List, Dict
+from ingestion.utils import log_manifest as _log_manifest_shared
+
+logger = logging.getLogger(__name__)
 
 # --------------------
 # Paths
@@ -31,16 +35,7 @@ def load_config(path: Path) -> dict:
 # Manifest
 # --------------------
 def log_manifest(entry: dict) -> None:
-    if MANIFEST_PATH.exists():
-        with open(MANIFEST_PATH) as f:
-            manifest = json.load(f)
-    else:
-        manifest = []
-
-    manifest.append(entry)
-
-    with open(MANIFEST_PATH, "w") as f:
-        json.dump(manifest, f, indent=2)
+    _log_manifest_shared(MANIFEST_PATH, entry)
 
 
 
@@ -120,7 +115,7 @@ def main(overwrite: bool = False) -> None:
         out_path = CHUNK_DIR / raw_file.name
 
         if out_path.exists() and not overwrite:
-            print(f"[SKIP] {raw_file.stem}")
+            logger.info(f"[SKIP] {raw_file.stem}")
             continue
 
         try:
@@ -156,8 +151,28 @@ def main(overwrite: bool = False) -> None:
                 }
             )
 
-            print(f"[OK] {video_id}: {len(chunks)} chunks")
+            logger.info(f"[OK] {video_id}: {len(chunks)} chunks")
 
+        except json.JSONDecodeError as e:
+            log_manifest(
+                {
+                    "video_id": raw_file.stem,
+                    "status": "error",
+                    "error": str(e),
+                    "timestamp": datetime.now(UTC).isoformat(),
+                }
+            )
+            logger.exception(f"[ERROR] {raw_file.stem}: JSON parse error: {e}")
+        except OSError as e:
+            log_manifest(
+                {
+                    "video_id": raw_file.stem,
+                    "status": "error",
+                    "error": str(e),
+                    "timestamp": datetime.now(UTC).isoformat(),
+                }
+            )
+            logger.exception(f"[ERROR] {raw_file.stem}: File I/O error: {e}")
         except Exception as e:
             log_manifest(
                 {
@@ -167,7 +182,7 @@ def main(overwrite: bool = False) -> None:
                     "timestamp": datetime.now(UTC).isoformat(),
                 }
             )
-            print(f"[ERROR] {raw_file.stem}: {e}")
+            logger.exception(f"[ERROR] {raw_file.stem}: {e}")
 
 
 # --------------------

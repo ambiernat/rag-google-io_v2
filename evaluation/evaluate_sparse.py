@@ -4,25 +4,18 @@
 evaluate_sparse.py
 Evaluate BM25 sparse retrieval using configuration from YAML.
 """
+import os
+import logging
 import yaml
 import json
 from pathlib import Path
 from tqdm import tqdm
 from retrieval.retrievers.retrieve_sparse import retrieve_sparse
-from datetime import datetime
+from datetime import datetime, timezone
+from evaluation.utils import get_latest_ground_truth
+from retrieval.evaluation.metrics import recall_at_k, precision_at_k, mrr
 
-# -----------------------------
-# Helpers
-# -----------------------------
-def get_latest_ground_truth(gt_dir: Path, prefix: str) -> Path:
-    files = sorted(
-        gt_dir.glob(f"{prefix}_*.json"),
-        key=lambda p: p.stat().st_mtime,
-        reverse=True
-    )
-    if not files:
-        raise FileNotFoundError(f"No ground truth files found in {gt_dir}")
-    return files[0]
+logger = logging.getLogger(__name__)
 
 # -----------------------------
 # Load config
@@ -32,11 +25,12 @@ with open(CONFIG_PATH, "r") as f:
     config = yaml.safe_load(f)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+qdrant_url = os.getenv('QDRANT_URL', config['qdrant']['url'])
 GT_DIR = PROJECT_ROOT / config["evaluation"]["ground_truth_dir"]
 GT_PREFIX = config["evaluation"]["ground_truth_prefix"]
 GROUND_TRUTH_PATH = get_latest_ground_truth(GT_DIR, GT_PREFIX)
 
-timestamp = datetime.utcnow().strftime("%Y%m%dT%H%M%S")
+timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S")
 OUTPUT_PATH = (
     PROJECT_ROOT
     / config["evaluation"]["output_dir"]
@@ -44,7 +38,7 @@ OUTPUT_PATH = (
 )
 TOP_K = config["evaluation"].get("top_k", 5)
 
-print(f"[INFO] Using ground truth file: {GROUND_TRUTH_PATH.name}")
+logger.info(f"[INFO] Using ground truth file: {GROUND_TRUTH_PATH.name}")
 
 # -----------------------------
 # Load ground truth
@@ -53,26 +47,10 @@ with open(GROUND_TRUTH_PATH, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
 # -----------------------------
-# Metrics
-# -----------------------------
-def recall_at_k(retrieved_ids, relevant_ids, k=TOP_K):
-    return int(any(rid in relevant_ids for rid in retrieved_ids[:k]))
-
-def mrr(retrieved_ids, relevant_ids):
-    for i, rid in enumerate(retrieved_ids, start=1):
-        if rid in relevant_ids:
-            return 1.0 / i
-    return 0.0
-
-def precision_at_k(retrieved_ids, relevant_ids, k=TOP_K):
-    relevant_count = sum(1 for rid in retrieved_ids[:k] if rid in relevant_ids)
-    return relevant_count / k if k > 0 else 0.0
-
-# -----------------------------
 # Evaluation loop
 # -----------------------------
 results_all = []
-print(f"[INFO] Evaluating SPARSE retriever for {len(ground_truth)} queries...")
+logger.info(f"[INFO] Evaluating SPARSE retriever for {len(ground_truth)} queries...")
 
 for item in tqdm(ground_truth, desc="Queries"):
     query = item["query"]
@@ -100,7 +78,7 @@ OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(results_all, f, indent=2)
 
-print(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
+logger.info(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
 
 
 
@@ -148,7 +126,7 @@ print(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
 
 # GROUND_TRUTH_PATH = get_latest_ground_truth(GT_DIR, GT_PREFIX)
 
-# timestamp = datetime.utcnow().strftime("%Y%m%dT%H%M%S")
+# timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S")
 # OUTPUT_PATH = (
 #     PROJECT_ROOT
 #     / config["evaluation"]["output_dir"]
@@ -159,7 +137,7 @@ print(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
 # TOP_K = config["evaluation"].get("top_k", 5)
 
 
-# print(f"[INFO] Using ground truth file: {GROUND_TRUTH_PATH.name}")
+# logger.info(f"[INFO] Using ground truth file: {GROUND_TRUTH_PATH.name}")
 
 
 # # -----------------------------
@@ -194,7 +172,7 @@ print(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
 # # -----------------------------
 # results_all = []
 
-# print(f"[INFO] Evaluating SPARSE retriever for {len(ground_truth)} queries...")
+# logger.info(f"[INFO] Evaluating SPARSE retriever for {len(ground_truth)} queries...")
 # for item in tqdm(ground_truth, desc="Queries"):
 #     query = item["query"]
 #     relevant_ids = item.get("relevant_doc_ids", [])
@@ -225,4 +203,4 @@ print(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
 # with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
 #     json.dump(results_all, f, indent=2)
 
-# print(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")
+# logger.info(f"[OK] Sparse evaluation complete. Results saved to {OUTPUT_PATH}")

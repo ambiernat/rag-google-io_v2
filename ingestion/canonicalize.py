@@ -1,8 +1,11 @@
 # ingestion/canonicalize.py
 import json
+import logging
 from pathlib import Path
 from datetime import datetime, UTC
 import yaml
+
+logger = logging.getLogger(__name__)
 
 # --------------------
 # Paths
@@ -102,7 +105,7 @@ def main(overwrite: bool = False) -> None:
         out_path = CANONICAL_DIR / f"{video_id}.json"
 
         if out_path.exists() and not overwrite:
-            print(f"[SKIP] {video_id}")
+            logger.info(f"[SKIP] {video_id}")
             continue
 
         try:
@@ -111,11 +114,17 @@ def main(overwrite: bool = False) -> None:
             canonical_docs = convert_chunks_to_canonical(chunks=chunks, video_id=video_id, title=title)
             save_canonical_docs(video_id, canonical_docs)
             log_manifest({...})
-            print(f"[OK] Canonicalized {video_id} ({len(canonical_docs)} docs)")
+            logger.info(f"[OK] Canonicalized {video_id} ({len(canonical_docs)} docs)")
 
+        except json.JSONDecodeError as e:
+            log_manifest({...})
+            logger.exception(f"[ERROR] {video_id}: JSON parse error: {e}")
+        except OSError as e:
+            log_manifest({...})
+            logger.exception(f"[ERROR] {video_id}: File I/O error: {e}")
         except Exception as e:
             log_manifest({...})
-            print(f"[ERROR] {video_id}: {e}")
+            logger.exception(f"[ERROR] {video_id}: {e}")
 
     # ✅ Always rebuild from disk — independent of what was skipped/processed
     all_docs = []
@@ -128,7 +137,7 @@ def main(overwrite: bool = False) -> None:
     with open(CANONICAL_DIR / "all_documents.json", "w") as f:
         json.dump(all_docs, f, indent=2)
 
-    print(f"\n[OK] Saved all_documents.json ({len(all_docs)} total docs)")
+    logger.info(f"\n[OK] Saved all_documents.json ({len(all_docs)} total docs)")
 
 # --------------------
 # Entry point

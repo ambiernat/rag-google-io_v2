@@ -6,7 +6,7 @@ import yaml
 import json
 
 from api.schemas import SearchRequest, SearchResponse, RetrievedDocument
-from retrieval.retrievers.retrieve_sparse import SparseRetriever
+from retrieval.retrievers.retrieve_sparse import retrieve_sparse
 from retrieval.retrievers.retrieve_dense import retrieve_dense
 from retrieval.retrievers.retrieve_hybrid import retrieve_hybrid
 #from retrieval.rerankers.crossencoder_reranker import crossencoder_rerank
@@ -35,8 +35,6 @@ sparse_cfg = config["sparse"]
 dense_cfg = config["dense"]
 hybrid_cfg = config["hybrid"]
 
-sparse_retriever = SparseRetriever()
-
 # -----------------------------
 # Reranker Setup
 # -----------------------------
@@ -57,7 +55,7 @@ else:
 # -----------------------------
 EXPERIMENT_LOG = PROJECT_ROOT / "data" / "experiments.log"
 
-def log_experiment(request: SearchRequest, results: list):
+def log_experiment(request: SearchRequest, results: list) -> None:
     EXPERIMENT_LOG.parent.mkdir(parents=True, exist_ok=True)
     with open(EXPERIMENT_LOG, "a", encoding="utf-8") as f:
         log_entry = {
@@ -81,7 +79,7 @@ router = APIRouter()
 def get_top_k(cfg_top_k: int, request_top_k: Optional[int]) -> int:
     return request_top_k if request_top_k is not None else cfg_top_k
 
-def rerank_docs_with_loaded_model(query: str, docs: list, top_k: int):
+def rerank_docs_with_loaded_model(query: str, docs: list, top_k: int) -> list:
     texts = [doc["text"] for doc in docs]
     pairs = [[query, text] for text in texts]
 
@@ -101,7 +99,7 @@ def rerank_docs_with_loaded_model(query: str, docs: list, top_k: int):
 # Search Endpoint
 # -----------------------------
 @router.post("/search", response_model=SearchResponse)
-def search(request: SearchRequest):
+def search(request: SearchRequest) -> SearchResponse:
     top_k = None
 
     # -----------------------------
@@ -109,8 +107,13 @@ def search(request: SearchRequest):
     # -----------------------------
     if request.mode == "sparse":
         top_k = get_top_k(sparse_cfg.get("top_k", 5), request.top_k)
-        hits = sparse_retriever.retrieve(request.query, top_k=top_k)
-        docs = [{"doc_id": doc["id"], "score": score, "text": doc["text"]} for score, doc in hits]
+        hits = retrieve_sparse(request.query, top_k=top_k)
+        docs = [
+            {"doc_id": hit.payload.get("doc_id", str(hit.id)),
+             "score": hit.score,
+             "text": hit.payload.get("text", "")}
+            for hit in hits
+        ]
 
     elif request.mode == "dense":
         top_k = get_top_k(dense_cfg.get("top_k", 5), request.top_k)

@@ -16,6 +16,8 @@ import logging
 from pathlib import Path
 from typing import Dict, List
 
+logger = logging.getLogger(__name__)
+
 import numpy as np
 import yaml
 from sentence_transformers import CrossEncoder
@@ -45,14 +47,14 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
-def load_json(path: Path):
+def load_json(path: Path) -> dict:
     if not path.exists():
         raise FileNotFoundError(f"JSON file not found: {path}")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_json(data, path: Path):
+def save_json(data, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
@@ -98,7 +100,7 @@ def crossencoder_rerank(
 
     # Load model once and cache
     if model_name not in _model_cache:
-        print(f"[INFO] Loading CrossEncoder: {model_name}") 
+        logger.info(f"[INFO] Loading CrossEncoder: {model_name}") 
         _model_cache[model_name] = CrossEncoder(model_name, device=device)
     model = _model_cache[model_name]
 
@@ -146,7 +148,7 @@ def rerank_with_crossencoder(
 # -------------------------------------------------
 # Main
 # -------------------------------------------------
-def main():
+def main() -> None:
     config = load_config()
 
     reranker_cfg = config["rerankers"]["cross_encoder"]

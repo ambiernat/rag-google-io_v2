@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional, Literal
 
 # -----------------------------
@@ -6,7 +6,7 @@ from typing import List, Optional, Literal
 # -----------------------------
 class SearchRequest(BaseModel):
     query: str
-    top_k: Optional[int] = None
+    top_k: Optional[int] = Field(default=None, ge=1, le=100)
     mode: Literal["sparse", "dense", "hybrid"] = "hybrid"
     rerank: Optional[bool] = False  # trigger reranking
     experiment_id: Optional[str] = None  # NEW: track A/B experiment

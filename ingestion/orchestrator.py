@@ -1,8 +1,12 @@
+import logging
 from pathlib import Path
 import yaml
 from fetch import main as fetch_main
 from chunk import main as chunk_main
 from canonicalize import main as canonicalize_main
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(name)s %(levelname)s %(message)s')
+logger = logging.getLogger(__name__)
 
 # --------------------
 # Paths & Config
@@ -19,23 +23,23 @@ def load_config(path: Path) -> dict:
 # --------------------
 def main():
     config = load_config(CONFIG_PATH)
-    
+
     overwrite = config.get("overwrite", False)
 
-    print("\n=== Step 1: Fetch transcripts ===")
+    logger.info("\n=== Step 1: Fetch transcripts ===")
     fetch_main(
         video_ids=config["videos"],
         languages=config.get("languages", ["en"]),
         overwrite=overwrite
     )
 
-    print("\n=== Step 2: Chunk transcripts ===")
+    logger.info("\n=== Step 2: Chunk transcripts ===")
     chunk_main(overwrite=overwrite)
 
-    print("\n=== Step 3: Canonicalize chunks ===")
+    logger.info("\n=== Step 3: Canonicalize chunks ===")
     canonicalize_main(overwrite=overwrite)
 
-    print("\n=== Ingestion pipeline complete ===")
+    logger.info("\n=== Ingestion pipeline complete ===")
 
 # --------------------
 # Entry Point

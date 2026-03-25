@@ -7,11 +7,14 @@ Samples documents across all videos for broad coverage.
 """
 from openai import OpenAI
 import json
+import logging
 import random
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from tqdm import tqdm
 import getpass
+
+logger = logging.getLogger(__name__)
 
 # -----------------------------
 # Config
@@ -21,7 +24,7 @@ QUESTIONS_PER_DOC = 2
 DOCS_PER_VIDEO = 2  # sample 2 chunks per video → ~156 docs → ~312 queries
 RANDOM_SEED = 42
 
-timestamp = datetime.utcnow().strftime("%Y%m%dT%H%M%S")
+timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S")
 OUTPUT_PATH = Path("data/eval/ground_truth") / f"ground_truth_{MODEL_NAME}_{timestamp}.json"
 OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -31,7 +34,7 @@ OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 with open("data/canonical/all_documents.json") as f:
     documents = json.load(f)
 
-print(f"[INFO] Loaded {len(documents)} documents from {len(set(d['video_id'] for d in documents))} videos")
+logger.info(f"[INFO] Loaded {len(documents)} documents from {len(set(d['video_id'] for d in documents))} videos")
 
 # -----------------------------
 # Sample across all videos
@@ -49,7 +52,7 @@ sampled_docs = []
 for video_id, docs in by_video.items():
     sampled_docs.extend(random.sample(docs, min(DOCS_PER_VIDEO, len(docs))))
 
-print(f"[INFO] Sampled {len(sampled_docs)} documents across {len(by_video)} videos")
+logger.info(f"[INFO] Sampled {len(sampled_docs)} documents across {len(by_video)} videos")
 
 # -----------------------------
 # OpenAI client
@@ -57,7 +60,7 @@ print(f"[INFO] Sampled {len(sampled_docs)} documents across {len(by_video)} vide
 try:
     API_KEY = getpass.getpass("Enter OpenAI API key: ")
 except Exception as e:
-    print(f"ERROR: {e}")
+    logger.error(f"ERROR: {e}")
     raise
 
 client = OpenAI(api_key=API_KEY)
@@ -105,11 +108,11 @@ for doc in tqdm(sampled_docs, desc="Generating queries"): #sampled_docs[:5] # st
                 "title": doc.get("title", ""),
             })
     except Exception as e:
-        print(f"[ERROR] {doc['id']}: {e}")
+        logger.error(f"[ERROR] {doc['id']}: {e}")
         errors += 1
 
-print(f"\n[INFO] Generated {len(ground_truth)} queries ({errors} errors)")
-print(f"[INFO] Covers {len(set(q['video_id'] for q in ground_truth))} videos")
+logger.info(f"\n[INFO] Generated {len(ground_truth)} queries ({errors} errors)")
+logger.info(f"[INFO] Covers {len(set(q['video_id'] for q in ground_truth))} videos")
 
 # -----------------------------
 # Save
@@ -117,4 +120,4 @@ print(f"[INFO] Covers {len(set(q['video_id'] for q in ground_truth))} videos")
 with open(OUTPUT_PATH, "w") as f:
     json.dump(ground_truth, f, indent=2)
 
-print(f"[OK] Saved to {OUTPUT_PATH}")
+logger.info(f"[OK] Saved to {OUTPUT_PATH}")

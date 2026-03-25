@@ -9,3 +9,7 @@ def get_embedding_model():
             "sentence-transformers/all-MiniLM-L6-v2"
         )
     return _embedding_model
+
+def embed_query(query: str) -> list:
+    model = get_embedding_model()
+    return model.encode(query, normalize_embeddings=True).tolist()

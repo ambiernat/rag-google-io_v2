@@ -51,15 +51,7 @@ from retrieval.rerankers.crossencoder_reranker import crossencoder_rerank
 # -----------------------------
 # Ground Truth
 # -----------------------------
-def get_latest_ground_truth(gt_dir: Path, prefix: str) -> Path:
-    files = sorted(
-        gt_dir.glob(f"{prefix}_*.json"),
-        key=lambda p: p.stat().st_mtime,
-        reverse=True
-    )
-    if not files:
-        raise FileNotFoundError(f"No ground truth files found in {gt_dir} with prefix {prefix}")
-    return files[0]
+from evaluation.utils import get_latest_ground_truth
 
 gt_dir = PROJECT_ROOT / cfg["data"]["ground_truth"]["dir"]
 gt_prefix = cfg["data"]["ground_truth"]["prefix"]
@@ -134,7 +126,7 @@ def objective(trial):
             retrieved_docs = hybrid_wrapper(query, retrieve_k)
 
             if rerank_model not in _model_cache:
-                print(f"[INFO] Loading CrossEncoder: {rerank_model}")
+                logger.info(f"[INFO] Loading CrossEncoder: {rerank_model}")
                 _model_cache[rerank_model] = CrossEncoder(rerank_model, device=cfg["compute"].get("device", "cpu"))
             model = _model_cache[rerank_model]
 
