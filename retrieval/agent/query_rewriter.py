@@ -10,9 +10,7 @@ Slots in before the retrieve() call; callers pass all variants to the dispatcher
 
 from __future__ import annotations
 
-import json
 import logging
-import os
 from pathlib import Path
 
 import yaml
@@ -52,8 +50,7 @@ _SYSTEM_PROMPT = (
     "- Use different but semantically related vocabulary to improve keyword retrieval\n"
     "- Are more concrete or specific to improve semantic retrieval\n"
     "- Approach the same information need from distinct angles\n\n"
-    'Return ONLY a JSON object with a single key "variants" whose value is an array '
-    "of {n} strings. No explanations, no markdown, no other text."
+    "Return ONLY {n} variants, one per line, with no numbering, bullets, or extra text."
 )
 
 _USER_TEMPLATE = "User query: {query}"
@@ -78,8 +75,7 @@ def rewrite_query(query: str) -> list[str]:
     try:
         response = _client.chat.completions.create(
             model=_MODEL,
-            max_tokens=_MAX_TOKENS,
-            response_format={"type": "json_object"},
+            max_completion_tokens=_MAX_TOKENS,
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": _USER_TEMPLATE.format(query=query)},
@@ -87,18 +83,19 @@ def rewrite_query(query: str) -> list[str]:
         )
 
         text = response.choices[0].message.content.strip()
-        data = json.loads(text)
+        logger.debug("[DEBUG] rewrite_query raw response: %r", text)
 
-        variants = data.get("variants")
-        if not isinstance(variants, list) or not all(isinstance(v, str) for v in variants):
-            raise ValueError(f"Unexpected response structure: {text!r}")
+        variants = [line.strip() for line in text.splitlines() if line.strip()]
+
+        if not variants:
+            raise ValueError(f"No variants parsed from response: {text!r}")
 
         return variants[:_NUM_VARIANTS]
 
     except APIError as exc:
         logger.error("[ERROR] OpenAI API call failed in rewrite_query: %s", exc)
         return [query]
-    except (json.JSONDecodeError, ValueError) as exc:
+    except ValueError as exc:
         logger.error("[ERROR] Failed to parse rewrite_query response: %s", exc)
         return [query]
 
@@ -107,7 +104,7 @@ def rewrite_query(query: str) -> list[str]:
 # Example usage
 # -------------------------------------------------
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
+    logging.basicConfig(level=logging.DEBUG, format="%(levelname)s | %(message)s")
 
     test_queries = [
         "What is Gemma?",

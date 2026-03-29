@@ -2,6 +2,6 @@
 # Configuration for the agentic retrieval layer.
 
 query_rewriter:
-  model: "gpt-5-nano"
+  model: "gpt-4o-mini"
   num_variants: 3
   max_tokens: 512

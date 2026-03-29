@@ -63,7 +63,7 @@ results = [retrieve(q, strategy="hybrid") for q in all_queries]
 ### `retrieval/agent/config.yaml` (new)
 ```yaml
 query_rewriter:
-  model: "gpt-5-nano"
+  model: "gpt-4o-mini"
   num_variants: 3
   max_tokens: 512
 ```
