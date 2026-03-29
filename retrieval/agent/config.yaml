@@ -11,3 +11,7 @@ self_evaluator:
   max_completion_tokens: 1024
   text_preview_chars: 300   # chars of chunk text shown to the model per result
   score_threshold: 3        # minimum score to consider a result relevant (used by is_good_enough)
+
+retry_loop:
+  strategies: ["hybrid", "dense", "sparse"]
+  top_k: 10
