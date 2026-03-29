@@ -16,19 +16,20 @@ collections:
     schema_version: "v1"
 
 evaluation:
-  ground_truth_dir: "data/eval/ground_truth"
-  ground_truth_prefix: "ground_truth_gpt-5-nano"
+  ground_truth_dir: "data/eval/dev"
+  ground_truth_file: "multi_doc.json"
   output_dir: "data/eval/results"
+
   top_k: 5
 
 paraphrase_gt:
   ground_truth_dir: "data/eval/ground_truth"
-  ground_truth_prefix: "ground_truth_gpt-5-nano"
-  output_dir: "data/eval/results"
+  ground_truth_prefix: "gt_gpt-5-nano_synthetic"
+  output_dir: "data/eval/ground_truth"
   top_k: 5
 
 enrich_gt:
   ground_truth_dir: "data/eval/ground_truth"
-  ground_truth_prefix: "ground_truth_gpt-5-nano"
-  output_dir: "data/eval/results"
+  ground_truth_prefix: "gt_gpt-5-nano_paraphrased"
+  output_dir: "data/eval/ground_truth"
   top_k: 5

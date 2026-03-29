@@ -25,7 +25,7 @@ DOCS_PER_VIDEO = 2  # sample 2 chunks per video → ~156 docs → ~312 queries
 RANDOM_SEED = 42
 
 timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S")
-OUTPUT_PATH = Path("data/eval/ground_truth") / f"ground_truth_{MODEL_NAME}_{timestamp}.json"
+OUTPUT_PATH = Path("data/eval/ground_truth") / f"gt_{MODEL_NAME}_synthetic_{timestamp}.json"
 OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # -----------------------------

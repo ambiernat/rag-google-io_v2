@@ -1,0 +1,7 @@
+# retrieval/agent/config.yaml
+# Configuration for the agentic retrieval layer.
+
+query_rewriter:
+  model: "gpt-5-nano"
+  num_variants: 3
+  max_tokens: 512

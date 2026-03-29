@@ -26,7 +26,7 @@ GT_PREFIX = config["paraphrase_gt"]["ground_truth_prefix"]
 
 MODEL_NAME = "gpt-5-nano"
 timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
-OUTPUT_PATH = GT_DIR / f"ground_truth_{MODEL_NAME}_{timestamp}.json"
+OUTPUT_PATH = GT_DIR / f"gt_{MODEL_NAME}_paraphrased_{timestamp}.json"
 OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # -----------------------------

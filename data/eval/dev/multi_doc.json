@@ -1,0 +1,3834 @@
+[
+  {
+    "query": "How do accessibility features help me find issues with my app's user interface, and what common tools can I use to see how accessible the UI is?",
+    "relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_011",
+      "80qkStdDWXQ__chunk_010",
+      "fKY6qYxytLI__chunk_009",
+      "80qkStdDWXQ__chunk_001",
+      "80qkStdDWXQ__chunk_002",
+      "80qkStdDWXQ__chunk_000"
+    ],
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "original_query": "How can semantic properties help diagnose accessibility issues in Jetpack Compose, and which tools like Layout Inspector or TalkBack can I use to inspect the accessibility tree?",
+    "original_relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_010"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 18,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why would a UI element be skipped by screen readers or not announce what happens when you tap it, and how can I use the accessibility tree and debugging tools to find missing clickable targets or visibility problems?",
+    "relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_010",
+      "80qkStdDWXQ__chunk_007",
+      "80qkStdDWXQ__chunk_003",
+      "80qkStdDWXQ__chunk_002",
+      "80qkStdDWXQ__chunk_000"
+    ],
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "original_query": "Why might an element in Compose be ignored by an accessibility service or fail to announce an action, and how can I use the semantics tree and debugging tools to identify missing clickable modifiers or visibility issues?",
+    "original_relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_010"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do accessibility features and the UI components in Jetpack Compose work together to tell screen readers what each element means and improve the app's accessibility?",
+    "relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_011",
+      "80qkStdDWXQ__chunk_008",
+      "80qkStdDWXQ__chunk_009",
+      "80qkStdDWXQ__chunk_012",
+      "80qkStdDWXQ__chunk_010",
+      "80qkStdDWXQ__chunk_001",
+      "80qkStdDWXQ__chunk_003",
+      "80qkStdDWXQ__chunk_005",
+      "80qkStdDWXQ__chunk_007",
+      "80qkStdDWXQ__chunk_002",
+      "80qkStdDWXQ__chunk_006",
+      "80qkStdDWXQ__chunk_000"
+    ],
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "original_query": "In Jetpack Compose, how do semantics and material components collaborate to expose meaning to accessibility services and improve UI accessibility?",
+    "original_relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_001"
+    ],
+    "num_relevant": 12,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does hosting a web app on a cloud platform work with other cloud services to build a full-stack app?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_012",
+      "w_W2brDZDko__chunk_014",
+      "XEhd9a9YhSk__chunk_011",
+      "XEhd9a9YhSk__chunk_005",
+      "XEhd9a9YhSk__chunk_000",
+      "eIeJmYdYMQo__chunk_014",
+      "XEhd9a9YhSk__chunk_001",
+      "XEhd9a9YhSk__chunk_015",
+      "XEhd9a9YhSk__chunk_006"
+    ],
+    "video_id": "XEhd9a9YhSk",
+    "title": "Google I/O 2025 \u2013 XEhd9a9YhSk",
+    "original_query": "How does Firebase App Hosting connect with other Google Cloud services to enable full-stack web app development?",
+    "original_relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_000"
+    ],
+    "num_relevant": 9,
+    "num_candidates_judged": 19,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's this serverless backend thing all about, what are its main features and the client libraries it offers, and who are the people presenting in the demo?",
+    "relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_000",
+      "XEhd9a9YhSk__chunk_001"
+    ],
+    "video_id": "XEhd9a9YhSk",
+    "title": "Google I/O 2025 \u2013 XEhd9a9YhSk",
+    "original_query": "What is Firebase as a serverless platform, what core services and client SDKs does it offer, and who are the presenters discussing it in the demo?",
+    "original_relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_000"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 23,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I securely manage my payment gateway keys for my Firebase-based online store, including storing them safely and deciding who can access them?",
+    "relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_008",
+      "XEhd9a9YhSk__chunk_013"
+    ],
+    "video_id": "XEhd9a9YhSk",
+    "title": "Google I/O 2025 \u2013 XEhd9a9YhSk",
+    "original_query": "How can I securely manage Stripe API keys in a Firebase storefront, including storing keys with Cloud Secret Manager and controlling access?",
+    "original_relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_008"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 22,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "In a full-stack web app that uses Firebase, what are the best ways to handle user sign-in and how the server should access data so you avoid Admin SDK security risks while still using the client SDK?",
+    "relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_008",
+      "XEhd9a9YhSk__chunk_009"
+    ],
+    "video_id": "XEhd9a9YhSk",
+    "title": "Google I/O 2025 \u2013 XEhd9a9YhSk",
+    "original_query": "In a full-stack Firebase web app, what are the recommended authentication approaches and server-side data access patterns to avoid Admin SDK security risks while leveraging the client SDK?",
+    "original_relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_008"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 20,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do the Home APIs let different apps talk to Matter devices, and what examples show this in Google Play and the Apple App Store?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_000",
+      "HZvb2t3ZBBg__chunk_001"
+    ],
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "original_query": "How do the Home APIs enable cross-app interoperability with Matter devices, and what examples show this in the Play Store and App Store?",
+    "original_relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_001"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Hey, do you know when Google's Gemini-powered home APIs will be opened to developers, and how I can get in on early access and the related dev challenges for Pixel smart-home features?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004"
+    ],
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "original_query": "When will Google's Gemini-powered Home APIs be opened to developers, and how can I participate in early access and related developer challenges for Pixel smart home features?",
+    "original_relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 6,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the home status widget on Pixel phones that's powered by Gemini Nano, and how can developers sign up to build Home API apps and get the smart home developer newsletter?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004",
+      "mP9QESmEDls__chunk_005",
+      "HZvb2t3ZBBg__chunk_002"
+    ],
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "original_query": "What is the home status widget powered by Gemini Nano on Pixel devices, and how can developers sign up to build Home API apps and receive the smart home developer newsletter?",
+    "original_relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 7,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Can you explain vmap and how it turns a one-input function into a version that can process an entire batch of inputs, and how just-in-time compilation makes it faster?",
+    "relevant_doc_ids": [
+      "juy9nrcTBck__chunk_001"
+    ],
+    "video_id": "juy9nrcTBck",
+    "title": "Google I/O 2025 \u2013 juy9nrcTBck",
+    "original_query": "What is vmap in JAX and how does it turn a single-input function into a batched version, and how does JIT compilation improve performance?",
+    "original_relevant_doc_ids": [
+      "juy9nrcTBck__chunk_001"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Where can I find guides on advanced ways to extend this library, including tips for parallelism, data sharding, and kernel languages, and how can I contribute my own kernel implementations?",
+    "relevant_doc_ids": [
+      "juy9nrcTBck__chunk_006",
+      "juy9nrcTBck__chunk_005",
+      "juy9nrcTBck__chunk_008"
+    ],
+    "video_id": "juy9nrcTBck",
+    "title": "Google I/O 2025 \u2013 juy9nrcTBck",
+    "original_query": "What resources explain JAX's advanced extensibility, including hints for parallelism, shard_map, and kernel languages, and how can I contribute my own kernel implementations?",
+    "original_relevant_doc_ids": [
+      "juy9nrcTBck__chunk_008"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What new features does Android's billing system have for flexible pricing, fraud protection, and regional pricing?",
+    "relevant_doc_ids": [
+      "T41OD37tI54__chunk_000",
+      "T41OD37tI54__chunk_009",
+      "T41OD37tI54__chunk_001"
+    ],
+    "video_id": "T41OD37tI54",
+    "title": "Google I/O 2025 \u2013 T41OD37tI54",
+    "original_query": "What new features are available in Google Play Billing for pricing flexibility, fraud protection, and localized pricing?",
+    "original_relevant_doc_ids": [
+      "T41OD37tI54__chunk_009"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "When's a good time for developers to upgrade to the latest billing library, and how long will the older versions be supported?",
+    "relevant_doc_ids": [
+      "T41OD37tI54__chunk_010",
+      "T41OD37tI54__chunk_009",
+      "POUqfDBtRbg__chunk_005"
+    ],
+    "video_id": "T41OD37tI54",
+    "title": "Google I/O 2025 \u2013 T41OD37tI54",
+    "original_query": "When should developers upgrade to Play Billing Library 8.0 and what is the support timeline for older Billing Library versions?",
+    "original_relevant_doc_ids": [
+      "T41OD37tI54__chunk_009"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What\u2019s this new state-based text field all about, and how do InputTransformation and OutputTransformation replace the old value/callback handling and VisualTransformation?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_009",
+      "07Y9CPuxgvQ__chunk_010",
+      "07Y9CPuxgvQ__chunk_000"
+    ],
+    "video_id": "07Y9CPuxgvQ",
+    "title": "Google I/O 2025 \u2013 07Y9CPuxgvQ",
+    "original_query": "What is the new state-based TextField in Jetpack Compose, and how do InputTransformation and OutputTransformation replace the old value/callback handling and VisualTransformation?",
+    "original_relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_000"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I build a secure sign-up screen with a password field in my app, making sure the password is masked as I type, follows basic rules, and can be saved to a password manager?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_001",
+      "07Y9CPuxgvQ__chunk_002",
+      "07Y9CPuxgvQ__chunk_003",
+      "07Y9CPuxgvQ__chunk_000",
+      "o2wkYzu5u50__chunk_021"
+    ],
+    "video_id": "07Y9CPuxgvQ",
+    "title": "Google I/O 2025 \u2013 07Y9CPuxgvQ",
+    "original_query": "How can I implement a secure registration screen with a password field using Compose Text APIs, including masking input, enforcing password rules, and saving credentials to a password manager?",
+    "original_relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_000"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I set up a text box to format US phone numbers automatically and have the text resize itself to fit?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_010",
+      "89UusPuz8q4__chunk_001",
+      "07Y9CPuxgvQ__chunk_009"
+    ],
+    "video_id": "07Y9CPuxgvQ",
+    "title": "Google I/O 2025 \u2013 07Y9CPuxgvQ",
+    "original_query": "How can I apply an output transformation to a TextField to format American phone numbers and leverage AutoSize for dynamic text sizing?",
+    "original_relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_010"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which UI features were mentioned to improve a mobile app, like autofill, a text field that updates based on input, automatic text sizing, and a way to receive content?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_006",
+      "07Y9CPuxgvQ__chunk_010",
+      "07Y9CPuxgvQ__chunk_004",
+      "07Y9CPuxgvQ__chunk_002",
+      "07Y9CPuxgvQ__chunk_003",
+      "89UusPuz8q4__chunk_001",
+      "07Y9CPuxgvQ__chunk_000",
+      "IaNpcrCSDiI__chunk_001"
+    ],
+    "video_id": "07Y9CPuxgvQ",
+    "title": "Google I/O 2025 \u2013 07Y9CPuxgvQ",
+    "original_query": "What UI APIs were discussed for enhancing a mobile app, including Autofill, a state-based TextField, AutoSize, and contentReceiver?",
+    "original_relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_010"
+    ],
+    "num_relevant": 8,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What new AI features and usability improvements were shown for the latest version, like ghost text highlighting and streaming code snippets?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_002"
+    ],
+    "video_id": "KXKP2tDPW4Y",
+    "title": "Google I/O 2025 \u2013 KXKP2tDPW4Y",
+    "original_query": "What new AI features and usability improvements were shown for Gemini 2.5 Pro, such as ghost text syntax highlighting and streaming code snippets?",
+    "original_relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the upgrade helper in that tool help you keep libraries up to date and handle breaking changes in a TOML file?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_003",
+      "KXKP2tDPW4Y__chunk_002"
+    ],
+    "video_id": "KXKP2tDPW4Y",
+    "title": "Google I/O 2025 \u2013 KXKP2tDPW4Y",
+    "original_query": "How does the Upgrade Assistant in Gemini 2.5 Pro help manage library updates and breaking changes in a TOML file?",
+    "original_relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_002"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 25,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use the recording tool to add more steps to an existing journey and capture the inputs for automated testing?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006"
+    ],
+    "video_id": "KXKP2tDPW4Y",
+    "title": "Google I/O 2025 \u2013 KXKP2tDPW4Y",
+    "original_query": "How can I use the Recorder to append steps to an existing journey and capture inputs for automated testing?",
+    "original_relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 22,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What should I do while recording if the swipe gesture doesn\u2019t reveal the element I\u2019m after (like the refresh option), and how can I add a manual check to verify how long the refresh takes?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006",
+      "KXKP2tDPW4Y__chunk_007"
+    ],
+    "video_id": "KXKP2tDPW4Y",
+    "title": "Google I/O 2025 \u2013 KXKP2tDPW4Y",
+    "original_query": "What should I do during a recording when the swipe doesn't reveal the target element (e.g., Refresh Now) and how can I add a manual verification for the refresh time?",
+    "original_relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 27,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I get a Flutter app talking to Gemini through the Vertex AI SDK while using Firebase, and what do I need to set up for the environment and project configuration?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_003",
+      "xo271p-Fl_4__chunk_006",
+      "xo271p-Fl_4__chunk_002",
+      "xo271p-Fl_4__chunk_000",
+      "U8Nb68XsVY4__chunk_001",
+      "xo271p-Fl_4__chunk_008"
+    ],
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "original_query": "How do I set up a Flutter app to call Gemini through the Vertex AI SDK while using Firebase, including environment setup and project configuration?",
+    "original_relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_003"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I set up a Flutter app to work with cloud services and AI features, including the core setup, the AI packages, and the Flutter helper tool, and connect the app to our cloud project?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_000",
+      "xo271p-Fl_4__chunk_003",
+      "xo271p-Fl_4__chunk_002"
+    ],
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "original_query": "What are the steps to configure Flutter with Firebase and Vertex AI (Firebase core, Vertex AI packages, Flutterfire CLI) and connect the app to a Firebase project?",
+    "original_relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_003"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 17,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I put together an app that can act on its own using AI, a cloud backend, and a cross-platform UI, with the AI agent carrying out actions by calling other tools?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_001",
+      "xo271p-Fl_4__chunk_005",
+      "xo271p-Fl_4__chunk_006",
+      "8rlNdKywldQ__chunk_000",
+      "x2zvki_VlRE__chunk_004",
+      "xo271p-Fl_4__chunk_002",
+      "xo271p-Fl_4__chunk_007",
+      "xr_zgAv0YoI__chunk_008",
+      "xo271p-Fl_4__chunk_000",
+      "xo271p-Fl_4__chunk_010",
+      "7Tnq4y7T4xs__chunk_004",
+      "8rlNdKywldQ__chunk_002",
+      "GjvgtwSOCao__chunk_007",
+      "xo271p-Fl_4__chunk_008"
+    ],
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "original_query": "How can I build an agentic app using Vertex AI, Firebase, and Flutter, with Gemini executing actions through tool calls?",
+    "original_relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_008"
+    ],
+    "num_relevant": 14,
+    "num_candidates_judged": 20,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What is this AI that creates music from a text description, and how does typing in a prompt turn into instrumental music?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_036",
+      "tMUxxCKXz4c__chunk_004",
+      "tMUxxCKXz4c__chunk_005",
+      "4TE-KFXvhAk__chunk_009",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "original_query": "What is the LIA model for music generation from text descriptions, and how does giving it a text prompt produce instrumental music?",
+    "original_relevant_doc_ids": [
+      "tMUxxCKXz4c__chunk_004"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which four generative media tools does Google Cloud offer, and what kind of content does each one generate (images, videos, speech, and music)?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_036",
+      "tMUxxCKXz4c__chunk_006",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "original_query": "What are the four generative media models available in Google Cloud and what types of content does each one generate (image, video, speech, and music)?",
+    "original_relevant_doc_ids": [
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What editing options does this image maker have? Can it remove objects, add objects, extend the image, swap the background, or apply different styles?",
+    "relevant_doc_ids": [
+      "tMUxxCKXz4c__chunk_001",
+      "15oPNK1W0Tw__chunk_019",
+      "tMUxxCKXz4c__chunk_002",
+      "gHHjDRDNUNU__chunk_012",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "original_query": "What image editing and enhancement capabilities does the image generation model offer, such as object removal, object insertion, image extension, background replacement, and stylization?",
+    "original_relevant_doc_ids": [
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can a single Android app automatically resize and run smoothly on different devices like tablets, laptops, AR/VR headsets, and foldable screens?",
+    "relevant_doc_ids": [
+      "15oPNK1W0Tw__chunk_012",
+      "GjvgtwSOCao__chunk_010",
+      "15oPNK1W0Tw__chunk_010",
+      "15oPNK1W0Tw__chunk_013",
+      "15oPNK1W0Tw__chunk_011",
+      "15oPNK1W0Tw__chunk_017",
+      "15oPNK1W0Tw__chunk_021",
+      "15oPNK1W0Tw__chunk_020",
+      "15oPNK1W0Tw__chunk_005",
+      "15oPNK1W0Tw__chunk_002",
+      "15oPNK1W0Tw__chunk_000",
+      "15oPNK1W0Tw__chunk_003",
+      "15oPNK1W0Tw__chunk_019",
+      "15oPNK1W0Tw__chunk_006",
+      "15oPNK1W0Tw__chunk_016"
+    ],
+    "video_id": "15oPNK1W0Tw",
+    "title": "Google I/O 2025 \u2013 15oPNK1W0Tw",
+    "original_query": "How does the Compose adaptive library enable a single Android app to run across multiple devices (tablets, Chromebooks, XR, foldables) with automatic resizing?",
+    "original_relevant_doc_ids": [
+      "15oPNK1W0Tw__chunk_006"
+    ],
+    "num_relevant": 15,
+    "num_candidates_judged": 23,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I keep track of tests that try to fool the AI on the system, hook the agent up to my language model, review the prompts that were generated, and download the final report to share with others?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_010",
+      "jrr8gRI1GaY__chunk_008",
+      "jrr8gRI1GaY__chunk_007"
+    ],
+    "video_id": "jrr8gRI1GaY",
+    "title": "Google I/O 2025 \u2013 jrr8gRI1GaY",
+    "original_query": "How do I monitor adversarial testing results on the conbon board, connect the agent to my LLM, review generated prompts, and download the final report for sharing?",
+    "original_relevant_doc_ids": [
+      "jrr8gRI1GaY__chunk_008"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I get started with writing tests for TCP keep-alive in Go\u2019s networking library, and what parts should I focus on, like the dialer setup and the testing framework?",
+    "relevant_doc_ids": [
+      "jrr8gRI1GaY__chunk_006"
+    ],
+    "video_id": "jrr8gRI1GaY",
+    "title": "Google I/O 2025 \u2013 jrr8gRI1GaY",
+    "original_query": "How can I start adding tests for the TCP keep-alive feature in Go's net package, and which parts like the dialer struct and testing package should I focus on?",
+    "original_relevant_doc_ids": [
+      "jrr8gRI1GaY__chunk_006"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What features would a model explorer provide for visualizing and comparing machine learning models, including tree-style views and side-by-side comparisons of different versions or configurations?",
+    "relevant_doc_ids": [
+      "xLmJJk1gbuE__chunk_003"
+    ],
+    "video_id": "xLmJJk1gbuE",
+    "title": "Google I/O 2025 \u2013 xLmJJk1gbuE",
+    "original_query": "What features does Model Explorer provide for visualizing and comparing machine learning models, including hierarchical views and side-by-side comparisons of different variants or configurations?",
+    "original_relevant_doc_ids": [
+      "xLmJJk1gbuE__chunk_003"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What options exist for running AI models directly on the device using an on-board AI chip, and what kind of performance and battery-life benefits do you typically see on mobile hardware?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "w_W2brDZDko__chunk_009",
+      "xLmJJk1gbuE__chunk_002",
+      "xLmJJk1gbuE__chunk_006",
+      "xLmJJk1gbuE__chunk_000",
+      "xLmJJk1gbuE__chunk_007"
+    ],
+    "video_id": "xLmJJk1gbuE",
+    "title": "Google I/O 2025 \u2013 xLmJJk1gbuE",
+    "original_query": "What options does LiteRT provide for running AI models on-device with NPUs, and what performance and power benefits are observed on mobile hardware?",
+    "original_relevant_doc_ids": [
+      "xLmJJk1gbuE__chunk_007"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 18,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What updates did Google share for Gemini 2.5 Pro and the Flash version at I/O, and how do they show Gemini working across different platforms?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_031",
+      "GjvgtwSOCao__chunk_001",
+      "GjvgtwSOCao__chunk_000",
+      "ud09zuXHst4__chunk_001",
+      "gHHjDRDNUNU__chunk_001",
+      "o8NiE3XMPrM__chunk_010",
+      "o8NiE3XMPrM__chunk_008"
+    ],
+    "video_id": "GjvgtwSOCao",
+    "title": "Google I/O 2025 \u2013 GjvgtwSOCao",
+    "original_query": "What updates were announced for Gemini 2.5 Pro and the Flash model at Google I/O, and how do they demonstrate building with Gemini across platforms?",
+    "original_relevant_doc_ids": [
+      "GjvgtwSOCao__chunk_000"
+    ],
+    "num_relevant": 7,
+    "num_candidates_judged": 38,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "In my spreadsheet app, where do I find and edit the little script that runs behind the scenes, and what basic tools can I use to process data and notify people?",
+    "relevant_doc_ids": [
+      "wz3kQQubPkc__chunk_003"
+    ],
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "original_query": "Where in Google Sheets do I view and edit Apps Script code, and what basic services (like spreadsheet, calendar, and Gmail) can I use to process data and notify people?",
+    "original_relevant_doc_ids": [
+      "wz3kQQubPkc__chunk_003"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does automatic context caching help reduce the number of tokens an AI model has to process when dealing with long conversations, and how is that different from manually caching the context?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_010"
+    ],
+    "video_id": "gHHjDRDNUNU",
+    "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+    "original_query": "How does implicit context caching reduce token costs in long-context AI models, and how is it different from explicit context caching?",
+    "original_relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_010"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 30,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What kinds of text outputs can this tool generate (like tidy data in JSON or small code snippets), and how does it figure out how information in documents and spreadsheets relate to each other?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_009",
+      "gHHjDRDNUNU__chunk_011",
+      "gHHjDRDNUNU__chunk_010",
+      "gHHjDRDNUNU__chunk_008"
+    ],
+    "video_id": "gHHjDRDNUNU",
+    "title": "Google I/O 2025 \u2013 gHHjDRDNUNU",
+    "original_query": "What types of text outputs can Gemini generate (such as structured JSON or code), and how does it reason about connections between information in documents and spreadsheets?",
+    "original_relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_010"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 28,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are skybox and geometry in Android XR, and how do they help make the virtual world feel more immersive?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_002"
+    ],
+    "video_id": "KbTJNK1ALYc",
+    "title": "Google I/O 2025 \u2013 KbTJNK1ALYc",
+    "original_query": "What are Skybox and Geometry in Android XR, and how do they contribute to creating an immersive virtual environment?",
+    "original_relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use 180-degree or 360-degree videos in an Android phone AR/VR experience to feel more immersive, and how do I bring users back to the real world when they want to exit?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_004",
+      "KbTJNK1ALYc__chunk_003",
+      "KbTJNK1ALYc__chunk_002"
+    ],
+    "video_id": "KbTJNK1ALYc",
+    "title": "Google I/O 2025 \u2013 KbTJNK1ALYc",
+    "original_query": "How can I use 180-degree or 360-degree video in Android XR to enhance immersion, and how do I return users to the real world when needed?",
+    "original_relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_002"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I play a 360-degree immersive video that wraps around a person in a scene, using a surface-like object and stereo (3D) video?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_004",
+      "KbTJNK1ALYc__chunk_003"
+    ],
+    "video_id": "KbTJNK1ALYc",
+    "title": "Google I/O 2025 \u2013 KbTJNK1ALYc",
+    "original_query": "How can I display a 360-degree immersive video around a user using SceneCore's SurfaceEntity and stereoscopic content?",
+    "original_relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_003"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the latest screen reader updates for describing images with Gemini-powered AI, including offline support on Pixel devices and the option to ask follow-up questions about the image?",
+    "relevant_doc_ids": [
+      "fKY6qYxytLI__chunk_007",
+      "fKY6qYxytLI__chunk_001"
+    ],
+    "video_id": "fKY6qYxytLI",
+    "title": "Google I/O 2025 \u2013 fKY6qYxytLI",
+    "original_query": "What are the latest TalkBack enhancements for image description using Gemini AI, including offline support on Pixel 9 Pro devices and the ability to ask follow-up questions about the image?",
+    "original_relevant_doc_ids": [
+      "fKY6qYxytLI__chunk_001"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 17,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I test my site's sign-in, sign-out, and checkout steps when cookies from other sites are blocked?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_000",
+      "10oHjdwUIxo__chunk_001",
+      "10oHjdwUIxo__chunk_006"
+    ],
+    "video_id": "10oHjdwUIxo",
+    "title": "Google I/O 2025 \u2013 10oHjdwUIxo",
+    "original_query": "How can I test my website's sign-in, sign-out, and checkout flows when third-party cookies are disabled?",
+    "original_relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_001"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What browser settings should I tweak and what tests should I run to make sure I can sign in and complete payments if third\u2011party cookies are blocked?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_002",
+      "10oHjdwUIxo__chunk_001"
+    ],
+    "video_id": "10oHjdwUIxo",
+    "title": "Google I/O 2025 \u2013 10oHjdwUIxo",
+    "original_query": "What Chrome settings and testing checklist should I use to verify identity and payments with third-party cookies blocked?",
+    "original_relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_001"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "I\u2019ve got a few related sites and want to show how they\u2019re connected. Where do I post the list of related sites, and how do I create it?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_006"
+    ],
+    "video_id": "10oHjdwUIxo",
+    "title": "Google I/O 2025 \u2013 10oHjdwUIxo",
+    "original_query": "I manage several related websites and want to declare their relationships; where do I publish the Related Websites Sets and how do I create them?",
+    "original_relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_006"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 17,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "With third-party cookies blocked, what are the different ways embedded widgets can access user data on other sites, and how do these options compare to one another?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_005",
+      "10oHjdwUIxo__chunk_007",
+      "10oHjdwUIxo__chunk_004",
+      "10oHjdwUIxo__chunk_006",
+      "10oHjdwUIxo__chunk_003",
+      "10oHjdwUIxo__chunk_000"
+    ],
+    "video_id": "10oHjdwUIxo",
+    "title": "Google I/O 2025 \u2013 10oHjdwUIxo",
+    "original_query": "What options exist for embedded widgets to access user data across domains when third-party cookies are blocked, including the Storage Access API and FedCM, and how do they compare?",
+    "original_relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_006"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "When and where did Google run its first self-driving car tests, and how did they lay out the course for that Prius race?",
+    "relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_001"
+    ],
+    "video_id": "jnUUo7xso_0",
+    "title": "Google I/O 2025 \u2013 jnUUo7xso_0",
+    "original_query": "Where and when did Google's first autonomous car testing take place, and how did they set up the course for the Prius race?",
+    "original_relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_001"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 20,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What challenges did Larry Page and Sergey Brin set for the early self-driving car team, and what goals were they aiming for?",
+    "relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_001",
+      "jnUUo7xso_0__chunk_002"
+    ],
+    "video_id": "jnUUo7xso_0",
+    "title": "Google I/O 2025 \u2013 jnUUo7xso_0",
+    "original_query": "What challenges did Larry Page and Sergey Brin give the early self-driving car team, and what were their goals?",
+    "original_relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_001"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 18,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does Waymo explain combining data from laser scanners, cameras, and radar to achieve dependable perception and built-in redundancy?",
+    "relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_007",
+      "jnUUo7xso_0__chunk_005"
+    ],
+    "video_id": "jnUUo7xso_0",
+    "title": "Google I/O 2025 \u2013 jnUUo7xso_0",
+    "original_query": "Explain how Waymo describes sensor fusion among LiDAR, imaging radar, and cameras to achieve robust perception and redundancy.",
+    "original_relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_005"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the performance benefits of using CSS-based carousels instead of JavaScript ones, and how do CSS-first approaches in page builders help reduce page size?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_017",
+      "VTCIStB6y8s__chunk_019"
+    ],
+    "video_id": "VTCIStB6y8s",
+    "title": "Google I/O 2025 \u2013 VTCIStB6y8s",
+    "original_query": "What are the performance benefits of using native CSS carousels over JavaScript, and how has Elementor adopted a CSS-first approach to reduce page size?",
+    "original_relevant_doc_ids": [
+      "VTCIStB6y8s__chunk_019"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 30,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the different ways I can deploy the open-source ADK Python library on Google Cloud?",
+    "relevant_doc_ids": [
+      "8rlNdKywldQ__chunk_008",
+      "w_W2brDZDko__chunk_008"
+    ],
+    "video_id": "w_W2brDZDko",
+    "title": "Google I/O 2025 \u2013 w_W2brDZDko",
+    "original_query": "What deployment options are available for the ADK open-source Python library on Google Cloud (e.g., Cloud Run, GKE, Vertex Agent Engine)?",
+    "original_relevant_doc_ids": [
+      "w_W2brDZDko__chunk_008"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 27,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's this Agent Space feature from a cloud service, and how does it help you set up and push out agents to employees, especially if you need them to work with external file storage apps?",
+    "relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_004",
+      "3Wo-iucic7I__chunk_007",
+      "w_W2brDZDko__chunk_008"
+    ],
+    "video_id": "w_W2brDZDko",
+    "title": "Google I/O 2025 \u2013 w_W2brDZDko",
+    "original_query": "What is Google Cloud's Agent Space and how does it help deploy and deliver agents to employees with third-party integrations like Box or Dropbox?",
+    "original_relevant_doc_ids": [
+      "w_W2brDZDko__chunk_008"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 31,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What can Vertex AI do on Google Cloud for training, fine-tuning, and deploying models, and does it include things like an optimizer, using outside information to boost results, and support for long-context inputs?",
+    "relevant_doc_ids": [
+      "w_W2brDZDko__chunk_001"
+    ],
+    "video_id": "w_W2brDZDko",
+    "title": "Google I/O 2025 \u2013 w_W2brDZDko",
+    "original_query": "What capabilities does Vertex AI offer for training, fine-tuning, and deploying models on Google Cloud, including features like the optimizer, retrieval-augmented generation, and long-context learning with Gemini?",
+    "original_relevant_doc_ids": [
+      "w_W2brDZDko__chunk_001"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 30,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What exactly is a global endpoint, and how does it choose the best, most available and fastest deployment without locking you into a single region?",
+    "relevant_doc_ids": [
+      "w_W2brDZDko__chunk_002",
+      "w_W2brDZDko__chunk_001"
+    ],
+    "video_id": "w_W2brDZDko",
+    "title": "Google I/O 2025 \u2013 w_W2brDZDko",
+    "original_query": "What is the Vertex AI global endpoint and how does it select the most available and performant deployment without tying you to a specific region?",
+    "original_relevant_doc_ids": [
+      "w_W2brDZDko__chunk_001"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 29,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I adjust or mute notifications for a particular pass and for passes nearby in my wallet app?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_007"
+    ],
+    "video_id": "21tfI9O9RrA",
+    "title": "Google I/O 2025 \u2013 21tfI9O9RrA",
+    "original_query": "How can I customize or turn off notifications for a particular pass and for nearby passes in Google Wallet?",
+    "original_relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_007"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I swap a saved pass for a linked merchant pass during loyalty program sign-up?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_007"
+    ],
+    "video_id": "21tfI9O9RrA",
+    "title": "Google I/O 2025 \u2013 21tfI9O9RrA",
+    "original_query": "How do I upgrade a saved pass to a linked merchant pass using the Wallet API Loyalty Program Enrollment?",
+    "original_relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_007"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do real-time transit pass updates and season passes work with my Wallet, using secure digital payments?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_008"
+    ],
+    "video_id": "21tfI9O9RrA",
+    "title": "Google I/O 2025 \u2013 21tfI9O9RrA",
+    "original_query": "How do Google Transit Insights and tokenized payments enable real-time transit pass status and season pass integration within Google Wallet?",
+    "original_relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_008"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Can you share some notable examples of cross-disciplinary collaborations between AI researchers and scientists from other fields, including brain-connectivity mapping projects and AI tools used for geometry and proving theorems?",
+    "relevant_doc_ids": [
+      "NYtQuneZMXc__chunk_012"
+    ],
+    "video_id": "NYtQuneZMXc",
+    "title": "Google I/O 2025 \u2013 NYtQuneZMXc",
+    "original_query": "What are notable examples of cross-disciplinary collaboration between AI researchers and scientists, including connectomics research with the Lichtman Lab and AI systems like AlphaGeometry and AlphaProof?",
+    "original_relevant_doc_ids": [
+      "NYtQuneZMXc__chunk_012"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 27,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are quantum bits, and how does being in multiple states at once help quantum computers outperform ordinary bits?",
+    "relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_001"
+    ],
+    "video_id": "5HaXfjHtCWo",
+    "title": "Google I/O 2025 \u2013 5HaXfjHtCWo",
+    "original_query": "What are qubits and how does superposition enable quantum computers to outperform classical bits?",
+    "original_relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_001"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the Y2K analogy help explain how quantum computers could threaten encryption, and what\u2019s NIST\u2019s role in building quantum-safe cryptography?",
+    "relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_008",
+      "5HaXfjHtCWo__chunk_009"
+    ],
+    "video_id": "5HaXfjHtCWo",
+    "title": "Google I/O 2025 \u2013 5HaXfjHtCWo",
+    "original_query": "How is the Y2K analogy used to explain quantum threats to encryption, and what is NIST\u2019s role in developing post-quantum cryptography?",
+    "original_relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_008"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I make the first element get focus automatically on a TV app screen using a Compose-style UI, with a focusRequester, a focus modifier, and LaunchedEffect?",
+    "relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_004"
+    ],
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "original_query": "How do I set the initial focus in a Jetpack Compose for TV screen, including using a focusRequester, a focus modifier, and LaunchedEffect?",
+    "original_relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What do I need to do to enable Continue Watching personalization across my devices, using my account profile and syncing my viewing data between them?",
+    "relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_010",
+      "OosLbRBM9dA__chunk_001"
+    ],
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "original_query": "What steps are needed to enable cross-device Continue Watching personalization with the Video Discovery API, including using account profiles and syncing data across devices?",
+    "original_relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_010"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 17,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which Gemini models are meant to run GenAI offline on Android devices, and how does Firebase make it easier to add them to an app without setting up a backend?",
+    "relevant_doc_ids": [
+      "7Tnq4y7T4xs__chunk_005",
+      "U8Nb68XsVY4__chunk_001",
+      "7Tnq4y7T4xs__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "U8Nb68XsVY4__chunk_002"
+    ],
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "original_query": "Which Gemini models are optimized for on-device offline GenAI in Android apps, and how does Firebase simplify integrating them without managing a backend?",
+    "original_relevant_doc_ids": [
+      "7Tnq4y7T4xs__chunk_004"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which platforms or tools can I use to test Gemini's multimodal features, and how should I decide between Nano, Pro, or other Gemini options for my use case?",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_007"
+    ],
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "original_query": "What platforms like Google AI Studio or Vertex AI Studio can I use to test Gemini's multimodal capabilities, and how should I decide between Nano, Pro, and other Gemini options for my use case?",
+    "original_relevant_doc_ids": [
+      "7Tnq4y7T4xs__chunk_004"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does this on-device AI tech for mobile apps actually work, and what are the privacy, offline use, and cost-saving benefits?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "mP9QESmEDls__chunk_000",
+      "4TE-KFXvhAk__chunk_016",
+      "GjvgtwSOCao__chunk_021",
+      "7Tnq4y7T4xs__chunk_002",
+      "xLmJJk1gbuE__chunk_000"
+    ],
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "original_query": "How does Google's Gemini Nano enable on-device AI for mobile apps, and what benefits does it offer in terms of privacy, offline capability, and cost efficiency?",
+    "original_relevant_doc_ids": [
+      "7Tnq4y7T4xs__chunk_002"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What GenAI features does Google's ML Kit offer, and what kinds of tasks can they handle, like summarizing text, proofreading, rewriting, and describing images?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_004",
+      "7Tnq4y7T4xs__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_002",
+      "mP9QESmEDls__chunk_007"
+    ],
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "original_query": "What are the GenAI APIs available in Google's ML Kit, and what tasks do they support, such as text summarization, proofreading, rewriting, and image description?",
+    "original_relevant_doc_ids": [
+      "7Tnq4y7T4xs__chunk_002"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Can you walk me through the full process of creating Dart bindings from Java or Kotlin, using the JNI generator, and tell me where the dependencies come from and where the generated files end up?",
+    "relevant_doc_ids": [
+      "flwULzNYRac__chunk_002",
+      "flwULzNYRac__chunk_003"
+    ],
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "original_query": "What is the end-to-end process for producing Dart bindings from Java/Kotlin using JNI gen, including dependency sources and output locations?",
+    "original_relevant_doc_ids": [
+      "flwULzNYRac__chunk_003"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the hardware you choose and its efficiency affect the carbon footprint of training a large AI model, and why might newer hardware be preferable even if it uses more power per second?",
+    "relevant_doc_ids": [
+      "5MPxzw15ojE__chunk_003",
+      "5MPxzw15ojE__chunk_001",
+      "5MPxzw15ojE__chunk_002",
+      "5MPxzw15ojE__chunk_005"
+    ],
+    "video_id": "5MPxzw15ojE",
+    "title": "Google I/O 2025 \u2013 5MPxzw15ojE",
+    "original_query": "How do hardware choices and efficiency considerations influence the carbon emissions of training a big model, and why might newer GPUs/TPUs be preferable despite higher energy use per second?",
+    "original_relevant_doc_ids": [
+      "5MPxzw15ojE__chunk_002"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 19,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do the size of an AI model, the hardware you pick (older GPUs vs newer ones), and using a nearby data center affect the carbon emissions from training? For example, what would training a 405-billion-parameter model require in terms of compute, and how would that impact emissions?",
+    "relevant_doc_ids": [
+      "5MPxzw15ojE__chunk_003",
+      "5MPxzw15ojE__chunk_001",
+      "5MPxzw15ojE__chunk_002",
+      "5MPxzw15ojE__chunk_005"
+    ],
+    "video_id": "5MPxzw15ojE",
+    "title": "Google I/O 2025 \u2013 5MPxzw15ojE",
+    "original_query": "How do model size, hardware selection (older GPUs vs newer), and choosing a local data center affect AI emissions, with an example involving a 405\u2011billion\u2011parameter model's training FLOPs?",
+    "original_relevant_doc_ids": [
+      "5MPxzw15ojE__chunk_001"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 18,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I set up an AI-powered backend that pulls matching recipes from my database, creates a new recipe with an accompanying image, and orders any missing ingredients through an API?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_006",
+      "rxKYK3DIzN0__chunk_005",
+      "rxKYK3DIzN0__chunk_000",
+      "rxKYK3DIzN0__chunk_001",
+      "rxKYK3DIzN0__chunk_008",
+      "rxKYK3DIzN0__chunk_004"
+    ],
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "original_query": "How can Genkit be used to implement a backend AI workflow that fetches matching recipes from a database, generates a new recipe with a corresponding image, and orders missing ingredients via an API?",
+    "original_relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_004"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why run the AI workflow on the backend, and how does this setup help with observability, a single interface for the model, and easy integration with popular monitoring tools to keep track of things?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_004"
+    ],
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "original_query": "What are the benefits of running the AI flow on the backend, and how does Genkit support observability, a unified model interface, and integration with Firebase/OpenTelemetry for monitoring?",
+    "original_relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What should developers do to keep API keys from getting exposed in a mobile app, and how can Firebase help reduce that risk?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_007",
+      "rxKYK3DIzN0__chunk_002",
+      "rxKYK3DIzN0__chunk_001",
+      "U8Nb68XsVY4__chunk_002",
+      "XEhd9a9YhSk__chunk_008"
+    ],
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "original_query": "What precautions should developers take to prevent exposing Gemini API keys in a mobile app, and how does Firebase help mitigate this risk?",
+    "original_relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_001"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I mock up an AI prompt to generate a vegan Turkish recipe, get the results as JSON, and hook it into an iOS app so it stores data in the cloud?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_000",
+      "rxKYK3DIzN0__chunk_006",
+      "rxKYK3DIzN0__chunk_008",
+      "rxKYK3DIzN0__chunk_001"
+    ],
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "original_query": "How can I prototype an AI Studio prompt to generate a vegan Turkish recipe, obtain a JSON-structured output, and wire it into a Swift iOS app using Firebase for data storage?",
+    "original_relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_001"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Hey, where can I find info on upgrading to PGS V2 and the new features planned for 2025 at the game development center?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_016",
+      "v-6b_wWF96U__chunk_005",
+      "v-6b_wWF96U__chunk_006",
+      "v-6b_wWF96U__chunk_000"
+    ],
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "original_query": "Where can I find information on migrating to PGS V2 and the new features planned for 2025 at Gamedev Center?",
+    "original_relevant_doc_ids": [
+      "v-6b_wWF96U__chunk_006"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do PGS and the Gamer Profile help developers, players, and the Play platform talk to each other, and what benefits do they offer?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_015",
+      "v-6b_wWF96U__chunk_001",
+      "v-6b_wWF96U__chunk_000",
+      "v-6b_wWF96U__chunk_004"
+    ],
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "original_query": "How do PGS and the Gamer Profile facilitate communication between developers, players, and the Play platform, and what benefits do they provide?",
+    "original_relevant_doc_ids": [
+      "v-6b_wWF96U__chunk_001"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 7,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does this cross-platform development setup split its platform support into levels, and what does each level guarantee for Android, iOS, the JVM, Mac, and Linux?",
+    "relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_001"
+    ],
+    "video_id": "gP5Y-ct6QXI",
+    "title": "Google I/O 2025 \u2013 gP5Y-ct6QXI",
+    "original_query": "How does Jetpack classify Kotlin Multiplatform platform support into tiers, and what guarantees does each tier provide for Android, iOS, JVM, Mac, and Linux?",
+    "original_relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_001"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the current stability status of Jetpack's Kotlin Multiplatform libraries\u2014stable, commonized across platforms, or still in alpha? For example: the database, storage, paging, saved state, and ViewModel components.",
+    "relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_008",
+      "gP5Y-ct6QXI__chunk_002",
+      "gP5Y-ct6QXI__chunk_001"
+    ],
+    "video_id": "gP5Y-ct6QXI",
+    "title": "Google I/O 2025 \u2013 gP5Y-ct6QXI",
+    "original_query": "What is the current status of Jetpack libraries for Kotlin Multiplatform (e.g., Room, DataStore, Paging, Saved State, ViewModel) in terms of stability types (stable, commonized, alpha)?",
+    "original_relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_001"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I publish my Kotlin Multiplatform library for iOS as an XCFramework and get it to work in Xcode using Gradle?",
+    "relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_007",
+      "gP5Y-ct6QXI__chunk_006"
+    ],
+    "video_id": "gP5Y-ct6QXI",
+    "title": "Google I/O 2025 \u2013 gP5Y-ct6QXI",
+    "original_query": "How can I publish a Kotlin Multiplatform library for iOS as an XCFramework and integrate it into Xcode using Gradle?",
+    "original_relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_006"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the best way to package a Kotlin Multiplatform library for iOS apps, using either the iOS package system or a pods-style setup, and which Gradle settings let you build universal iOS frameworks?",
+    "relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_007",
+      "gP5Y-ct6QXI__chunk_008",
+      "gP5Y-ct6QXI__chunk_006"
+    ],
+    "video_id": "gP5Y-ct6QXI",
+    "title": "Google I/O 2025 \u2013 gP5Y-ct6QXI",
+    "original_query": "What are the recommended approaches to distribute a KMP library to iOS projects (Swift Package Manager or CocoaPods) and what Gradle configurations enable XCFrameworks?",
+    "original_relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_006"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I check if a user\u2019s default browser supports Android Custom Tabs using the getPackageName helper, and what should I do if no package is found?",
+    "relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "original_query": "How can I check if the user's default browser supports Android Custom Tabs using the getPackageName helper method, and what should I do if no package is found?",
+    "original_relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How useful is using an in\u2011app browser on Android, what are its pros and cons, and could a link in a YouTube video description open in that browser so you stay inside the app?",
+    "relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_001",
+      "2IAoYnzCTvw__chunk_003",
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "original_query": "What are the benefits and limitations of using Custom Tabs in Android, and how might a YouTube video description link open in a Custom Tab to stay within the app?",
+    "original_relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the usual ways apps can show web pages inside Android, and why might someone choose Custom Tabs over WebView?",
+    "relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_006",
+      "2IAoYnzCTvw__chunk_005",
+      "2IAoYnzCTvw__chunk_004",
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_001",
+      "2IAoYnzCTvw__chunk_003"
+    ],
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "original_query": "What are the recommended options for in-app web browsing on Android, and why might Custom Tabs be preferred over WebView?",
+    "original_relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_003"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What exactly is Google's developer program, and what membership levels does it offer (standard, premium, enterprise)?",
+    "relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_001",
+      "BqQiJ5LSASI__chunk_007",
+      "BqQiJ5LSASI__chunk_005",
+      "BqQiJ5LSASI__chunk_006"
+    ],
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "original_query": "What is the Google Developer Program and what membership levels does it offer (standard, premium, enterprise)?",
+    "original_relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_001"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 7,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Hey, what AI tools and learning resources does Google's developer program offer to help developers build smarter apps?",
+    "relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_003",
+      "4TE-KFXvhAk__chunk_019",
+      "BqQiJ5LSASI__chunk_006",
+      "BqQiJ5LSASI__chunk_004",
+      "BqQiJ5LSASI__chunk_002",
+      "BqQiJ5LSASI__chunk_001",
+      "GjvgtwSOCao__chunk_007"
+    ],
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "original_query": "What AI tools and learning resources does Google's Developer Program provide to help developers build intelligent applications?",
+    "original_relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_001"
+    ],
+    "num_relevant": 7,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can a big collection of web text be used as a rough stand\u2011in for the training data of a GPT\u20112 style model, and what practical storage needs and file details should I know when I run the notebook\u2014like how big the dataset is, which files are for training and validation, and where I should point the data?",
+    "relevant_doc_ids": [
+      "MmxPBgrrn4Q__chunk_005"
+    ],
+    "video_id": "MmxPBgrrn4Q",
+    "title": "Google I/O 2025 \u2013 MmxPBgrrn4Q",
+    "original_query": "How is OpenWebText used as an approximation for GPT-2 training data, and what are the practical storage requirements and file details you need to know when running the notebook (e.g., dataset size, train.bin/val.bin, and where to point the data)?",
+    "original_relevant_doc_ids": [
+      "MmxPBgrrn4Q__chunk_005"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use an API with a browser-based tool to grab live internet data and do some basic web tasks?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_003",
+      "gstgT0WRoiE__chunk_005",
+      "xr_zgAv0YoI__chunk_007",
+      "gstgT0WRoiE__chunk_004",
+      "gstgT0WRoiE__chunk_001",
+      "gstgT0WRoiE__chunk_006",
+      "o2wkYzu5u50__chunk_007"
+    ],
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "original_query": "How can I use the Gemini API with a browser-based tool to fetch live internet data and perform simple web actions?",
+    "original_relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_003"
+    ],
+    "num_relevant": 7,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why bother turning HTML pages into a plain text format for an AI language model, and which cues that signal the page\u2019s structure stay intact to preserve the layout while using fewer tokens?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_004"
+    ],
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "original_query": "Why convert HTML pages to markdown for an LLM, and which semantic cues are preserved to maintain page structure while reducing token usage?",
+    "original_relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does a live web retrieval system fetch pages on the fly and work with a chat interface to answer questions from a simulated internal site without reindexing, relying on current information?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_005",
+      "gstgT0WRoiE__chunk_003",
+      "gstgT0WRoiE__chunk_004",
+      "nZhkjSFB6UA__chunk_005"
+    ],
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "original_query": "How does a live web retrieval setup use a load_page function and a chat API to answer questions from a synthetic intranet without reindexing, relying on up-to-date content?",
+    "original_relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_004"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the chat demo show setting up a cloud-hosted MySQL database, generating a script to provision the infrastructure, and figuring out the right permissions to access storage?",
+    "relevant_doc_ids": [
+      "6eTiMIhtnBA__chunk_002"
+    ],
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "original_query": "How does the Gemini Cloud Assist chat demo demonstrate creating a Google Cloud SQL MySQL instance, generating a Terraform script, and identifying the correct IAM role for accessing Cloud Storage objects?",
+    "original_relevant_doc_ids": [
+      "6eTiMIhtnBA__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does this tool work with my development setup to push an AI-suggested fix right into my workspace, and how are the changes checked, linked to my original code, and saved back into the project?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_004",
+      "jrr8gRI1GaY__chunk_002"
+    ],
+    "video_id": "EVcahPj2jHM",
+    "title": "Google I/O 2025 \u2013 EVcahPj2jHM",
+    "original_query": "How does Gemini integrate with DevTools to apply an AI-suggested fix directly to my workspace, and how are the changes verified, matched to my source, and saved back to the code base?",
+    "original_relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_004"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Are there any experimental workspace features in the developer tools that can automatically locate and connect to my project's source folder, and does this work with popular web frameworks? Also, how do I turn it on or use a plugin or a JSON endpoint to get it working?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_004"
+    ],
+    "video_id": "EVcahPj2jHM",
+    "title": "Google I/O 2025 \u2013 EVcahPj2jHM",
+    "original_query": "What experimental workspace features let DevTools auto-detect and connect to my project source directory (including support for Next.js and Angular 20), and how do I enable or use a plugin or JSON endpoint to make this work?",
+    "original_relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I get AI help when I'm checking a specific web request in my browser's developer tools?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_003",
+      "EVcahPj2jHM__chunk_005",
+      "EVcahPj2jHM__chunk_004",
+      "o2wkYzu5u50__chunk_012",
+      "EVcahPj2jHM__chunk_006"
+    ],
+    "video_id": "EVcahPj2jHM",
+    "title": "Google I/O 2025 \u2013 EVcahPj2jHM",
+    "original_query": "How can I use AI assistance in the DevTools Network panel to learn more about a specific HTTP request?",
+    "original_relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_005"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I drop in a tutorial video in an Android app's UI, use a media library to hook it up to a media player object, and make my own Play/Pause button that's driven by a PlayPauseButtonState?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_007",
+      "IaNpcrCSDiI__chunk_007",
+      "3zXVPU2vKXs__chunk_000"
+    ],
+    "video_id": "IaNpcrCSDiI",
+    "title": "Google I/O 2025 \u2013 IaNpcrCSDiI",
+    "original_query": "How can I implement a tutorial video in a Jetpack Compose app using Media3, wire it to a Player instance, and add a custom Play/Pause button controlled by a PlayPauseButtonState?",
+    "original_relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_007"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 29,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are Media3 artifacts used for when building camera or media features, and how does cross-platform code sharing help you reuse the same core logic across different platforms?",
+    "relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_007"
+    ],
+    "video_id": "IaNpcrCSDiI",
+    "title": "Google I/O 2025 \u2013 IaNpcrCSDiI",
+    "original_query": "What is the purpose of Media3 artifacts in building camera or media experiences, and how does Kotlin Multiplatform enable sharing business logic across platforms?",
+    "original_relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_007"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 28,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What stability improvements were made to the experimental APIs in the latest stable release, and how many were cleaned up?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_003",
+      "89UusPuz8q4__chunk_005",
+      "IaNpcrCSDiI__chunk_005",
+      "IaNpcrCSDiI__chunk_004"
+    ],
+    "video_id": "IaNpcrCSDiI",
+    "title": "Google I/O 2025 \u2013 IaNpcrCSDiI",
+    "original_query": "What stability improvements were made to experimental APIs in the latest stable Jetpack Compose release, and how many were cleaned up?",
+    "original_relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_005"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 28,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's Navigation 3 alpha all about, and how does it help with navigating in a Compose-based workflow?",
+    "relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_005",
+      "IaNpcrCSDiI__chunk_006"
+    ],
+    "video_id": "IaNpcrCSDiI",
+    "title": "Google I/O 2025 \u2013 IaNpcrCSDiI",
+    "original_query": "What is Navigation 3 alpha and how does it address navigation in a Compose-based workflow?",
+    "original_relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_005"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 28,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do Indian multilingual chatbots figure out what language a user is using and translate it, so they can chat with the systems that run the service in the user's native language?",
+    "relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_007",
+      "CjpZCWYrSxM__chunk_004",
+      "gHHjDRDNUNU__chunk_005"
+    ],
+    "video_id": "CjpZCWYrSxM",
+    "title": "Google I/O 2025 \u2013 CjpZCWYrSxM",
+    "original_query": "How do Indian multilingual chatbots use language detection and translation workflows to interface with backend models in users' native languages?",
+    "original_relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_007"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 20,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are some real-world examples of tools that help you write or rewrite text through an API, and do you have any details on early access programs and large-scale AI hackathons?",
+    "relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_007",
+      "o2wkYzu5u50__chunk_010",
+      "CjpZCWYrSxM__chunk_003",
+      "mP9QESmEDls__chunk_004",
+      "CjpZCWYrSxM__chunk_006",
+      "CjpZCWYrSxM__chunk_005",
+      "o2wkYzu5u50__chunk_008"
+    ],
+    "video_id": "CjpZCWYrSxM",
+    "title": "Google I/O 2025 \u2013 CjpZCWYrSxM",
+    "original_query": "What are some real-world examples of API-driven writing and rewriting tools, plus information on early access programs and large-scale AI hackathons?",
+    "original_relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_007"
+    ],
+    "num_relevant": 7,
+    "num_candidates_judged": 19,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What new discovery features is this platform rolling out to boost user engagement and revenue, like curated spaces and subscription options?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_006",
+      "T41OD37tI54__chunk_001",
+      "POUqfDBtRbg__chunk_007",
+      "POUqfDBtRbg__chunk_012"
+    ],
+    "video_id": "POUqfDBtRbg",
+    "title": "Google I/O 2025 \u2013 POUqfDBtRbg",
+    "original_query": "What new discovery features is Play introducing to boost user engagement and revenue, such as Curated Spaces and subscription capabilities?",
+    "original_relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_007"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 21,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What can Google's Gemma family do (Gemma 3, Gemma 3n, and MedGemma), and how can you use them\u2014on your device or in the cloud? I\u2019m curious about things like model size, whether they handle different types of data (images and text), which languages they cover, and where they actually run.",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_010",
+      "o7Bv4r08FBM__chunk_009",
+      "o7Bv4r08FBM__chunk_010",
+      "o7Bv4r08FBM__chunk_008",
+      "GjvgtwSOCao__chunk_026",
+      "o7Bv4r08FBM__chunk_018"
+    ],
+    "video_id": "4TE-KFXvhAk",
+    "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+    "original_query": "What are the main capabilities and deployment options for Google's Gemma family (including Gemma 3, Gemma 3n, and MedGemma), such as model sizes, multimodal support, language coverage, and on-device vs cloud use?",
+    "original_relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_010"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 26,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can developers push their AI models from a modeling studio to a cloud hosting service in a one-click workflow using an AI SDK, and what changes are usually required?",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_010"
+    ],
+    "video_id": "4TE-KFXvhAk",
+    "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+    "original_query": "How can developers deploy Gemma models from AI Studio to Cloud Run with a one-click process using the Gen AI SDK, and what changes are typically required?",
+    "original_relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_010"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 26,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the gist of what the Gemini AI models can do, and how do the 2.5 Pro and 2.5 Flash versions differ when it comes to coding and handling complex reasoning?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_017",
+      "U8Nb68XsVY4__chunk_000",
+      "GjvgtwSOCao__chunk_003",
+      "gHHjDRDNUNU__chunk_001",
+      "4TE-KFXvhAk__chunk_001",
+      "4TE-KFXvhAk__chunk_002",
+      "o8NiE3XMPrM__chunk_010",
+      "o8NiE3XMPrM__chunk_008"
+    ],
+    "video_id": "4TE-KFXvhAk",
+    "title": "Google I/O 2025 \u2013 4TE-KFXvhAk",
+    "original_query": "What are the main capabilities of Google\u2019s Gemini model family, and how do Gemini 2.5 Pro and Gemini 2.5 Flash differ in use cases like coding and complex reasoning?",
+    "original_relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_001"
+    ],
+    "num_relevant": 8,
+    "num_candidates_judged": 26,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How widely is this UI toolkit used in the top Android apps and in Google\u2019s own apps, and does Google's internal release process affect how stable it is to upgrade it?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_003",
+      "IaNpcrCSDiI__chunk_004",
+      "89UusPuz8q4__chunk_000",
+      "89UusPuz8q4__chunk_004"
+    ],
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "original_query": "How widely is Jetpack Compose adopted among top Android apps and Google apps, and how does Google's internal release process influence stability when upgrading Compose?",
+    "original_relevant_doc_ids": [
+      "89UusPuz8q4__chunk_003"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the 3D view in the map service all about, and what steps do I need to get an API key and enable the 3D map features?",
+    "relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_000",
+      "Wl7QvP2eDbA__chunk_001"
+    ],
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "original_query": "What is the maps 3D view in the Android Maps Platform and what steps are needed to obtain an API key and enable the maps 3D APIs?",
+    "original_relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_000"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 7,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I add a 3D map to an Android app and know when it's fully loaded and ready to use?",
+    "relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_002",
+      "Wl7QvP2eDbA__chunk_001"
+    ],
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "original_query": "What are the steps to embed a Google Map 3D view in an Android app and respond when the map is fully initialized and ready to use?",
+    "original_relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_002"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do Baseline hover cards work in code editors, and which editors show the Baseline status and browser compatibility right now?",
+    "relevant_doc_ids": [
+      "beYbnNT_02U__chunk_012"
+    ],
+    "video_id": "beYbnNT_02U",
+    "title": "Google I/O 2025 \u2013 beYbnNT_02U",
+    "original_query": "How do Baseline hover cards work in code editors like VSCode, and which editors currently show feature Baseline status and browser compatibility?",
+    "original_relevant_doc_ids": [
+      "beYbnNT_02U__chunk_012"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which teams have started using Baseline, and how is it shaping the tools they pick and the way they explain browser support to their clients?",
+    "relevant_doc_ids": [
+      "beYbnNT_02U__chunk_013",
+      "beYbnNT_02U__chunk_012",
+      "beYbnNT_02U__chunk_007"
+    ],
+    "video_id": "beYbnNT_02U",
+    "title": "Google I/O 2025 \u2013 beYbnNT_02U",
+    "original_query": "Which organizations have adopted Baseline (such as Wix and Clearleft), and how is Baseline shaping tooling decisions and how browser support is communicated to clients?",
+    "original_relevant_doc_ids": [
+      "beYbnNT_02U__chunk_012"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 21,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Where can I download the Baseline feature data, and how often is it refreshed for the main browser and downstream options like Samsung Internet and Android WebView?",
+    "relevant_doc_ids": [
+      "beYbnNT_02U__chunk_008"
+    ],
+    "video_id": "beYbnNT_02U",
+    "title": "Google I/O 2025 \u2013 beYbnNT_02U",
+    "original_query": "Where can I download Baseline feature data (JSON or CSV) and how often is it refreshed for core and downstream browsers like Samsung Internet and Android WebView?",
+    "original_relevant_doc_ids": [
+      "beYbnNT_02U__chunk_008"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 22,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Does letting a game-playing AI think through a problem improve its performance compared to the first answer it would normally give?",
+    "relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_002",
+      "Uh-7YX8tkxI__chunk_008",
+      "Uh-7YX8tkxI__chunk_003"
+    ],
+    "video_id": "Uh-7YX8tkxI",
+    "title": "Google I/O 2025 \u2013 Uh-7YX8tkxI",
+    "original_query": "How does introducing a reasoning or thinking phase affect the performance of game-playing AI systems like AlphaGo and AlphaZero compared to the model's initial answer?",
+    "original_relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_002"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why do researchers push for a clear, formal definition of general artificial intelligence, and what safety and reliability concerns are being raised for the first such systems?",
+    "relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_006",
+      "Uh-7YX8tkxI__chunk_007"
+    ],
+    "video_id": "Uh-7YX8tkxI",
+    "title": "Google I/O 2025 \u2013 Uh-7YX8tkxI",
+    "original_query": "Why do researchers argue for a formal definition of AGI and what are the proposed safety and reliability considerations for the first AGI systems?",
+    "original_relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_006"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 22,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What does the CSS appearance property do, and how does it let a standard dropdown be styled to include fancy HTML like flags or avatars?",
+    "relevant_doc_ids": [
+      "VTCIStB6y8s__chunk_008",
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "video_id": "o2wkYzu5u50",
+    "title": "Google I/O 2025 \u2013 o2wkYzu5u50",
+    "original_query": "What is the CSS appearance property and how does it enable a stylable native select element that can include rich HTML content like flags or avatars?",
+    "original_relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 30,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why do developers often recreate drop-down menus with JavaScript, and what CSS changes are coming to make built-in form controls easier to style?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_017",
+      "VTCIStB6y8s__chunk_008",
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "video_id": "o2wkYzu5u50",
+    "title": "Google I/O 2025 \u2013 o2wkYzu5u50",
+    "original_query": "Why have developers traditionally re-implemented select boxes in JavaScript, and what CSS improvements are being introduced to make native form controls easier to style?",
+    "original_relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 30,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's LangGraph all about, and how does turning AI tasks into a graph with decision points and tool nodes help make things more reliable and flexible?",
+    "relevant_doc_ids": [
+      "8rlNdKywldQ__chunk_003",
+      "8rlNdKywldQ__chunk_004"
+    ],
+    "video_id": "8rlNdKywldQ",
+    "title": "Google I/O 2025 \u2013 8rlNdKywldQ",
+    "original_query": "What is LangGraph and how does modeling AI tasks as a graph with nodes for decisions and tools help achieve both reliability and adaptability?",
+    "original_relevant_doc_ids": [
+      "8rlNdKywldQ__chunk_003"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 17,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the motion system in this design kit work with prebuilt spring settings and motion presets, and how can I adjust component animations (default, fast, slow) by overriding the theme?",
+    "relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_008",
+      "6IsFP3gD28E__chunk_007"
+    ],
+    "video_id": "6IsFP3gD28E",
+    "title": "Google I/O 2025 \u2013 6IsFP3gD28E",
+    "original_query": "How does Material 3's motion system work with tokenized springs and motion schemes, and how can I customize motion (default, fast, slow) for components by overriding the theme?",
+    "original_relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_007"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How have the navigation bar and the navigation rail evolved in this design system, especially with expanded or collapsed states, vertical layout options, and how they adapt as part of the overall navigation toolkit?",
+    "relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_006"
+    ],
+    "video_id": "6IsFP3gD28E",
+    "title": "Google I/O 2025 \u2013 6IsFP3gD28E",
+    "original_query": "How have the navigation bar and navigation rail evolved in the Material Design system, particularly with expanded/collapsed states, vertical layout options, and adaptive behavior with the navigation suite?",
+    "original_relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_006"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do these tools help with prototyping, like ready-made templates, running several programming languages inside a virtual machine, and controlling how new versions are rolled out to users?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "x2zvki_VlRE__chunk_003",
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "video_id": "x2zvki_VlRE",
+    "title": "Google I/O 2025 \u2013 x2zvki_VlRE",
+    "original_query": "What capabilities do Firebase Studio and the Nix-based workspace provide for prototyping, such as templates, running multiple languages in a VM, and managing app rollouts?",
+    "original_relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_005"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does this platform help me build apps that use different kinds of input (text, images, etc.)? What exactly is a \"blueprint\" in that workflow, and what options exist for previewing or deploying the app?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "x2zvki_VlRE__chunk_003",
+      "7Tnq4y7T4xs__chunk_004"
+    ],
+    "video_id": "x2zvki_VlRE",
+    "title": "Google I/O 2025 \u2013 x2zvki_VlRE",
+    "original_query": "How does Firebase Studio support building apps with multimodal prompts, what is a blueprint in that workflow, and what deployment or preview options are available?",
+    "original_relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_003"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "On the landing page, what options do I have for starting a new project\u2014use a template or start from scratch\u2014and how can I bring in an existing project or tweak the environment all the way down to the virtual machine details?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_004",
+      "x2zvki_VlRE__chunk_003"
+    ],
+    "video_id": "x2zvki_VlRE",
+    "title": "Google I/O 2025 \u2013 x2zvki_VlRE",
+    "original_query": "What options does the Firebase Studio landing page offer for starting a project (templates vs. from scratch) and how can I bring an existing project or customize the environment down to VM details?",
+    "original_relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_003"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the pros and cons of doing AI work on the user's device, on the server, or a mix for web apps?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "YN04nNsg_L4__chunk_002",
+      "YN04nNsg_L4__chunk_008",
+      "YN04nNsg_L4__chunk_001",
+      "xr_zgAv0YoI__chunk_008",
+      "YN04nNsg_L4__chunk_006",
+      "YN04nNsg_L4__chunk_007",
+      "YN04nNsg_L4__chunk_009"
+    ],
+    "video_id": "YN04nNsg_L4",
+    "title": "Google I/O 2025 \u2013 YN04nNsg_L4",
+    "original_query": "What are the advantages and trade-offs of running AI inference on the client, server, or using a hybrid approach for web applications?",
+    "original_relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_002"
+    ],
+    "num_relevant": 8,
+    "num_candidates_judged": 18,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What tech powers AI that runs in a web browser, and do browsers have built-in AI features like the ones in Chrome?",
+    "relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_004",
+      "YN04nNsg_L4__chunk_002",
+      "YN04nNsg_L4__chunk_001",
+      "YN04nNsg_L4__chunk_008",
+      "YN04nNsg_L4__chunk_010",
+      "CjpZCWYrSxM__chunk_001",
+      "YN04nNsg_L4__chunk_005",
+      "CjpZCWYrSxM__chunk_000",
+      "GjvgtwSOCao__chunk_021",
+      "8iIvAMZ-XYU__chunk_000",
+      "YN04nNsg_L4__chunk_009",
+      "YN04nNsg_L4__chunk_000",
+      "xr_zgAv0YoI__chunk_007",
+      "o2wkYzu5u50__chunk_007"
+    ],
+    "video_id": "YN04nNsg_L4",
+    "title": "Google I/O 2025 \u2013 YN04nNsg_L4",
+    "original_query": "What technologies and libraries power browser-based AI (such as WebGPU, WebAssembly, MediaPipe, Transformers.js) and are there built-in browser AI APIs like those in Chrome?",
+    "original_relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_002"
+    ],
+    "num_relevant": 14,
+    "num_candidates_judged": 18,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do the AI lighting and look features in a video call app actually improve video quality, and what\u2019s the general workflow behind them?",
+    "relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_004",
+      "YN04nNsg_L4__chunk_005"
+    ],
+    "video_id": "YN04nNsg_L4",
+    "title": "Google I/O 2025 \u2013 YN04nNsg_L4",
+    "original_query": "How do Google Meet\u2019s AI features Studio Lighting and Studio Look improve video quality, and what is the general pipeline behind them?",
+    "original_relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_004"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which interview talks about a collaboration tool that's a partner in a creator's workflow, featuring Junie Lau?",
+    "relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_002"
+    ],
+    "video_id": "sNwaU0w3NS8",
+    "title": "Google I/O 2025 \u2013 sNwaU0w3NS8",
+    "original_query": "What interview discusses Flow as a collaborative partner in a creator\u2019s workflow, featuring Junie Lau?",
+    "original_relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which interview features a filmmaker explaining a long-overdue love letter to his mom who passed away, and how he uses a technique called Flow to tell a personal story?",
+    "relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_002"
+    ],
+    "video_id": "sNwaU0w3NS8",
+    "title": "Google I/O 2025 \u2013 sNwaU0w3NS8",
+    "original_query": "Which interview includes a filmmaker talking about a belated love letter to his late mother and his use of Flow to tell a personal story?",
+    "original_relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What is autonomous web AI, and how could it run in a browser alongside cloud AI to improve a business website?",
+    "relevant_doc_ids": [
+      "xr_zgAv0YoI__chunk_009",
+      "xr_zgAv0YoI__chunk_002",
+      "xr_zgAv0YoI__chunk_008",
+      "xr_zgAv0YoI__chunk_000",
+      "xr_zgAv0YoI__chunk_007"
+    ],
+    "video_id": "xr_zgAv0YoI",
+    "title": "Google I/O 2025 \u2013 xr_zgAv0YoI",
+    "original_query": "What is agentic Web AI and how can it run in a browser alongside cloud AI to enhance a business website?",
+    "original_relevant_doc_ids": [
+      "xr_zgAv0YoI__chunk_008"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Are there real-world apps that use AI to summarize content for visually impaired users, and how long did it take to implement that feature?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_004",
+      "8iIvAMZ-XYU__chunk_004",
+      "fKY6qYxytLI__chunk_000",
+      "mP9QESmEDls__chunk_002"
+    ],
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "original_query": "Is there a real-world example of an app using the gen AI summarization feature to assist visually impaired users, and how long did the integration take to implement?",
+    "original_relevant_doc_ids": [
+      "mP9QESmEDls__chunk_004"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Which Google apps and devices use an on-device AI for things like summarizing and other tasks, and what benefits have people reported?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_000",
+      "GjvgtwSOCao__chunk_021",
+      "mP9QESmEDls__chunk_002",
+      "OosLbRBM9dA__chunk_002"
+    ],
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "original_query": "Which Google apps and devices use Gemini Nano for summarization and other on-device tasks, and what benefits have they reported?",
+    "original_relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What were the main Gemini Nano updates announced at Google I/O, like language support, how it handles audio input, and the new Gemma on-device model?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "o7Bv4r08FBM__chunk_008",
+      "mP9QESmEDls__chunk_006"
+    ],
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "original_query": "What were the key Gemini Nano updates announced at Google I/O, including language support, audio input, and the new Gemma on-device model?",
+    "original_relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I generate four AI-created images using a cloud AI service in Firebase (with the generation settings) and anchor one chosen image to a wall in an Android AR app so it stays in place?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_009",
+      "U8Nb68XsVY4__chunk_000",
+      "U8Nb68XsVY4__chunk_005"
+    ],
+    "video_id": "YYMt7Ddzz6Y",
+    "title": "Google I/O 2025 \u2013 YYMt7Ddzz6Y",
+    "original_query": "How can I generate four AI artworks using Vertex AI in Firebase (with a generation config) and anchor a chosen image to a wall in an Android AR app with persistence?",
+    "original_relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_009"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 16,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the setup and which libraries do I need to get AR anchoring working in an Android XR app (including passthrough), while also hooking it up to a cloud AI art generator using a model like Imagen?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_008",
+      "YYMt7Ddzz6Y__chunk_009"
+    ],
+    "video_id": "YYMt7Ddzz6Y",
+    "title": "Google I/O 2025 \u2013 YYMt7Ddzz6Y",
+    "original_query": "What setup and libraries are needed to implement AR anchoring in Android XR (e.g., ARCore for Jetpack XR, Passthrough mode) while integrating Vertex AI and Firebase for AI-generated art via the Imagen 3 model?",
+    "original_relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_009"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I get UI elements like the navigation rail to adapt to an orbiting screen when the app is in full-space mode using XR with Compose?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_006",
+      "YYMt7Ddzz6Y__chunk_005",
+      "IaNpcrCSDiI__chunk_006",
+      "15oPNK1W0Tw__chunk_010"
+    ],
+    "video_id": "YYMt7Ddzz6Y",
+    "title": "Google I/O 2025 \u2013 YYMt7Ddzz6Y",
+    "original_query": "How can I enable UI components like the navigation rail to adapt to an orbiter when the app is in Full Space using Compose for XR?",
+    "original_relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_006"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the latest improvements to Android\u2019s car apps, and how can developers use the new in-car calling and messaging features to build those experiences?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_009"
+    ],
+    "video_id": "ud09zuXHst4",
+    "title": "Google I/O 2025 \u2013 ud09zuXHst4",
+    "original_query": "What are the latest improvements to the Android car app library and how can developers implement the new calls manager Jetpack API for in-car calling and messaging experiences?",
+    "original_relevant_doc_ids": [
+      "ud09zuXHst4__chunk_009"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Is the car OS image for my tablet actually available to the public yet, and where can I find the beta docs and testing guides for getting Android Auto to work on that device?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_009",
+      "ud09zuXHst4__chunk_010"
+    ],
+    "video_id": "ud09zuXHst4",
+    "title": "Google I/O 2025 \u2013 ud09zuXHst4",
+    "original_query": "Is the Android Automotive OS system image for Pixel Tablet generally available, and where can I find the beta documentation and testing guides for Android Auto integration on the same device?",
+    "original_relevant_doc_ids": [
+      "ud09zuXHst4__chunk_009"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What\u2019s coming next for car tech that hooks up with my phone, and what new features will make signing in easier and sharing between my phone and car smoother?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_005",
+      "ud09zuXHst4__chunk_009",
+      "ud09zuXHst4__chunk_007",
+      "ud09zuXHst4__chunk_000",
+      "ud09zuXHst4__chunk_006"
+    ],
+    "video_id": "ud09zuXHst4",
+    "title": "Google I/O 2025 \u2013 ud09zuXHst4",
+    "original_query": "What updates are coming to Google Play services for in-vehicle systems, and what new features are planned to improve sign-in and cross-device sharing with cars?",
+    "original_relevant_doc_ids": [
+      "ud09zuXHst4__chunk_006"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I easily fine-tune pre-trained models without adding a ton of extra parameters, using efficient techniques, and how can I enable them on the main model?",
+    "relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_016",
+      "gATa_9Dogz4__chunk_005",
+      "o7Bv4r08FBM__chunk_015"
+    ],
+    "video_id": "gATa_9Dogz4",
+    "title": "Google I/O 2025 \u2013 gATa_9Dogz4",
+    "original_query": "How can I efficiently fine-tune Keras Hub models using parameter-efficient methods like Laura or Q Laura, and how do I enable them on the backbone?",
+    "original_relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_005"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I load a preset from this model hub, and what sources does it accept\u2014built-in IDs, Kaggle links, Hugging Face, or my own local files?",
+    "relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_003"
+    ],
+    "video_id": "gATa_9Dogz4",
+    "title": "Google I/O 2025 \u2013 gATa_9Dogz4",
+    "original_query": "How can I load a preset in Keras Hub and what sources does it support (predefined identifiers, Kaggle URLs, Hugging Face, or local files)?",
+    "original_relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_003"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does a typical task model in a popular ML framework break down into three parts, and how do the feature extractor, the data preprocessing steps, and the final output layer enable things like language models and classifiers?",
+    "relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_003",
+      "gATa_9Dogz4__chunk_004"
+    ],
+    "video_id": "gATa_9Dogz4",
+    "title": "Google I/O 2025 \u2013 gATa_9Dogz4",
+    "original_query": "What is the three-part structure of a Keras Hub task model and how do backbones, preprocessors, and task heads enable tasks like LLMs and classifiers?",
+    "original_relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_003"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's Google's latest data security and compliance tool, besides DSPM, and how does it work with the security dashboard to protect data across Google Cloud and other environments?",
+    "relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_001",
+      "Wzpz_y_EFPs__chunk_005"
+    ],
+    "video_id": "Wzpz_y_EFPs",
+    "title": "Google I/O 2025 \u2013 Wzpz_y_EFPs",
+    "original_query": "What is Google Cloud\u2019s new data security and compliance management offering beyond DSPM, and how does it integrate with Security Command Center to protect data across GCP and other environments?",
+    "original_relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_001"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Hey, what are the rules for protecting and keeping patient records in health care (including a six-year retention period), and what safeguards ensure the data is used only for approved purposes, prevent leaks when it's used to train AI, and help explain how the AI makes its decisions?",
+    "relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_001",
+      "Wzpz_y_EFPs__chunk_004"
+    ],
+    "video_id": "Wzpz_y_EFPs",
+    "title": "Google I/O 2025 \u2013 Wzpz_y_EFPs",
+    "original_query": "What are healthcare data protection and retention requirements for patient records (including six-year retention), and what controls help ensure data is used only for permitted purposes and prevents leakage in AI/ML training while supporting model explainability?",
+    "original_relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_001"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 6,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's a data governance approach that only allows access from Switzerland and helps prevent data leaks without relying on the usual network perimeter?",
+    "relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_004"
+    ],
+    "video_id": "Wzpz_y_EFPs",
+    "title": "Google I/O 2025 \u2013 Wzpz_y_EFPs",
+    "original_query": "What data governance approach enforces access only from a specific country (e.g., Switzerland) and handles exfiltration risks without relying on perimeter security?",
+    "original_relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_004"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 8,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I load the Data Connect tools created from a connector YAML into my Next.js app, using Genkit and the Firebase plugin? What are the steps?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_007"
+    ],
+    "video_id": "nZhkjSFB6UA",
+    "title": "Google I/O 2025 \u2013 nZhkjSFB6UA",
+    "original_query": "What are the steps to load Data Connect tools generated from a connector YAML into a Next.js app using Genkit and the Firebase plugin?",
+    "original_relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_007"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use the developer interface to test tools that search for movies and pull up reviews, and how does the assistant decide whether to suggest things or ask me to clarify based on my watch history and reviews?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_008",
+      "nZhkjSFB6UA__chunk_007",
+      "nZhkjSFB6UA__chunk_006",
+      "nZhkjSFB6UA__chunk_004",
+      "nZhkjSFB6UA__chunk_000"
+    ],
+    "video_id": "nZhkjSFB6UA",
+    "title": "Google I/O 2025 \u2013 nZhkjSFB6UA",
+    "original_query": "How does the Genkit dev UI let you test tools like db/SearchMovies and db/SearchReviews, and how does the agent use a user's watch history and reviews to decide between giving recommendations or asking for clarification?",
+    "original_relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_007"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use an AI-powered search to find movies by themes or concepts, not just by the exact words in the title?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_023",
+      "nZhkjSFB6UA__chunk_003",
+      "nZhkjSFB6UA__chunk_008",
+      "nZhkjSFB6UA__chunk_005",
+      "nZhkjSFB6UA__chunk_006",
+      "nZhkjSFB6UA__chunk_001",
+      "OosLbRBM9dA__chunk_002",
+      "nZhkjSFB6UA__chunk_002"
+    ],
+    "video_id": "nZhkjSFB6UA",
+    "title": "Google I/O 2025 \u2013 nZhkjSFB6UA",
+    "original_query": "How can Vertex AI Text embeddings be used to perform semantic search for movies, capturing concepts rather than relying on title keywords?",
+    "original_relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_001"
+    ],
+    "num_relevant": 8,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What exactly is Notebook LM, how is it built with Gemini, and how does it connect to Google's enterprise tools for business use?",
+    "relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_000",
+      "3Wo-iucic7I__chunk_003"
+    ],
+    "video_id": "3Wo-iucic7I",
+    "title": "Google I/O 2025 \u2013 3Wo-iucic7I",
+    "original_query": "What is Notebook LM and how is it built with Gemini and connected to Google Agent Space for enterprise use?",
+    "original_relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_000"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 9,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I get started with a notebook app, make a new notebook, and pull in data from cloud storage, documents, websites, audio files, and YouTube?",
+    "relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_000"
+    ],
+    "video_id": "3Wo-iucic7I",
+    "title": "Google I/O 2025 \u2013 3Wo-iucic7I",
+    "original_query": "How do I set up Notebook LM, create a new notebook, and import data from Google Drive, Docs, websites, audio files, and YouTube?",
+    "original_relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_000"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I build and launch my own AI assistant inside a Google tool, set its goals and rules, and connect it to data sources and a notebook-style language model?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_001",
+      "8rlNdKywldQ__chunk_000",
+      "3Wo-iucic7I__chunk_006",
+      "xLmJJk1gbuE__chunk_005",
+      "wz3kQQubPkc__chunk_004",
+      "8rlNdKywldQ__chunk_002"
+    ],
+    "video_id": "3Wo-iucic7I",
+    "title": "Google I/O 2025 \u2013 3Wo-iucic7I",
+    "original_query": "How do I use Google\u2019s Agent Space to design and deploy a custom agent, including setting goals, instructions, and connecting to data sources and Notebook LM?",
+    "original_relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_006"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What can this space do for real\u2011world tasks like checking the weather and adding calendar events, and how does it differ from other Google tools that also have 'agent' in their name?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "3Wo-iucic7I__chunk_006",
+      "3Wo-iucic7I__chunk_007"
+    ],
+    "video_id": "3Wo-iucic7I",
+    "title": "Google I/O 2025 \u2013 3Wo-iucic7I",
+    "original_query": "What features does Agent Space offer for real-world tasks like weather lookups and calendar events, and how does it differ from other Google products that have 'agent' in their name?",
+    "original_relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_006"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's this development tool all about, and what can its AI workspace, Code Mode, and extensible editor do to help me create and tweak apps?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_004",
+      "R_gqv8PwM78__chunk_004",
+      "o8NiE3XMPrM__chunk_012",
+      "R_gqv8PwM78__chunk_001",
+      "EVcahPj2jHM__chunk_004"
+    ],
+    "video_id": "R_gqv8PwM78",
+    "title": "Google I/O 2025 \u2013 R_gqv8PwM78",
+    "original_query": "What is Firebase Studio and what capabilities does its AI workspace, Code Mode, and extensible IDE provide for building and modifying apps?",
+    "original_relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_001"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 23,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What new templates and backend options are there for prototyping, and how do I set up local development environments?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_003",
+      "6eTiMIhtnBA__chunk_004",
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "video_id": "R_gqv8PwM78",
+    "title": "Google I/O 2025 \u2013 R_gqv8PwM78",
+    "original_query": "What fresh templates and backend services does Firebase Studio now support for prototyping, and how does it provision local environments?",
+    "original_relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 20,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How's the design tool gotten better at working with Figma and Builder.io, and what new image features and runtime capabilities did they roll out?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "video_id": "R_gqv8PwM78",
+    "title": "Google I/O 2025 \u2013 R_gqv8PwM78",
+    "original_query": "How has Firebase Studio improved design integration with Figma and Builder.io, and what new image-related features and Gemini runtime capabilities were introduced?",
+    "original_relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 22,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Are there newer web animation techniques beyond the standard animations and transitions, such as scroll-triggered effects and view changes, and how could they improve the user experience?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_010",
+      "o2wkYzu5u50__chunk_017",
+      "UcXWY057YuQ__chunk_007",
+      "UcXWY057YuQ__chunk_005",
+      "UcXWY057YuQ__chunk_000",
+      "UcXWY057YuQ__chunk_006",
+      "GjvgtwSOCao__chunk_017"
+    ],
+    "video_id": "UcXWY057YuQ",
+    "title": "Google I/O 2025 \u2013 UcXWY057YuQ",
+    "original_query": "What new web animation primitives have been added beyond CSS animations and transitions, such as scroll-driven animations and view transitions, and how can they improve UX?",
+    "original_relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_010"
+    ],
+    "num_relevant": 7,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use the newest web animation features to make an immersive, multi-page experience, and where can I share my progress?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_010",
+      "UcXWY057YuQ__chunk_007",
+      "o2wkYzu5u50__chunk_019",
+      "UcXWY057YuQ__chunk_005",
+      "UcXWY057YuQ__chunk_002",
+      "UcXWY057YuQ__chunk_000",
+      "UcXWY057YuQ__chunk_006",
+      "UcXWY057YuQ__chunk_001"
+    ],
+    "video_id": "UcXWY057YuQ",
+    "title": "Google I/O 2025 \u2013 UcXWY057YuQ",
+    "original_query": "How can I use the latest web animation APIs like @starting-style, interpolate-size, and calc-size to create immersive, multi-page experiences, and where can I share my progress?",
+    "original_relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_010"
+    ],
+    "num_relevant": 8,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I make a dialog smoothly fade in and out using CSS transitions, what parts should I animate, and how do I handle the overlay behind it?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_001",
+      "UcXWY057YuQ__chunk_002",
+      "UcXWY057YuQ__chunk_003"
+    ],
+    "video_id": "UcXWY057YuQ",
+    "title": "Google I/O 2025 \u2013 UcXWY057YuQ",
+    "original_query": "How can I implement smooth fade-in and fade-out effects for a dialog using CSS transitions, including which properties to animate and how to handle the overlay?",
+    "original_relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_002"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "So, when would I pick one playback option over the other in this Media3 setup, and how do the effects get applied differently in each?",
+    "relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_010",
+      "3zXVPU2vKXs__chunk_005"
+    ],
+    "video_id": "3zXVPU2vKXs",
+    "title": "Google I/O 2025 \u2013 3zXVPU2vKXs",
+    "original_query": "When should I use ExoPlayer versus CompositionPlayer in Media3, and how do effects get applied differently in each?",
+    "original_relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_010"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I create my own OpenGL shader effect in a media app, and what does the drawFrame function actually do?",
+    "relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_007",
+      "3zXVPU2vKXs__chunk_006"
+    ],
+    "video_id": "3zXVPU2vKXs",
+    "title": "Google I/O 2025 \u2013 3zXVPU2vKXs",
+    "original_query": "How do I implement a custom OpenGL shader-based effect in Media3, and what is the role of the drawFrame method?",
+    "original_relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_006"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's Flow all about, and how does it tie together a few different tools to help filmmakers generate assets and plan their camera moves?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_038",
+      "o8NiE3XMPrM__chunk_039",
+      "sNwaU0w3NS8__chunk_003",
+      "sNwaU0w3NS8__chunk_008"
+    ],
+    "video_id": "o8NiE3XMPrM",
+    "title": "Google I/O 2025 \u2013 o8NiE3XMPrM",
+    "original_query": "What is Flow and how does it integrate Veo, Imagen, and Gemini to assist filmmakers with generating assets and controlling camera moves?",
+    "original_relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_038"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 55,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the scene builder in this tool work for putting together shots, including uploading or generating images and tapping the plus button to add new shots with precise prompts?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_038",
+      "o8NiE3XMPrM__chunk_039"
+    ],
+    "video_id": "o8NiE3XMPrM",
+    "title": "Google I/O 2025 \u2013 o8NiE3XMPrM",
+    "original_query": "How does Flow\u2019s scene builder work for assembling shots, including uploading or generating images and using the plus icon to add new shots with precise prompts?",
+    "original_relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_038"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 55,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What is Mariner, and how does it let a web-enabled AI bot juggle multiple tasks and use tools?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005",
+      "xr_zgAv0YoI__chunk_002",
+      "o8NiE3XMPrM__chunk_004",
+      "o8NiE3XMPrM__chunk_005",
+      "8iIvAMZ-XYU__chunk_006"
+    ],
+    "video_id": "o8NiE3XMPrM",
+    "title": "Google I/O 2025 \u2013 o8NiE3XMPrM",
+    "original_query": "What is Project Mariner, and how does it enable a web-interacting AI agent to multitask and use tools?",
+    "original_relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_004"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 54,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Can you break down the main components of this drawing toolkit and explain what each one does to enable in-app drawing?",
+    "relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_006",
+      "MmeJSLAnB-M__chunk_007"
+    ],
+    "video_id": "MmeJSLAnB-M",
+    "title": "Google I/O 2025 \u2013 MmeJSLAnB-M",
+    "original_query": "What are the core modules of the Ink Jetpack library and what functionality does each provide for inking in an app?",
+    "original_relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_006"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 14,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's new with the handwriting/drawing features for Android apps that use Compose? I'm especially curious about updates to batching stroke data when saving and any better compression to save space.",
+    "relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_008"
+    ],
+    "video_id": "MmeJSLAnB-M",
+    "title": "Google I/O 2025 \u2013 MmeJSLAnB-M",
+    "original_query": "What are the latest improvements to the Ink API for Compose-based Android apps, especially regarding stroke input batch serialization and delta compression for storage efficiency?",
+    "original_relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_008"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How much faster is this new feature supposed to be, and does it actually cut down the total processing time?",
+    "relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004",
+      "XEhd9a9YhSk__chunk_015"
+    ],
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "original_query": "What speed improvement is claimed for the new INP and how does it affect overall processing time?",
+    "original_relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What does the message say about going from spotting a problem to fixing it, and where can users leave feedback or report issues?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_005",
+      "BHqxD9qr6Gw__chunk_000",
+      "BHqxD9qr6Gw__chunk_004",
+      "xo271p-Fl_4__chunk_004",
+      "o2wkYzu5u50__chunk_012"
+    ],
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "original_query": "How does the message describe turning problem detection into fixing it, and where can users provide feedback or report issues?",
+    "original_relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I make a webpage respond faster to clicks by breaking up long tasks into smaller parts and delaying non-essential work, and does giving the main thread a break actually help?",
+    "relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004",
+      "o2wkYzu5u50__chunk_015",
+      "BHqxD9qr6Gw__chunk_003"
+    ],
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "original_query": "What strategies shrink input latency (INP) by splitting long tasks and deferring non-critical work in a web page, and how does yielding to the main thread help?",
+    "original_relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_003"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 11,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How do I add a real-time voice chat to an Android app and change the background color based on what the user is saying, using a live audio API?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_009",
+      "U8Nb68XsVY4__chunk_004",
+      "IaNpcrCSDiI__chunk_022",
+      "U8Nb68XsVY4__chunk_000",
+      "gstgT0WRoiE__chunk_002"
+    ],
+    "video_id": "U8Nb68XsVY4",
+    "title": "Google I/O 2025 \u2013 U8Nb68XsVY4",
+    "original_query": "How can I implement a live audio conversation in an Android app using the Gemini Live API to change the background color based on the user\u2019s speech?",
+    "original_relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_004"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Hey, I\u2019m making a sleep-tracking app that talks to a cloud service. What security steps should I put in place to keep data safe, and how can I monitor and enforce those protections across Android, iOS, and the web?",
+    "relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_002",
+      "IaNpcrCSDiI__chunk_012",
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_005"
+    ],
+    "video_id": "U8Nb68XsVY4",
+    "title": "Google I/O 2025 \u2013 U8Nb68XsVY4",
+    "original_query": "In a sleep-tracking app that uses Gemini 2.0 Flash, what Firebase security practices should I implement (like App Check with Play Integrity) and how can I monitor and apply protections across Android, iOS, and web?",
+    "original_relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_002"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I efficiently handle prompts that mix text and images in my app, using a simple settings switch to choose the model name and a storage area for large media uploads, including using shareable URLs and setting access rules, plus what costs should I expect?",
+    "relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_002",
+      "U8Nb68XsVY4__chunk_006",
+      "gstgT0WRoiE__chunk_007"
+    ],
+    "video_id": "U8Nb68XsVY4",
+    "title": "Google I/O 2025 \u2013 U8Nb68XsVY4",
+    "original_query": "How can I handle multimodal prompts efficiently in Firebase by using Remote Config to manage the model name and Cloud Storage for large media uploads, including using storage URLs and applying security rules, plus what are the cost considerations?",
+    "original_relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_002"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I pair Python and SQL to run a multimodal search using vector representations and display the image results in a cloud data warehouse?",
+    "relevant_doc_ids": [
+      "cHNy5mK0jzE__chunk_008",
+      "cHNy5mK0jzE__chunk_000",
+      "nZhkjSFB6UA__chunk_002",
+      "cHNy5mK0jzE__chunk_007"
+    ],
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "original_query": "How can I use Python and SQL together in BigQuery to perform multimodal searches with embeddings and display image results?",
+    "original_relevant_doc_ids": [
+      "cHNy5mK0jzE__chunk_008"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I get structured results from an AI language model using my database, and how do I specify the output fields in the query to match my dataset?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_005",
+      "cHNy5mK0jzE__chunk_009",
+      "rxKYK3DIzN0__chunk_005",
+      "cHNy5mK0jzE__chunk_001",
+      "cHNy5mK0jzE__chunk_000",
+      "xLmJJk1gbuE__chunk_004"
+    ],
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "original_query": "How does BigQuery now support returning structured output from large language models, and how do I define the output schema in the query to match a specific dataset?",
+    "original_relevant_doc_ids": [
+      "cHNy5mK0jzE__chunk_000"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How did people describe personal storytelling using new tools, with nods to a filmmaker\u2019s Ancestra and the Primordial Soup project?",
+    "relevant_doc_ids": [
+      "VJllI3jMEb4__chunk_022",
+      "VJllI3jMEb4__chunk_021",
+      "VJllI3jMEb4__chunk_020",
+      "VJllI3jMEb4__chunk_001",
+      "sNwaU0w3NS8__chunk_003",
+      "o8NiE3XMPrM__chunk_037"
+    ],
+    "video_id": "VJllI3jMEb4",
+    "title": "Google I/O 2025 \u2013 VJllI3jMEb4",
+    "original_query": "How did the discussion describe personal storytelling through new tools, with references to Eliza McNitt's Ancestra and the Primordial Soup project?",
+    "original_relevant_doc_ids": [
+      "VJllI3jMEb4__chunk_021"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 28,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What did the speakers think about using interactive tech to create more immersive games and storytelling experiences?",
+    "relevant_doc_ids": [
+      "VJllI3jMEb4__chunk_016",
+      "sNwaU0w3NS8__chunk_007",
+      "VJllI3jMEb4__chunk_012",
+      "VJllI3jMEb4__chunk_001",
+      "VJllI3jMEb4__chunk_003",
+      "VJllI3jMEb4__chunk_023"
+    ],
+    "video_id": "VJllI3jMEb4",
+    "title": "Google I/O 2025 \u2013 VJllI3jMEb4",
+    "original_query": "What were the speakers\u2019 ideas on using interactive technologies such as Genie 2 and Veo quality to develop immersive gaming and storytelling experiences?",
+    "original_relevant_doc_ids": [
+      "VJllI3jMEb4__chunk_023"
+    ],
+    "num_relevant": 6,
+    "num_candidates_judged": 26,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's driving the growth of AI-powered Chrome extensions, and what role do on-device AI tools play in that?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005",
+      "GjvgtwSOCao__chunk_021",
+      "8iIvAMZ-XYU__chunk_000",
+      "I2SplqZ85dk__chunk_005",
+      "8iIvAMZ-XYU__chunk_001"
+    ],
+    "video_id": "8iIvAMZ-XYU",
+    "title": "Google I/O 2025 \u2013 8iIvAMZ-XYU",
+    "original_query": "What factors are driving the recent growth of AI-enabled Chrome extensions and what role do Gemini Nano APIs play in on-device AI?",
+    "original_relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_000"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 15,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can developers build browser extensions with little to no server setup, and what were the main Gemini Nano announcements at Google's I/O?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005",
+      "8iIvAMZ-XYU__chunk_000",
+      "8iIvAMZ-XYU__chunk_006",
+      "8iIvAMZ-XYU__chunk_001",
+      "8iIvAMZ-XYU__chunk_003"
+    ],
+    "video_id": "8iIvAMZ-XYU",
+    "title": "Google I/O 2025 \u2013 8iIvAMZ-XYU",
+    "original_query": "How can developers build Chrome extensions with minimal server requirements, and what were the key Gemini Nano announcements at Google I/O?",
+    "original_relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_000"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's Firebase AI Logic, and how does it make it easy for a Flutter app to access two AI services using Dart?",
+    "relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_017",
+      "xo271p-Fl_4__chunk_002"
+    ],
+    "video_id": "v6Rzo5khNE8",
+    "title": "Google I/O 2025 \u2013 v6Rzo5khNE8",
+    "original_query": "What is Firebase AI Logic and how does it unify access to Vertex AI and Gemini APIs for Flutter apps using a Dart SDK?",
+    "original_relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_017"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 29,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can a live audio API keep the delay low in Flutter apps, and what kind of usage and performance monitoring would a Firebase\u2011like service offer for that API?",
+    "relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_017",
+      "v6Rzo5khNE8__chunk_018"
+    ],
+    "video_id": "v6Rzo5khNE8",
+    "title": "Google I/O 2025 \u2013 v6Rzo5khNE8",
+    "original_query": "How can Gemini Live API enable low-latency audio interactions in Flutter apps, and what monitoring capabilities does Firebase provide for Gemini API usage and performance?",
+    "original_relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_017"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 27,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What\u2019s Flutter\u2019s plan for talking directly to native code, and what tools are available to make calling native code from Dart easier?",
+    "relevant_doc_ids": [
+      "flwULzNYRac__chunk_007",
+      "v6Rzo5khNE8__chunk_009",
+      "v6Rzo5khNE8__chunk_010",
+      "v6Rzo5khNE8__chunk_008",
+      "flwULzNYRac__chunk_005"
+    ],
+    "video_id": "v6Rzo5khNE8",
+    "title": "Google I/O 2025 \u2013 v6Rzo5khNE8",
+    "original_query": "What is Flutter\u2019s plan for direct native interop, and which tools like FFIGen, JNIGen, and Build Hooks are involved in making native calls easier from Dart?",
+    "original_relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_008"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the big changes in the latest release of the framework, including new integrations, improvements to server-side rendering, and how template variables are handled?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_010",
+      "eIeJmYdYMQo__chunk_007",
+      "eIeJmYdYMQo__chunk_018",
+      "eIeJmYdYMQo__chunk_006"
+    ],
+    "video_id": "eIeJmYdYMQo",
+    "title": "Google I/O 2025 \u2013 eIeJmYdYMQo",
+    "original_query": "What are the major updates in Angular 20, including new integrations, SSR improvements, and template variable handling?",
+    "original_relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_010"
+    ],
+    "num_relevant": 4,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why did they drop the old test runner, and what testing option will be supported in the next release?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_010",
+      "eIeJmYdYMQo__chunk_012",
+      "eIeJmYdYMQo__chunk_011"
+    ],
+    "video_id": "eIeJmYdYMQo",
+    "title": "Google I/O 2025 \u2013 eIeJmYdYMQo",
+    "original_query": "Why was Karma deprecated for Angular's test runner, and what testing framework will be supported in the upcoming release?",
+    "original_relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_010"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Is there a free, open-source example that shows how to generate images in an Angular app using an image-generation service through a simple toolkit, with loading indicators and retry support, and the code on GitHub?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_004",
+      "eIeJmYdYMQo__chunk_003"
+    ],
+    "video_id": "eIeJmYdYMQo",
+    "title": "Google I/O 2025 \u2013 eIeJmYdYMQo",
+    "original_query": "Where can I find an open-source example of generating images with Gemini through Genkit in an Angular app, including loading indicators and retry support, with the code on GitHub?",
+    "original_relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_003"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 23,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the biggest hurdles for large companies when rolling out browser extensions, especially around discovery and security?",
+    "relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_006",
+      "I2SplqZ85dk__chunk_007",
+      "I2SplqZ85dk__chunk_004"
+    ],
+    "video_id": "I2SplqZ85dk",
+    "title": "Google I/O 2025 \u2013 I2SplqZ85dk",
+    "original_query": "What are the main challenges enterprises face when deploying Chrome extensions, especially around discovery and security?",
+    "original_relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_006"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How's this browser trying to act like a work operating system, and what evidence is there that companies are adopting extensions more often?",
+    "relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_006",
+      "I2SplqZ85dk__chunk_008",
+      "I2SplqZ85dk__chunk_005"
+    ],
+    "video_id": "I2SplqZ85dk",
+    "title": "Google I/O 2025 \u2013 I2SplqZ85dk",
+    "original_query": "How is Chrome positioning itself as a work operating system, and what evidence shows growing enterprise adoption of extensions?",
+    "original_relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_006"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 12,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Why are Go iterators considered better than just returning slices or creating your own iterator types, and how does gopls help you use them inside an IDE?",
+    "relevant_doc_ids": [
+      "kj80m-umOxs__chunk_002"
+    ],
+    "video_id": "kj80m-umOxs",
+    "title": "Google I/O 2025 \u2013 kj80m-umOxs",
+    "original_query": "Why are Go iterators considered advantageous over returning slices or custom iterator objects, and how does gopls help integrate them in an IDE?",
+    "original_relevant_doc_ids": [
+      "kj80m-umOxs__chunk_002"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 13,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "Has Go 1.24 made maps faster with its Swiss Tables\u2013based design, and what new under-the-hood tools were added, like Unique Package, weak.Pointers, and AddCleanup?",
+    "relevant_doc_ids": [
+      "kj80m-umOxs__chunk_007"
+    ],
+    "video_id": "kj80m-umOxs",
+    "title": "Google I/O 2025 \u2013 kj80m-umOxs",
+    "original_query": "How has Go 1.24 improved performance with the Swiss Tables-based map implementation, and what new low-level tools were introduced like Unique Package, weak.Pointers, and AddCleanup?",
+    "original_relevant_doc_ids": [
+      "kj80m-umOxs__chunk_007"
+    ],
+    "num_relevant": 1,
+    "num_candidates_judged": 10,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What's the brief takeaway about where search is headed, moving from just information to a deeper understanding or smarter results?",
+    "relevant_doc_ids": [
+      "STMN5N-bDko__chunk_005",
+      "STMN5N-bDko__chunk_014",
+      "cHNy5mK0jzE__chunk_007",
+      "o8NiE3XMPrM__chunk_022",
+      "STMN5N-bDko__chunk_011",
+      "o8NiE3XMPrM__chunk_020",
+      "STMN5N-bDko__chunk_008",
+      "STMN5N-bDko__chunk_024",
+      "STMN5N-bDko__chunk_012",
+      "STMN5N-bDko__chunk_023",
+      "o8NiE3XMPrM__chunk_023"
+    ],
+    "video_id": "STMN5N-bDko",
+    "title": "Google I/O 2025 \u2013 STMN5N-bDko",
+    "original_query": "What concise idea was offered about the future direction of search, specifically moving from information toward a higher form of understanding or intelligence?",
+    "original_relevant_doc_ids": [
+      "STMN5N-bDko__chunk_023"
+    ],
+    "num_relevant": 11,
+    "num_candidates_judged": 32,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What open-source tools do people rely on to fine-tune transformer models, and what are some notable projects built on Gemma?",
+    "relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_013",
+      "o7Bv4r08FBM__chunk_015",
+      "o7Bv4r08FBM__chunk_016",
+      "GjvgtwSOCao__chunk_026",
+      "o7Bv4r08FBM__chunk_011",
+      "o7Bv4r08FBM__chunk_017",
+      "o7Bv4r08FBM__chunk_012"
+    ],
+    "video_id": "o7Bv4r08FBM",
+    "title": "Google I/O 2025 \u2013 o7Bv4r08FBM",
+    "original_query": "What open-source libraries are used for fine-tuning transformer models, and what are some notable Gemma-based projects mentioned?",
+    "original_relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_016"
+    ],
+    "num_relevant": 7,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "What are the main ways people use this model for multilingual and multimodal tasks, and did any community Kaggle competitions pop up around training it for languages?",
+    "relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_003",
+      "GjvgtwSOCao__chunk_029",
+      "o8NiE3XMPrM__chunk_009",
+      "o7Bv4r08FBM__chunk_016",
+      "o7Bv4r08FBM__chunk_017"
+    ],
+    "video_id": "o7Bv4r08FBM",
+    "title": "Google I/O 2025 \u2013 o7Bv4r08FBM",
+    "original_query": "What are the major Gemma applications in multilingual and multimodal tasks, and were there any community Kaggle competitions around training Gemma for languages?",
+    "original_relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_016"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 24,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can I use these extensions with my email workflow and other apps to pull info from an email and trigger actions in those apps?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_012",
+      "YCNDg9j0p5o__chunk_009",
+      "YCNDg9j0p5o__chunk_013",
+      "wz3kQQubPkc__chunk_004",
+      "YCNDg9j0p5o__chunk_010"
+    ],
+    "video_id": "YCNDg9j0p5o",
+    "title": "Google I/O 2025 \u2013 YCNDg9j0p5o",
+    "original_query": "How can Gemini Extensions be used with Google Workspace Flows and third-party apps like Asana and Mailchimp to retrieve information and perform actions from an email?",
+    "original_relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_012"
+    ],
+    "num_relevant": 5,
+    "num_candidates_judged": 19,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can this app spot email campaigns with more than 2,500 impressions and show the top results in a table?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_013",
+      "YCNDg9j0p5o__chunk_012"
+    ],
+    "video_id": "YCNDg9j0p5o",
+    "title": "Google I/O 2025 \u2013 YCNDg9j0p5o",
+    "original_query": "How can the Gemini app identify Mailchimp campaigns with over 2,500 impressions and present the top results in a table?",
+    "original_relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_012"
+    ],
+    "num_relevant": 2,
+    "num_candidates_judged": 21,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How does the human-in-the-loop feature in a collaboration platform work, and what roles do smart chips, add-ons, and chat apps play in linking external tools?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_003",
+      "YCNDg9j0p5o__chunk_001",
+      "YCNDg9j0p5o__chunk_002"
+    ],
+    "video_id": "YCNDg9j0p5o",
+    "title": "Google I/O 2025 \u2013 YCNDg9j0p5o",
+    "original_query": "How does Google Workspace's human-in-the-loop feature work, and what roles do smart chips, add-ons, and chat apps play in integrating external tools like Asana or Miro?",
+    "original_relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_002"
+    ],
+    "num_relevant": 3,
+    "num_candidates_judged": 19,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  },
+  {
+    "query": "How can developers use the workspace tools to automate tasks from their own business apps, like sending emails, and do smart chips and add-ons help teams collaborate better?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_000",
+      "YCNDg9j0p5o__chunk_012",
+      "YCNDg9j0p5o__chunk_008",
+      "YCNDg9j0p5o__chunk_009",
+      "YCNDg9j0p5o__chunk_005",
+      "YCNDg9j0p5o__chunk_014",
+      "wz3kQQubPkc__chunk_003",
+      "YCNDg9j0p5o__chunk_013",
+      "YCNDg9j0p5o__chunk_002",
+      "wz3kQQubPkc__chunk_004",
+      "YCNDg9j0p5o__chunk_010"
+    ],
+    "video_id": "YCNDg9j0p5o",
+    "title": "Google I/O 2025 \u2013 YCNDg9j0p5o",
+    "original_query": "In what ways can developers use Google Workspace APIs to automate tasks from their own business applications, such as sending emails, and how do smart chips and add-ons enhance collaboration?",
+    "original_relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_002"
+    ],
+    "num_relevant": 11,
+    "num_candidates_judged": 19,
+    "enrichment_stages": [
+      "video_scope",
+      "retrieval_union"
+    ]
+  }
+]

@@ -14,7 +14,6 @@ from pathlib import Path
 from tqdm import tqdm
 from retrieval.retrievers.retrieve_dense import retrieve_dense  # dense retriever
 from datetime import datetime, timezone
-from evaluation.utils import get_latest_ground_truth
 from retrieval.evaluation.metrics import recall_at_k, precision_at_k, mrr
 
 logger = logging.getLogger(__name__)
@@ -30,10 +29,9 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as f:
 
 qdrant_url = os.getenv('QDRANT_URL', config['qdrant']['url'])
 GT_DIR = PROJECT_ROOT / config["evaluation"]["ground_truth_dir"]
-GT_PREFIX = config["evaluation"]["ground_truth_prefix"]
 TOP_K = config["evaluation"].get("top_k", 5)
 
-GROUND_TRUTH_PATH = get_latest_ground_truth(GT_DIR, GT_PREFIX)
+GROUND_TRUTH_PATH = PROJECT_ROOT / config["evaluation"]["ground_truth_dir"] / config["evaluation"]["ground_truth_file"]
 
 # Prepare timestamped output file
 timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S")

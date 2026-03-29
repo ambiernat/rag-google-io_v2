@@ -1,0 +1,498 @@
+[
+  {
+    "query": "What are some real-world examples of apps using Google's Home APIs and what smart home tasks do they automate?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_001"
+    ],
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg"
+  },
+  {
+    "query": "What happens to compute/communication balance and memory usage when you increase the per-device batch size during TPU-based backpropagation profiling, including the role of all-reduce and the feed-forward weight sizes?",
+    "relevant_doc_ids": [
+      "ROFC-dQ421A__chunk_005"
+    ],
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A"
+  },
+  {
+    "query": "How can custom kernels in JAX (like Pallas) be used to tailor computations and provide reusable building-block operations?",
+    "relevant_doc_ids": [
+      "juy9nrcTBck__chunk_008"
+    ],
+    "video_id": "juy9nrcTBck",
+    "title": "Google I/O 2025 \u2013 juy9nrcTBck"
+  },
+  {
+    "query": "What is Chirp 3 and what features make it sound natural across many languages and accents, including use cases like customer service or e-learning?",
+    "relevant_doc_ids": [
+      "tMUxxCKXz4c__chunk_004"
+    ],
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c"
+  },
+  {
+    "query": "Where can I learn about using the Material Adaptive library to drop existing composables into canonical layouts and support a six-device, one-codebase app with device-specific experiences?",
+    "relevant_doc_ids": [
+      "15oPNK1W0Tw__chunk_006"
+    ],
+    "video_id": "15oPNK1W0Tw",
+    "title": "Google I/O 2025 \u2013 15oPNK1W0Tw"
+  },
+  {
+    "query": "What is the experimental interest invoker API, and how does it work with anchor positioning and popover APIs to create accessible, complex UI without JavaScript?",
+    "relevant_doc_ids": [
+      "GjvgtwSOCao__chunk_017"
+    ],
+    "video_id": "GjvgtwSOCao",
+    "title": "Google I/O 2025 \u2013 GjvgtwSOCao"
+  },
+  {
+    "query": "What is the Stitch project in Google Labs and how does it convert prompts into a usable app interface and code?",
+    "relevant_doc_ids": [
+      "GjvgtwSOCao__chunk_000"
+    ],
+    "video_id": "GjvgtwSOCao",
+    "title": "Google I/O 2025 \u2013 GjvgtwSOCao"
+  },
+  {
+    "query": "How does Google vet and review apps before they appear in the Google Workspace Marketplace, and what types of apps can developers publish there?",
+    "relevant_doc_ids": [
+      "wz3kQQubPkc__chunk_001"
+    ],
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc"
+  },
+  {
+    "query": "How can I automate meeting requests from a Google Form by populating a Google Sheet, creating calendar events, and sending emails using Apps Script?",
+    "relevant_doc_ids": [
+      "wz3kQQubPkc__chunk_003"
+    ],
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc"
+  },
+  {
+    "query": "What features and tools does the Gemini API offer for code execution, function calling, and obtaining outputs in JSON schema?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_008"
+    ],
+    "video_id": "gHHjDRDNUNU",
+    "title": "Google I/O 2025 \u2013 gHHjDRDNUNU"
+  },
+  {
+    "query": "What is the XR session in SceneCore, and how do I create a SurfaceEntity with a specific video format and canvas shape to render video?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_003"
+    ],
+    "video_id": "KbTJNK1ALYc",
+    "title": "Google I/O 2025 \u2013 KbTJNK1ALYc"
+  },
+  {
+    "query": "How do supplemental descriptions enhance accessibility labeling for containers or grouped UI elements, and how do they relate to existing content descriptions?",
+    "relevant_doc_ids": [
+      "fKY6qYxytLI__chunk_005"
+    ],
+    "video_id": "fKY6qYxytLI",
+    "title": "Google I/O 2025 \u2013 fKY6qYxytLI"
+  },
+  {
+    "query": "What are the new APIs for representing expanded or collapsed states in the accessibility framework, including the expandedState property and related events, and how should developers migrate from older state descriptions?",
+    "relevant_doc_ids": [
+      "fKY6qYxytLI__chunk_005"
+    ],
+    "video_id": "fKY6qYxytLI",
+    "title": "Google I/O 2025 \u2013 fKY6qYxytLI"
+  },
+  {
+    "query": "How can I implement accessible Prev and Next controls for a CSS-only carousel that uses scroll-snap-type and scroll-snap-align, and how does the browser manage the button states?",
+    "relevant_doc_ids": [
+      "VTCIStB6y8s__chunk_011"
+    ],
+    "video_id": "VTCIStB6y8s",
+    "title": "Google I/O 2025 \u2013 VTCIStB6y8s"
+  },
+  {
+    "query": "Why are hover card UI patterns difficult to implement across desktop, keyboard, and touch interactions, and what accessibility and state management challenges do they entail?",
+    "relevant_doc_ids": [
+      "VTCIStB6y8s__chunk_019"
+    ],
+    "video_id": "VTCIStB6y8s",
+    "title": "Google I/O 2025 \u2013 VTCIStB6y8s"
+  },
+  {
+    "query": "What updates has Google Wallet announced to enable airlines to push boarding passes and link loyalty cards to user wallets?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_008"
+    ],
+    "video_id": "21tfI9O9RrA",
+    "title": "Google I/O 2025 \u2013 21tfI9O9RrA"
+  },
+  {
+    "query": "What is AMIE and how is it being developed to assist with diagnostic reasoning in specialty areas like cardiology and oncology?",
+    "relevant_doc_ids": [
+      "NYtQuneZMXc__chunk_003"
+    ],
+    "video_id": "NYtQuneZMXc",
+    "title": "Google I/O 2025 \u2013 NYtQuneZMXc"
+  },
+  {
+    "query": "In what ways could quantum computing complement AI, and what are some potential real-world applications like drug discovery?",
+    "relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_001"
+    ],
+    "video_id": "5HaXfjHtCWo",
+    "title": "Google I/O 2025 \u2013 5HaXfjHtCWo"
+  },
+  {
+    "query": "How can I update multiple content entities at once in Google's Video Discovery API, without submitting changes to each item individually?",
+    "relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_010"
+    ],
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA"
+  },
+  {
+    "query": "How does JNI gen deal with Java/Kotlin method overloading in the Dart bindings, and why are numeric suffixes added to some method names?",
+    "relevant_doc_ids": [
+      "flwULzNYRac__chunk_003"
+    ],
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac"
+  },
+  {
+    "query": "What is the ProgressStyle API and how can it be used to convey multi-segment trip progress, start/end icons, and transit stops within a notification?",
+    "relevant_doc_ids": [
+      "ihR8hL_Hmec__chunk_005"
+    ],
+    "video_id": "ihR8hL_Hmec",
+    "title": "Google I/O 2025 \u2013 ihR8hL_Hmec"
+  },
+  {
+    "query": "Why is Google encouraging Android developers to use notification styles instead of custom notifications, and what benefits does this bring to users and apps?",
+    "relevant_doc_ids": [
+      "ihR8hL_Hmec__chunk_001"
+    ],
+    "video_id": "ihR8hL_Hmec",
+    "title": "Google I/O 2025 \u2013 ihR8hL_Hmec"
+  },
+  {
+    "query": "What are the planned Gamer Profile features like achievements and AI avatars, and how do these features affect game visibility, downloads, and player engagement on Play?",
+    "relevant_doc_ids": [
+      "v-6b_wWF96U__chunk_001"
+    ],
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U"
+  },
+  {
+    "query": "What does Google Developer Program Enterprise Membership offer to organizational teams, including tools, credits, and AI assistance?",
+    "relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_005"
+    ],
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI"
+  },
+  {
+    "query": "What are the purchasing and eligibility requirements for the Google Developer Program Enterprise Membership, and how is it managed for large teams?",
+    "relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_005"
+    ],
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI"
+  },
+  {
+    "query": "In a training walkthrough, how were TPU resources used on Colab and Google Cloud, and what metrics and tools were mentioned for reporting results (training/validation scores, sample outputs, Weights & Biases) along with details like batch size and training time?",
+    "relevant_doc_ids": [
+      "MmxPBgrrn4Q__chunk_012"
+    ],
+    "video_id": "MmxPBgrrn4Q",
+    "title": "Google I/O 2025 \u2013 MmxPBgrrn4Q"
+  },
+  {
+    "query": "What options are available for accessing the Gemini live API from languages other than Python or TypeScript, and how would I implement a basic HTTP loading tool that returns HTML as markdown via WebSocket streaming?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_003"
+    ],
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE"
+  },
+  {
+    "query": "How is the Gemini Cloud Assist architecture organized, from information providers to the application hub and the newer products, and how does it enable app-centric design, operations, and cost optimization?",
+    "relevant_doc_ids": [
+      "6eTiMIhtnBA__chunk_001"
+    ],
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA"
+  },
+  {
+    "query": "What AI-powered features are available in Chrome DevTools, and what requirements do I need to access them (e.g., Chrome version, login country, admin settings)?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_005"
+    ],
+    "video_id": "EVcahPj2jHM",
+    "title": "Google I/O 2025 \u2013 EVcahPj2jHM"
+  },
+  {
+    "query": "How do companies combine a summarizer API with a translator API in content management or publishing workflows to produce multilingual summaries for news, blogs, or product reviews?",
+    "relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_006"
+    ],
+    "video_id": "CjpZCWYrSxM",
+    "title": "Google I/O 2025 \u2013 CjpZCWYrSxM"
+  },
+  {
+    "query": "How does the new Where to Watch feature work to help me find where to stream a movie or show, and which markets are supported?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_008"
+    ],
+    "video_id": "POUqfDBtRbg",
+    "title": "Google I/O 2025 \u2013 POUqfDBtRbg"
+  },
+  {
+    "query": "What enhancements are being added to Google Play to improve media discovery, such as Topic Browse pages and a hero carousel on listing pages?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_008"
+    ],
+    "video_id": "POUqfDBtRbg",
+    "title": "Google I/O 2025 \u2013 POUqfDBtRbg"
+  },
+  {
+    "query": "How do Topic Browse pages work on Play to surface focused content (like movies, TV shows, or sports), and what examples illustrate their use, such as the Wicked movie or regional Spaces (football in Brazil, comics in Japan)?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_007"
+    ],
+    "video_id": "POUqfDBtRbg",
+    "title": "Google I/O 2025 \u2013 POUqfDBtRbg"
+  },
+  {
+    "query": "How does the talk describe using XLA for inference and scaling model deployment, and what is said about deploying small models on devices with Google AI Edge?",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_001"
+    ],
+    "video_id": "4TE-KFXvhAk",
+    "title": "Google I/O 2025 \u2013 4TE-KFXvhAk"
+  },
+  {
+    "query": "What options exist for building camera and media experiences in Compose with Media3 and CameraX, and are there example demos like a video player with a Play/Pause overlay?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_006"
+    ],
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4"
+  },
+  {
+    "query": "What is the LatLongAltitude class used for in 3D mapping, and how can I configure the camera's center and heading in a Jetpack Compose compatible setup?",
+    "relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_002"
+    ],
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA"
+  },
+  {
+    "query": "What do prominent tech leaders say about whether AGI will be achieved by a single company versus multiple entities, and the possibility of several reaching it around the same time?",
+    "relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_006"
+    ],
+    "video_id": "Uh-7YX8tkxI",
+    "title": "Google I/O 2025 \u2013 Uh-7YX8tkxI"
+  },
+  {
+    "query": "How can I implement passkey autofill in Chrome after a user signs in with a password, including the necessary autofill attributes and autofocus behavior?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_022"
+    ],
+    "video_id": "o2wkYzu5u50",
+    "title": "Google I/O 2025 \u2013 o2wkYzu5u50"
+  },
+  {
+    "query": "What new web authentication and identity features did Chrome announce (such as FedCM and the digital credentials API), and what is the timeline for passkeys on desktop and Android?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_022"
+    ],
+    "video_id": "o2wkYzu5u50",
+    "title": "Google I/O 2025 \u2013 o2wkYzu5u50"
+  },
+  {
+    "query": "How do I deploy a locally edited Python web app to Google Cloud Run using Docker, and what does the end-to-end deployment flow look like from deploying changes to monitoring service metrics in the Cloud Console?",
+    "relevant_doc_ids": [
+      "8rlNdKywldQ__chunk_005"
+    ],
+    "video_id": "8rlNdKywldQ",
+    "title": "Google I/O 2025 \u2013 8rlNdKywldQ"
+  },
+  {
+    "query": "What are the main updates to Material 3's shape system, including the new shapes, shape morph capability, and how to access them via the Material Shapes API for UI elements like avatars and buttons?",
+    "relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_007"
+    ],
+    "video_id": "6IsFP3gD28E",
+    "title": "Google I/O 2025 \u2013 6IsFP3gD28E"
+  },
+  {
+    "query": "What are the latest updates to Material 3's progress indicators, including the new wavy style, track height options, and how to implement the CircularWavyProgressIndicator?",
+    "relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_006"
+    ],
+    "video_id": "6IsFP3gD28E",
+    "title": "Google I/O 2025 \u2013 6IsFP3gD28E"
+  },
+  {
+    "query": "How does the new app prototyping agent generate a Next.js application from natural language, including blueprint creation, iterative modifications, and one-click deployment to Firebase hosting?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_005"
+    ],
+    "video_id": "x2zvki_VlRE",
+    "title": "Google I/O 2025 \u2013 x2zvki_VlRE"
+  },
+  {
+    "query": "What is a web-based activity for children that uses MediaPipe hand landmark detection and runs fully on the client side to protect privacy?",
+    "relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_004"
+    ],
+    "video_id": "YN04nNsg_L4",
+    "title": "Google I/O 2025 \u2013 YN04nNsg_L4"
+  },
+  {
+    "query": "How do filmmakers describe Flow's role in turning ideas into visual stories with imaging and motion?",
+    "relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_003"
+    ],
+    "video_id": "sNwaU0w3NS8",
+    "title": "Google I/O 2025 \u2013 sNwaU0w3NS8"
+  },
+  {
+    "query": "What does Dave Clark say about using Gemini as a thought partner in his screenwriting process and cueing story beats?",
+    "relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_003"
+    ],
+    "video_id": "sNwaU0w3NS8",
+    "title": "Google I/O 2025 \u2013 sNwaU0w3NS8"
+  },
+  {
+    "query": "Why did a speaker argue that the browser could become the central hub for AI agents to access tools across services, and what future outlook did they share for Web AI?",
+    "relevant_doc_ids": [
+      "xr_zgAv0YoI__chunk_009"
+    ],
+    "video_id": "xr_zgAv0YoI",
+    "title": "Google I/O 2025 \u2013 xr_zgAv0YoI"
+  },
+  {
+    "query": "What is SpatialExternalSurface and how does it support rendering both stereoscopic and monoscopic video in Android XR apps?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_006"
+    ],
+    "video_id": "YYMt7Ddzz6Y",
+    "title": "Google I/O 2025 \u2013 YYMt7Ddzz6Y"
+  },
+  {
+    "query": "What are the latest car app quality guidelines and design resources for creating in\u2011car experiences, including any changes to API support and design tooling?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_006"
+    ],
+    "video_id": "ud09zuXHst4",
+    "title": "Google I/O 2025 \u2013 ud09zuXHst4"
+  },
+  {
+    "query": "How does Firebase Data Connect leverage Gemini AI to generate schemas and queries, and what frameworks and client SDKs does it support for building apps?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_001"
+    ],
+    "video_id": "nZhkjSFB6UA",
+    "title": "Google I/O 2025 \u2013 nZhkjSFB6UA"
+  },
+  {
+    "query": "How many workspaces have been created since Firebase Studio launched, and what are some example applications developers have built with it?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_001"
+    ],
+    "video_id": "R_gqv8PwM78",
+    "title": "Google I/O 2025 \u2013 R_gqv8PwM78"
+  },
+  {
+    "query": "What are recommended timing values for opening and closing a modal dialog in CSS according to Nielsen Norman Group and Material Design guidelines?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_002"
+    ],
+    "video_id": "UcXWY057YuQ",
+    "title": "Google I/O 2025 \u2013 UcXWY057YuQ"
+  },
+  {
+    "query": "How do CameraX and Media3 integrate to capture, preview, edit, and export videos, and what built-in or custom effects are available (e.g., grayscale, green screen, RGB filter, vignette, style transfer)?",
+    "relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_010"
+    ],
+    "video_id": "3zXVPU2vKXs",
+    "title": "Google I/O 2025 \u2013 3zXVPU2vKXs"
+  },
+  {
+    "query": "How can I apply a style transfer effect on video frames in Media3 using LiteRT, and what does that workflow involve?",
+    "relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_006"
+    ],
+    "video_id": "3zXVPU2vKXs",
+    "title": "Google I/O 2025 \u2013 3zXVPU2vKXs"
+  },
+  {
+    "query": "Which devices with Android 15 support Notes Roll, and how can developers register their apps to integrate with Notes Roll for quick access from a floating window or the lock screen?",
+    "relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_008"
+    ],
+    "video_id": "MmeJSLAnB-M",
+    "title": "Google I/O 2025 \u2013 MmeJSLAnB-M"
+  },
+  {
+    "query": "What are the four steps demonstrated to set up a Gemini Flash Live interactive experience, from initialization to ending the conversation?",
+    "relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_004"
+    ],
+    "video_id": "U8Nb68XsVY4",
+    "title": "Google I/O 2025 \u2013 U8Nb68XsVY4"
+  },
+  {
+    "query": "Is it possible to use non-text inputs like images or videos as search queries in BigQuery and retrieve multimodal results using embeddings?",
+    "relevant_doc_ids": [
+      "cHNy5mK0jzE__chunk_008"
+    ],
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE"
+  },
+  {
+    "query": "How can I run Gemini or other foundation models from within BigQuery to analyze my data using SQL prompts, including multimodal inputs like PDFs and images?",
+    "relevant_doc_ids": [
+      "cHNy5mK0jzE__chunk_000"
+    ],
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE"
+  },
+  {
+    "query": "What components and steps are involved in Project Mariner's process, including how it uses Google search, the extension side panel, the DOM, visuals, Gemini, and the server to decide and execute actions?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005"
+    ],
+    "video_id": "8iIvAMZ-XYU",
+    "title": "Google I/O 2025 \u2013 8iIvAMZ-XYU"
+  },
+  {
+    "query": "How do I implement a reactive resource in Angular that automatically re-runs its loader when an input signal changes and notifies downstream components?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_003"
+    ],
+    "video_id": "eIeJmYdYMQo",
+    "title": "Google I/O 2025 \u2013 eIeJmYdYMQo"
+  },
+  {
+    "query": "What changes are planned for the Chrome extensions dashboard to assign team roles and restrict who can publish updates?",
+    "relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_004"
+    ],
+    "video_id": "I2SplqZ85dk",
+    "title": "Google I/O 2025 \u2013 I2SplqZ85dk"
+  },
+  {
+    "query": "Which executives and engineers were introduced in Google I/O's day two dialogue session, and what roles do they hold in relation to Gemini and Search?",
+    "relevant_doc_ids": [
+      "STMN5N-bDko__chunk_000"
+    ],
+    "video_id": "STMN5N-bDko",
+    "title": "Google I/O 2025 \u2013 STMN5N-bDko"
+  }
+]

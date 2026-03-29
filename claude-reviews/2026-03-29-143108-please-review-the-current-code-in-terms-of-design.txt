@@ -1,0 +1,152 @@
+ ▐▛███▜▌   Claude Code v2.1.83
+▝▜█████▛▘  Sonnet 4.6 · Claude Pro
+  ▘▘ ▝▝    ~/Documents/rag-google-io
+
+❯ please review the current code in terms of design having in mind              
+appropriateness for agentic retrieval step                                      
+
+● Explore(Explore codebase for agentic retrieval design review)
+  ⎿  Done (36 tool uses · 68.9k tokens · 1m 32s)
+  (ctrl+o to expand)
+
+● Here's the design review focused on agentic retrieval readiness:
+
+  ---
+  Design Review: Agentic Retrieval Readiness
+
+  What's solid
+
+  - Clean, consistent retriever signatures — all three return List[ScoredPoint]
+  with identical (query, top_k, client) parameters. Strategy switching is
+  already mechanical.
+  - Metrics module is importable — retrieval/evaluation/metrics.py functions
+  work standalone, no script-level coupling.
+  - Reranker has model caching — safe to call inside a loop without reload
+  overhead.
+  - experiment_id on SearchRequest — A/B tracking is already wired.
+  - Dev/val/test split is locked and reproducible — evaluation discipline is
+  sound.
+
+  ---
+  Design gaps that will hurt the agentic build
+
+  1. No unified retriever dispatcher
+
+  The agentic loop (Phase 3) needs strategy switching. Right now there's no
+  single retrieve(query, strategy, top_k) entry point — the caller must branch
+  manually every time. This logic will be duplicated across the agent, any
+  evaluation harness, and any future caller.
+
+  Recommendation: Add retrieval/retrievers/dispatcher.py:
+  def retrieve(query: str, strategy: Literal["dense","sparse","hybrid"], top_k: 
+  int) -> List[ScoredPoint]:
+      ...
+
+  ---
+  2. Impedance mismatch: ScoredPoint → dict conversion is scattered
+
+  Retrievers return ScoredPoint. The reranker takes list[dict] with a "text"
+  key. The API converts inline. The evaluation scripts convert inline. The
+  agentic layer will convert inline again — each time duplicating
+  .payload.get("doc_id", str(hit.id)).
+
+  Recommendation: Add a single conversion utility:
+  def scored_points_to_dicts(hits: List[ScoredPoint]) -> List[dict]:
+      ...
+  Place it in retrieval/retrievers/ or a new retrieval/utils.py. Every caller
+  uses it, nothing converts inline.
+
+  ---
+  3. No RetrievalResult dataclass
+
+  ScoredPoint is a Qdrant implementation detail. The agentic layer will work
+  with text, scores, and doc IDs — it shouldn't care about Qdrant internals.
+  Passing raw ScoredPoint objects into an LLM-calling agent is a leaky
+  abstraction.
+
+  Recommendation: Define a thin domain type:
+  @dataclass
+  class RetrievalResult:
+      doc_id: str
+      score: float
+      text: str
+      title: str | None = None
+      video_id: str | None = None
+  Retrievers can still return ScoredPoint internally; convert at the boundary
+  before handing to the agent.
+
+  ---
+  4. Evaluation scripts are not importable
+
+  evaluate_dense.py, evaluate_sparse.py, evaluate_hybrid.py all use if __name__ 
+  == "__main__" with hardcoded paths and no function boundary. An agentic
+  evaluation loop needs to call evaluation programmatically, not via subprocess.
+
+  The logic is simple but the structure blocks reuse. Phase 4 (final evaluation)
+   will require restructuring these anyway.
+
+  Recommendation: Extract run_evaluation(gt_path, strategy, top_k) -> dict from
+  each script, or create a single evaluate_retrieval(strategy, gt_path, top_k)
+  callable. Scripts become thin wrappers.
+
+  ---
+  5. No deduplication/merge utility for multi-query results
+
+  Phase 1 (query rewriter) generates 2–3 query variants and retrieves on each.
+  You'll get overlapping ScoredPoint lists that need merging and dedup before
+  passing to the self-evaluator. No utility for this exists.
+
+  RRF (Reciprocal Rank Fusion) is already in Qdrant's hybrid config — but for
+  merging results from multiple queries in Python, you'd need your own
+  implementation.
+
+  Recommendation: Add merge_results(results: List[List[RetrievalResult]], k: 
+  int) -> List[RetrievalResult] with RRF or score-max fusion.
+
+  ---
+  6. No designated location for the agentic component
+
+  The project structure has retrieval/retrievers/, retrieval/rerankers/,
+  retrieval/hpo/ — but no retrieval/agent/ or top-level agent/. Where does
+  query_rewriter.py, self_evaluator.py, and the retry loop live?
+
+  Recommendation: Create retrieval/agent/ with:
+  retrieval/agent/
+  ├── __init__.py
+  ├── query_rewriter.py      # Phase 1
+  ├── self_evaluator.py      # Phase 2
+  ├── retry_loop.py          # Phase 3
+  └── config.yaml            # agent-specific config (model, thresholds)
+
+  This keeps the agentic logic co-located with the retrieval layer it
+  orchestrates, not mixed into api/ or evaluation/.
+
+  ---
+  Summary table
+
+  ┌───────────────────────────────┬────────────────────────────┬────────────┐
+  │              Gap              │      Impact on build       │ Effort to  │
+  │                               │                            │    fix     │
+  ├───────────────────────────────┼────────────────────────────┼────────────┤
+  │ No retriever dispatcher       │ Phase 3 retry loop is      │ Low        │
+  │                               │ messy                      │            │
+  ├───────────────────────────────┼────────────────────────────┼────────────┤
+  │ ScoredPoint → dict conversion │ Every phase duplicates it  │ Low        │
+  │  scattered                    │                            │            │
+  ├───────────────────────────────┼────────────────────────────┼────────────┤
+  │ No RetrievalResult type       │ Agent couples to Qdrant    │ Low        │
+  │                               │ internals                  │            │
+  ├───────────────────────────────┼────────────────────────────┼────────────┤
+  │ Eval scripts not importable   │ Phase 4 blocked or         │ Medium     │
+  │                               │ requires subprocess        │            │
+  ├───────────────────────────────┼────────────────────────────┼────────────┤
+  │ No multi-query merge utility  │ Phase 1 has no clean merge │ Medium     │
+  │                               │  step                      │            │
+  ├───────────────────────────────┼────────────────────────────┼────────────┤
+  │ No retrieval/agent/ location  │ Code placement ambiguous   │ Trivial    │
+  └───────────────────────────────┴────────────────────────────┴────────────┘
+
+  Gaps 1–3 and 6 are quick wins worth fixing before writing any agent code. Gaps
+   4–5 can be deferred to their respective phases but will need addressing.
+
+✻ Crunched for 2m 24s
