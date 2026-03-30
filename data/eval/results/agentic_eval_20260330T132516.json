@@ -1,0 +1,4582 @@
+[
+  {
+    "query": "How do accessibility features help me find issues with my app's user interface, and what common tools can I use to see how accessible the UI is?",
+    "relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_011",
+      "80qkStdDWXQ__chunk_010",
+      "fKY6qYxytLI__chunk_009",
+      "80qkStdDWXQ__chunk_001",
+      "80qkStdDWXQ__chunk_002",
+      "80qkStdDWXQ__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "80qkStdDWXQ__chunk_000",
+      "fKY6qYxytLI__chunk_009",
+      "GjvgtwSOCao__chunk_015",
+      "fKY6qYxytLI__chunk_004",
+      "fKY6qYxytLI__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What tools and techniques can assist in identifying user interface accessibility problems in my app, and how do accessibility features enhance this evaluation?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Why would a UI element be skipped by screen readers or not announce what happens when you tap it, and how can I use the accessibility tree and debugging tools to find missing clickable targets or visibility problems?",
+    "relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_010",
+      "80qkStdDWXQ__chunk_007",
+      "80qkStdDWXQ__chunk_003",
+      "80qkStdDWXQ__chunk_002",
+      "80qkStdDWXQ__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "80qkStdDWXQ__chunk_010",
+      "fKY6qYxytLI__chunk_000",
+      "fKY6qYxytLI__chunk_006",
+      "80qkStdDWXQ__chunk_003",
+      "80qkStdDWXQ__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Reasons for screen readers omitting UI components or failing to vocalize interactions upon tapping, plus strategies to utilize the accessibility inspection tools and hierarchy to identify absent interactive targets or visibility issues."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do accessibility features and the UI components in Jetpack Compose work together to tell screen readers what each element means and improve the app's accessibility?",
+    "relevant_doc_ids": [
+      "80qkStdDWXQ__chunk_011",
+      "80qkStdDWXQ__chunk_008",
+      "80qkStdDWXQ__chunk_009",
+      "80qkStdDWXQ__chunk_012",
+      "80qkStdDWXQ__chunk_010",
+      "80qkStdDWXQ__chunk_001",
+      "80qkStdDWXQ__chunk_003",
+      "80qkStdDWXQ__chunk_005",
+      "80qkStdDWXQ__chunk_007",
+      "80qkStdDWXQ__chunk_002",
+      "80qkStdDWXQ__chunk_006",
+      "80qkStdDWXQ__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "80qkStdDWXQ__chunk_000",
+      "fKY6qYxytLI__chunk_007",
+      "80qkStdDWXQ__chunk_010",
+      "80qkStdDWXQ__chunk_001",
+      "fKY6qYxytLI__chunk_008"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the interaction between Jetpack Compose's accessibility functions and UI elements in enhancing screen reader communication and app inclusivity?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How does hosting a web app on a cloud platform work with other cloud services to build a full-stack app?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_012",
+      "w_W2brDZDko__chunk_014",
+      "XEhd9a9YhSk__chunk_011",
+      "XEhd9a9YhSk__chunk_005",
+      "XEhd9a9YhSk__chunk_000",
+      "eIeJmYdYMQo__chunk_014",
+      "XEhd9a9YhSk__chunk_001",
+      "XEhd9a9YhSk__chunk_015",
+      "XEhd9a9YhSk__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "XEhd9a9YhSk__chunk_000",
+      "XEhd9a9YhSk__chunk_007",
+      "XEhd9a9YhSk__chunk_006",
+      "XEhd9a9YhSk__chunk_001",
+      "R_gqv8PwM78__chunk_012"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How do cloud platforms integrate with various services to develop a complete full-stack web application?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What's this serverless backend thing all about, what are its main features and the client libraries it offers, and who are the people presenting in the demo?",
+    "relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_000",
+      "XEhd9a9YhSk__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "XEhd9a9YhSk__chunk_000",
+      "R_gqv8PwM78__chunk_006",
+      "gstgT0WRoiE__chunk_005",
+      "R_gqv8PwM78__chunk_005",
+      "XEhd9a9YhSk__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Explain the concept of serverless architecture, its key functionalities, available client libraries, and the presenters involved in the demonstration."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can I securely manage my payment gateway keys for my Firebase-based online store, including storing them safely and deciding who can access them?",
+    "relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_008",
+      "XEhd9a9YhSk__chunk_013"
+    ],
+    "retrieved_doc_ids": [
+      "XEhd9a9YhSk__chunk_008",
+      "rxKYK3DIzN0__chunk_002",
+      "XEhd9a9YhSk__chunk_009",
+      "rxKYK3DIzN0__chunk_000",
+      "8rlNdKywldQ__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Best practices for securely handling payment gateway API keys in a Firebase e-commerce application, including safe storage solutions and access control measures."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "In a full-stack web app that uses Firebase, what are the best ways to handle user sign-in and how the server should access data so you avoid Admin SDK security risks while still using the client SDK?",
+    "relevant_doc_ids": [
+      "XEhd9a9YhSk__chunk_008",
+      "XEhd9a9YhSk__chunk_009"
+    ],
+    "retrieved_doc_ids": [
+      "XEhd9a9YhSk__chunk_009",
+      "XEhd9a9YhSk__chunk_001",
+      "XEhd9a9YhSk__chunk_008",
+      "eIeJmYdYMQo__chunk_014",
+      "XEhd9a9YhSk__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the most effective methods for implementing user authentication in a Firebase-powered full-stack web application, and how can the backend securely retrieve data without exposing the Admin SDK, while still leveraging the client SDK?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do the Home APIs let different apps talk to Matter devices, and what examples show this in Google Play and the Apple App Store?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_000",
+      "HZvb2t3ZBBg__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "HZvb2t3ZBBg__chunk_000",
+      "HZvb2t3ZBBg__chunk_002",
+      "HZvb2t3ZBBg__chunk_001",
+      "POUqfDBtRbg__chunk_010",
+      "HZvb2t3ZBBg__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the Home APIs that enable communication between apps and Matter devices, along with specific examples from the Google Play Store and Apple App Store?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Hey, do you know when Google's Gemini-powered home APIs will be opened to developers, and how I can get in on early access and the related dev challenges for Pixel smart-home features?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004",
+      "HZvb2t3ZBBg__chunk_002",
+      "HZvb2t3ZBBg__chunk_000",
+      "HZvb2t3ZBBg__chunk_003",
+      "mP9QESmEDls__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "When will Google release developer access for Gemini-integrated home APIs, and how can I participate in early access and associated development challenges for Pixel smart-home functionalities?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What's the home status widget on Pixel phones that's powered by Gemini Nano, and how can developers sign up to build Home API apps and get the smart home developer newsletter?",
+    "relevant_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004",
+      "mP9QESmEDls__chunk_005",
+      "HZvb2t3ZBBg__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "HZvb2t3ZBBg__chunk_004",
+      "mP9QESmEDls__chunk_005",
+      "HZvb2t3ZBBg__chunk_002",
+      "HZvb2t3ZBBg__chunk_000",
+      "HZvb2t3ZBBg__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the home status feature on Pixel devices utilizing Gemini Nano technology, and how can developers register to create Home API applications and subscribe to the smart home developer updates?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Can you explain vmap and how it turns a one-input function into a version that can process an entire batch of inputs, and how just-in-time compilation makes it faster?",
+    "relevant_doc_ids": [
+      "juy9nrcTBck__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "juy9nrcTBck__chunk_002",
+      "juy9nrcTBck__chunk_001",
+      "juy9nrcTBck__chunk_003",
+      "v6Rzo5khNE8__chunk_013",
+      "gATa_9Dogz4__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does vmap transform single-input functions to handle batch processing, and what role does just-in-time compilation play in enhancing performance?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Where can I find guides on advanced ways to extend this library, including tips for parallelism, data sharding, and kernel languages, and how can I contribute my own kernel implementations?",
+    "relevant_doc_ids": [
+      "juy9nrcTBck__chunk_006",
+      "juy9nrcTBck__chunk_005",
+      "juy9nrcTBck__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "juy9nrcTBck__chunk_006",
+      "juy9nrcTBck__chunk_008",
+      "4TE-KFXvhAk__chunk_015",
+      "juy9nrcTBck__chunk_005",
+      "4TE-KFXvhAk__chunk_014"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What resources are available for advanced techniques to enhance this library, such as strategies for parallel processing, data partitioning, and custom kernel languages, as well as guidelines for submitting my own kernel contributions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What new features does Android's billing system have for flexible pricing, fraud protection, and regional pricing?",
+    "relevant_doc_ids": [
+      "T41OD37tI54__chunk_000",
+      "T41OD37tI54__chunk_009",
+      "T41OD37tI54__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "T41OD37tI54__chunk_009",
+      "T41OD37tI54__chunk_010",
+      "T41OD37tI54__chunk_005",
+      "T41OD37tI54__chunk_006",
+      "POUqfDBtRbg__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the latest enhancements in Android's payment processing system regarding adaptive pricing, security measures against fraud, and localized pricing strategies?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "When's a good time for developers to upgrade to the latest billing library, and how long will the older versions be supported?",
+    "relevant_doc_ids": [
+      "T41OD37tI54__chunk_010",
+      "T41OD37tI54__chunk_009",
+      "POUqfDBtRbg__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "T41OD37tI54__chunk_010",
+      "POUqfDBtRbg__chunk_005",
+      "T41OD37tI54__chunk_009",
+      "IaNpcrCSDiI__chunk_003",
+      "21tfI9O9RrA__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the recommended timeline for developers to transition to the newest billing library, and what is the support duration for previous versions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What\u2019s this new state-based text field all about, and how do InputTransformation and OutputTransformation replace the old value/callback handling and VisualTransformation?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_009",
+      "07Y9CPuxgvQ__chunk_010",
+      "07Y9CPuxgvQ__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "07Y9CPuxgvQ__chunk_000",
+      "07Y9CPuxgvQ__chunk_010",
+      "07Y9CPuxgvQ__chunk_009",
+      "07Y9CPuxgvQ__chunk_005",
+      "07Y9CPuxgvQ__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the details of the new state-driven text input field, and in what ways do InputTransformation and OutputTransformation supersede the previous value/callback management and VisualTransformation methods?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can I build a secure sign-up screen with a password field in my app, making sure the password is masked as I type, follows basic rules, and can be saved to a password manager?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_001",
+      "07Y9CPuxgvQ__chunk_002",
+      "07Y9CPuxgvQ__chunk_003",
+      "07Y9CPuxgvQ__chunk_000",
+      "o2wkYzu5u50__chunk_021"
+    ],
+    "retrieved_doc_ids": [
+      "07Y9CPuxgvQ__chunk_002",
+      "07Y9CPuxgvQ__chunk_001",
+      "07Y9CPuxgvQ__chunk_006",
+      "07Y9CPuxgvQ__chunk_003",
+      "o2wkYzu5u50__chunk_022"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the best practices for creating a secure registration interface with a concealed password entry, ensuring that the password adheres to standards and is compatible with password management tools?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How do I set up a text box to format US phone numbers automatically and have the text resize itself to fit?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_010",
+      "89UusPuz8q4__chunk_001",
+      "07Y9CPuxgvQ__chunk_009"
+    ],
+    "retrieved_doc_ids": [
+      "07Y9CPuxgvQ__chunk_010",
+      "07Y9CPuxgvQ__chunk_009",
+      "07Y9CPuxgvQ__chunk_008",
+      "89UusPuz8q4__chunk_001",
+      "mP9QESmEDls__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to create an input field for automatic US phone number formatting and responsive text resizing?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Which UI features were mentioned to improve a mobile app, like autofill, a text field that updates based on input, automatic text sizing, and a way to receive content?",
+    "relevant_doc_ids": [
+      "07Y9CPuxgvQ__chunk_006",
+      "07Y9CPuxgvQ__chunk_010",
+      "07Y9CPuxgvQ__chunk_004",
+      "07Y9CPuxgvQ__chunk_002",
+      "07Y9CPuxgvQ__chunk_003",
+      "89UusPuz8q4__chunk_001",
+      "07Y9CPuxgvQ__chunk_000",
+      "IaNpcrCSDiI__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "07Y9CPuxgvQ__chunk_006",
+      "mP9QESmEDls__chunk_006",
+      "IaNpcrCSDiI__chunk_001",
+      "89UusPuz8q4__chunk_001",
+      "15oPNK1W0Tw__chunk_021"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What user interface enhancements were discussed for optimizing mobile applications, such as automated form filling, responsive text field updates, dynamic text resizing, and content delivery mechanisms?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What new AI features and usability improvements were shown for the latest version, like ghost text highlighting and streaming code snippets?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "KXKP2tDPW4Y__chunk_002",
+      "CjpZCWYrSxM__chunk_001",
+      "o8NiE3XMPrM__chunk_012",
+      "KXKP2tDPW4Y__chunk_001",
+      "KXKP2tDPW4Y__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What innovative artificial intelligence capabilities and user experience enhancements were presented in the recent update, including features like ghost text highlighting and live code streaming?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does the upgrade helper in that tool help you keep libraries up to date and handle breaking changes in a TOML file?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_003",
+      "KXKP2tDPW4Y__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "KXKP2tDPW4Y__chunk_003",
+      "KXKP2tDPW4Y__chunk_002",
+      "kj80m-umOxs__chunk_002",
+      "v6Rzo5khNE8__chunk_005",
+      "juy9nrcTBck__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the role of the upgrade assistant in that utility for maintaining library versions and managing breaking modifications in a TOML configuration file?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can I use the recording tool to add more steps to an existing journey and capture the inputs for automated testing?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006",
+      "KXKP2tDPW4Y__chunk_007",
+      "KXKP2tDPW4Y__chunk_005",
+      "kj80m-umOxs__chunk_006",
+      "gHHjDRDNUNU__chunk_013"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can I employ with the recording feature to incorporate additional stages into a current workflow and document the inputs for automated testing?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What should I do while recording if the swipe gesture doesn\u2019t reveal the element I\u2019m after (like the refresh option), and how can I add a manual check to verify how long the refresh takes?",
+    "relevant_doc_ids": [
+      "KXKP2tDPW4Y__chunk_006",
+      "KXKP2tDPW4Y__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "KbTJNK1ALYc__chunk_008",
+      "KXKP2tDPW4Y__chunk_006",
+      "80qkStdDWXQ__chunk_004",
+      "VTCIStB6y8s__chunk_018",
+      "KXKP2tDPW4Y__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I troubleshoot unresponsive swipe gestures when trying to locate specific UI elements during recording, such as the refresh button, and what methods can I implement to monitor the duration of the refresh process manually?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I get a Flutter app talking to Gemini through the Vertex AI SDK while using Firebase, and what do I need to set up for the environment and project configuration?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_003",
+      "xo271p-Fl_4__chunk_006",
+      "xo271p-Fl_4__chunk_002",
+      "xo271p-Fl_4__chunk_000",
+      "U8Nb68XsVY4__chunk_001",
+      "xo271p-Fl_4__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "xo271p-Fl_4__chunk_002",
+      "xo271p-Fl_4__chunk_003",
+      "U8Nb68XsVY4__chunk_001",
+      "v6Rzo5khNE8__chunk_017",
+      "xo271p-Fl_4__chunk_008"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to connect a Flutter application to Gemini via the Vertex AI SDK using Firebase, including required environment and project setup?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How do I set up a Flutter app to work with cloud services and AI features, including the core setup, the AI packages, and the Flutter helper tool, and connect the app to our cloud project?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_000",
+      "xo271p-Fl_4__chunk_003",
+      "xo271p-Fl_4__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "xo271p-Fl_4__chunk_003",
+      "v6Rzo5khNE8__chunk_002",
+      "xo271p-Fl_4__chunk_002",
+      "flwULzNYRac__chunk_005",
+      "kj80m-umOxs__chunk_008"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to configure a Flutter application for integration with cloud platforms and artificial intelligence capabilities, covering initial setup, necessary AI libraries, Flutter development tools, and linking the application to our cloud infrastructure?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I put together an app that can act on its own using AI, a cloud backend, and a cross-platform UI, with the AI agent carrying out actions by calling other tools?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_001",
+      "xo271p-Fl_4__chunk_005",
+      "xo271p-Fl_4__chunk_006",
+      "8rlNdKywldQ__chunk_000",
+      "x2zvki_VlRE__chunk_004",
+      "xo271p-Fl_4__chunk_002",
+      "xo271p-Fl_4__chunk_007",
+      "xr_zgAv0YoI__chunk_008",
+      "xo271p-Fl_4__chunk_000",
+      "xo271p-Fl_4__chunk_010",
+      "7Tnq4y7T4xs__chunk_004",
+      "8rlNdKywldQ__chunk_002",
+      "GjvgtwSOCao__chunk_007",
+      "xo271p-Fl_4__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "x2zvki_VlRE__chunk_002",
+      "8rlNdKywldQ__chunk_000",
+      "xo271p-Fl_4__chunk_001",
+      "8rlNdKywldQ__chunk_002",
+      "GjvgtwSOCao__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I develop an autonomous application utilizing artificial intelligence, a cloud infrastructure, and a multi-platform interface, with the intelligent agent performing tasks through API integrations?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What is this AI that creates music from a text description, and how does typing in a prompt turn into instrumental music?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_036",
+      "tMUxxCKXz4c__chunk_004",
+      "tMUxxCKXz4c__chunk_005",
+      "4TE-KFXvhAk__chunk_009",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "tMUxxCKXz4c__chunk_005",
+      "tMUxxCKXz4c__chunk_002",
+      "o8NiE3XMPrM__chunk_036",
+      "CjpZCWYrSxM__chunk_012",
+      "tMUxxCKXz4c__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does artificial intelligence generate melodies based on written descriptions, and what is the process of transforming textual prompts into instrumental compositions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Which four generative media tools does Google Cloud offer, and what kind of content does each one generate (images, videos, speech, and music)?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_036",
+      "tMUxxCKXz4c__chunk_006",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "tMUxxCKXz4c__chunk_000",
+      "tMUxxCKXz4c__chunk_006",
+      "U8Nb68XsVY4__chunk_000",
+      "o8NiE3XMPrM__chunk_036",
+      "tMUxxCKXz4c__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the four generative content creation tools provided by Google Cloud, and what types of media (such as visuals, audio, and videos) can each produce?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What editing options does this image maker have? Can it remove objects, add objects, extend the image, swap the background, or apply different styles?",
+    "relevant_doc_ids": [
+      "tMUxxCKXz4c__chunk_001",
+      "15oPNK1W0Tw__chunk_019",
+      "tMUxxCKXz4c__chunk_002",
+      "gHHjDRDNUNU__chunk_012",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "tMUxxCKXz4c__chunk_002",
+      "tMUxxCKXz4c__chunk_000",
+      "gHHjDRDNUNU__chunk_012",
+      "tMUxxCKXz4c__chunk_001",
+      "3zXVPU2vKXs__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the functionalities of this image generator? Can it delete elements, insert new items, expand the canvas, change the backdrop, or implement various artistic styles?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How can a single Android app automatically resize and run smoothly on different devices like tablets, laptops, AR/VR headsets, and foldable screens?",
+    "relevant_doc_ids": [
+      "15oPNK1W0Tw__chunk_012",
+      "GjvgtwSOCao__chunk_010",
+      "15oPNK1W0Tw__chunk_010",
+      "15oPNK1W0Tw__chunk_013",
+      "15oPNK1W0Tw__chunk_011",
+      "15oPNK1W0Tw__chunk_017",
+      "15oPNK1W0Tw__chunk_021",
+      "15oPNK1W0Tw__chunk_020",
+      "15oPNK1W0Tw__chunk_005",
+      "15oPNK1W0Tw__chunk_002",
+      "15oPNK1W0Tw__chunk_000",
+      "15oPNK1W0Tw__chunk_003",
+      "15oPNK1W0Tw__chunk_019",
+      "15oPNK1W0Tw__chunk_006",
+      "15oPNK1W0Tw__chunk_016"
+    ],
+    "retrieved_doc_ids": [
+      "15oPNK1W0Tw__chunk_002",
+      "GjvgtwSOCao__chunk_010",
+      "MmeJSLAnB-M__chunk_004",
+      "15oPNK1W0Tw__chunk_020",
+      "15oPNK1W0Tw__chunk_016"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What techniques can an Android application employ to automatically adjust its layout and function efficiently across various devices such as tablets, laptops, augmented reality/virtual reality headsets, and foldable displays?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How can I keep track of tests that try to fool the AI on the system, hook the agent up to my language model, review the prompts that were generated, and download the final report to share with others?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_010",
+      "jrr8gRI1GaY__chunk_008",
+      "jrr8gRI1GaY__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "jrr8gRI1GaY__chunk_007",
+      "jrr8gRI1GaY__chunk_008",
+      "w_W2brDZDko__chunk_010",
+      "GjvgtwSOCao__chunk_028",
+      "8rlNdKywldQ__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can I use to monitor AI deception tests, integrate my language model with the agent, analyze the created prompts, and export the comprehensive findings for collaboration?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I get started with writing tests for TCP keep-alive in Go\u2019s networking library, and what parts should I focus on, like the dialer setup and the testing framework?",
+    "relevant_doc_ids": [
+      "jrr8gRI1GaY__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "jrr8gRI1GaY__chunk_006",
+      "jrr8gRI1GaY__chunk_005",
+      "kj80m-umOxs__chunk_004",
+      "juy9nrcTBck__chunk_004",
+      "kj80m-umOxs__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to begin creating tests for TCP keep-alive in Go's networking package, and which components should I concentrate on, such as the dialer configuration and the testing tools?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What features would a model explorer provide for visualizing and comparing machine learning models, including tree-style views and side-by-side comparisons of different versions or configurations?",
+    "relevant_doc_ids": [
+      "xLmJJk1gbuE__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "xLmJJk1gbuE__chunk_003",
+      "3zXVPU2vKXs__chunk_006",
+      "o7Bv4r08FBM__chunk_002",
+      "xLmJJk1gbuE__chunk_001",
+      "STMN5N-bDko__chunk_022"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What functionalities would a model exploration tool offer for visualizing and contrasting machine learning algorithms, such as hierarchical displays and side-by-side assessments of various iterations or setups?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What options exist for running AI models directly on the device using an on-board AI chip, and what kind of performance and battery-life benefits do you typically see on mobile hardware?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "w_W2brDZDko__chunk_009",
+      "xLmJJk1gbuE__chunk_002",
+      "xLmJJk1gbuE__chunk_006",
+      "xLmJJk1gbuE__chunk_000",
+      "xLmJJk1gbuE__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "5MPxzw15ojE__chunk_004",
+      "xr_zgAv0YoI__chunk_008",
+      "w_W2brDZDko__chunk_009",
+      "7Tnq4y7T4xs__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What alternatives are available for executing artificial intelligence models locally on device-integrated AI processors, and what performance improvements and power consumption advantages are generally observed on mobile platforms?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What updates did Google share for Gemini 2.5 Pro and the Flash version at I/O, and how do they show Gemini working across different platforms?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_031",
+      "GjvgtwSOCao__chunk_001",
+      "GjvgtwSOCao__chunk_000",
+      "ud09zuXHst4__chunk_001",
+      "gHHjDRDNUNU__chunk_001",
+      "o8NiE3XMPrM__chunk_010",
+      "o8NiE3XMPrM__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "o8NiE3XMPrM__chunk_008",
+      "o8NiE3XMPrM__chunk_031",
+      "GjvgtwSOCao__chunk_000",
+      "GjvgtwSOCao__chunk_014",
+      "o8NiE3XMPrM__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What enhancements were announced for Gemini 2.5 Pro and the Flash variant during Google I/O, and in what ways demonstrate Gemini's functionality across various platforms?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "In my spreadsheet app, where do I find and edit the little script that runs behind the scenes, and what basic tools can I use to process data and notify people?",
+    "relevant_doc_ids": [
+      "wz3kQQubPkc__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "wz3kQQubPkc__chunk_003",
+      "YCNDg9j0p5o__chunk_004",
+      "wz3kQQubPkc__chunk_002",
+      "gHHjDRDNUNU__chunk_011",
+      "wz3kQQubPkc__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I locate and modify the underlying script in my spreadsheet application, and what fundamental features are available for data manipulation and user notifications?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does automatic context caching help reduce the number of tokens an AI model has to process when dealing with long conversations, and how is that different from manually caching the context?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_010"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_010",
+      "gstgT0WRoiE__chunk_007",
+      "o7Bv4r08FBM__chunk_004",
+      "U8Nb68XsVY4__chunk_003",
+      "mP9QESmEDls__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "In what ways does adaptive context caching minimize token processing in AI models during prolonged dialogues, and how does this differ from traditional manual context caching techniques?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What kinds of text outputs can this tool generate (like tidy data in JSON or small code snippets), and how does it figure out how information in documents and spreadsheets relate to each other?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_009",
+      "gHHjDRDNUNU__chunk_011",
+      "gHHjDRDNUNU__chunk_010",
+      "gHHjDRDNUNU__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_008",
+      "gHHjDRDNUNU__chunk_010",
+      "o2wkYzu5u50__chunk_008",
+      "gHHjDRDNUNU__chunk_011",
+      "7Tnq4y7T4xs__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What types of textual outputs can this application produce (such as structured data in JSON format or concise code examples), and what methods does it use to analyze the relationships between data in documents and spreadsheets?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What are skybox and geometry in Android XR, and how do they help make the virtual world feel more immersive?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "KbTJNK1ALYc__chunk_002",
+      "15oPNK1W0Tw__chunk_002",
+      "YYMt7Ddzz6Y__chunk_001",
+      "KbTJNK1ALYc__chunk_001",
+      "YYMt7Ddzz6Y__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Explain skybox and 3D geometry in Android XR, and their roles in enhancing immersion in virtual environments."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I use 180-degree or 360-degree videos in an Android phone AR/VR experience to feel more immersive, and how do I bring users back to the real world when they want to exit?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_004",
+      "KbTJNK1ALYc__chunk_003",
+      "KbTJNK1ALYc__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "KbTJNK1ALYc__chunk_003",
+      "KbTJNK1ALYc__chunk_002",
+      "KbTJNK1ALYc__chunk_004",
+      "YYMt7Ddzz6Y__chunk_001",
+      "Wl7QvP2eDbA__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What techniques can I implement for integrating 180-degree or 360-degree videos in an immersive AR/VR experience on Android devices, and what methods ensure a smooth transition for users returning to the physical world?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can I play a 360-degree immersive video that wraps around a person in a scene, using a surface-like object and stereo (3D) video?",
+    "relevant_doc_ids": [
+      "KbTJNK1ALYc__chunk_004",
+      "KbTJNK1ALYc__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "KbTJNK1ALYc__chunk_003",
+      "KbTJNK1ALYc__chunk_004",
+      "Wl7QvP2eDbA__chunk_003",
+      "KbTJNK1ALYc__chunk_002",
+      "3zXVPU2vKXs__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Techniques for displaying immersive 360-degree videos that encircle a viewer using a surface object and three-dimensional audio-visual experiences."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What are the latest screen reader updates for describing images with Gemini-powered AI, including offline support on Pixel devices and the option to ask follow-up questions about the image?",
+    "relevant_doc_ids": [
+      "fKY6qYxytLI__chunk_007",
+      "fKY6qYxytLI__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "fKY6qYxytLI__chunk_001",
+      "o8NiE3XMPrM__chunk_031",
+      "mP9QESmEDls__chunk_007",
+      "fKY6qYxytLI__chunk_000",
+      "7Tnq4y7T4xs__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the recent advancements in screen reader technology for image description using Gemini AI, specifically regarding offline capabilities on Pixel devices and features for asking follow-up questions about images?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I test my site's sign-in, sign-out, and checkout steps when cookies from other sites are blocked?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_000",
+      "10oHjdwUIxo__chunk_001",
+      "10oHjdwUIxo__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "10oHjdwUIxo__chunk_001",
+      "10oHjdwUIxo__chunk_000",
+      "10oHjdwUIxo__chunk_009",
+      "10oHjdwUIxo__chunk_003",
+      "10oHjdwUIxo__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can I use to evaluate the login, logout, and purchase processes on my website when third-party cookies are disabled?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What browser settings should I tweak and what tests should I run to make sure I can sign in and complete payments if third\u2011party cookies are blocked?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_002",
+      "10oHjdwUIxo__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "10oHjdwUIxo__chunk_001",
+      "10oHjdwUIxo__chunk_000",
+      "10oHjdwUIxo__chunk_002",
+      "10oHjdwUIxo__chunk_006",
+      "10oHjdwUIxo__chunk_009"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I adjust my web browser options and what verifications should I perform to ensure successful sign-ins and payment transactions when third-party cookies are disabled?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "I\u2019ve got a few related sites and want to show how they\u2019re connected. Where do I post the list of related sites, and how do I create it?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "10oHjdwUIxo__chunk_006",
+      "3Wo-iucic7I__chunk_005",
+      "CjpZCWYrSxM__chunk_003",
+      "POUqfDBtRbg__chunk_008",
+      "15oPNK1W0Tw__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I display a list of interconnected websites, and what is the best method to compile and share this list?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "With third-party cookies blocked, what are the different ways embedded widgets can access user data on other sites, and how do these options compare to one another?",
+    "relevant_doc_ids": [
+      "10oHjdwUIxo__chunk_005",
+      "10oHjdwUIxo__chunk_007",
+      "10oHjdwUIxo__chunk_004",
+      "10oHjdwUIxo__chunk_006",
+      "10oHjdwUIxo__chunk_003",
+      "10oHjdwUIxo__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "10oHjdwUIxo__chunk_004",
+      "10oHjdwUIxo__chunk_003",
+      "10oHjdwUIxo__chunk_006",
+      "10oHjdwUIxo__chunk_000",
+      "10oHjdwUIxo__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Alternative methods for embedded widgets to retrieve user information across different websites without third-party cookies, and a comparative analysis of these techniques."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 1.0
+  },
+  {
+    "query": "When and where did Google run its first self-driving car tests, and how did they lay out the course for that Prius race?",
+    "relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "jnUUo7xso_0__chunk_001",
+      "ud09zuXHst4__chunk_010",
+      "jnUUo7xso_0__chunk_000",
+      "ud09zuXHst4__chunk_004",
+      "ud09zuXHst4__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What date and location were the initial testing sites for Google's self-driving vehicle, and what were the design elements of the course used for the Prius race?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What challenges did Larry Page and Sergey Brin set for the early self-driving car team, and what goals were they aiming for?",
+    "relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_001",
+      "jnUUo7xso_0__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "jnUUo7xso_0__chunk_000",
+      "jnUUo7xso_0__chunk_001",
+      "Uh-7YX8tkxI__chunk_011",
+      "jnUUo7xso_0__chunk_002",
+      "Uh-7YX8tkxI__chunk_015"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What obstacles did Larry Page and Sergey Brin propose for the initial autonomous vehicle development group, and what objectives were they targeting?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How does Waymo explain combining data from laser scanners, cameras, and radar to achieve dependable perception and built-in redundancy?",
+    "relevant_doc_ids": [
+      "jnUUo7xso_0__chunk_007",
+      "jnUUo7xso_0__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "jnUUo7xso_0__chunk_005",
+      "jnUUo7xso_0__chunk_007",
+      "jnUUo7xso_0__chunk_003",
+      "jnUUo7xso_0__chunk_004",
+      "jnUUo7xso_0__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "In what ways does Waymo describe the integration of data from LiDAR, visual sensors, and radar systems to enhance reliable perception and ensure redundancy in their autonomous vehicles?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What are the performance benefits of using CSS-based carousels instead of JavaScript ones, and how do CSS-first approaches in page builders help reduce page size?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_017",
+      "VTCIStB6y8s__chunk_019"
+    ],
+    "retrieved_doc_ids": [
+      "VTCIStB6y8s__chunk_019",
+      "GjvgtwSOCao__chunk_017",
+      "VTCIStB6y8s__chunk_018",
+      "o2wkYzu5u50__chunk_017",
+      "UcXWY057YuQ__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What advantages do CSS-only image sliders have over JavaScript counterparts, and how do CSS-centric design frameworks in website builders contribute to smaller webpage sizes?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What are the different ways I can deploy the open-source ADK Python library on Google Cloud?",
+    "relevant_doc_ids": [
+      "8rlNdKywldQ__chunk_008",
+      "w_W2brDZDko__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "w_W2brDZDko__chunk_008",
+      "w_W2brDZDko__chunk_005",
+      "8rlNdKywldQ__chunk_008",
+      "8rlNdKywldQ__chunk_006",
+      "w_W2brDZDko__chunk_014"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I implement the open-source ADK Python library on Google Cloud using various deployment strategies?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's this Agent Space feature from a cloud service, and how does it help you set up and push out agents to employees, especially if you need them to work with external file storage apps?",
+    "relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_004",
+      "3Wo-iucic7I__chunk_007",
+      "w_W2brDZDko__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "3Wo-iucic7I__chunk_003",
+      "3Wo-iucic7I__chunk_004",
+      "3Wo-iucic7I__chunk_007",
+      "w_W2brDZDko__chunk_008",
+      "8rlNdKywldQ__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the Agent Space functionality within a cloud platform, and how does it facilitate the deployment and configuration of agents for staff, particularly for integration with external file storage applications?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What can Vertex AI do on Google Cloud for training, fine-tuning, and deploying models, and does it include things like an optimizer, using outside information to boost results, and support for long-context inputs?",
+    "relevant_doc_ids": [
+      "w_W2brDZDko__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "w_W2brDZDko__chunk_001",
+      "8rlNdKywldQ__chunk_002",
+      "4TE-KFXvhAk__chunk_010",
+      "BqQiJ5LSASI__chunk_003",
+      "xLmJJk1gbuE__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does Vertex AI on Google Cloud facilitate model training, customization, and deployment, including features like optimization, integration of external data for enhanced performance, and capability for managing long-context input scenarios?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What exactly is a global endpoint, and how does it choose the best, most available and fastest deployment without locking you into a single region?",
+    "relevant_doc_ids": [
+      "w_W2brDZDko__chunk_002",
+      "w_W2brDZDko__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "XEhd9a9YhSk__chunk_002",
+      "w_W2brDZDko__chunk_020",
+      "w_W2brDZDko__chunk_018",
+      "w_W2brDZDko__chunk_001",
+      "cHNy5mK0jzE__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does a global endpoint function to select the optimal, most accessible, and quickest deployment option without restricting you to one geographic region?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.25,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I adjust or mute notifications for a particular pass and for passes nearby in my wallet app?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "21tfI9O9RrA__chunk_007",
+      "21tfI9O9RrA__chunk_006",
+      "21tfI9O9RrA__chunk_008",
+      "ihR8hL_Hmec__chunk_003",
+      "21tfI9O9RrA__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to manage or silence alerts for a specific pass and nearby passes in my digital wallet application?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I swap a saved pass for a linked merchant pass during loyalty program sign-up?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "21tfI9O9RrA__chunk_008",
+      "21tfI9O9RrA__chunk_007",
+      "21tfI9O9RrA__chunk_009",
+      "21tfI9O9RrA__chunk_006",
+      "21tfI9O9RrA__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to exchange a stored pass for a connected merchant pass while enrolling in a loyalty program?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do real-time transit pass updates and season passes work with my Wallet, using secure digital payments?",
+    "relevant_doc_ids": [
+      "21tfI9O9RrA__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "21tfI9O9RrA__chunk_008",
+      "21tfI9O9RrA__chunk_009",
+      "21tfI9O9RrA__chunk_006",
+      "21tfI9O9RrA__chunk_005",
+      "21tfI9O9RrA__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the process for managing real-time transit pass notifications and annual subscriptions through digital wallets, incorporating secure payment methods?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Can you share some notable examples of cross-disciplinary collaborations between AI researchers and scientists from other fields, including brain-connectivity mapping projects and AI tools used for geometry and proving theorems?",
+    "relevant_doc_ids": [
+      "NYtQuneZMXc__chunk_012"
+    ],
+    "retrieved_doc_ids": [
+      "NYtQuneZMXc__chunk_012",
+      "NYtQuneZMXc__chunk_014",
+      "o8NiE3XMPrM__chunk_017",
+      "4TE-KFXvhAk__chunk_017",
+      "NYtQuneZMXc__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Could you provide specific instances of interdisciplinary partnerships between artificial intelligence experts and professionals in other domains, such as projects on brain connectivity mapping and AI applications in geometry and theorem verification?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What are quantum bits, and how does being in multiple states at once help quantum computers outperform ordinary bits?",
+    "relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "5HaXfjHtCWo__chunk_001",
+      "5HaXfjHtCWo__chunk_000",
+      "5HaXfjHtCWo__chunk_005",
+      "5HaXfjHtCWo__chunk_003",
+      "5HaXfjHtCWo__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What defines quantum bits, and in what ways does their ability to exist in superposition enhance the performance of quantum computers compared to classical bits?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does the Y2K analogy help explain how quantum computers could threaten encryption, and what\u2019s NIST\u2019s role in building quantum-safe cryptography?",
+    "relevant_doc_ids": [
+      "5HaXfjHtCWo__chunk_008",
+      "5HaXfjHtCWo__chunk_009"
+    ],
+    "retrieved_doc_ids": [
+      "5HaXfjHtCWo__chunk_008",
+      "5HaXfjHtCWo__chunk_003",
+      "5HaXfjHtCWo__chunk_009",
+      "5HaXfjHtCWo__chunk_005",
+      "5HaXfjHtCWo__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What insights can the Y2K comparison provide regarding the risks quantum computing poses to encryption, and how is NIST involved in developing cryptography resilient to quantum attacks?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I make the first element get focus automatically on a TV app screen using a Compose-style UI, with a focusRequester, a focus modifier, and LaunchedEffect?",
+    "relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "OosLbRBM9dA__chunk_004",
+      "OosLbRBM9dA__chunk_005",
+      "89UusPuz8q4__chunk_002",
+      "IaNpcrCSDiI__chunk_002",
+      "YYMt7Ddzz6Y__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the method to enable automatic focus on the initial component of a TV application interface utilizing Compose, incorporating focusRequester, focus modifier, and LaunchedEffect?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What do I need to do to enable Continue Watching personalization across my devices, using my account profile and syncing my viewing data between them?",
+    "relevant_doc_ids": [
+      "OosLbRBM9dA__chunk_010",
+      "OosLbRBM9dA__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "OosLbRBM9dA__chunk_010",
+      "OosLbRBM9dA__chunk_001",
+      "IaNpcrCSDiI__chunk_012",
+      "POUqfDBtRbg__chunk_010",
+      "v-6b_wWF96U__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I activate Continue Watching recommendations on all my devices by syncing my viewing history through my account settings?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Which Gemini models are meant to run GenAI offline on Android devices, and how does Firebase make it easier to add them to an app without setting up a backend?",
+    "relevant_doc_ids": [
+      "7Tnq4y7T4xs__chunk_005",
+      "U8Nb68XsVY4__chunk_001",
+      "7Tnq4y7T4xs__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "U8Nb68XsVY4__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "7Tnq4y7T4xs__chunk_004",
+      "7Tnq4y7T4xs__chunk_005",
+      "U8Nb68XsVY4__chunk_001",
+      "IaNpcrCSDiI__chunk_021",
+      "7Tnq4y7T4xs__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the Gemini AI models designed for offline operation on Android smartphones, and in what ways does Firebase simplify their integration into applications without requiring backend configuration?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "Which platforms or tools can I use to test Gemini's multimodal features, and how should I decide between Nano, Pro, or other Gemini options for my use case?",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "STMN5N-bDko__chunk_001",
+      "7Tnq4y7T4xs__chunk_004",
+      "4TE-KFXvhAk__chunk_002",
+      "8iIvAMZ-XYU__chunk_004",
+      "7Tnq4y7T4xs__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What testing platforms or software are available for evaluating Gemini's multimodal capabilities, and what criteria should I consider when choosing between Nano, Pro, or alternative Gemini configurations for my specific needs?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How does this on-device AI tech for mobile apps actually work, and what are the privacy, offline use, and cost-saving benefits?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "mP9QESmEDls__chunk_000",
+      "4TE-KFXvhAk__chunk_016",
+      "GjvgtwSOCao__chunk_021",
+      "7Tnq4y7T4xs__chunk_002",
+      "xLmJJk1gbuE__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "7Tnq4y7T4xs__chunk_002",
+      "mP9QESmEDls__chunk_001",
+      "4TE-KFXvhAk__chunk_016",
+      "GjvgtwSOCao__chunk_007",
+      "xLmJJk1gbuE__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the functionality of on-device artificial intelligence technology in mobile applications, and what advantages does it offer in terms of user privacy, offline capabilities, and cost efficiency?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What GenAI features does Google's ML Kit offer, and what kinds of tasks can they handle, like summarizing text, proofreading, rewriting, and describing images?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_004",
+      "7Tnq4y7T4xs__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_002",
+      "mP9QESmEDls__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "mP9QESmEDls__chunk_004",
+      "7Tnq4y7T4xs__chunk_002",
+      "mP9QESmEDls__chunk_002",
+      "tMUxxCKXz4c__chunk_000",
+      "mP9QESmEDls__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Which GenAI capabilities are provided by Google's ML Kit, and what specific functions can they perform, such as text summarization, grammar checking, content rewriting, and image captioning?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "Can you walk me through the full process of creating Dart bindings from Java or Kotlin, using the JNI generator, and tell me where the dependencies come from and where the generated files end up?",
+    "relevant_doc_ids": [
+      "flwULzNYRac__chunk_002",
+      "flwULzNYRac__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "flwULzNYRac__chunk_003",
+      "flwULzNYRac__chunk_002",
+      "flwULzNYRac__chunk_007",
+      "flwULzNYRac__chunk_001",
+      "flwULzNYRac__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Explain the comprehensive steps for generating Dart bindings from Java or Kotlin utilizing the JNI generator, including the sources of dependencies and the destination of the produced files."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How does the hardware you choose and its efficiency affect the carbon footprint of training a large AI model, and why might newer hardware be preferable even if it uses more power per second?",
+    "relevant_doc_ids": [
+      "5MPxzw15ojE__chunk_003",
+      "5MPxzw15ojE__chunk_001",
+      "5MPxzw15ojE__chunk_002",
+      "5MPxzw15ojE__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "5MPxzw15ojE__chunk_011",
+      "5MPxzw15ojE__chunk_013",
+      "5MPxzw15ojE__chunk_001",
+      "MmxPBgrrn4Q__chunk_010",
+      "5MPxzw15ojE__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the impact of hardware selection and its energy efficiency on the environmental footprint of training large AI models, and what advantages do modern hardware options offer despite potentially higher power consumption rates?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.3333333333333333,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do the size of an AI model, the hardware you pick (older GPUs vs newer ones), and using a nearby data center affect the carbon emissions from training? For example, what would training a 405-billion-parameter model require in terms of compute, and how would that impact emissions?",
+    "relevant_doc_ids": [
+      "5MPxzw15ojE__chunk_003",
+      "5MPxzw15ojE__chunk_001",
+      "5MPxzw15ojE__chunk_002",
+      "5MPxzw15ojE__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "5MPxzw15ojE__chunk_001",
+      "5MPxzw15ojE__chunk_011",
+      "5MPxzw15ojE__chunk_002",
+      "5MPxzw15ojE__chunk_013",
+      "5MPxzw15ojE__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the relationship between the scale of an AI model, the choice of hardware (such as legacy GPUs vs cutting-edge alternatives), and the proximity of data centers on the carbon footprint during training? Specifically, what computational resources are necessary for a 405-billion-parameter model, and how would these factors influence its environmental impact?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can I set up an AI-powered backend that pulls matching recipes from my database, creates a new recipe with an accompanying image, and orders any missing ingredients through an API?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_006",
+      "rxKYK3DIzN0__chunk_005",
+      "rxKYK3DIzN0__chunk_000",
+      "rxKYK3DIzN0__chunk_001",
+      "rxKYK3DIzN0__chunk_008",
+      "rxKYK3DIzN0__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "rxKYK3DIzN0__chunk_004",
+      "rxKYK3DIzN0__chunk_003",
+      "rxKYK3DIzN0__chunk_006",
+      "rxKYK3DIzN0__chunk_005",
+      "rxKYK3DIzN0__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to develop an AI-driven server that retrieves relevant recipes from my database, generates a new recipe with an image, and places orders for any missing ingredients via an API?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "Why run the AI workflow on the backend, and how does this setup help with observability, a single interface for the model, and easy integration with popular monitoring tools to keep track of things?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "8rlNdKywldQ__chunk_011",
+      "rxKYK3DIzN0__chunk_004",
+      "R_gqv8PwM78__chunk_006",
+      "rxKYK3DIzN0__chunk_008",
+      "8rlNdKywldQ__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Benefits of executing AI processes on the server side, and how this configuration enhances visibility, provides a unified interface for the models, and simplifies integration with widely used monitoring solutions for effective oversight."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What should developers do to keep API keys from getting exposed in a mobile app, and how can Firebase help reduce that risk?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_007",
+      "rxKYK3DIzN0__chunk_002",
+      "rxKYK3DIzN0__chunk_001",
+      "U8Nb68XsVY4__chunk_002",
+      "XEhd9a9YhSk__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "rxKYK3DIzN0__chunk_002",
+      "rxKYK3DIzN0__chunk_001",
+      "U8Nb68XsVY4__chunk_001",
+      "XEhd9a9YhSk__chunk_009",
+      "rxKYK3DIzN0__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can mobile developers secure API keys from exposure, and what role does Firebase play in mitigating this vulnerability?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can I mock up an AI prompt to generate a vegan Turkish recipe, get the results as JSON, and hook it into an iOS app so it stores data in the cloud?",
+    "relevant_doc_ids": [
+      "rxKYK3DIzN0__chunk_000",
+      "rxKYK3DIzN0__chunk_006",
+      "rxKYK3DIzN0__chunk_008",
+      "rxKYK3DIzN0__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "rxKYK3DIzN0__chunk_001",
+      "rxKYK3DIzN0__chunk_003",
+      "rxKYK3DIzN0__chunk_000",
+      "rxKYK3DIzN0__chunk_006",
+      "rxKYK3DIzN0__chunk_008"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the process to create an AI input for producing a plant-based Turkish dish, retrieve the output in JSON format, and integrate it into an iOS application for cloud data storage?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "Hey, where can I find info on upgrading to PGS V2 and the new features planned for 2025 at the game development center?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_016",
+      "v-6b_wWF96U__chunk_005",
+      "v-6b_wWF96U__chunk_006",
+      "v-6b_wWF96U__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "v-6b_wWF96U__chunk_006",
+      "v-6b_wWF96U__chunk_005",
+      "v-6b_wWF96U__chunk_000",
+      "POUqfDBtRbg__chunk_016",
+      "v-6b_wWF96U__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I access details on transitioning to PGS Version 2 and the upcoming enhancements for 2025 at the game development hub?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How do PGS and the Gamer Profile help developers, players, and the Play platform talk to each other, and what benefits do they offer?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_015",
+      "v-6b_wWF96U__chunk_001",
+      "v-6b_wWF96U__chunk_000",
+      "v-6b_wWF96U__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "v-6b_wWF96U__chunk_001",
+      "v-6b_wWF96U__chunk_000",
+      "v-6b_wWF96U__chunk_004",
+      "POUqfDBtRbg__chunk_015",
+      "v-6b_wWF96U__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What advantages do the Player Game State (PGS) and Gamer Profile provide for interactions between game developers, players, and the Play platform?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How does this cross-platform development setup split its platform support into levels, and what does each level guarantee for Android, iOS, the JVM, Mac, and Linux?",
+    "relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "gP5Y-ct6QXI__chunk_001",
+      "15oPNK1W0Tw__chunk_000",
+      "gP5Y-ct6QXI__chunk_005",
+      "IaNpcrCSDiI__chunk_008",
+      "GjvgtwSOCao__chunk_011"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the tiers of platform support in this cross-platform development framework, and what assurances does each tier provide for Android, iOS, JVM, macOS, and Linux environments?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What's the current stability status of Jetpack's Kotlin Multiplatform libraries\u2014stable, commonized across platforms, or still in alpha? For example: the database, storage, paging, saved state, and ViewModel components.",
+    "relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_008",
+      "gP5Y-ct6QXI__chunk_002",
+      "gP5Y-ct6QXI__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "IaNpcrCSDiI__chunk_008",
+      "gP5Y-ct6QXI__chunk_001",
+      "gP5Y-ct6QXI__chunk_000",
+      "gP5Y-ct6QXI__chunk_002",
+      "gP5Y-ct6QXI__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the present reliability condition of Jetpack's Kotlin Multiplatform libraries\u2014are they stable, unified across platforms, or still in experimental stages? Specifically regarding the database, data storage, pagination, state saving, and ViewModel modules."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can I publish my Kotlin Multiplatform library for iOS as an XCFramework and get it to work in Xcode using Gradle?",
+    "relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_007",
+      "gP5Y-ct6QXI__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "gP5Y-ct6QXI__chunk_006",
+      "gP5Y-ct6QXI__chunk_007",
+      "gP5Y-ct6QXI__chunk_005",
+      "gP5Y-ct6QXI__chunk_008",
+      "gP5Y-ct6QXI__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What steps are needed to release a Kotlin Multiplatform library as an XCFramework for iOS and integrate it into Xcode using Gradle?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's the best way to package a Kotlin Multiplatform library for iOS apps, using either the iOS package system or a pods-style setup, and which Gradle settings let you build universal iOS frameworks?",
+    "relevant_doc_ids": [
+      "gP5Y-ct6QXI__chunk_007",
+      "gP5Y-ct6QXI__chunk_008",
+      "gP5Y-ct6QXI__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "gP5Y-ct6QXI__chunk_005",
+      "gP5Y-ct6QXI__chunk_008",
+      "gP5Y-ct6QXI__chunk_007",
+      "gP5Y-ct6QXI__chunk_006",
+      "gP5Y-ct6QXI__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I effectively bundle a Kotlin Multiplatform library for iOS applications, utilizing the iOS packaging framework or a CocoaPods configuration, and what Gradle configurations are necessary to create universal iOS frameworks?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How do I check if a user\u2019s default browser supports Android Custom Tabs using the getPackageName helper, and what should I do if no package is found?",
+    "relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "2IAoYnzCTvw__chunk_004",
+      "2IAoYnzCTvw__chunk_006",
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_003",
+      "2IAoYnzCTvw__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I verify if a user's primary web browser is compatible with Android Custom Tabs using the getPackageName function, and what steps should I take if there is no associated package?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How useful is using an in\u2011app browser on Android, what are its pros and cons, and could a link in a YouTube video description open in that browser so you stay inside the app?",
+    "relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_001",
+      "2IAoYnzCTvw__chunk_003",
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "2IAoYnzCTvw__chunk_005",
+      "2IAoYnzCTvw__chunk_004",
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_003",
+      "ud09zuXHst4__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the advantages and disadvantages of utilizing an in-app browser on Android, and is it possible for a hyperlink in a YouTube video description to launch within that browser to keep users engaged in the application?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What are the usual ways apps can show web pages inside Android, and why might someone choose Custom Tabs over WebView?",
+    "relevant_doc_ids": [
+      "2IAoYnzCTvw__chunk_006",
+      "2IAoYnzCTvw__chunk_005",
+      "2IAoYnzCTvw__chunk_004",
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_001",
+      "2IAoYnzCTvw__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "2IAoYnzCTvw__chunk_003",
+      "2IAoYnzCTvw__chunk_000",
+      "2IAoYnzCTvw__chunk_006",
+      "2IAoYnzCTvw__chunk_007",
+      "2IAoYnzCTvw__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Methods for displaying web content within Android apps and the advantages of selecting Custom Tabs over WebView"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What exactly is Google's developer program, and what membership levels does it offer (standard, premium, enterprise)?",
+    "relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_001",
+      "BqQiJ5LSASI__chunk_007",
+      "BqQiJ5LSASI__chunk_005",
+      "BqQiJ5LSASI__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "BqQiJ5LSASI__chunk_006",
+      "BqQiJ5LSASI__chunk_001",
+      "BqQiJ5LSASI__chunk_007",
+      "BqQiJ5LSASI__chunk_005",
+      "BqQiJ5LSASI__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Details about Google's software developer program and its membership tiers (basic, advanced, corporate)."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "Hey, what AI tools and learning resources does Google's developer program offer to help developers build smarter apps?",
+    "relevant_doc_ids": [
+      "BqQiJ5LSASI__chunk_003",
+      "4TE-KFXvhAk__chunk_019",
+      "BqQiJ5LSASI__chunk_006",
+      "BqQiJ5LSASI__chunk_004",
+      "BqQiJ5LSASI__chunk_002",
+      "BqQiJ5LSASI__chunk_001",
+      "GjvgtwSOCao__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "BqQiJ5LSASI__chunk_001",
+      "BqQiJ5LSASI__chunk_006",
+      "BqQiJ5LSASI__chunk_003",
+      "BqQiJ5LSASI__chunk_002",
+      "4TE-KFXvhAk__chunk_019"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What artificial intelligence resources and educational materials does Google's developer initiative provide for developers to create more intelligent applications?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 1.0
+  },
+  {
+    "query": "How can a big collection of web text be used as a rough stand\u2011in for the training data of a GPT\u20112 style model, and what practical storage needs and file details should I know when I run the notebook\u2014like how big the dataset is, which files are for training and validation, and where I should point the data?",
+    "relevant_doc_ids": [
+      "MmxPBgrrn4Q__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "MmxPBgrrn4Q__chunk_005",
+      "gstgT0WRoiE__chunk_005",
+      "MmxPBgrrn4Q__chunk_006",
+      "MmxPBgrrn4Q__chunk_007",
+      "o2wkYzu5u50__chunk_016"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Utilizing extensive web text repositories as a provisional substitute for GPT-2 model training data, including essential storage considerations, dataset dimensions, file specifications, and optimal data path configurations when executing the notebook."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I use an API with a browser-based tool to grab live internet data and do some basic web tasks?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_003",
+      "gstgT0WRoiE__chunk_005",
+      "xr_zgAv0YoI__chunk_007",
+      "gstgT0WRoiE__chunk_004",
+      "gstgT0WRoiE__chunk_001",
+      "gstgT0WRoiE__chunk_006",
+      "o2wkYzu5u50__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "gstgT0WRoiE__chunk_003",
+      "gstgT0WRoiE__chunk_004",
+      "xr_zgAv0YoI__chunk_007",
+      "o2wkYzu5u50__chunk_007",
+      "YN04nNsg_L4__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to utilize an API in a web-based application for fetching real-time online data and performing essential web operations?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "Why bother turning HTML pages into a plain text format for an AI language model, and which cues that signal the page\u2019s structure stay intact to preserve the layout while using fewer tokens?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "gstgT0WRoiE__chunk_004",
+      "mP9QESmEDls__chunk_004",
+      "gstgT0WRoiE__chunk_003",
+      "jrr8gRI1GaY__chunk_004",
+      "CjpZCWYrSxM__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the advantages of converting HTML documents to plain text for AI language models, and what indicators of the page's organization remain in place to maintain the format while reducing token count?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does a live web retrieval system fetch pages on the fly and work with a chat interface to answer questions from a simulated internal site without reindexing, relying on current information?",
+    "relevant_doc_ids": [
+      "gstgT0WRoiE__chunk_005",
+      "gstgT0WRoiE__chunk_003",
+      "gstgT0WRoiE__chunk_004",
+      "nZhkjSFB6UA__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "gstgT0WRoiE__chunk_004",
+      "xr_zgAv0YoI__chunk_007",
+      "gstgT0WRoiE__chunk_005",
+      "kj80m-umOxs__chunk_008",
+      "gstgT0WRoiE__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can a dynamic web extraction system obtain real-time data and interact with a conversational interface to respond to inquiries from a mock internal site without needing to reindex, utilizing up-to-date information?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How does the chat demo show setting up a cloud-hosted MySQL database, generating a script to provision the infrastructure, and figuring out the right permissions to access storage?",
+    "relevant_doc_ids": [
+      "6eTiMIhtnBA__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "6eTiMIhtnBA__chunk_003",
+      "6eTiMIhtnBA__chunk_002",
+      "nZhkjSFB6UA__chunk_002",
+      "6eTiMIhtnBA__chunk_006",
+      "6eTiMIhtnBA__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps demonstrated in the chat for configuring a cloud-based MySQL database, creating an infrastructure provisioning script, and determining appropriate access permissions for storage?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does this tool work with my development setup to push an AI-suggested fix right into my workspace, and how are the changes checked, linked to my original code, and saved back into the project?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_004",
+      "jrr8gRI1GaY__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "EVcahPj2jHM__chunk_004",
+      "EVcahPj2jHM__chunk_005",
+      "w_W2brDZDko__chunk_010",
+      "KXKP2tDPW4Y__chunk_008",
+      "YCNDg9j0p5o__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the process for integrating this tool into my development environment to implement AI-recommended solutions directly in my workspace, and how are the modifications verified, associated with the initial code, and committed back to the project repository?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Are there any experimental workspace features in the developer tools that can automatically locate and connect to my project's source folder, and does this work with popular web frameworks? Also, how do I turn it on or use a plugin or a JSON endpoint to get it working?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "EVcahPj2jHM__chunk_004",
+      "nZhkjSFB6UA__chunk_007",
+      "wz3kQQubPkc__chunk_005",
+      "gP5Y-ct6QXI__chunk_006",
+      "w_W2brDZDko__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Are there any innovative workspace functionalities in the development tools that can seamlessly identify and link to my project's source directory, and is this compatible with major web frameworks? Additionally, what steps do I need to follow to enable it, or is there a plugin or JSON configuration required to activate this feature?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I get AI help when I'm checking a specific web request in my browser's developer tools?",
+    "relevant_doc_ids": [
+      "EVcahPj2jHM__chunk_003",
+      "EVcahPj2jHM__chunk_005",
+      "EVcahPj2jHM__chunk_004",
+      "o2wkYzu5u50__chunk_012",
+      "EVcahPj2jHM__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "xr_zgAv0YoI__chunk_007",
+      "xr_zgAv0YoI__chunk_008",
+      "CjpZCWYrSxM__chunk_014",
+      "xr_zgAv0YoI__chunk_009",
+      "o2wkYzu5u50__chunk_012"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the best AI tools to assist with analyzing web requests in browser developer tools?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.2,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do I drop in a tutorial video in an Android app's UI, use a media library to hook it up to a media player object, and make my own Play/Pause button that's driven by a PlayPauseButtonState?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_007",
+      "IaNpcrCSDiI__chunk_007",
+      "3zXVPU2vKXs__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "IaNpcrCSDiI__chunk_007",
+      "89UusPuz8q4__chunk_007",
+      "89UusPuz8q4__chunk_006",
+      "3zXVPU2vKXs__chunk_008",
+      "3zXVPU2vKXs__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Integrate a tutorial video into an Android app's user interface, utilize a media library to connect it to a media player instance, and create a custom Play/Pause button controlled by a PlayPauseButtonState."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What are Media3 artifacts used for when building camera or media features, and how does cross-platform code sharing help you reuse the same core logic across different platforms?",
+    "relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "3zXVPU2vKXs__chunk_000",
+      "IaNpcrCSDiI__chunk_007",
+      "3zXVPU2vKXs__chunk_011",
+      "IaNpcrCSDiI__chunk_020",
+      "3zXVPU2vKXs__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How are Media3 components utilized in developing camera and media functionalities, and what benefits does cross-platform code sharing provide for reusing core logic across multiple platforms?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What stability improvements were made to the experimental APIs in the latest stable release, and how many were cleaned up?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_003",
+      "89UusPuz8q4__chunk_005",
+      "IaNpcrCSDiI__chunk_005",
+      "IaNpcrCSDiI__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "IaNpcrCSDiI__chunk_005",
+      "89UusPuz8q4__chunk_004",
+      "89UusPuz8q4__chunk_005",
+      "IaNpcrCSDiI__chunk_004",
+      "gHHjDRDNUNU__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What enhancements in reliability were introduced in the latest stable version of the experimental APIs, and what is the total count of deprecated features?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What's Navigation 3 alpha all about, and how does it help with navigating in a Compose-based workflow?",
+    "relevant_doc_ids": [
+      "IaNpcrCSDiI__chunk_005",
+      "IaNpcrCSDiI__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "IaNpcrCSDiI__chunk_006",
+      "15oPNK1W0Tw__chunk_007",
+      "89UusPuz8q4__chunk_005",
+      "80qkStdDWXQ__chunk_002",
+      "GjvgtwSOCao__chunk_012"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is Navigation 3 alpha, and in what ways does it enhance navigation within a Jetpack Compose development process?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do Indian multilingual chatbots figure out what language a user is using and translate it, so they can chat with the systems that run the service in the user's native language?",
+    "relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_007",
+      "CjpZCWYrSxM__chunk_004",
+      "gHHjDRDNUNU__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "CjpZCWYrSxM__chunk_007",
+      "YN04nNsg_L4__chunk_007",
+      "CjpZCWYrSxM__chunk_006",
+      "gHHjDRDNUNU__chunk_005",
+      "GjvgtwSOCao__chunk_029"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods do Indian multilingual chatbots employ to detect a user's language and translate it for effective communication in their preferred language during interactions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What are some real-world examples of tools that help you write or rewrite text through an API, and do you have any details on early access programs and large-scale AI hackathons?",
+    "relevant_doc_ids": [
+      "CjpZCWYrSxM__chunk_007",
+      "o2wkYzu5u50__chunk_010",
+      "CjpZCWYrSxM__chunk_003",
+      "mP9QESmEDls__chunk_004",
+      "CjpZCWYrSxM__chunk_006",
+      "CjpZCWYrSxM__chunk_005",
+      "o2wkYzu5u50__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "CjpZCWYrSxM__chunk_007",
+      "o2wkYzu5u50__chunk_010",
+      "juy9nrcTBck__chunk_002",
+      "CjpZCWYrSxM__chunk_003",
+      "mP9QESmEDls__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Examples of practical applications that facilitate text generation or modification via API, and information regarding preliminary access initiatives and extensive AI coding competitions."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What new discovery features is this platform rolling out to boost user engagement and revenue, like curated spaces and subscription options?",
+    "relevant_doc_ids": [
+      "POUqfDBtRbg__chunk_006",
+      "T41OD37tI54__chunk_001",
+      "POUqfDBtRbg__chunk_007",
+      "POUqfDBtRbg__chunk_012"
+    ],
+    "retrieved_doc_ids": [
+      "POUqfDBtRbg__chunk_007",
+      "POUqfDBtRbg__chunk_011",
+      "T41OD37tI54__chunk_001",
+      "T41OD37tI54__chunk_008",
+      "POUqfDBtRbg__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What innovative discovery tools is this platform launching to enhance user interaction and increase revenue, such as personalized content channels and membership plans?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What can Google's Gemma family do (Gemma 3, Gemma 3n, and MedGemma), and how can you use them\u2014on your device or in the cloud? I\u2019m curious about things like model size, whether they handle different types of data (images and text), which languages they cover, and where they actually run.",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_010",
+      "o7Bv4r08FBM__chunk_009",
+      "o7Bv4r08FBM__chunk_010",
+      "o7Bv4r08FBM__chunk_008",
+      "GjvgtwSOCao__chunk_026",
+      "o7Bv4r08FBM__chunk_018"
+    ],
+    "retrieved_doc_ids": [
+      "o7Bv4r08FBM__chunk_010",
+      "4TE-KFXvhAk__chunk_010",
+      "o7Bv4r08FBM__chunk_008",
+      "GjvgtwSOCao__chunk_026",
+      "o7Bv4r08FBM__chunk_009"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Capabilities of Google's Gemma series (Gemma 3, Gemma 3n, and MedGemma) - functions, deployment on personal devices versus cloud infrastructure, model specifications, supported data types (images and text), language compatibility, and operational environments."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 1.0
+  },
+  {
+    "query": "How can developers push their AI models from a modeling studio to a cloud hosting service in a one-click workflow using an AI SDK, and what changes are usually required?",
+    "relevant_doc_ids": [
+      "4TE-KFXvhAk__chunk_010"
+    ],
+    "retrieved_doc_ids": [
+      "8rlNdKywldQ__chunk_002",
+      "4TE-KFXvhAk__chunk_010",
+      "4TE-KFXvhAk__chunk_006",
+      "XEhd9a9YhSk__chunk_004",
+      "w_W2brDZDko__chunk_015"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What steps should developers follow to deploy their AI models from a development environment to a cloud platform with a single-click process using an AI software development kit, and what modifications are typically necessary?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What's the gist of what the Gemini AI models can do, and how do the 2.5 Pro and 2.5 Flash versions differ when it comes to coding and handling complex reasoning?",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_017",
+      "U8Nb68XsVY4__chunk_000",
+      "GjvgtwSOCao__chunk_003",
+      "gHHjDRDNUNU__chunk_001",
+      "4TE-KFXvhAk__chunk_001",
+      "4TE-KFXvhAk__chunk_002",
+      "o8NiE3XMPrM__chunk_010",
+      "o8NiE3XMPrM__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_017",
+      "gHHjDRDNUNU__chunk_001",
+      "o8NiE3XMPrM__chunk_008",
+      "GjvgtwSOCao__chunk_003",
+      "o8NiE3XMPrM__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the key capabilities of the Gemini AI models, and how do the 2.5 Pro and 2.5 Flash variants differ in terms of programming tasks and complex problem-solving abilities?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 1.0
+  },
+  {
+    "query": "How widely is this UI toolkit used in the top Android apps and in Google\u2019s own apps, and does Google's internal release process affect how stable it is to upgrade it?",
+    "relevant_doc_ids": [
+      "89UusPuz8q4__chunk_003",
+      "IaNpcrCSDiI__chunk_004",
+      "89UusPuz8q4__chunk_000",
+      "89UusPuz8q4__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "89UusPuz8q4__chunk_000",
+      "89UusPuz8q4__chunk_004",
+      "IaNpcrCSDiI__chunk_004",
+      "IaNpcrCSDiI__chunk_000",
+      "IaNpcrCSDiI__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the prevalence of this UI framework in leading Android applications and Google's proprietary applications, and how does Google's internal deployment procedure influence its upgrade stability?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What's the 3D view in the map service all about, and what steps do I need to get an API key and enable the 3D map features?",
+    "relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_000",
+      "Wl7QvP2eDbA__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "Wl7QvP2eDbA__chunk_002",
+      "Wl7QvP2eDbA__chunk_000",
+      "Wl7QvP2eDbA__chunk_001",
+      "Wl7QvP2eDbA__chunk_005",
+      "Wl7QvP2eDbA__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the functionalities of the 3D visualization in the mapping service, and what is the process to obtain an API key and activate the 3D mapping capabilities?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I add a 3D map to an Android app and know when it's fully loaded and ready to use?",
+    "relevant_doc_ids": [
+      "Wl7QvP2eDbA__chunk_002",
+      "Wl7QvP2eDbA__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "Wl7QvP2eDbA__chunk_002",
+      "Wl7QvP2eDbA__chunk_001",
+      "Wl7QvP2eDbA__chunk_000",
+      "Wl7QvP2eDbA__chunk_005",
+      "KbTJNK1ALYc__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to integrate a 3D mapping feature in an Android application and how can I determine when it's completely initialized and available for interaction?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do Baseline hover cards work in code editors, and which editors show the Baseline status and browser compatibility right now?",
+    "relevant_doc_ids": [
+      "beYbnNT_02U__chunk_012"
+    ],
+    "retrieved_doc_ids": [
+      "beYbnNT_02U__chunk_012",
+      "GjvgtwSOCao__chunk_018",
+      "beYbnNT_02U__chunk_002",
+      "VTCIStB6y8s__chunk_001",
+      "beYbnNT_02U__chunk_011"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How do Baseline hover tooltips function in programming environments, and which code editors currently display Baseline status along with browser compatibility information?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Which teams have started using Baseline, and how is it shaping the tools they pick and the way they explain browser support to their clients?",
+    "relevant_doc_ids": [
+      "beYbnNT_02U__chunk_013",
+      "beYbnNT_02U__chunk_012",
+      "beYbnNT_02U__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "beYbnNT_02U__chunk_012",
+      "beYbnNT_02U__chunk_010",
+      "beYbnNT_02U__chunk_002",
+      "o2wkYzu5u50__chunk_003",
+      "beYbnNT_02U__chunk_009"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What teams are implementing Baseline, and in what ways is it influencing their tool selection and the communication of browser compatibility to their clients?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Where can I download the Baseline feature data, and how often is it refreshed for the main browser and downstream options like Samsung Internet and Android WebView?",
+    "relevant_doc_ids": [
+      "beYbnNT_02U__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "beYbnNT_02U__chunk_008",
+      "beYbnNT_02U__chunk_002",
+      "beYbnNT_02U__chunk_007",
+      "beYbnNT_02U__chunk_005",
+      "beYbnNT_02U__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I obtain the Baseline feature data files, and what is the refresh frequency for the primary browser along with downstream platforms such as Samsung Internet and Android WebView?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Does letting a game-playing AI think through a problem improve its performance compared to the first answer it would normally give?",
+    "relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_002",
+      "Uh-7YX8tkxI__chunk_008",
+      "Uh-7YX8tkxI__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "Uh-7YX8tkxI__chunk_003",
+      "eIeJmYdYMQo__chunk_016",
+      "Uh-7YX8tkxI__chunk_008",
+      "NYtQuneZMXc__chunk_004",
+      "gHHjDRDNUNU__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Does allowing a game-playing AI to deliberate on a challenge enhance its effectiveness relative to its initial response?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Why do researchers push for a clear, formal definition of general artificial intelligence, and what safety and reliability concerns are being raised for the first such systems?",
+    "relevant_doc_ids": [
+      "Uh-7YX8tkxI__chunk_006",
+      "Uh-7YX8tkxI__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "Uh-7YX8tkxI__chunk_007",
+      "NYtQuneZMXc__chunk_004",
+      "Uh-7YX8tkxI__chunk_010",
+      "Uh-7YX8tkxI__chunk_005",
+      "o7Bv4r08FBM__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What drives scholars to advocate for a precise, formal definition of general artificial intelligence, and what safety and dependability issues are being highlighted for the initial instances of such systems?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What does the CSS appearance property do, and how does it let a standard dropdown be styled to include fancy HTML like flags or avatars?",
+    "relevant_doc_ids": [
+      "VTCIStB6y8s__chunk_008",
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "retrieved_doc_ids": [
+      "VTCIStB6y8s__chunk_008",
+      "o2wkYzu5u50__chunk_018",
+      "VTCIStB6y8s__chunk_001",
+      "UcXWY057YuQ__chunk_001",
+      "beYbnNT_02U__chunk_012"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does the CSS appearance attribute function, and in what ways can it enable the customization of a regular dropdown to incorporate advanced HTML elements like icons or images?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Why do developers often recreate drop-down menus with JavaScript, and what CSS changes are coming to make built-in form controls easier to style?",
+    "relevant_doc_ids": [
+      "o2wkYzu5u50__chunk_017",
+      "VTCIStB6y8s__chunk_008",
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "retrieved_doc_ids": [
+      "VTCIStB6y8s__chunk_000",
+      "GjvgtwSOCao__chunk_016",
+      "VTCIStB6y8s__chunk_008",
+      "VTCIStB6y8s__chunk_023",
+      "o2wkYzu5u50__chunk_018"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What motivates developers to custom-build JavaScript-based dropdown menus, and what upcoming CSS enhancements are being introduced to simplify the styling of native form elements?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.3333333333333333,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's LangGraph all about, and how does turning AI tasks into a graph with decision points and tool nodes help make things more reliable and flexible?",
+    "relevant_doc_ids": [
+      "8rlNdKywldQ__chunk_003",
+      "8rlNdKywldQ__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "o8NiE3XMPrM__chunk_024",
+      "8rlNdKywldQ__chunk_003",
+      "jrr8gRI1GaY__chunk_004",
+      "8rlNdKywldQ__chunk_004",
+      "CjpZCWYrSxM__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the purpose of LangGraph, and in what ways does transforming AI functions into a decision-making graph structure with tool nodes enhance reliability and adaptability?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How does the motion system in this design kit work with prebuilt spring settings and motion presets, and how can I adjust component animations (default, fast, slow) by overriding the theme?",
+    "relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_008",
+      "6IsFP3gD28E__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "6IsFP3gD28E__chunk_008",
+      "6IsFP3gD28E__chunk_007",
+      "UcXWY057YuQ__chunk_003",
+      "UcXWY057YuQ__chunk_002",
+      "6IsFP3gD28E__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the functionality of the motion framework in the design kit regarding integrated spring parameters and preconfigured motion settings, and what methods are available to customize animation speeds (normal, accelerated, decelerated) by modifying the theme?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How have the navigation bar and the navigation rail evolved in this design system, especially with expanded or collapsed states, vertical layout options, and how they adapt as part of the overall navigation toolkit?",
+    "relevant_doc_ids": [
+      "6IsFP3gD28E__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "6IsFP3gD28E__chunk_006",
+      "15oPNK1W0Tw__chunk_008",
+      "15oPNK1W0Tw__chunk_012",
+      "YYMt7Ddzz6Y__chunk_005",
+      "15oPNK1W0Tw__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What advancements have been made in the design system for the navigation bar and navigation rail, particularly regarding their expanded and collapsed configurations, vertical arrangements, and their integration within the comprehensive navigation framework?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do these tools help with prototyping, like ready-made templates, running several programming languages inside a virtual machine, and controlling how new versions are rolled out to users?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "x2zvki_VlRE__chunk_003",
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "o2wkYzu5u50__chunk_011",
+      "R_gqv8PwM78__chunk_002",
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "o8NiE3XMPrM__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What advantages do prototyping tools offer, such as pre-built templates, multi-language support in virtual environments, and strategies for managing software version deployments to end-users?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How does this platform help me build apps that use different kinds of input (text, images, etc.)? What exactly is a \"blueprint\" in that workflow, and what options exist for previewing or deploying the app?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "x2zvki_VlRE__chunk_003",
+      "7Tnq4y7T4xs__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "x2zvki_VlRE__chunk_005",
+      "x2zvki_VlRE__chunk_003",
+      "xo271p-Fl_4__chunk_007",
+      "4TE-KFXvhAk__chunk_010",
+      "7Tnq4y7T4xs__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does this system assist in developing applications supported by various input types (such as text and images)? What is the \"blueprint\" terminology in that process, and what alternatives are available for app previewing or deployment?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "On the landing page, what options do I have for starting a new project\u2014use a template or start from scratch\u2014and how can I bring in an existing project or tweak the environment all the way down to the virtual machine details?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_004",
+      "x2zvki_VlRE__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "x2zvki_VlRE__chunk_003",
+      "x2zvki_VlRE__chunk_004",
+      "6eTiMIhtnBA__chunk_005",
+      "x2zvki_VlRE__chunk_005",
+      "gP5Y-ct6QXI__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What features are available on the homepage for initiating a new project\u2014utilizing a pre-built template or creating one from the ground up\u2014and how can I import an existing project or modify the setup down to the specifics of virtual machine configurations?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What are the pros and cons of doing AI work on the user's device, on the server, or a mix for web apps?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_001",
+      "YN04nNsg_L4__chunk_002",
+      "YN04nNsg_L4__chunk_008",
+      "YN04nNsg_L4__chunk_001",
+      "xr_zgAv0YoI__chunk_008",
+      "YN04nNsg_L4__chunk_006",
+      "YN04nNsg_L4__chunk_007",
+      "YN04nNsg_L4__chunk_009"
+    ],
+    "retrieved_doc_ids": [
+      "CjpZCWYrSxM__chunk_008",
+      "YN04nNsg_L4__chunk_002",
+      "xr_zgAv0YoI__chunk_008",
+      "o2wkYzu5u50__chunk_010",
+      "YN04nNsg_L4__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the advantages and disadvantages of performing artificial intelligence tasks on client devices, in the cloud, or a hybrid approach for web applications?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What tech powers AI that runs in a web browser, and do browsers have built-in AI features like the ones in Chrome?",
+    "relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_004",
+      "YN04nNsg_L4__chunk_002",
+      "YN04nNsg_L4__chunk_001",
+      "YN04nNsg_L4__chunk_008",
+      "YN04nNsg_L4__chunk_010",
+      "CjpZCWYrSxM__chunk_001",
+      "YN04nNsg_L4__chunk_005",
+      "CjpZCWYrSxM__chunk_000",
+      "GjvgtwSOCao__chunk_021",
+      "8iIvAMZ-XYU__chunk_000",
+      "YN04nNsg_L4__chunk_009",
+      "YN04nNsg_L4__chunk_000",
+      "xr_zgAv0YoI__chunk_007",
+      "o2wkYzu5u50__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "CjpZCWYrSxM__chunk_000",
+      "VTCIStB6y8s__chunk_001",
+      "CjpZCWYrSxM__chunk_008",
+      "CjpZCWYrSxM__chunk_001",
+      "o2wkYzu5u50__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What technologies enable AI functionalities in web browsers, and are there integrated AI capabilities similar to those found in Google Chrome?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How do the AI lighting and look features in a video call app actually improve video quality, and what\u2019s the general workflow behind them?",
+    "relevant_doc_ids": [
+      "YN04nNsg_L4__chunk_004",
+      "YN04nNsg_L4__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "YN04nNsg_L4__chunk_005",
+      "YN04nNsg_L4__chunk_004",
+      "Uh-7YX8tkxI__chunk_012",
+      "3zXVPU2vKXs__chunk_011",
+      "YN04nNsg_L4__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the enhancements in video quality offered by AI-driven lighting and appearance features in video conferencing applications, and what is the typical operational process involved?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Which interview talks about a collaboration tool that's a partner in a creator's workflow, featuring Junie Lau?",
+    "relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "VJllI3jMEb4__chunk_012",
+      "sNwaU0w3NS8__chunk_002",
+      "sNwaU0w3NS8__chunk_006",
+      "VJllI3jMEb4__chunk_003",
+      "sNwaU0w3NS8__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What session discusses a collaboration platform integral to a creator's process, with insights from Junie Lau?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Which interview features a filmmaker explaining a long-overdue love letter to his mom who passed away, and how he uses a technique called Flow to tell a personal story?",
+    "relevant_doc_ids": [
+      "sNwaU0w3NS8__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "sNwaU0w3NS8__chunk_001",
+      "o8NiE3XMPrM__chunk_037",
+      "sNwaU0w3NS8__chunk_003",
+      "sNwaU0w3NS8__chunk_002",
+      "sNwaU0w3NS8__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Which talk showcases a director discussing a heartfelt tribute to his deceased mother and his use of the Flow technique in narrating a personal journey?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.25,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What is autonomous web AI, and how could it run in a browser alongside cloud AI to improve a business website?",
+    "relevant_doc_ids": [
+      "xr_zgAv0YoI__chunk_009",
+      "xr_zgAv0YoI__chunk_002",
+      "xr_zgAv0YoI__chunk_008",
+      "xr_zgAv0YoI__chunk_000",
+      "xr_zgAv0YoI__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "xr_zgAv0YoI__chunk_008",
+      "xr_zgAv0YoI__chunk_000",
+      "YN04nNsg_L4__chunk_000",
+      "xr_zgAv0YoI__chunk_005",
+      "YN04nNsg_L4__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can browser-based autonomous AI enhance a company website when integrated with cloud-based artificial intelligence solutions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Are there real-world apps that use AI to summarize content for visually impaired users, and how long did it take to implement that feature?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_004",
+      "8iIvAMZ-XYU__chunk_004",
+      "fKY6qYxytLI__chunk_000",
+      "mP9QESmEDls__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "mP9QESmEDls__chunk_004",
+      "o8NiE3XMPrM__chunk_019",
+      "fKY6qYxytLI__chunk_000",
+      "mP9QESmEDls__chunk_003",
+      "8iIvAMZ-XYU__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What practical applications utilize artificial intelligence for content summarization tailored for visually impaired individuals, and what was the development timeline for integrating that functionality?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Which Google apps and devices use an on-device AI for things like summarizing and other tasks, and what benefits have people reported?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_000",
+      "GjvgtwSOCao__chunk_021",
+      "mP9QESmEDls__chunk_002",
+      "OosLbRBM9dA__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "mP9QESmEDls__chunk_001",
+      "mP9QESmEDls__chunk_002",
+      "GjvgtwSOCao__chunk_007",
+      "OosLbRBM9dA__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What Google applications and hardware incorporate on-device artificial intelligence for processes like summarization and other functionalities, and what advantages have users noted?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What were the main Gemini Nano updates announced at Google I/O, like language support, how it handles audio input, and the new Gemma on-device model?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "o7Bv4r08FBM__chunk_008",
+      "mP9QESmEDls__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "o7Bv4r08FBM__chunk_008",
+      "mP9QESmEDls__chunk_005",
+      "gHHjDRDNUNU__chunk_002",
+      "7Tnq4y7T4xs__chunk_003",
+      "mP9QESmEDls__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the key enhancements of Gemini Nano revealed at Google I/O, focusing on language capabilities, audio processing features, and the introduction of the Gemma local model?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How do I generate four AI-created images using a cloud AI service in Firebase (with the generation settings) and anchor one chosen image to a wall in an Android AR app so it stays in place?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_009",
+      "U8Nb68XsVY4__chunk_000",
+      "U8Nb68XsVY4__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_009",
+      "YYMt7Ddzz6Y__chunk_008",
+      "GjvgtwSOCao__chunk_008",
+      "U8Nb68XsVY4__chunk_005",
+      "U8Nb68XsVY4__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to produce four AI-generated images via a cloud-based AI platform in Firebase (including configuration options), and how can I fix one selected image onto a wall in an Android augmented reality application for stability?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What's the setup and which libraries do I need to get AR anchoring working in an Android XR app (including passthrough), while also hooking it up to a cloud AI art generator using a model like Imagen?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_008",
+      "YYMt7Ddzz6Y__chunk_009"
+    ],
+    "retrieved_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_008",
+      "YYMt7Ddzz6Y__chunk_009",
+      "KbTJNK1ALYc__chunk_007",
+      "YYMt7Ddzz6Y__chunk_007",
+      "tMUxxCKXz4c__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How do I configure augmented reality anchoring with passthrough capabilities in an Android XR application, and which libraries are required for integrating a cloud-based AI art generator model such as Imagen?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I get UI elements like the navigation rail to adapt to an orbiting screen when the app is in full-space mode using XR with Compose?",
+    "relevant_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_006",
+      "YYMt7Ddzz6Y__chunk_005",
+      "IaNpcrCSDiI__chunk_006",
+      "15oPNK1W0Tw__chunk_010"
+    ],
+    "retrieved_doc_ids": [
+      "YYMt7Ddzz6Y__chunk_006",
+      "YYMt7Ddzz6Y__chunk_005",
+      "15oPNK1W0Tw__chunk_010",
+      "IaNpcrCSDiI__chunk_006",
+      "89UusPuz8q4__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can I make UI components such as the navigation rail responsive to an orbiting display in full-space mode utilizing XR and Jetpack Compose?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What are the latest improvements to Android\u2019s car apps, and how can developers use the new in-car calling and messaging features to build those experiences?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_009"
+    ],
+    "retrieved_doc_ids": [
+      "ud09zuXHst4__chunk_009",
+      "ud09zuXHst4__chunk_005",
+      "ud09zuXHst4__chunk_008",
+      "ud09zuXHst4__chunk_000",
+      "ud09zuXHst4__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the recent enhancements in Android automotive applications, and how can developers leverage the updated in-vehicle calling and messaging functionalities to create those experiences?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Is the car OS image for my tablet actually available to the public yet, and where can I find the beta docs and testing guides for getting Android Auto to work on that device?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_009",
+      "ud09zuXHst4__chunk_010"
+    ],
+    "retrieved_doc_ids": [
+      "ud09zuXHst4__chunk_010",
+      "ud09zuXHst4__chunk_009",
+      "ud09zuXHst4__chunk_004",
+      "15oPNK1W0Tw__chunk_003",
+      "15oPNK1W0Tw__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Is the car operating system image for my tablet publicly accessible now, and where can I locate the beta documentation and testing materials for enabling Android Auto on that device?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What\u2019s coming next for car tech that hooks up with my phone, and what new features will make signing in easier and sharing between my phone and car smoother?",
+    "relevant_doc_ids": [
+      "ud09zuXHst4__chunk_005",
+      "ud09zuXHst4__chunk_009",
+      "ud09zuXHst4__chunk_007",
+      "ud09zuXHst4__chunk_000",
+      "ud09zuXHst4__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "ud09zuXHst4__chunk_006",
+      "ud09zuXHst4__chunk_005",
+      "ud09zuXHst4__chunk_001",
+      "ud09zuXHst4__chunk_010",
+      "ud09zuXHst4__chunk_009"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Upcoming advancements in automotive technology for mobile integration: enhancing authentication and streamlining data sharing between smartphones and vehicles."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How do I easily fine-tune pre-trained models without adding a ton of extra parameters, using efficient techniques, and how can I enable them on the main model?",
+    "relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_016",
+      "gATa_9Dogz4__chunk_005",
+      "o7Bv4r08FBM__chunk_015"
+    ],
+    "retrieved_doc_ids": [
+      "gATa_9Dogz4__chunk_005",
+      "o7Bv4r08FBM__chunk_016",
+      "gATa_9Dogz4__chunk_004",
+      "gATa_9Dogz4__chunk_003",
+      "o7Bv4r08FBM__chunk_015"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are effective methods for fine-tuning pre-trained models with minimal additional parameters and efficient techniques, and how can these methods be integrated into the primary model?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How do I load a preset from this model hub, and what sources does it accept\u2014built-in IDs, Kaggle links, Hugging Face, or my own local files?",
+    "relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "gATa_9Dogz4__chunk_003",
+      "gATa_9Dogz4__chunk_005",
+      "gATa_9Dogz4__chunk_002",
+      "xLmJJk1gbuE__chunk_001",
+      "MmxPBgrrn4Q__chunk_005"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to import a preset from the model repository, and which types of resources are compatible\u2014default identifiers, Kaggle URLs, Hugging Face datasets, or local storage files?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How does a typical task model in a popular ML framework break down into three parts, and how do the feature extractor, the data preprocessing steps, and the final output layer enable things like language models and classifiers?",
+    "relevant_doc_ids": [
+      "gATa_9Dogz4__chunk_003",
+      "gATa_9Dogz4__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "gATa_9Dogz4__chunk_004",
+      "xr_zgAv0YoI__chunk_001",
+      "MmxPBgrrn4Q__chunk_004",
+      "gATa_9Dogz4__chunk_003",
+      "xLmJJk1gbuE__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the components of a standard task structure in a widely-used machine learning framework, and how do the role of feature extraction, data preprocessing techniques, and output layers contribute to the functioning of language models and classification systems?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's Google's latest data security and compliance tool, besides DSPM, and how does it work with the security dashboard to protect data across Google Cloud and other environments?",
+    "relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_001",
+      "Wzpz_y_EFPs__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_005",
+      "Wzpz_y_EFPs__chunk_001",
+      "3Wo-iucic7I__chunk_003",
+      "w_W2brDZDko__chunk_016"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are Google's newest data protection and compliance solutions apart from DSPM, and how do they integrate with the security dashboard to safeguard information across Google Cloud and various platforms?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Hey, what are the rules for protecting and keeping patient records in health care (including a six-year retention period), and what safeguards ensure the data is used only for approved purposes, prevent leaks when it's used to train AI, and help explain how the AI makes its decisions?",
+    "relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_001",
+      "Wzpz_y_EFPs__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "Wzpz_y_EFPs__chunk_001",
+      "Wzpz_y_EFPs__chunk_004",
+      "Wzpz_y_EFPs__chunk_000",
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the guidelines for safeguarding and maintaining medical records in healthcare (including a six-year retention policy), what measures guarantee that data is utilized solely for authorized purposes, how can we prevent breaches when this information is applied to train AI, and what approaches clarify the reasoning behind AI decisions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's a data governance approach that only allows access from Switzerland and helps prevent data leaks without relying on the usual network perimeter?",
+    "relevant_doc_ids": [
+      "Wzpz_y_EFPs__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "Wzpz_y_EFPs__chunk_003",
+      "Wzpz_y_EFPs__chunk_004",
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_000",
+      "Wzpz_y_EFPs__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are strategies for data governance that restrict access exclusively to Switzerland while enhancing data leak prevention without depending on traditional network perimeters?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do I load the Data Connect tools created from a connector YAML into my Next.js app, using Genkit and the Firebase plugin? What are the steps?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "nZhkjSFB6UA__chunk_007",
+      "R_gqv8PwM78__chunk_006",
+      "nZhkjSFB6UA__chunk_001",
+      "XEhd9a9YhSk__chunk_001",
+      "R_gqv8PwM78__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Steps to integrate Data Connect tools generated from a connector YAML into a Next.js application utilizing Genkit along with the Firebase integration?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I use the developer interface to test tools that search for movies and pull up reviews, and how does the assistant decide whether to suggest things or ask me to clarify based on my watch history and reviews?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_008",
+      "nZhkjSFB6UA__chunk_007",
+      "nZhkjSFB6UA__chunk_006",
+      "nZhkjSFB6UA__chunk_004",
+      "nZhkjSFB6UA__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "nZhkjSFB6UA__chunk_008",
+      "nZhkjSFB6UA__chunk_005",
+      "nZhkjSFB6UA__chunk_006",
+      "nZhkjSFB6UA__chunk_004",
+      "nZhkjSFB6UA__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can I employ to utilize the developer API for evaluating movie search tools and retrieving critiques, and how does the assistant determine whether to provide recommendations or request clarification based on my viewing history and past reviews?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How can I use an AI-powered search to find movies by themes or concepts, not just by the exact words in the title?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_023",
+      "nZhkjSFB6UA__chunk_003",
+      "nZhkjSFB6UA__chunk_008",
+      "nZhkjSFB6UA__chunk_005",
+      "nZhkjSFB6UA__chunk_006",
+      "nZhkjSFB6UA__chunk_001",
+      "OosLbRBM9dA__chunk_002",
+      "nZhkjSFB6UA__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "POUqfDBtRbg__chunk_008",
+      "cHNy5mK0jzE__chunk_006",
+      "nZhkjSFB6UA__chunk_001",
+      "o8NiE3XMPrM__chunk_023",
+      "nZhkjSFB6UA__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the methods to leverage AI-enhanced search capabilities to discover films based on themes or underlying concepts rather than merely searching for specific title phrases?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.3333333333333333,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What exactly is Notebook LM, how is it built with Gemini, and how does it connect to Google's enterprise tools for business use?",
+    "relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_000",
+      "3Wo-iucic7I__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "3Wo-iucic7I__chunk_000",
+      "3Wo-iucic7I__chunk_003",
+      "3Wo-iucic7I__chunk_004",
+      "v6Rzo5khNE8__chunk_020",
+      "4TE-KFXvhAk__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Explain the specifics of Notebook LM, its construction using Gemini technology, and its integration with Google's professional tools for business applications."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How do I get started with a notebook app, make a new notebook, and pull in data from cloud storage, documents, websites, audio files, and YouTube?",
+    "relevant_doc_ids": [
+      "3Wo-iucic7I__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "3Wo-iucic7I__chunk_000",
+      "3Wo-iucic7I__chunk_003",
+      "4TE-KFXvhAk__chunk_006",
+      "MmxPBgrrn4Q__chunk_005",
+      "cHNy5mK0jzE__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to create a new notebook application, import data from cloud services, documents, web pages, audio content, and YouTube videos?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can I build and launch my own AI assistant inside a Google tool, set its goals and rules, and connect it to data sources and a notebook-style language model?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_001",
+      "8rlNdKywldQ__chunk_000",
+      "3Wo-iucic7I__chunk_006",
+      "xLmJJk1gbuE__chunk_005",
+      "wz3kQQubPkc__chunk_004",
+      "8rlNdKywldQ__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "3Wo-iucic7I__chunk_004",
+      "8rlNdKywldQ__chunk_000",
+      "3Wo-iucic7I__chunk_003",
+      "wz3kQQubPkc__chunk_004",
+      "4TE-KFXvhAk__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the steps to create and deploy a personalized AI assistant within a Google application, define its objectives and guidelines, and link it to data sources along with a notebook-style language model?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What can this space do for real\u2011world tasks like checking the weather and adding calendar events, and how does it differ from other Google tools that also have 'agent' in their name?",
+    "relevant_doc_ids": [
+      "mP9QESmEDls__chunk_005",
+      "3Wo-iucic7I__chunk_006",
+      "3Wo-iucic7I__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "3Wo-iucic7I__chunk_007",
+      "3Wo-iucic7I__chunk_006",
+      "xr_zgAv0YoI__chunk_000",
+      "mP9QESmEDls__chunk_005",
+      "8rlNdKywldQ__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How can this platform assist with practical applications such as monitoring weather conditions and managing calendar appointments, and in what ways does it set itself apart from other Google services that include 'agent' in their titles?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What's this development tool all about, and what can its AI workspace, Code Mode, and extensible editor do to help me create and tweak apps?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_004",
+      "R_gqv8PwM78__chunk_004",
+      "o8NiE3XMPrM__chunk_012",
+      "R_gqv8PwM78__chunk_001",
+      "EVcahPj2jHM__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "EVcahPj2jHM__chunk_004",
+      "BqQiJ5LSASI__chunk_001",
+      "x2zvki_VlRE__chunk_004",
+      "R_gqv8PwM78__chunk_001",
+      "GjvgtwSOCao__chunk_022"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What features and functionalities does the Code Mode AI workspace and customizable editor offer for app development and modification using this tool?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What new templates and backend options are there for prototyping, and how do I set up local development environments?",
+    "relevant_doc_ids": [
+      "x2zvki_VlRE__chunk_003",
+      "6eTiMIhtnBA__chunk_004",
+      "R_gqv8PwM78__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "R_gqv8PwM78__chunk_002",
+      "x2zvki_VlRE__chunk_003",
+      "x2zvki_VlRE__chunk_005",
+      "GjvgtwSOCao__chunk_023",
+      "x2zvki_VlRE__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the latest prototyping frameworks and server-side solutions available, and what steps should I follow to configure local development setups?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How's the design tool gotten better at working with Figma and Builder.io, and what new image features and runtime capabilities did they roll out?",
+    "relevant_doc_ids": [
+      "R_gqv8PwM78__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "GjvgtwSOCao__chunk_023",
+      "R_gqv8PwM78__chunk_002",
+      "o8NiE3XMPrM__chunk_012",
+      "v6Rzo5khNE8__chunk_021",
+      "EVcahPj2jHM__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What improvements have been made in the design tool's integration with Figma and Builder.io, including new imaging functionalities and runtime enhancements released?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Are there newer web animation techniques beyond the standard animations and transitions, such as scroll-triggered effects and view changes, and how could they improve the user experience?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_010",
+      "o2wkYzu5u50__chunk_017",
+      "UcXWY057YuQ__chunk_007",
+      "UcXWY057YuQ__chunk_005",
+      "UcXWY057YuQ__chunk_000",
+      "UcXWY057YuQ__chunk_006",
+      "GjvgtwSOCao__chunk_017"
+    ],
+    "retrieved_doc_ids": [
+      "UcXWY057YuQ__chunk_006",
+      "UcXWY057YuQ__chunk_010",
+      "UcXWY057YuQ__chunk_000",
+      "UcXWY057YuQ__chunk_001",
+      "GjvgtwSOCao__chunk_017"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the latest methods in web animation, beyond traditional transitions and scroll-triggered effects, that enhance user interaction and overall experience?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How can I use the newest web animation features to make an immersive, multi-page experience, and where can I share my progress?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_010",
+      "UcXWY057YuQ__chunk_007",
+      "o2wkYzu5u50__chunk_019",
+      "UcXWY057YuQ__chunk_005",
+      "UcXWY057YuQ__chunk_002",
+      "UcXWY057YuQ__chunk_000",
+      "UcXWY057YuQ__chunk_006",
+      "UcXWY057YuQ__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "UcXWY057YuQ__chunk_010",
+      "UcXWY057YuQ__chunk_006",
+      "UcXWY057YuQ__chunk_001",
+      "UcXWY057YuQ__chunk_000",
+      "o2wkYzu5u50__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the latest advancements in web animation techniques for creating captivating multi-page experiences, and what platforms are available for showcasing my work?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How do I make a dialog smoothly fade in and out using CSS transitions, what parts should I animate, and how do I handle the overlay behind it?",
+    "relevant_doc_ids": [
+      "UcXWY057YuQ__chunk_001",
+      "UcXWY057YuQ__chunk_002",
+      "UcXWY057YuQ__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "UcXWY057YuQ__chunk_002",
+      "UcXWY057YuQ__chunk_001",
+      "UcXWY057YuQ__chunk_003",
+      "UcXWY057YuQ__chunk_006",
+      "UcXWY057YuQ__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the best practices for implementing CSS transitions for a dialog box to achieve a smooth fade in and out effect, which elements to animate, and how to manage the background overlay?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "So, when would I pick one playback option over the other in this Media3 setup, and how do the effects get applied differently in each?",
+    "relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_010",
+      "3zXVPU2vKXs__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "3zXVPU2vKXs__chunk_010",
+      "3zXVPU2vKXs__chunk_008",
+      "3zXVPU2vKXs__chunk_000",
+      "3zXVPU2vKXs__chunk_009",
+      "3zXVPU2vKXs__chunk_011"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What factors should influence my choice between playback options in the Media3 configuration, and how do the applied effects vary across them?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do I create my own OpenGL shader effect in a media app, and what does the drawFrame function actually do?",
+    "relevant_doc_ids": [
+      "3zXVPU2vKXs__chunk_007",
+      "3zXVPU2vKXs__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "3zXVPU2vKXs__chunk_006",
+      "3zXVPU2vKXs__chunk_007",
+      "3zXVPU2vKXs__chunk_011",
+      "3zXVPU2vKXs__chunk_005",
+      "3zXVPU2vKXs__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Steps to develop a custom OpenGL shader effect in a multimedia application, and the purpose of the drawFrame method explained."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's Flow all about, and how does it tie together a few different tools to help filmmakers generate assets and plan their camera moves?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_038",
+      "o8NiE3XMPrM__chunk_039",
+      "sNwaU0w3NS8__chunk_003",
+      "sNwaU0w3NS8__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "sNwaU0w3NS8__chunk_003",
+      "o8NiE3XMPrM__chunk_038",
+      "sNwaU0w3NS8__chunk_005",
+      "VJllI3jMEb4__chunk_014",
+      "sNwaU0w3NS8__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the purpose of Flow, and how does it integrate various tools to assist movie creators in generating visual assets and planning camera movements?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How does the scene builder in this tool work for putting together shots, including uploading or generating images and tapping the plus button to add new shots with precise prompts?",
+    "relevant_doc_ids": [
+      "o8NiE3XMPrM__chunk_038",
+      "o8NiE3XMPrM__chunk_039"
+    ],
+    "retrieved_doc_ids": [
+      "o8NiE3XMPrM__chunk_039",
+      "o8NiE3XMPrM__chunk_038",
+      "gstgT0WRoiE__chunk_007",
+      "tMUxxCKXz4c__chunk_006",
+      "GjvgtwSOCao__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the functionality of the scene builder feature in this software for assembling shots, such as importing or creating images and using the add button for incorporating new shots with detailed prompts?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What is Mariner, and how does it let a web-enabled AI bot juggle multiple tasks and use tools?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005",
+      "xr_zgAv0YoI__chunk_002",
+      "o8NiE3XMPrM__chunk_004",
+      "o8NiE3XMPrM__chunk_005",
+      "8iIvAMZ-XYU__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "8rlNdKywldQ__chunk_000",
+      "8iIvAMZ-XYU__chunk_005",
+      "o8NiE3XMPrM__chunk_005",
+      "8iIvAMZ-XYU__chunk_006",
+      "xr_zgAv0YoI__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Explain Mariner, its functionality for web-enabled AI agents, and its capability to manage concurrent tasks and utilize various tools."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Can you break down the main components of this drawing toolkit and explain what each one does to enable in-app drawing?",
+    "relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_006",
+      "MmeJSLAnB-M__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "MmeJSLAnB-M__chunk_006",
+      "flwULzNYRac__chunk_006",
+      "YYMt7Ddzz6Y__chunk_002",
+      "GjvgtwSOCao__chunk_001",
+      "MmeJSLAnB-M__chunk_008"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the key features of this drawing toolkit and how does each component facilitate in-app illustration?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What's new with the handwriting/drawing features for Android apps that use Compose? I'm especially curious about updates to batching stroke data when saving and any better compression to save space.",
+    "relevant_doc_ids": [
+      "MmeJSLAnB-M__chunk_008"
+    ],
+    "retrieved_doc_ids": [
+      "MmeJSLAnB-M__chunk_008",
+      "MmeJSLAnB-M__chunk_006",
+      "MmeJSLAnB-M__chunk_007",
+      "89UusPuz8q4__chunk_000",
+      "15oPNK1W0Tw__chunk_011"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the latest advancements in handwriting and drawing capabilities for Android applications utilizing Jetpack Compose, particularly regarding improvements in stroke data batching during storage and enhanced compression techniques for reduced file size?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How much faster is this new feature supposed to be, and does it actually cut down the total processing time?",
+    "relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004",
+      "XEhd9a9YhSk__chunk_015"
+    ],
+    "retrieved_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004",
+      "jnUUo7xso_0__chunk_001",
+      "o8NiE3XMPrM__chunk_013",
+      "89UusPuz8q4__chunk_003",
+      "NYtQuneZMXc__chunk_014"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the expected speed improvement with this new functionality, and will it reduce overall processing duration?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What does the message say about going from spotting a problem to fixing it, and where can users leave feedback or report issues?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_005",
+      "BHqxD9qr6Gw__chunk_000",
+      "BHqxD9qr6Gw__chunk_004",
+      "xo271p-Fl_4__chunk_004",
+      "o2wkYzu5u50__chunk_012"
+    ],
+    "retrieved_doc_ids": [
+      "xo271p-Fl_4__chunk_005",
+      "o2wkYzu5u50__chunk_012",
+      "xo271p-Fl_4__chunk_004",
+      "YCNDg9j0p5o__chunk_008",
+      "YCNDg9j0p5o__chunk_009"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How does the communication outline the process of identifying an issue and resolving it, and where can users submit their feedback or report concerns?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can I make a webpage respond faster to clicks by breaking up long tasks into smaller parts and delaying non-essential work, and does giving the main thread a break actually help?",
+    "relevant_doc_ids": [
+      "BHqxD9qr6Gw__chunk_004",
+      "o2wkYzu5u50__chunk_015",
+      "BHqxD9qr6Gw__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "BHqxD9qr6Gw__chunk_003",
+      "BHqxD9qr6Gw__chunk_000",
+      "I2SplqZ85dk__chunk_001",
+      "STMN5N-bDko__chunk_011",
+      "BHqxD9qr6Gw__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What strategies can I use to enhance webpage speed by segmenting extensive tasks into smaller segments and postponing non-critical operations, and does providing a pause for the main thread improve performance?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How do I add a real-time voice chat to an Android app and change the background color based on what the user is saying, using a live audio API?",
+    "relevant_doc_ids": [
+      "xo271p-Fl_4__chunk_009",
+      "U8Nb68XsVY4__chunk_004",
+      "IaNpcrCSDiI__chunk_022",
+      "U8Nb68XsVY4__chunk_000",
+      "gstgT0WRoiE__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_013",
+      "U8Nb68XsVY4__chunk_004",
+      "gHHjDRDNUNU__chunk_012",
+      "xo271p-Fl_4__chunk_009",
+      "fKY6qYxytLI__chunk_003"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Integrating a live audio API for dynamic voice chat in an Android application while altering the background hue according to the speaker's words"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Hey, I\u2019m making a sleep-tracking app that talks to a cloud service. What security steps should I put in place to keep data safe, and how can I monitor and enforce those protections across Android, iOS, and the web?",
+    "relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_002",
+      "IaNpcrCSDiI__chunk_012",
+      "Wzpz_y_EFPs__chunk_002",
+      "Wzpz_y_EFPs__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "U8Nb68XsVY4__chunk_002",
+      "Wzpz_y_EFPs__chunk_002",
+      "IaNpcrCSDiI__chunk_012",
+      "Wzpz_y_EFPs__chunk_005",
+      "Wzpz_y_EFPs__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "I'm developing a sleep monitoring application that interfaces with a cloud platform. What security measures should I implement to safeguard user data, and how can I oversee and ensure those safeguards across Android, iOS, and web environments?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How can I efficiently handle prompts that mix text and images in my app, using a simple settings switch to choose the model name and a storage area for large media uploads, including using shareable URLs and setting access rules, plus what costs should I expect?",
+    "relevant_doc_ids": [
+      "U8Nb68XsVY4__chunk_002",
+      "U8Nb68XsVY4__chunk_006",
+      "gstgT0WRoiE__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "tMUxxCKXz4c__chunk_000",
+      "U8Nb68XsVY4__chunk_002",
+      "CjpZCWYrSxM__chunk_013",
+      "U8Nb68XsVY4__chunk_006",
+      "gATa_9Dogz4__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the best practices for managing combined text and image inputs in my application, utilizing an easy toggle for model selection and a designated space for sizable media uploads, incorporating shareable links and access permissions, along with estimated expenses involved?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can I pair Python and SQL to run a multimodal search using vector representations and display the image results in a cloud data warehouse?",
+    "relevant_doc_ids": [
+      "cHNy5mK0jzE__chunk_008",
+      "cHNy5mK0jzE__chunk_000",
+      "nZhkjSFB6UA__chunk_002",
+      "cHNy5mK0jzE__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "cHNy5mK0jzE__chunk_008",
+      "cHNy5mK0jzE__chunk_007",
+      "nZhkjSFB6UA__chunk_002",
+      "cHNy5mK0jzE__chunk_005",
+      "cHNy5mK0jzE__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the best practices for integrating Python with SQL for executing multimodal queries using vector embeddings and visualizing image outputs in a cloud-based data warehouse?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can I get structured results from an AI language model using my database, and how do I specify the output fields in the query to match my dataset?",
+    "relevant_doc_ids": [
+      "nZhkjSFB6UA__chunk_005",
+      "cHNy5mK0jzE__chunk_009",
+      "rxKYK3DIzN0__chunk_005",
+      "cHNy5mK0jzE__chunk_001",
+      "cHNy5mK0jzE__chunk_000",
+      "xLmJJk1gbuE__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "cHNy5mK0jzE__chunk_001",
+      "rxKYK3DIzN0__chunk_005",
+      "cHNy5mK0jzE__chunk_000",
+      "cHNy5mK0jzE__chunk_003",
+      "xLmJJk1gbuE__chunk_004"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can I employ to retrieve organized outputs from a language model using my database, and how can I define the return fields in the request to align with my data structure?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "How did people describe personal storytelling using new tools, with nods to a filmmaker\u2019s Ancestra and the Primordial Soup project?",
+    "relevant_doc_ids": [
+      "VJllI3jMEb4__chunk_022",
+      "VJllI3jMEb4__chunk_021",
+      "VJllI3jMEb4__chunk_020",
+      "VJllI3jMEb4__chunk_001",
+      "sNwaU0w3NS8__chunk_003",
+      "o8NiE3XMPrM__chunk_037"
+    ],
+    "retrieved_doc_ids": [
+      "VJllI3jMEb4__chunk_001",
+      "VJllI3jMEb4__chunk_021",
+      "o8NiE3XMPrM__chunk_037",
+      "VJllI3jMEb4__chunk_016",
+      "o8NiE3XMPrM__chunk_036"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What were the insights shared about personal narratives through innovative mediums, referencing the filmmaker's Ancestra and the Primordial Soup initiative?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What did the speakers think about using interactive tech to create more immersive games and storytelling experiences?",
+    "relevant_doc_ids": [
+      "VJllI3jMEb4__chunk_016",
+      "sNwaU0w3NS8__chunk_007",
+      "VJllI3jMEb4__chunk_012",
+      "VJllI3jMEb4__chunk_001",
+      "VJllI3jMEb4__chunk_003",
+      "VJllI3jMEb4__chunk_023"
+    ],
+    "retrieved_doc_ids": [
+      "VJllI3jMEb4__chunk_023",
+      "VJllI3jMEb4__chunk_000",
+      "VJllI3jMEb4__chunk_004",
+      "Uh-7YX8tkxI__chunk_009",
+      "sNwaU0w3NS8__chunk_007"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How did presenters evaluate the role of interactive technologies in enhancing immersive gaming and narrative experiences?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's driving the growth of AI-powered Chrome extensions, and what role do on-device AI tools play in that?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005",
+      "GjvgtwSOCao__chunk_021",
+      "8iIvAMZ-XYU__chunk_000",
+      "I2SplqZ85dk__chunk_005",
+      "8iIvAMZ-XYU__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "8iIvAMZ-XYU__chunk_000",
+      "x2zvki_VlRE__chunk_001",
+      "CjpZCWYrSxM__chunk_000",
+      "I2SplqZ85dk__chunk_009",
+      "POUqfDBtRbg__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What factors are fueling the expansion of AI-enhanced Chrome plugins, and how do local AI applications contribute to this trend?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "How can developers build browser extensions with little to no server setup, and what were the main Gemini Nano announcements at Google's I/O?",
+    "relevant_doc_ids": [
+      "8iIvAMZ-XYU__chunk_005",
+      "8iIvAMZ-XYU__chunk_000",
+      "8iIvAMZ-XYU__chunk_006",
+      "8iIvAMZ-XYU__chunk_001",
+      "8iIvAMZ-XYU__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "8iIvAMZ-XYU__chunk_000",
+      "I2SplqZ85dk__chunk_006",
+      "8iIvAMZ-XYU__chunk_001",
+      "GjvgtwSOCao__chunk_021",
+      "8iIvAMZ-XYU__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the methods for creating browser plugins with minimal server configuration, and what key updates were highlighted for Gemini Nano during Google's I/O event?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What's Firebase AI Logic, and how does it make it easy for a Flutter app to access two AI services using Dart?",
+    "relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_017",
+      "xo271p-Fl_4__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "xo271p-Fl_4__chunk_002",
+      "v6Rzo5khNE8__chunk_017",
+      "xo271p-Fl_4__chunk_003",
+      "xo271p-Fl_4__chunk_006",
+      "xo271p-Fl_4__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Explain Firebase's AI capabilities and their integration for Flutter applications utilizing Dart to leverage dual AI services."
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can a live audio API keep the delay low in Flutter apps, and what kind of usage and performance monitoring would a Firebase\u2011like service offer for that API?",
+    "relevant_doc_ids": [
+      "v6Rzo5khNE8__chunk_017",
+      "v6Rzo5khNE8__chunk_018"
+    ],
+    "retrieved_doc_ids": [
+      "xo271p-Fl_4__chunk_010",
+      "xo271p-Fl_4__chunk_011",
+      "v6Rzo5khNE8__chunk_017",
+      "xo271p-Fl_4__chunk_009",
+      "xo271p-Fl_4__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What strategies can a real-time audio API employ to minimize latency in Flutter applications, and what usage analytics and performance tracking features would a service similar to Firebase provide for that API?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.3333333333333333,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What\u2019s Flutter\u2019s plan for talking directly to native code, and what tools are available to make calling native code from Dart easier?",
+    "relevant_doc_ids": [
+      "flwULzNYRac__chunk_007",
+      "v6Rzo5khNE8__chunk_009",
+      "v6Rzo5khNE8__chunk_010",
+      "v6Rzo5khNE8__chunk_008",
+      "flwULzNYRac__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "flwULzNYRac__chunk_005",
+      "v6Rzo5khNE8__chunk_009",
+      "v6Rzo5khNE8__chunk_008",
+      "flwULzNYRac__chunk_000",
+      "v6Rzo5khNE8__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are Flutter's strategies for direct communication with native code, and which tools facilitate invoking native functions from Dart?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.8
+  },
+  {
+    "query": "What are the big changes in the latest release of the framework, including new integrations, improvements to server-side rendering, and how template variables are handled?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_010",
+      "eIeJmYdYMQo__chunk_007",
+      "eIeJmYdYMQo__chunk_018",
+      "eIeJmYdYMQo__chunk_006"
+    ],
+    "retrieved_doc_ids": [
+      "eIeJmYdYMQo__chunk_010",
+      "XEhd9a9YhSk__chunk_001",
+      "eIeJmYdYMQo__chunk_006",
+      "o2wkYzu5u50__chunk_004",
+      "beYbnNT_02U__chunk_020"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What significant updates were introduced in the newest version of the framework, such as new integrations, enhancements for server-side rendering, and modifications in template variable management?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Why did they drop the old test runner, and what testing option will be supported in the next release?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_010",
+      "eIeJmYdYMQo__chunk_012",
+      "eIeJmYdYMQo__chunk_011"
+    ],
+    "retrieved_doc_ids": [
+      "eIeJmYdYMQo__chunk_012",
+      "eIeJmYdYMQo__chunk_011",
+      "KXKP2tDPW4Y__chunk_014",
+      "o2wkYzu5u50__chunk_011",
+      "eIeJmYdYMQo__chunk_010"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What were the reasons for eliminating the legacy test framework, and which testing tools will be available in the upcoming version?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "Is there a free, open-source example that shows how to generate images in an Angular app using an image-generation service through a simple toolkit, with loading indicators and retry support, and the code on GitHub?",
+    "relevant_doc_ids": [
+      "eIeJmYdYMQo__chunk_004",
+      "eIeJmYdYMQo__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "eIeJmYdYMQo__chunk_003",
+      "eIeJmYdYMQo__chunk_004",
+      "XEhd9a9YhSk__chunk_005",
+      "eIeJmYdYMQo__chunk_011",
+      "XEhd9a9YhSk__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Are there open-source projects demonstrating image creation in Angular applications utilizing an image generation API, complete with progress indicators, retry functionality, and hosted on GitHub?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "What are the biggest hurdles for large companies when rolling out browser extensions, especially around discovery and security?",
+    "relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_006",
+      "I2SplqZ85dk__chunk_007",
+      "I2SplqZ85dk__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "I2SplqZ85dk__chunk_007",
+      "I2SplqZ85dk__chunk_006",
+      "I2SplqZ85dk__chunk_008",
+      "I2SplqZ85dk__chunk_000",
+      "I2SplqZ85dk__chunk_009"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What major challenges do large enterprises face in deploying browser add-ons, particularly regarding visibility and cybersecurity?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How's this browser trying to act like a work operating system, and what evidence is there that companies are adopting extensions more often?",
+    "relevant_doc_ids": [
+      "I2SplqZ85dk__chunk_006",
+      "I2SplqZ85dk__chunk_008",
+      "I2SplqZ85dk__chunk_005"
+    ],
+    "retrieved_doc_ids": [
+      "I2SplqZ85dk__chunk_006",
+      "I2SplqZ85dk__chunk_007",
+      "beYbnNT_02U__chunk_012",
+      "I2SplqZ85dk__chunk_008",
+      "I2SplqZ85dk__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "In what ways is this web browser emulating a desktop OS, and what data supports the increasing trend of businesses utilizing browser extensions?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "Why are Go iterators considered better than just returning slices or creating your own iterator types, and how does gopls help you use them inside an IDE?",
+    "relevant_doc_ids": [
+      "kj80m-umOxs__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "kj80m-umOxs__chunk_003",
+      "kj80m-umOxs__chunk_002",
+      "kj80m-umOxs__chunk_010",
+      "07Y9CPuxgvQ__chunk_007",
+      "mP9QESmEDls__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What advantages do Go iterators offer over using slices or custom iterator implementations, and in what ways does gopls enhance the experience of developing with them in an IDE?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "Has Go 1.24 made maps faster with its Swiss Tables\u2013based design, and what new under-the-hood tools were added, like Unique Package, weak.Pointers, and AddCleanup?",
+    "relevant_doc_ids": [
+      "kj80m-umOxs__chunk_007"
+    ],
+    "retrieved_doc_ids": [
+      "kj80m-umOxs__chunk_007",
+      "kj80m-umOxs__chunk_004",
+      "kj80m-umOxs__chunk_002",
+      "kj80m-umOxs__chunk_005",
+      "kj80m-umOxs__chunk_001"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Did Go 1.24 enhance map performance through its Swiss Tables architecture, and what additional internal features have been introduced, such as Unique Package, weak pointers, and AddCleanup functionality?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "What's the brief takeaway about where search is headed, moving from just information to a deeper understanding or smarter results?",
+    "relevant_doc_ids": [
+      "STMN5N-bDko__chunk_005",
+      "STMN5N-bDko__chunk_014",
+      "cHNy5mK0jzE__chunk_007",
+      "o8NiE3XMPrM__chunk_022",
+      "STMN5N-bDko__chunk_011",
+      "o8NiE3XMPrM__chunk_020",
+      "STMN5N-bDko__chunk_008",
+      "STMN5N-bDko__chunk_024",
+      "STMN5N-bDko__chunk_012",
+      "STMN5N-bDko__chunk_023",
+      "o8NiE3XMPrM__chunk_023"
+    ],
+    "retrieved_doc_ids": [
+      "o8NiE3XMPrM__chunk_023",
+      "VJllI3jMEb4__chunk_010",
+      "3Wo-iucic7I__chunk_004",
+      "STMN5N-bDko__chunk_014",
+      "o8NiE3XMPrM__chunk_020"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the key insights on the future of search technology, evolving from mere data retrieval to enhanced comprehension and smarter outcomes?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What open-source tools do people rely on to fine-tune transformer models, and what are some notable projects built on Gemma?",
+    "relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_013",
+      "o7Bv4r08FBM__chunk_015",
+      "o7Bv4r08FBM__chunk_016",
+      "GjvgtwSOCao__chunk_026",
+      "o7Bv4r08FBM__chunk_011",
+      "o7Bv4r08FBM__chunk_017",
+      "o7Bv4r08FBM__chunk_012"
+    ],
+    "retrieved_doc_ids": [
+      "o7Bv4r08FBM__chunk_016",
+      "MmxPBgrrn4Q__chunk_000",
+      "GjvgtwSOCao__chunk_028",
+      "GjvgtwSOCao__chunk_026",
+      "o7Bv4r08FBM__chunk_011"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "Which open-source frameworks are commonly utilized for optimizing transformer models, and what are some significant applications developed using Gemma?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "What are the main ways people use this model for multilingual and multimodal tasks, and did any community Kaggle competitions pop up around training it for languages?",
+    "relevant_doc_ids": [
+      "o7Bv4r08FBM__chunk_003",
+      "GjvgtwSOCao__chunk_029",
+      "o8NiE3XMPrM__chunk_009",
+      "o7Bv4r08FBM__chunk_016",
+      "o7Bv4r08FBM__chunk_017"
+    ],
+    "retrieved_doc_ids": [
+      "o7Bv4r08FBM__chunk_016",
+      "GjvgtwSOCao__chunk_029",
+      "o7Bv4r08FBM__chunk_003",
+      "gATa_9Dogz4__chunk_003",
+      "gATa_9Dogz4__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "How is this model utilized for multilingual and multimodal applications, and have there been any Kaggle competitions focused on its language training?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can I use these extensions with my email workflow and other apps to pull info from an email and trigger actions in those apps?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_012",
+      "YCNDg9j0p5o__chunk_009",
+      "YCNDg9j0p5o__chunk_013",
+      "wz3kQQubPkc__chunk_004",
+      "YCNDg9j0p5o__chunk_010"
+    ],
+    "retrieved_doc_ids": [
+      "wz3kQQubPkc__chunk_004",
+      "YCNDg9j0p5o__chunk_010",
+      "YCNDg9j0p5o__chunk_012",
+      "wz3kQQubPkc__chunk_003",
+      "UcXWY057YuQ__chunk_006"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What are the methods for integrating email extensions with my workflow and applications to extract information from emails and automate tasks in those tools?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  },
+  {
+    "query": "How can this app spot email campaigns with more than 2,500 impressions and show the top results in a table?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_013",
+      "YCNDg9j0p5o__chunk_012"
+    ],
+    "retrieved_doc_ids": [
+      "YCNDg9j0p5o__chunk_012",
+      "T41OD37tI54__chunk_004",
+      "YCNDg9j0p5o__chunk_013",
+      "POUqfDBtRbg__chunk_011",
+      "UcXWY057YuQ__chunk_002"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can this application utilize to identify email campaigns exceeding 2,500 views and present the leading data in a tabular format?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How does the human-in-the-loop feature in a collaboration platform work, and what roles do smart chips, add-ons, and chat apps play in linking external tools?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_003",
+      "YCNDg9j0p5o__chunk_001",
+      "YCNDg9j0p5o__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "YCNDg9j0p5o__chunk_002",
+      "YCNDg9j0p5o__chunk_003",
+      "x2zvki_VlRE__chunk_001",
+      "wz3kQQubPkc__chunk_001",
+      "8rlNdKywldQ__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What is the functionality of the human-in-the-loop mechanism in collaboration software, and how do intelligent chips, extensions, and messaging applications integrate external resources?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.4
+  },
+  {
+    "query": "How can developers use the workspace tools to automate tasks from their own business apps, like sending emails, and do smart chips and add-ons help teams collaborate better?",
+    "relevant_doc_ids": [
+      "YCNDg9j0p5o__chunk_000",
+      "YCNDg9j0p5o__chunk_012",
+      "YCNDg9j0p5o__chunk_008",
+      "YCNDg9j0p5o__chunk_009",
+      "YCNDg9j0p5o__chunk_005",
+      "YCNDg9j0p5o__chunk_014",
+      "wz3kQQubPkc__chunk_003",
+      "YCNDg9j0p5o__chunk_013",
+      "YCNDg9j0p5o__chunk_002",
+      "wz3kQQubPkc__chunk_004",
+      "YCNDg9j0p5o__chunk_010"
+    ],
+    "retrieved_doc_ids": [
+      "YCNDg9j0p5o__chunk_002",
+      "wz3kQQubPkc__chunk_005",
+      "wz3kQQubPkc__chunk_004",
+      "wz3kQQubPkc__chunk_002",
+      "YCNDg9j0p5o__chunk_000"
+    ],
+    "strategy_used": "hybrid",
+    "attempts": 1,
+    "good_enough": true,
+    "variants": [
+      "What methods can software engineers implement to leverage workspace tools for automating processes in their proprietary applications, such as email notifications, and how do smart chips and add-ons enhance team collaboration?"
+    ],
+    "recall_at_k": 1.0,
+    "mrr": 1.0,
+    "precision_at_k": 0.6
+  }
+]
