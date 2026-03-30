@@ -231,4 +231,4 @@ evaluation/__pycache__/
 *.pkl
 *.bin
 .claude/
-.claude_reviews/
+.claude-reviews/
