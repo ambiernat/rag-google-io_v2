@@ -3,15 +3,16 @@
 
 query_rewriter:
   model: "gpt-4o-mini"
-  num_variants: 3
+  num_variants: 1
   max_tokens: 512
 
 self_evaluator:
   model: "gpt-4o-mini"
   max_completion_tokens: 1024
   text_preview_chars: 300   # chars of chunk text shown to the model per result
-  score_threshold: 3        # minimum score to consider a result relevant (used by is_good_enough)
+  score_threshold: 4        # minimum score to consider a result relevant (used by is_good_enough)
 
 retry_loop:
   strategies: ["hybrid", "dense", "sparse"]
-  top_k: 10
+  top_k: 5
+  use_self_eval: false   # when false: single hybrid pass, no scoring or strategy switching

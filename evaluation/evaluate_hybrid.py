@@ -83,3 +83,21 @@ with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(results_all, f, indent=2)
 
 logger.info(f"[OK] Hybrid evaluation complete. Results saved to {OUTPUT_PATH}")
+
+# -----------------------------
+# Summary table
+# -----------------------------
+n = len(results_all)
+avg_recall    = sum(r["recall_at_k"]    for r in results_all) / n
+avg_mrr       = sum(r["mrr"]            for r in results_all) / n
+avg_precision = sum(r["precision_at_k"] for r in results_all) / n
+
+print()
+print("=" * 44)
+print(f"{'Metric':<20} {'Score':>10}")
+print("-" * 44)
+print(f"{'Recall@K':<20} {avg_recall:>10.4f}")
+print(f"{'MRR':<20} {avg_mrr:>10.4f}")
+print(f"{'Precision@K':<20} {avg_precision:>10.4f}")
+print("=" * 44)
+print(f"\nQueries evaluated: {n}")

@@ -22,14 +22,19 @@ It combines:
 - **Vector store** — Qdrant  
 
 ### Reranking
-- CrossEncoder-based reranking  
-- Hyperparameter optimization (HPO)  
-- Offline comparison of reranking strategies  
+- CrossEncoder-based reranking
+- Hyperparameter optimization (HPO)
+- Offline comparison of reranking strategies
+
+### Agentic Retrieval
+- Query rewriting — LLM-generated variants to broaden recall
+- Self-evaluation — per-chunk relevance scoring (1–5)
+- Retry loop — automatic strategy switching (hybrid → dense → sparse)
 
 ### Evaluation
-- Recall@K, MRR, Precision@K  
-- Offline A/B testing  
-- Experiment tracking artifacts  
+- Recall@K, MRR, Precision@K
+- Offline A/B testing
+- Experiment tracking artifacts
 
 ### Production
 - FastAPI search service  
@@ -55,8 +60,14 @@ It combines:
 │   ├── retrievers/
 │   │   ├── retrieve_dense.py
 │   │   ├── retrieve_sparse.py
-│   │   └── retrieve_hybrid.py
-│   └── rerankers/
+│   │   ├── retrieve_hybrid.py
+│   │   └── dispatcher.py       # unified retrieve(query, strategy, top_k)
+│   ├── rerankers/
+│   └── agent/                  # agentic retrieval layer
+│       ├── query_rewriter.py   # Phase 1: LLM query rewriting
+│       ├── self_evaluator.py   # Phase 2: chunk relevance scoring
+│       ├── retry_loop.py       # Phase 3: strategy switching
+│       └── config.yaml
 │
 ├── vector_store/           # Qdrant ingestion
 │   ├── ingest_dense.py
@@ -129,6 +140,7 @@ python evaluation/evaluate_dense.py
 python evaluation/evaluate_sparse.py
 python evaluation/evaluate_hybrid.py
 python evaluation/evaluate_rerank_post_hpo.py
+python evaluation/evaluate_agentic.py
 ```
 
 ### Outputs are written to:
@@ -204,6 +216,25 @@ A CrossEncoder reranker (`cross-encoder/ms-marco-MiniLM-L-6-v2`) was applied on 
 | Hybrid + CrossEncoder | 0.974 | 0.909 | 0.196 |
 
 The reranker does not improve performance on this corpus. Precision drops significantly (0.458 → 0.196), indicating the CrossEncoder — trained on MS MARCO web search data — does not transfer well to the conversational style of Google I/O talk transcripts. Hybrid retrieval alone is the recommended production configuration.
+
+---
+
+### Round 5 — Agentic Retrieval (Query Rewriting + Hybrid)
+
+An agentic retrieval layer was added on top of the existing hybrid retriever. The pipeline consists of three phases:
+
+1. **Query rewriter** — GPT-4o-mini generates one retrieval-optimised variant of the user query, diversifying vocabulary to improve recall across both BM25 and dense retrieval
+2. **Self-evaluator** — scores each retrieved chunk 1–5 for relevance; acts as a circuit breaker (scores ≤ 2 trigger strategy switching, not re-ranking)
+3. **Retry loop** — if results fail the circuit breaker, falls back through `hybrid → dense → sparse`
+
+This run used: `num_variants=1`, `top_k=5`, `use_self_eval=False` (query rewriting + hybrid only, no LLM scoring or retry), evaluated on the held-out **test set** (`data/eval/test/multi_doc.json`).
+
+| Method | Recall@5 | MRR | Precision@5 |
+|--------|----------|-----|-------------|
+| Hybrid (baseline) | 1.0000 | 0.9084 | 0.4513 |
+| Agentic (rewrite + hybrid) | 1.0000 | 0.9066 | 0.4524 |
+
+Recall is maintained at 1.0. MRR sees a marginal drop of −0.0018, while Precision improves slightly (+0.0011). The near-identical performance confirms that query rewriting does not degrade retrieval quality on this corpus — the rewritten variant occasionally shifts merge order by a small amount but leaves the overall result set essentially unchanged.
 
 ---
 

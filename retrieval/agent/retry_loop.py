@@ -5,14 +5,17 @@ retrieval/agent/retry_loop.py
 
 Phase 3 — Retry loop.
 Wires query_rewriter and self_evaluator together with strategy switching.
-Tries strategies in order (hybrid → dense → sparse) until is_good_enough()
-returns True or all strategies are exhausted.
+
+The self-evaluator acts as a circuit breaker only — not a re-ranker.
+Results are always returned in original retrieval score order.
+A strategy switch is triggered only on genuine failure (best LLM score ≤ 2).
+Scores of 3–5 are treated as acceptable; the first non-failing strategy wins.
 """
 
 from __future__ import annotations
 
 import logging
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 
 import yaml
@@ -20,7 +23,7 @@ import yaml
 from retrieval.result import RetrievalResult
 from retrieval.retrievers.dispatcher import retrieve
 from retrieval.agent.query_rewriter import rewrite_query
-from retrieval.agent.self_evaluator import ScoredResult, evaluate_results, is_good_enough
+from retrieval.agent.self_evaluator import ScoredResult, evaluate_results
 
 logger = logging.getLogger(__name__)
 
@@ -38,6 +41,11 @@ with open(CONFIG_PATH, "r") as f:
 _loop_cfg = _config["retry_loop"]
 _STRATEGIES: list[str] = _loop_cfg["strategies"]   # ["hybrid", "dense", "sparse"]
 _TOP_K: int = int(_loop_cfg.get("top_k", 10))
+_USE_SELF_EVAL: bool = bool(_loop_cfg.get("use_self_eval", True))
+
+# Circuit-breaker threshold: switch strategy only when best score ≤ this value.
+# Scores 1–2 = genuine retrieval failure; 3–5 = acceptable, keep results as-is.
+_FAILURE_THRESHOLD: int = 2
 
 
 # -------------------------------------------------
@@ -54,8 +62,8 @@ class AgentResult:
 
     @property
     def top_results(self) -> list[RetrievalResult]:
-        """Results sorted by LLM score descending."""
-        return [s.result for s in sorted(self.scored_results, key=lambda s: s.score, reverse=True)]
+        """Results in original retrieval score order (self-evaluator is circuit breaker only)."""
+        return [s.result for s in self.scored_results]
 
 
 # -------------------------------------------------
@@ -88,8 +96,9 @@ def run(query: str) -> AgentResult:
          a. Retrieve using the original query and all variants.
          b. Merge and deduplicate results.
          c. Evaluate relevance with the self-evaluator (Phase 2).
-         d. If is_good_enough() → accept and return.
-         e. Else → log reason and try next strategy.
+         d. If best score > _FAILURE_THRESHOLD → accept and return results
+            in original retrieval order (circuit breaker passed).
+         e. Else → genuine failure, log and try next strategy.
       3. If all strategies exhausted, return the last attempt's results.
 
     Args:
@@ -97,11 +106,30 @@ def run(query: str) -> AgentResult:
 
     Returns:
         AgentResult with the strategy used, scored results, and outcome flag.
+        Results are always in original retrieval score order.
     """
     # Phase 1: rewrite
     variants = rewrite_query(query)
     all_queries = [query] + variants
     logger.info("[INFO] Variants generated: %s", variants)
+
+    # Fast path: no self-evaluation, single hybrid pass
+    if not _USE_SELF_EVAL:
+        strategy = _STRATEGIES[0]
+        logger.info("[INFO] use_self_eval=False — single pass, strategy: %s", strategy)
+        result_lists = [retrieve(q, strategy=strategy, top_k=_TOP_K) for q in all_queries]
+        merged = _merge_results(result_lists)
+        logger.info("[INFO] Retrieved %d unique chunks across %d queries", len(merged), len(all_queries))
+        # Wrap in ScoredResult with score=0 (no LLM scoring); top_results preserves merge order
+        scored = [ScoredResult(result=r, score=0, reasoning="skipped") for r in merged]
+        return AgentResult(
+            query=query,
+            variants=variants,
+            strategy_used=strategy,
+            attempts=1,
+            scored_results=scored,
+            good_enough=True,
+        )
 
     scored: list[ScoredResult] = []
     strategy_used = _STRATEGIES[0]
@@ -115,15 +143,16 @@ def run(query: str) -> AgentResult:
         merged = _merge_results(result_lists)
         logger.info("[INFO] Retrieved %d unique chunks across %d queries", len(merged), len(all_queries))
 
-        # Phase 2: evaluate
+        # Phase 2: circuit-breaker evaluation (does not re-rank)
         scored = evaluate_results(query, merged)
+        best_score = max((s.score for s in scored), default=0)
 
-        if is_good_enough(scored):
+        if best_score > _FAILURE_THRESHOLD:
             logger.info(
                 "[INFO] Strategy '%s' accepted on attempt %d (best score: %d)",
                 strategy,
                 attempt,
-                max(s.score for s in scored),
+                best_score,
             )
             return AgentResult(
                 query=query,
@@ -134,13 +163,13 @@ def run(query: str) -> AgentResult:
                 good_enough=True,
             )
 
-        best_score = max((s.score for s in scored), default=0)
         next_strategy = _STRATEGIES[attempt] if attempt < len(_STRATEGIES) else "none"
         logger.info(
-            "[INFO] Strategy '%s' not good enough (best score: %d). "
+            "[INFO] Strategy '%s' failed circuit breaker (best score: %d ≤ %d). "
             "Switching to '%s'.",
             strategy,
             best_score,
+            _FAILURE_THRESHOLD,
             next_strategy,
         )
 
@@ -176,7 +205,6 @@ if __name__ == "__main__":
     print(f"Strategy used:  {result.strategy_used}")
     print(f"Attempts:       {result.attempts}/{len(_STRATEGIES)}")
     print(f"Good enough:    {result.good_enough}")
-    print(f"\nTop results:")
-    for r in result.top_results[:3]:
-        scored = next(s for s in result.scored_results if s.result.doc_id == r.doc_id)
-        print(f"  [{scored.score}/5] {r.doc_id} — {scored.reasoning}")
+    print(f"\nTop results (retrieval order):")
+    for s in result.scored_results[:3]:
+        print(f"  [{s.score}/5] {s.result.doc_id} — {s.reasoning}")
