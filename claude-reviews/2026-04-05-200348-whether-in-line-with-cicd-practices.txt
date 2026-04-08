@@ -1,0 +1,104 @@
+ ▐▛███▜▌   Claude Code v2.1.87
+▝▜█████▛▘  Sonnet 4.6 · Claude Pro
+  ▘▘ ▝▝    ~/Documents/rag-google-io
+
+❯ assess my current portfolio if it's in line with CI/CD practices. what is in  
+line? what is not?                                                              
+
+● Explore(Explore CI/CD setup in repo)
+  ⎿  Done (39 tool uses · 38.4k tokens · 1m 27s)
+  (ctrl+o to expand)
+
+● Here's a balanced assessment against CI/CD best practices:
+
+  ---
+  What's In Line
+
+  Containerization
+  - Dockerfile uses a slim base image, sets PYTHONUNBUFFERED, separates
+  requirements.api.txt from dev deps — solid production hygiene.
+  - docker-compose.yml mirrors the prod architecture (FastAPI + Qdrant sidecar)
+  for local dev parity.
+  - .dockerignore correctly excludes .env, qdrant_storage/, mlruns/.
+
+  Testing
+  - Three-tier test structure: unit/, integration/, e2e/ — this is the right
+  shape.
+  - conftest.py with session-scoped fixtures, pytest-asyncio for async paths.
+
+  Dependency Management
+  - Split between requirements.api.txt (runtime, pinned versions) and
+  requirements.dev.txt (dev/test) is correct. Pinning in the API requirements is
+   good for reproducibility.
+
+  Secrets
+  - API keys via environment variables, never hardcoded. .env excluded from
+  .dockerignore and .gitignore.
+
+  Documentation
+  - Deployment docs are thorough. CLAUDE.md captures eval discipline, split
+  hygiene, and conventions — this goes beyond most portfolios.
+
+  Git hygiene
+  - Large artifacts (qdrant_storage/, mlruns/, data/) are gitignored. Recent
+  commit messages are descriptive and conventional (feat:, chore:, eval:).
+
+  ---
+  What's Not In Line
+
+  No CI pipeline — this is the biggest gap.
+  - There's no .github/workflows/ at all. CI/CD stands for Continuous 
+  Integration first — tests should run automatically on every push/PR. None of
+  that exists here.
+  - Minimum viable: a GitHub Actions workflow that runs pytest tests/unit/ on
+  push.
+
+  Manual deployment
+  - The AWS deployment is documented but entirely manual CLI steps. No automated
+   CD pipeline (e.g., push to main → build image → push to ECR → trigger ECS
+  update). This is the "CD" gap.
+
+  No linting or formatting enforcement
+  - No ruff, black, flake8, mypy, or pre-commit hooks. Code style and type
+  safety aren't enforced anywhere in the pipeline.
+
+  No .env.example
+  - Environment variables are referenced but there's no template documenting
+  what's required. Anyone cloning the repo has to read docs carefully to find
+  ANTHROPIC_API_KEY, QDRANT_URL, etc.
+
+  requirements.dev.txt isn't pinned
+  - Runtime (requirements.api.txt) is pinned; dev dependencies are unpinned.
+  This can cause flaky test results across machines if a transient upstream
+  change breaks something.
+
+  Integration and E2E tests require a live Qdrant
+  - integration/ and e2e/ tests depend on localhost:6333. In a real CI
+  environment these would fail unless Qdrant is spun up as a service container.
+  There's no CI config to do that.
+
+  ---
+  Priority Fixes (if you want to close the gap)
+
+  ┌──────────┬───────────────────────────────────────────────────────────────┐
+  │ Priority │                              Fix                              │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ High     │ Add .github/workflows/ci.yml — run unit tests on push         │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ High     │ Add ruff or flake8 config + run in CI                         │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Medium   │ Add GitHub Actions CD step: build → ECR push → ECS deploy on  │
+  │          │ main                                                          │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Medium   │ Add Qdrant service container to CI for integration tests      │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Low      │ Pin requirements.dev.txt                                      │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Low      │ Add .env.example                                              │
+  └──────────┴───────────────────────────────────────────────────────────────┘
+
+  The foundation (Docker, test structure, secrets hygiene, git discipline) is
+  genuinely solid. The missing piece is wiring it together with automation —
+  which is the core of what CI/CD means in practice.
+
+✻ Churned for 1m 31s

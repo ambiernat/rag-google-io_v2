@@ -1,0 +1,188 @@
+ ▐▛███▜▌   Claude Code v2.1.87
+▝▜█████▛▘  Sonnet 4.6 · Claude Pro
+  ▘▘ ▝▝    ~/Documents/rag-google-io
+
+❯ assess my current portfolio if it's in line with CI/CD practices. what is in  
+line? what is not?                                                              
+
+● Explore(Explore CI/CD setup in repo)
+  ⎿  Done (39 tool uses · 38.4k tokens · 1m 27s)
+  (ctrl+o to expand)
+
+● Here's a balanced assessment against CI/CD best practices:
+
+  ---
+  What's In Line
+
+  Containerization
+  - Dockerfile uses a slim base image, sets PYTHONUNBUFFERED, separates
+  requirements.api.txt from dev deps — solid production hygiene.
+  - docker-compose.yml mirrors the prod architecture (FastAPI + Qdrant sidecar)
+  for local dev parity.
+  - .dockerignore correctly excludes .env, qdrant_storage/, mlruns/.
+
+  Testing
+  - Three-tier test structure: unit/, integration/, e2e/ — this is the right
+  shape.
+  - conftest.py with session-scoped fixtures, pytest-asyncio for async paths.
+
+  Dependency Management
+  - Split between requirements.api.txt (runtime, pinned versions) and
+  requirements.dev.txt (dev/test) is correct. Pinning in the API requirements is
+   good for reproducibility.
+
+  Secrets
+  - API keys via environment variables, never hardcoded. .env excluded from
+  .dockerignore and .gitignore.
+
+  Documentation
+  - Deployment docs are thorough. CLAUDE.md captures eval discipline, split
+  hygiene, and conventions — this goes beyond most portfolios.
+
+  Git hygiene
+  - Large artifacts (qdrant_storage/, mlruns/, data/) are gitignored. Recent
+  commit messages are descriptive and conventional (feat:, chore:, eval:).
+
+  ---
+  What's Not In Line
+
+  No CI pipeline — this is the biggest gap.
+  - There's no .github/workflows/ at all. CI/CD stands for Continuous 
+  Integration first — tests should run automatically on every push/PR. None of
+  that exists here.
+  - Minimum viable: a GitHub Actions workflow that runs pytest tests/unit/ on
+  push.
+
+  Manual deployment
+  - The AWS deployment is documented but entirely manual CLI steps. No automated
+   CD pipeline (e.g., push to main → build image → push to ECR → trigger ECS
+  update). This is the "CD" gap.
+
+  No linting or formatting enforcement
+  - No ruff, black, flake8, mypy, or pre-commit hooks. Code style and type
+  safety aren't enforced anywhere in the pipeline.
+
+  No .env.example
+  - Environment variables are referenced but there's no template documenting
+  what's required. Anyone cloning the repo has to read docs carefully to find
+  ANTHROPIC_API_KEY, QDRANT_URL, etc.
+
+  requirements.dev.txt isn't pinned
+  - Runtime (requirements.api.txt) is pinned; dev dependencies are unpinned.
+  This can cause flaky test results across machines if a transient upstream
+  change breaks something.
+
+  Integration and E2E tests require a live Qdrant
+  - integration/ and e2e/ tests depend on localhost:6333. In a real CI
+  environment these would fail unless Qdrant is spun up as a service container.
+  There's no CI config to do that.
+
+  ---
+  Priority Fixes (if you want to close the gap)
+
+  ┌──────────┬───────────────────────────────────────────────────────────────┐
+  │ Priority │                              Fix                              │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ High     │ Add .github/workflows/ci.yml — run unit tests on push         │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ High     │ Add ruff or flake8 config + run in CI                         │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Medium   │ Add GitHub Actions CD step: build → ECR push → ECS deploy on  │
+  │          │ main                                                          │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Medium   │ Add Qdrant service container to CI for integration tests      │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Low      │ Pin requirements.dev.txt                                      │
+  ├──────────┼───────────────────────────────────────────────────────────────┤
+  │ Low      │ Add .env.example                                              │
+  └──────────┴───────────────────────────────────────────────────────────────┘
+
+  The foundation (Docker, test structure, secrets hygiene, git discipline) is
+  genuinely solid. The missing piece is wiring it together with automation —
+  which is the core of what CI/CD means in practice.
+
+✻ Brewed for 1m 31s
+
+❯ /export                                                                       
+  ⎿  Conversation exported to: /home/al/Documents/rag-google-io/2026-04-05-20034
+     8-whether-in-line-with-cicd-practices.txt
+
+❯ ok so requirements.api.txt are requirements needed for running it as an api;  
+requirements.dev.txt are requirements I used for initial development (not yet   
+wrapped as an api and later container)                                          
+
+● That's a useful clarification — so requirements.dev.txt is essentially a
+  legacy/historical artifact from the pre-API phase, not a "dev dependencies"
+  file in the conventional CI/CD sense (i.e., it's not intended to include test
+  tooling like pytest).
+
+  That shifts the assessment slightly:
+
+  - requirements.api.txt is the live, production-relevant file — correctly
+  pinned, good.
+  - requirements.dev.txt doesn't need to be pinned or maintained as a CI concern
+   — it's not part of the pipeline at all.
+
+  The practical implication: if you add a CI workflow, it should install from
+  requirements.api.txt plus pytest/pytest-asyncio explicitly (or a small
+  requirements.test.txt), not requirements.dev.txt. That file can stay as-is or
+  be archived.
+
+  Searched for 1 pattern, wrote 2 memories (ctrl+o to expand)
+
+❯ what should be in a requirements.text.txt file                                
+
+● For this project, a requirements.test.txt should contain only what's needed to
+   run the test suite — nothing more:
+
+  -r requirements.api.txt
+
+  pytest
+  pytest-asyncio
+  httpx
+
+  That's it. The reasoning:
+
+  - -r requirements.api.txt — tests run against the actual production code, so
+  it needs the runtime deps
+  - pytest — test runner
+  - pytest-asyncio — your tests use async fixtures/tests
+  - httpx — used in your E2E tests to hit the FastAPI endpoint (also already a
+  FastAPI dev dependency, but explicit is better here)
+
+  requests is used in test_api_search_e2e.py currently — worth checking whether
+  that should be httpx instead for consistency, but if it's requests you'd add
+  that too.
+
+❯ are these ideas covered in computer science degrees?                          
+
+● Yes, but unevenly. Here's roughly how it breaks down:
+
+  Typically covered
+  - Version control (git) — usually touched on, though often just the basics
+  - Testing (unit tests, test structure) — covered in software engineering
+  courses
+  - Dependency management — mentioned but rarely practiced deeply
+
+  Sometimes covered, depends on the program
+  - Containerization (Docker) — more common in newer curricula or cloud
+  computing electives
+  - CI/CD pipelines — sometimes in software engineering or DevOps electives, not
+   core
+
+  Rarely or never covered in a traditional CS degree
+  - GitHub Actions / specific CI tooling
+  - Cloud deployment (AWS ECS, ECR, Fargate)
+  - Linting/formatting enforcement as a team practice
+  - Pre-commit hooks
+  - Secrets management in production
+  - Cost management on cloud infrastructure
+
+  The gap exists because CS degrees focus on fundamentals (algorithms, data
+  structures, theory) and teach programming — but CI/CD is an engineering 
+  practice that you absorb on the job or through bootcamps, DevOps courses, or
+  building real projects like this one.
+
+  What you've built here reflects knowledge that most CS graduates don't have
+  until 1-2 years into a job. The missing pieces (no GitHub Actions, no linting
+  config) are gaps that most CS grads wouldn't even know to look for.
